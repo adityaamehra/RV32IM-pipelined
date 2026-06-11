@@ -18,7 +18,30 @@ output [31:0] ImmExtE,
 
 input [31:0] PCPlus4D,
 output [31:0] PCPlus4E
+
+// Now inputting the control signals for the EXE
+input RegWriteD,
+output RegWriteE,
+
+input [1:0] ResultSrcD,
+output [1:0] ResultSrcE,
+
+input MemWriteD,
+output MemWriteE,
+
+input PCSrcD,
+output PCSrcE,
+
+input ALUSrcD,
+output ALUSrcE,
+
+input JumpD,
+output JumpE,
+
+input [3:0] ALUControlD,
+output [3:0] ALUControlE
 );
+
 
 always @(posedge clk) begin
     RD1E<=RD1D;
@@ -27,5 +50,12 @@ always @(posedge clk) begin
     RdE<=RdD;
     ImmExtE<=ImmExtD;
     PCPlus4E<=PCPlus4D;
+    RegWriteE<=RegWriteD;
+    ResultSrcE<=ResultSrcD;
+    MemWriteE<=MemWriteD;
+    PCSrcE<=PCSrcD;
+    ALUSrcE<=ALUSrcD;
+    JumpE<=JumpD;
+    ALUControlE<=ALUControlD;
 end
 endmodule

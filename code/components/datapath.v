@@ -3,86 +3,42 @@
 // author - Adityaa Mehra
 module datapath (
     input         clk, reset,
-    input [1:0]   ResultSrc,
-    input         PCSrc, ALUSrc,
-    input         RegWrite,
-    input [2:0]   ImmSrc,
-    input [3:0]   ALUControl,
+    input [1:0]   ResultSrcD,
+    input         PCSrcD, ALUSrcD,
+    input         RegWriteD,
+    input [2:0]   ImmSrcD,
+    input [3:0]   ALUControlD,
     output        Zero,
-	 output			less,
-	 output			lessu,
-    output [31:0] PC,
-    input  [31:0] Instr,
+	output		  less,
+	output		  lessu,
+    output [31:0] PCF,
+    input  [31:0] InstrF,
     output [31:0] Mem_WrAddr, Mem_WrData,
     input  [31:0] ReadData,
-    output [31:0] Result
+    output [31:0] ResultW
 );
 
-wire [31:0] PCNext, PCPlus4, PCTarget;
-wire [31:0] ImmExt, SrcA, SrcB, WriteData, ALUResult;
-reg [31:0] actualdata;
-reg[31:0] uinstdata;
+// Fetch stage datapath including the intermediate register
 
-// next PC logic
-reset_ff #(32) pcreg(clk, reset, PCNext, PC);
-adder          pcadd4(PC, 32'd4, PCPlus4);
-adder          pcaddbranch(PC, ImmExt, PCTarget);
-mux2 #(32)     pcmux(PCPlus4, PCTarget, PCSrc, PCNext);
+fetch_datapath(clk,reset,PCSrcE,PCTargetE,PCF,PCPlus4F);
+reg_fet_dec(clk,InstrF,instrD,PCF,PCD,PCPLus4F,PCPlus4D);
 
-// register file logic
-reg_file       rf (clk, RegWrite, Instr[19:15], Instr[24:20], Instr[11:7], Result, SrcA, WriteData);
-imm_extend     ext (Instr[31:7], ImmSrc, ImmExt);
+// Decode stage of the pipeline
 
-// ALU logic
-mux2 #(32)     srcbmux(WriteData, ImmExt, ALUSrc, SrcB);
-alu            alu (SrcA, SrcB, ALUControl, ALUResult, Zero,less,lessu);
+decode_datapath(clk,reset,instrD,ResultW,RdW,RegWriteW,ImmSrcD,RdD,RD1D,RD2D,ImmExtD);
+reg_dec_exe(clk,RD1D,RD1E,RD2D,RD2E,PCD,PCE,RdD,RdE,ImmExtD,ImmExtE,PCPlus4D,PCPlus4E,RegWriteD,RegWriteE,ResultSrcD,ResultSrcE,MemWriteD,MemWriteE,PCSrcD,PCSrcE,ALUSrcD,ALUSrcE,JumpD,JumpE,ALUControlD,ALUControlE);
 
-always @(*) begin
-	case(Instr[6:0])
-	7'b0010111: begin
-	uinstdata=SrcB+PC;
-	end
-	7'b0110111: begin
-	uinstdata=SrcB;
-	end
-	default: begin
-	uinstdata=0;
-	end
-	endcase
-end
+// Execute stage of the pipeline
+execute_datapath(clk,reset,RD1E,RD2E,ImmExtE,PCE,ALUSrcE,ALUControlE,Zero,less,lessu,ALUResultE,WriteDataE,PCTargetE);
+reg_exe_mem(clk,ALUResultE,ALUResultM,WriteDataE,WriteDataM,RdE,RdM,PCPlus4E,PCPlus4M,RegWriteE,RegWriteM,ResultSrcE,ResultSrcM,MemWriteE,MemWriteM);
 
-always @(*) begin
-if(Instr[6:0]==7'b0000011) begin
-	case(Instr[14:12])
-		3'b000: begin
-			actualdata={{24{ReadData[7]}},ReadData[7:0]};
-		end
-		3'b001: begin
-			actualdata={{16{ReadData[15]}},ReadData[15:0]};
-		end
-		3'b010: begin
-			actualdata=ReadData;
-		end
-		3'b100: begin
-			actualdata={{24{1'b0}},ReadData[7:0]};
-		end
-		3'b101: begin
-			actualdata={{16{1'b0}},ReadData[15:0]};
-		end
-		default: begin
-			actualdata=0;
-		end
-	endcase
-	end
-	else begin
-		actualdata=0;
-	end
-end
+// Memory stage of the pipeline
+assign MemWrite = MemWriteM;
+assign Mem_WrAddr = ALUResultM;
+assign Mem_WrData = WriteDataM;
+reg_mem_wb(clk,ReadData,ReadDataW,ALUResultM,ALUResultW,RdM,RdW,PCPlus4M,PCPlus4W,RegWriteM,RegWriteW,ResultSrcM,ResultSrcW);
 
-mux4 #(32)     resultmux(ALUResult, actualdata, PCPlus4,uinstdata, ResultSrc, Result);
-
-assign Mem_WrData = WriteData;
-assign Mem_WrAddr = ALUResult;
-
+// Writeback stage of the pipeline
+mux4 #(32) ResultMux(ALUResultW,ReadDataW,PCPlus4W,32'b0,ResultSrcW,ResultW);
 endmodule
 
