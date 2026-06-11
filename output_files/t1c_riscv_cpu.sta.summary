@@ -1,0 +1,77 @@
+------------------------------------------------------------
+Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1200mV 85C Model Setup 'clk'
+Slack : -19.839
+TNS   : -52329.052
+
+Type  : Slow 1200mV 85C Model Setup 'riscv_cpu:rvcpu|datapath:dp|reset_ff:pcreg|q[10]'
+Slack : -16.683
+TNS   : -121.609
+
+Type  : Slow 1200mV 85C Model Hold 'riscv_cpu:rvcpu|datapath:dp|reset_ff:pcreg|q[10]'
+Slack : -2.232
+TNS   : -9.204
+
+Type  : Slow 1200mV 85C Model Hold 'clk'
+Slack : 0.588
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'clk'
+Slack : -3.000
+TNS   : -3107.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'riscv_cpu:rvcpu|datapath:dp|reset_ff:pcreg|q[10]'
+Slack : -1.165
+TNS   : -93.976
+
+Type  : Slow 1200mV 0C Model Setup 'clk'
+Slack : -17.710
+TNS   : -46747.641
+
+Type  : Slow 1200mV 0C Model Setup 'riscv_cpu:rvcpu|datapath:dp|reset_ff:pcreg|q[10]'
+Slack : -15.044
+TNS   : -109.649
+
+Type  : Slow 1200mV 0C Model Hold 'riscv_cpu:rvcpu|datapath:dp|reset_ff:pcreg|q[10]'
+Slack : -1.922
+TNS   : -7.597
+
+Type  : Slow 1200mV 0C Model Hold 'clk'
+Slack : 0.529
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'clk'
+Slack : -3.000
+TNS   : -3107.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'riscv_cpu:rvcpu|datapath:dp|reset_ff:pcreg|q[10]'
+Slack : -0.980
+TNS   : -77.417
+
+Type  : Fast 1200mV 0C Model Setup 'clk'
+Slack : -11.291
+TNS   : -29436.068
+
+Type  : Fast 1200mV 0C Model Setup 'riscv_cpu:rvcpu|datapath:dp|reset_ff:pcreg|q[10]'
+Slack : -9.467
+TNS   : -69.884
+
+Type  : Fast 1200mV 0C Model Hold 'riscv_cpu:rvcpu|datapath:dp|reset_ff:pcreg|q[10]'
+Slack : -1.334
+TNS   : -5.562
+
+Type  : Fast 1200mV 0C Model Hold 'clk'
+Slack : 0.316
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'clk'
+Slack : -3.000
+TNS   : -3298.066
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'riscv_cpu:rvcpu|datapath:dp|reset_ff:pcreg|q[10]'
+Slack : -0.469
+TNS   : -24.309
+
+------------------------------------------------------------

@@ -1,0 +1,263 @@
+# do t1c_riscv_cpu_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Copying /home/adityaamehra/intelFPGA_lite/20.1/modelsim_ase/linuxaloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+/home/adityaamehra/Desktop/riscv32I-single-cycle/code {/home/adityaamehra/Desktop/riscv32I-single-cycle/code/t1c_riscv_cpu.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:36:16 on May 20,2026
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+/home/adityaamehra/Desktop/riscv32I-single-cycle/code" /home/adityaamehra/Desktop/riscv32I-single-cycle/code/t1c_riscv_cpu.v 
+# -- Compiling module t1c_riscv_cpu
+# 
+# Top level modules:
+# 	t1c_riscv_cpu
+# End time: 16:36:16 on May 20,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+/home/adityaamehra/Desktop/riscv32I-single-cycle/code {/home/adityaamehra/Desktop/riscv32I-single-cycle/code/riscv_cpu.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:36:16 on May 20,2026
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+/home/adityaamehra/Desktop/riscv32I-single-cycle/code" /home/adityaamehra/Desktop/riscv32I-single-cycle/code/riscv_cpu.v 
+# -- Compiling module riscv_cpu
+# 
+# Top level modules:
+# 	riscv_cpu
+# End time: 16:36:16 on May 20,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+/home/adityaamehra/Desktop/riscv32I-single-cycle/code {/home/adityaamehra/Desktop/riscv32I-single-cycle/code/data_mem.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:36:16 on May 20,2026
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+/home/adityaamehra/Desktop/riscv32I-single-cycle/code" /home/adityaamehra/Desktop/riscv32I-single-cycle/code/data_mem.v 
+# -- Compiling module data_mem
+# 
+# Top level modules:
+# 	data_mem
+# End time: 16:36:16 on May 20,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+/home/adityaamehra/Desktop/riscv32I-single-cycle/code/components {/home/adityaamehra/Desktop/riscv32I-single-cycle/code/components/reset_ff.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:36:16 on May 20,2026
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+/home/adityaamehra/Desktop/riscv32I-single-cycle/code/components" /home/adityaamehra/Desktop/riscv32I-single-cycle/code/components/reset_ff.v 
+# -- Compiling module reset_ff
+# 
+# Top level modules:
+# 	reset_ff
+# End time: 16:36:16 on May 20,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+/home/adityaamehra/Desktop/riscv32I-single-cycle/code/components {/home/adityaamehra/Desktop/riscv32I-single-cycle/code/components/reg_file.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:36:16 on May 20,2026
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+/home/adityaamehra/Desktop/riscv32I-single-cycle/code/components" /home/adityaamehra/Desktop/riscv32I-single-cycle/code/components/reg_file.v 
+# -- Compiling module reg_file
+# 
+# Top level modules:
+# 	reg_file
+# End time: 16:36:16 on May 20,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+/home/adityaamehra/Desktop/riscv32I-single-cycle/code/components {/home/adityaamehra/Desktop/riscv32I-single-cycle/code/components/mux4.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:36:16 on May 20,2026
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+/home/adityaamehra/Desktop/riscv32I-single-cycle/code/components" /home/adityaamehra/Desktop/riscv32I-single-cycle/code/components/mux4.v 
+# -- Compiling module mux4
+# 
+# Top level modules:
+# 	mux4
+# End time: 16:36:16 on May 20,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+/home/adityaamehra/Desktop/riscv32I-single-cycle/code/components {/home/adityaamehra/Desktop/riscv32I-single-cycle/code/components/mux2.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:36:16 on May 20,2026
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+/home/adityaamehra/Desktop/riscv32I-single-cycle/code/components" /home/adityaamehra/Desktop/riscv32I-single-cycle/code/components/mux2.v 
+# -- Compiling module mux2
+# 
+# Top level modules:
+# 	mux2
+# End time: 16:36:16 on May 20,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+/home/adityaamehra/Desktop/riscv32I-single-cycle/code/components {/home/adityaamehra/Desktop/riscv32I-single-cycle/code/components/main_decoder.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:36:16 on May 20,2026
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+/home/adityaamehra/Desktop/riscv32I-single-cycle/code/components" /home/adityaamehra/Desktop/riscv32I-single-cycle/code/components/main_decoder.v 
+# -- Compiling module main_decoder
+# 
+# Top level modules:
+# 	main_decoder
+# End time: 16:36:16 on May 20,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+/home/adityaamehra/Desktop/riscv32I-single-cycle/code/components {/home/adityaamehra/Desktop/riscv32I-single-cycle/code/components/imm_extend.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:36:16 on May 20,2026
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+/home/adityaamehra/Desktop/riscv32I-single-cycle/code/components" /home/adityaamehra/Desktop/riscv32I-single-cycle/code/components/imm_extend.v 
+# -- Compiling module imm_extend
+# 
+# Top level modules:
+# 	imm_extend
+# End time: 16:36:16 on May 20,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+/home/adityaamehra/Desktop/riscv32I-single-cycle/code/components {/home/adityaamehra/Desktop/riscv32I-single-cycle/code/components/datapath.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:36:16 on May 20,2026
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+/home/adityaamehra/Desktop/riscv32I-single-cycle/code/components" /home/adityaamehra/Desktop/riscv32I-single-cycle/code/components/datapath.v 
+# -- Compiling module datapath
+# 
+# Top level modules:
+# 	datapath
+# End time: 16:36:16 on May 20,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+/home/adityaamehra/Desktop/riscv32I-single-cycle/code/components {/home/adityaamehra/Desktop/riscv32I-single-cycle/code/components/controller.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:36:16 on May 20,2026
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+/home/adityaamehra/Desktop/riscv32I-single-cycle/code/components" /home/adityaamehra/Desktop/riscv32I-single-cycle/code/components/controller.v 
+# -- Compiling module controller
+# 
+# Top level modules:
+# 	controller
+# End time: 16:36:16 on May 20,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+/home/adityaamehra/Desktop/riscv32I-single-cycle/code/components {/home/adityaamehra/Desktop/riscv32I-single-cycle/code/components/alu_decoder.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:36:17 on May 20,2026
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+/home/adityaamehra/Desktop/riscv32I-single-cycle/code/components" /home/adityaamehra/Desktop/riscv32I-single-cycle/code/components/alu_decoder.v 
+# -- Compiling module alu_decoder
+# 
+# Top level modules:
+# 	alu_decoder
+# End time: 16:36:17 on May 20,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+/home/adityaamehra/Desktop/riscv32I-single-cycle/code/components {/home/adityaamehra/Desktop/riscv32I-single-cycle/code/components/alu.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:36:17 on May 20,2026
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+/home/adityaamehra/Desktop/riscv32I-single-cycle/code/components" /home/adityaamehra/Desktop/riscv32I-single-cycle/code/components/alu.v 
+# -- Compiling module alu
+# 
+# Top level modules:
+# 	alu
+# End time: 16:36:17 on May 20,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+/home/adityaamehra/Desktop/riscv32I-single-cycle/code/components {/home/adityaamehra/Desktop/riscv32I-single-cycle/code/components/adder.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:36:17 on May 20,2026
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+/home/adityaamehra/Desktop/riscv32I-single-cycle/code/components" /home/adityaamehra/Desktop/riscv32I-single-cycle/code/components/adder.v 
+# -- Compiling module adder
+# 
+# Top level modules:
+# 	adder
+# End time: 16:36:17 on May 20,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+/home/adityaamehra/Desktop/riscv32I-single-cycle/code {/home/adityaamehra/Desktop/riscv32I-single-cycle/code/instr_mem.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:36:17 on May 20,2026
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+/home/adityaamehra/Desktop/riscv32I-single-cycle/code" /home/adityaamehra/Desktop/riscv32I-single-cycle/code/instr_mem.v 
+# -- Compiling module instr_mem
+# 
+# Top level modules:
+# 	instr_mem
+# End time: 16:36:17 on May 20,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+/home/adityaamehra/Desktop/riscv32I-single-cycle/.test {/home/adityaamehra/Desktop/riscv32I-single-cycle/.test/tb_bubblesort.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:36:17 on May 20,2026
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+/home/adityaamehra/Desktop/riscv32I-single-cycle/.test" /home/adityaamehra/Desktop/riscv32I-single-cycle/.test/tb_bubblesort.v 
+# -- Compiling module tb_bubblesort
+# 
+# Top level modules:
+# 	tb_bubblesort
+# End time: 16:36:17 on May 20,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs="+acc"  tb_bubblesort
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs=""+acc"" tb_bubblesort 
+# Start time: 16:36:17 on May 20,2026
+# Loading work.tb_bubblesort
+# Loading work.t1c_riscv_cpu
+# Loading work.riscv_cpu
+# Loading work.controller
+# Loading work.main_decoder
+# Loading work.alu_decoder
+# Loading work.datapath
+# Loading work.reset_ff
+# Loading work.adder
+# Loading work.mux2
+# Loading work.reg_file
+# Loading work.imm_extend
+# Loading work.alu
+# Loading work.mux4
+# Loading work.instr_mem
+# Loading work.data_mem
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# 
+# === Pre-load verification (before sort) ===
+#   data_ram[0] =  64  (expect  64)
+#   data_ram[1] =  25  (expect  25)
+#   data_ram[2] =  12  (expect  12)
+#   data_ram[3] =  88  (expect  88)
+#   data_ram[4] =  37  (expect  37)
+#   data_ram[5] =  50  (expect  50)
+#   data_ram[6] =   3  (expect   3)
+#   data_ram[7] =  99  (expect  99)
+# 
+# === CPU running bubble sort... ===
+#   [cycle 10] MEM WRITE -> addr=0  data=25
+#   [cycle 11] MEM WRITE -> addr=4  data=64
+#   [cycle 20] MEM WRITE -> addr=4  data=12
+#   [cycle 21] MEM WRITE -> addr=8  data=64
+#   [cycle 38] MEM WRITE -> addr=12  data=37
+#   [cycle 39] MEM WRITE -> addr=16  data=88
+#   [cycle 48] MEM WRITE -> addr=16  data=50
+#   [cycle 49] MEM WRITE -> addr=20  data=88
+#   [cycle 58] MEM WRITE -> addr=20  data=3
+#   [cycle 59] MEM WRITE -> addr=24  data=88
+#   [cycle 81] MEM WRITE -> addr=0  data=12
+#   [cycle 82] MEM WRITE -> addr=4  data=25
+#   [cycle 99] MEM WRITE -> addr=8  data=37
+#   [cycle 100] MEM WRITE -> addr=12  data=64
+#   [cycle 109] MEM WRITE -> addr=12  data=50
+#   [cycle 110] MEM WRITE -> addr=16  data=64
+#   [cycle 119] MEM WRITE -> addr=16  data=3
+#   [cycle 120] MEM WRITE -> addr=20  data=64
+#   [cycle 166] MEM WRITE -> addr=12  data=3
+#   [cycle 167] MEM WRITE -> addr=16  data=50
+#   [cycle 205] MEM WRITE -> addr=8  data=3
+#   [cycle 206] MEM WRITE -> addr=12  data=37
+#   [cycle 236] MEM WRITE -> addr=4  data=3
+#   [cycle 237] MEM WRITE -> addr=8  data=25
+#   [cycle 259] MEM WRITE -> addr=0  data=3
+#   [cycle 260] MEM WRITE -> addr=4  data=12
+# 
+# +-------+----------+----------+--------+
+# | Index | Expected |   Got    | Status |
+# +-------+----------+----------+--------+
+# |  [0]  |      3   |      3   |  PASS  |
+# |  [1]  |     12   |     12   |  PASS  |
+# |  [2]  |     25   |     25   |  PASS  |
+# |  [3]  |     37   |     37   |  PASS  |
+# |  [4]  |     50   |     50   |  PASS  |
+# |  [5]  |     64   |     64   |  PASS  |
+# |  [6]  |     88   |     88   |  PASS  |
+# |  [7]  |     99   |     99   |  PASS  |
+# +-------+----------+----------+--------+
+# 
+######################################
+#  BUBBLE SORT : PASS  (8/8)       #
+#  Completed in ~288 cycles          #
+######################################
+# 
+# ** Note: $stop    : /home/adityaamehra/Desktop/riscv32I-single-cycle/.test/tb_bubblesort.v(182)
+#    Time: 3020 ns  Iteration: 1  Instance: /tb_bubblesort
+# Break in Module tb_bubblesort at /home/adityaamehra/Desktop/riscv32I-single-cycle/.test/tb_bubblesort.v line 182
+# 
+# stdin: <EOF>
+# End time: 16:39:46 on May 20,2026, Elapsed time: 0:03:29
+# Errors: 0, Warnings: 0
