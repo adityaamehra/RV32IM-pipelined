@@ -2,13 +2,13 @@ module reg_fet_dec (
 input clk,
 
 input [31:0] instrF,
-output [31:0] instrD,
+output reg [31:0] instrD,
 
 input [31:0] PCF,
-output [31:0] PCD,
+output reg [31:0] PCD,
 
 input [31:0] PCPlus4F,
-output [31:0] PCPlus4D
+output reg [31:0] PCPlus4D
 );
 
 always @(posedge clk) begin

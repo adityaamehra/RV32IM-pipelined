@@ -2,25 +2,25 @@ module reg_exe_mem(
 input clk,
 
 input [31:0] ALUResultE,
-output [31:0] ALUResultM,
+output reg [31:0] ALUResultM,
 
 input [31:0] WriteDataE,
-output [31:0] WriteDataM,
+output reg [31:0] WriteDataM,
 
 input [4:0] RdE,
-output [4:0] RdM,
+output reg [4:0] RdM,
 
 input [31:0] PCPlus4E,
-output [31:0] PCPlus4M,
+output reg [31:0] PCPlus4M,
 
 input RegWriteE,
-output RegWriteM,
+output reg RegWriteM,
 
 input [1:0] ResultSrcE,
-output [1:0] ResultSrcM,
+output reg [1:0] ResultSrcM,
 
 input MemWriteE,
-output MemWriteM
+output reg MemWriteM
 );
 
 always @(posedge clk) begin

@@ -14,10 +14,10 @@ output [31:0] RD2D,
 output [31:0] ImmExtD
 );
 
-reg_file       rf (clk, RegWriteW, InstrD[19:15], InstrD[24:20],RdW, ResultW, RD1D, RD2D);
+reg_file       rf (clk, RegWrite, InstrD[19:15], InstrD[24:20],RdW, ResultW, RD1D, RD2D);
 
 
-imm_extend     ext (InstrD[31:7], ImmSrcD, ImmExtD);
+imm_extend     ext (Instr[31:7], ImmSrcD, ImmExtD);
 
 assign RdD[4:0]=InstrD[11:7];
 endmodule 

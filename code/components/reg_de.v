@@ -2,44 +2,44 @@ module reg_dec_exe(
 input clk,
 
 input [31:0] RD1D,
-output [31:0] RD1E,
+output reg [31:0] RD1E,
 
 input [31:0] RD2D,
-output [31:0] RD2E,
+output reg [31:0] RD2E,
 
 input [31:0] PCD,
-output [31:0] PCE,
+output reg [31:0] PCE,
 
 input [4:0] RdD,
-output [4:0] RdE,
+output reg [4:0] RdE,
 
 input [31:0] ImmExtD,
-output [31:0] ImmExtE,
+output reg [31:0] ImmExtE,
 
 input [31:0] PCPlus4D,
-output [31:0] PCPlus4E
+output reg [31:0] PCPlus4E,
 
 // Now inputting the control signals for the EXE
 input RegWriteD,
-output RegWriteE,
+output reg RegWriteE,
 
 input [1:0] ResultSrcD,
-output [1:0] ResultSrcE,
+output reg [1:0] ResultSrcE,
 
 input MemWriteD,
-output MemWriteE,
+output reg MemWriteE,
 
 input PCSrcD,
-output PCSrcE,
+output reg PCSrcE,
 
 input ALUSrcD,
-output ALUSrcE,
+output reg ALUSrcE,
 
 input JumpD,
-output JumpE,
+output reg JumpE,
 
 input [3:0] ALUControlD,
-output [3:0] ALUControlE
+output reg [3:0] ALUControlE
 );
 
 
