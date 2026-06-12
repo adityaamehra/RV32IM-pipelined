@@ -1,5 +1,5 @@
 Analysis & Synthesis report for t1c_riscv_cpu
-Fri Jun 12 12:49:39 2026
+Fri Jun 12 18:47:11 2026
 Quartus Prime Version 20.1.0 Build 711 06/05/2020 SJ Lite Edition
 
 
@@ -24,8 +24,8 @@ Quartus Prime Version 20.1.0 Build 711 06/05/2020 SJ Lite Edition
  16. Parameter Settings for User Entity Instance: riscv_cpu:rvcpu|datapath:dp|fetch_datapath:fd|reset_ff:pcregF
  17. Parameter Settings for User Entity Instance: riscv_cpu:rvcpu|datapath:dp|fetch_datapath:fd|adder:pcadd4F
  18. Parameter Settings for User Entity Instance: riscv_cpu:rvcpu|datapath:dp|decode_datapath:dd|reg_file:rf
- 19. Parameter Settings for User Entity Instance: riscv_cpu:rvcpu|datapath:dp|execute_datapath:ed|alu:alu
- 20. Parameter Settings for User Entity Instance: riscv_cpu:rvcpu|datapath:dp|execute_datapath:ed|mux2:srcbmuxE
+ 19. Parameter Settings for User Entity Instance: riscv_cpu:rvcpu|datapath:dp|execute_datapath:ed|mux2:srcbmuxE
+ 20. Parameter Settings for User Entity Instance: riscv_cpu:rvcpu|datapath:dp|execute_datapath:ed|alu:alu_inst
  21. Parameter Settings for User Entity Instance: riscv_cpu:rvcpu|datapath:dp|execute_datapath:ed|adder:pcaddE
  22. Parameter Settings for User Entity Instance: riscv_cpu:rvcpu|datapath:dp|mux4:ResultMux
  23. Parameter Settings for User Entity Instance: instr_mem:instrmem
@@ -36,19 +36,18 @@ Quartus Prime Version 20.1.0 Build 711 06/05/2020 SJ Lite Edition
  28. Port Connectivity Checks: "riscv_cpu:rvcpu|datapath:dp|mux4:ResultMux"
  29. Port Connectivity Checks: "riscv_cpu:rvcpu|datapath:dp|reg_mem_wb:rmw"
  30. Port Connectivity Checks: "riscv_cpu:rvcpu|datapath:dp|reg_exe_mem:rem"
- 31. Port Connectivity Checks: "riscv_cpu:rvcpu|datapath:dp|execute_datapath:ed|mux2:srcbmuxE"
- 32. Port Connectivity Checks: "riscv_cpu:rvcpu|datapath:dp|execute_datapath:ed|alu:alu"
- 33. Port Connectivity Checks: "riscv_cpu:rvcpu|datapath:dp|execute_datapath:ed"
- 34. Port Connectivity Checks: "riscv_cpu:rvcpu|datapath:dp|reg_dec_exe:rde"
- 35. Port Connectivity Checks: "riscv_cpu:rvcpu|datapath:dp|decode_datapath:dd"
- 36. Port Connectivity Checks: "riscv_cpu:rvcpu|datapath:dp|controller:ctrl"
- 37. Port Connectivity Checks: "riscv_cpu:rvcpu|datapath:dp|reg_fet_dec:rfd"
- 38. Port Connectivity Checks: "riscv_cpu:rvcpu|datapath:dp|fetch_datapath:fd|adder:pcadd4F"
- 39. Port Connectivity Checks: "riscv_cpu:rvcpu|datapath:dp|fetch_datapath:fd"
- 40. Post-Synthesis Netlist Statistics for Top Partition
- 41. Elapsed Time Per Partition
- 42. Analysis & Synthesis Messages
- 43. Analysis & Synthesis Suppressed Messages
+ 31. Port Connectivity Checks: "riscv_cpu:rvcpu|datapath:dp|execute_datapath:ed"
+ 32. Port Connectivity Checks: "riscv_cpu:rvcpu|datapath:dp|reg_dec_exe:rde"
+ 33. Port Connectivity Checks: "riscv_cpu:rvcpu|datapath:dp|decode_datapath:dd"
+ 34. Port Connectivity Checks: "riscv_cpu:rvcpu|datapath:dp|controller:ctrl"
+ 35. Port Connectivity Checks: "riscv_cpu:rvcpu|datapath:dp|reg_fet_dec:rfd"
+ 36. Port Connectivity Checks: "riscv_cpu:rvcpu|datapath:dp|fetch_datapath:fd|adder:pcadd4F"
+ 37. Port Connectivity Checks: "riscv_cpu:rvcpu|datapath:dp|fetch_datapath:fd"
+ 38. Port Connectivity Checks: "riscv_cpu:rvcpu|datapath:dp|hazard_unit:hu"
+ 39. Post-Synthesis Netlist Statistics for Top Partition
+ 40. Elapsed Time Per Partition
+ 41. Analysis & Synthesis Messages
+ 42. Analysis & Synthesis Suppressed Messages
 
 
 
@@ -75,15 +74,15 @@ https://fpgasoftware.intel.com/eula.
 +----------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                     ;
 +------------------------------------+---------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Fri Jun 12 12:49:39 2026       ;
+; Analysis & Synthesis Status        ; Successful - Fri Jun 12 18:47:11 2026       ;
 ; Quartus Prime Version              ; 20.1.0 Build 711 06/05/2020 SJ Lite Edition ;
 ; Revision Name                      ; t1c_riscv_cpu                               ;
 ; Top-level Entity Name              ; t1c_riscv_cpu                               ;
 ; Family                             ; Cyclone IV E                                ;
-; Total logic elements               ; 3,760                                       ;
-;     Total combinational functions  ; 1,735                                       ;
-;     Dedicated logic registers      ; 2,133                                       ;
-; Total registers                    ; 2133                                        ;
+; Total logic elements               ; 3,795                                       ;
+;     Total combinational functions  ; 1,770                                       ;
+;     Dedicated logic registers      ; 2,135                                       ;
+; Total registers                    ; 2135                                        ;
 ; Total pins                         ; 228                                         ;
 ; Total virtual pins                 ; 0                                           ;
 ; Total memory bits                  ; 64                                          ;
@@ -186,7 +185,7 @@ https://fpgasoftware.intel.com/eula.
 ; Number detected on machine ; 18          ;
 ; Maximum allowed            ; 14          ;
 ;                            ;             ;
-; Average used               ; 1.00        ;
+; Average used               ; 1.01        ;
 ; Maximum used               ; 14          ;
 ;                            ;             ;
 ; Usage by Processor         ; % Time Used ;
@@ -229,6 +228,7 @@ https://fpgasoftware.intel.com/eula.
 ; code/components/datapath_fetch.v                ; yes             ; User Verilog HDL File                                 ; /home/adityaamehra/Desktop/rv32i-pipleined/code/components/datapath_fetch.v                  ;         ;
 ; code/components/datapath_decode.v               ; yes             ; User Verilog HDL File                                 ; /home/adityaamehra/Desktop/rv32i-pipleined/code/components/datapath_decode.v                 ;         ;
 ; code/components/datapath_execute.v              ; yes             ; User Verilog HDL File                                 ; /home/adityaamehra/Desktop/rv32i-pipleined/code/components/datapath_execute.v                ;         ;
+; code/components/hazard_unit.v                   ; yes             ; User Verilog HDL File                                 ; /home/adityaamehra/Desktop/rv32i-pipleined/code/components/hazard_unit.v                     ;         ;
 ; code/rv32i_test.hex                             ; yes             ; Auto-Found Hexadecimal (Intel-Format) File            ; /home/adityaamehra/Desktop/rv32i-pipleined/code/rv32i_test.hex                               ;         ;
 ; altsyncram.tdf                                  ; yes             ; Megafunction                                          ; /home/adityaamehra/intelFPGA_lite/20.1/quartus/libraries/megafunctions/altsyncram.tdf        ;         ;
 ; stratix_ram_block.inc                           ; yes             ; Megafunction                                          ; /home/adityaamehra/intelFPGA_lite/20.1/quartus/libraries/megafunctions/stratix_ram_block.inc ;         ;
@@ -249,20 +249,20 @@ https://fpgasoftware.intel.com/eula.
 +---------------------------------------------+-----------+
 ; Resource                                    ; Usage     ;
 +---------------------------------------------+-----------+
-; Estimated Total logic elements              ; 3,760     ;
+; Estimated Total logic elements              ; 3,795     ;
 ;                                             ;           ;
-; Total combinational functions               ; 1735      ;
+; Total combinational functions               ; 1770      ;
 ; Logic element usage by number of LUT inputs ;           ;
-;     -- 4 input functions                    ; 1600      ;
-;     -- 3 input functions                    ; 65        ;
-;     -- <=2 input functions                  ; 70        ;
+;     -- 4 input functions                    ; 1628      ;
+;     -- 3 input functions                    ; 69        ;
+;     -- <=2 input functions                  ; 73        ;
 ;                                             ;           ;
 ; Logic elements by mode                      ;           ;
-;     -- normal mode                          ; 1706      ;
+;     -- normal mode                          ; 1741      ;
 ;     -- arithmetic mode                      ; 29        ;
 ;                                             ;           ;
-; Total registers                             ; 2133      ;
-;     -- Dedicated logic registers            ; 2133      ;
+; Total registers                             ; 2135      ;
+;     -- Dedicated logic registers            ; 2135      ;
 ;     -- I/O registers                        ; 0         ;
 ;                                             ;           ;
 ; I/O pins                                    ; 228       ;
@@ -271,8 +271,8 @@ https://fpgasoftware.intel.com/eula.
 ; Embedded Multiplier 9-bit elements          ; 0         ;
 ;                                             ;           ;
 ; Maximum fan-out node                        ; clk~input ;
-; Maximum fan-out                             ; 2135      ;
-; Total fan-out                               ; 13484     ;
+; Maximum fan-out                             ; 2137      ;
+; Total fan-out                               ; 13618     ;
 ; Average fan-out                             ; 3.12      ;
 +---------------------------------------------+-----------+
 
@@ -282,11 +282,11 @@ https://fpgasoftware.intel.com/eula.
 +----------------------------------------------------+---------------------+---------------------------+-------------+--------------+---------+-----------+------+--------------+----------------------------------------------------------------------------------------------------------------------------------------+------------------+--------------+
 ; Compilation Hierarchy Node                         ; Combinational ALUTs ; Dedicated Logic Registers ; Memory Bits ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; Full Hierarchy Name                                                                                                                    ; Entity Name      ; Library Name ;
 +----------------------------------------------------+---------------------+---------------------------+-------------+--------------+---------+-----------+------+--------------+----------------------------------------------------------------------------------------------------------------------------------------+------------------+--------------+
-; |t1c_riscv_cpu                                     ; 1735 (66)           ; 2133 (0)                  ; 64          ; 0            ; 0       ; 0         ; 228  ; 0            ; |t1c_riscv_cpu                                                                                                                         ; t1c_riscv_cpu    ; work         ;
-;    |data_mem:datamem|                              ; 1435 (1435)         ; 2048 (2048)               ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |t1c_riscv_cpu|data_mem:datamem                                                                                                        ; data_mem         ; work         ;
-;    |instr_mem:instrmem|                            ; 79 (79)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |t1c_riscv_cpu|instr_mem:instrmem                                                                                                      ; instr_mem        ; work         ;
-;    |riscv_cpu:rvcpu|                               ; 155 (0)             ; 85 (0)                    ; 64          ; 0            ; 0       ; 0         ; 0    ; 0            ; |t1c_riscv_cpu|riscv_cpu:rvcpu                                                                                                         ; riscv_cpu        ; work         ;
-;       |datapath:dp|                                ; 155 (6)             ; 85 (0)                    ; 64          ; 0            ; 0       ; 0         ; 0    ; 0            ; |t1c_riscv_cpu|riscv_cpu:rvcpu|datapath:dp                                                                                             ; datapath         ; work         ;
+; |t1c_riscv_cpu                                     ; 1770 (66)           ; 2135 (0)                  ; 64          ; 0            ; 0       ; 0         ; 228  ; 0            ; |t1c_riscv_cpu                                                                                                                         ; t1c_riscv_cpu    ; work         ;
+;    |data_mem:datamem|                              ; 1441 (1441)         ; 2048 (2048)               ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |t1c_riscv_cpu|data_mem:datamem                                                                                                        ; data_mem         ; work         ;
+;    |instr_mem:instrmem|                            ; 39 (39)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |t1c_riscv_cpu|instr_mem:instrmem                                                                                                      ; instr_mem        ; work         ;
+;    |riscv_cpu:rvcpu|                               ; 224 (0)             ; 87 (0)                    ; 64          ; 0            ; 0       ; 0         ; 0    ; 0            ; |t1c_riscv_cpu|riscv_cpu:rvcpu                                                                                                         ; riscv_cpu        ; work         ;
+;       |datapath:dp|                                ; 224 (5)             ; 87 (0)                    ; 64          ; 0            ; 0       ; 0         ; 0    ; 0            ; |t1c_riscv_cpu|riscv_cpu:rvcpu|datapath:dp                                                                                             ; datapath         ; work         ;
 ;          |controller:ctrl|                         ; 29 (0)              ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |t1c_riscv_cpu|riscv_cpu:rvcpu|datapath:dp|controller:ctrl                                                                             ; controller       ; work         ;
 ;             |main_decoder:md|                      ; 29 (29)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |t1c_riscv_cpu|riscv_cpu:rvcpu|datapath:dp|controller:ctrl|main_decoder:md                                                             ; main_decoder     ; work         ;
 ;          |decode_datapath:dd|                      ; 3 (0)               ; 0 (0)                     ; 64          ; 0            ; 0       ; 0         ; 0    ; 0            ; |t1c_riscv_cpu|riscv_cpu:rvcpu|datapath:dp|decode_datapath:dd                                                                          ; decode_datapath  ; work         ;
@@ -295,15 +295,15 @@ https://fpgasoftware.intel.com/eula.
 ;                   |altsyncram_k5i1:auto_generated| ; 0 (0)               ; 0 (0)                     ; 32          ; 0            ; 0       ; 0         ; 0    ; 0            ; |t1c_riscv_cpu|riscv_cpu:rvcpu|datapath:dp|decode_datapath:dd|reg_file:rf|altsyncram:reg_file_arr_rtl_0|altsyncram_k5i1:auto_generated ; altsyncram_k5i1  ; work         ;
 ;                |altsyncram:reg_file_arr_rtl_1|     ; 0 (0)               ; 0 (0)                     ; 32          ; 0            ; 0       ; 0         ; 0    ; 0            ; |t1c_riscv_cpu|riscv_cpu:rvcpu|datapath:dp|decode_datapath:dd|reg_file:rf|altsyncram:reg_file_arr_rtl_1                                ; altsyncram       ; work         ;
 ;                   |altsyncram_k5i1:auto_generated| ; 0 (0)               ; 0 (0)                     ; 32          ; 0            ; 0       ; 0         ; 0    ; 0            ; |t1c_riscv_cpu|riscv_cpu:rvcpu|datapath:dp|decode_datapath:dd|reg_file:rf|altsyncram:reg_file_arr_rtl_1|altsyncram_k5i1:auto_generated ; altsyncram_k5i1  ; work         ;
-;          |execute_datapath:ed|                     ; 2 (0)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |t1c_riscv_cpu|riscv_cpu:rvcpu|datapath:dp|execute_datapath:ed                                                                         ; execute_datapath ; work         ;
-;             |alu:alu|                              ; 1 (1)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |t1c_riscv_cpu|riscv_cpu:rvcpu|datapath:dp|execute_datapath:ed|alu:alu                                                                 ; alu              ; work         ;
-;             |mux2:srcbmuxE|                        ; 1 (1)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |t1c_riscv_cpu|riscv_cpu:rvcpu|datapath:dp|execute_datapath:ed|mux2:srcbmuxE                                                           ; mux2             ; work         ;
+;          |execute_datapath:ed|                     ; 10 (5)              ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |t1c_riscv_cpu|riscv_cpu:rvcpu|datapath:dp|execute_datapath:ed                                                                         ; execute_datapath ; work         ;
+;             |alu:alu_inst|                         ; 5 (5)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |t1c_riscv_cpu|riscv_cpu:rvcpu|datapath:dp|execute_datapath:ed|alu:alu_inst                                                            ; alu              ; work         ;
 ;          |fetch_datapath:fd|                       ; 31 (0)              ; 31 (0)                    ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |t1c_riscv_cpu|riscv_cpu:rvcpu|datapath:dp|fetch_datapath:fd                                                                           ; fetch_datapath   ; work         ;
 ;             |reset_ff:pcregF|                      ; 31 (31)             ; 31 (31)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |t1c_riscv_cpu|riscv_cpu:rvcpu|datapath:dp|fetch_datapath:fd|reset_ff:pcregF                                                           ; reset_ff         ; work         ;
+;          |hazard_unit:hu|                          ; 2 (2)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |t1c_riscv_cpu|riscv_cpu:rvcpu|datapath:dp|hazard_unit:hu                                                                              ; hazard_unit      ; work         ;
 ;          |mux4:ResultMux|                          ; 1 (1)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |t1c_riscv_cpu|riscv_cpu:rvcpu|datapath:dp|mux4:ResultMux                                                                              ; mux4             ; work         ;
-;          |reg_dec_exe:rde|                         ; 24 (24)             ; 21 (21)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |t1c_riscv_cpu|riscv_cpu:rvcpu|datapath:dp|reg_dec_exe:rde                                                                             ; reg_dec_exe      ; work         ;
+;          |reg_dec_exe:rde|                         ; 27 (27)             ; 23 (23)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |t1c_riscv_cpu|riscv_cpu:rvcpu|datapath:dp|reg_dec_exe:rde                                                                             ; reg_dec_exe      ; work         ;
 ;          |reg_exe_mem:rem|                         ; 0 (0)               ; 6 (6)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |t1c_riscv_cpu|riscv_cpu:rvcpu|datapath:dp|reg_exe_mem:rem                                                                             ; reg_exe_mem      ; work         ;
-;          |reg_fet_dec:rfd|                         ; 59 (59)             ; 22 (22)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |t1c_riscv_cpu|riscv_cpu:rvcpu|datapath:dp|reg_fet_dec:rfd                                                                             ; reg_fet_dec      ; work         ;
+;          |reg_fet_dec:rfd|                         ; 116 (116)           ; 22 (22)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |t1c_riscv_cpu|riscv_cpu:rvcpu|datapath:dp|reg_fet_dec:rfd                                                                             ; reg_fet_dec      ; work         ;
 ;          |reg_mem_wb:rmw|                          ; 0 (0)               ; 5 (5)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |t1c_riscv_cpu|riscv_cpu:rvcpu|datapath:dp|reg_mem_wb:rmw                                                                              ; reg_mem_wb       ; work         ;
 +----------------------------------------------------+---------------------+---------------------------+-------------+--------------+---------+-----------+------+--------------+----------------------------------------------------------------------------------------------------------------------------------------+------------------+--------------+
 Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
@@ -324,16 +324,16 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +--------------------------------------------------------------------------+-----------------------------------------------------------------------+------------------------+
 ; Latch Name                                                               ; Latch Enable Signal                                                   ; Free of Timing Hazards ;
 +--------------------------------------------------------------------------+-----------------------------------------------------------------------+------------------------+
-; riscv_cpu:rvcpu|datapath:dp|controller:ctrl|main_decoder:md|controls[7]  ; riscv_cpu:rvcpu|datapath:dp|controller:ctrl|main_decoder:md|Selector0 ; yes                    ;
-; riscv_cpu:rvcpu|datapath:dp|controller:ctrl|main_decoder:md|controls[9]  ; riscv_cpu:rvcpu|datapath:dp|controller:ctrl|main_decoder:md|Selector0 ; yes                    ;
-; riscv_cpu:rvcpu|datapath:dp|controller:ctrl|main_decoder:md|controls[8]  ; riscv_cpu:rvcpu|datapath:dp|controller:ctrl|main_decoder:md|Selector0 ; yes                    ;
-; riscv_cpu:rvcpu|datapath:dp|controller:ctrl|main_decoder:md|controls[0]  ; riscv_cpu:rvcpu|datapath:dp|controller:ctrl|main_decoder:md|Selector0 ; yes                    ;
-; riscv_cpu:rvcpu|datapath:dp|controller:ctrl|main_decoder:md|controls[4]  ; riscv_cpu:rvcpu|datapath:dp|controller:ctrl|main_decoder:md|Selector0 ; yes                    ;
-; riscv_cpu:rvcpu|datapath:dp|controller:ctrl|main_decoder:md|controls[1]  ; riscv_cpu:rvcpu|datapath:dp|controller:ctrl|main_decoder:md|Selector0 ; yes                    ;
-; riscv_cpu:rvcpu|datapath:dp|controller:ctrl|main_decoder:md|controls[2]  ; riscv_cpu:rvcpu|datapath:dp|controller:ctrl|main_decoder:md|Selector0 ; yes                    ;
-; riscv_cpu:rvcpu|datapath:dp|controller:ctrl|main_decoder:md|controls[3]  ; riscv_cpu:rvcpu|datapath:dp|controller:ctrl|main_decoder:md|Selector0 ; yes                    ;
-; riscv_cpu:rvcpu|datapath:dp|controller:ctrl|main_decoder:md|controls[5]  ; riscv_cpu:rvcpu|datapath:dp|controller:ctrl|main_decoder:md|Selector0 ; yes                    ;
-; riscv_cpu:rvcpu|datapath:dp|controller:ctrl|main_decoder:md|controls[12] ; riscv_cpu:rvcpu|datapath:dp|controller:ctrl|main_decoder:md|Selector0 ; yes                    ;
+; riscv_cpu:rvcpu|datapath:dp|controller:ctrl|main_decoder:md|controls[7]  ; riscv_cpu:rvcpu|datapath:dp|controller:ctrl|main_decoder:md|Selector7 ; yes                    ;
+; riscv_cpu:rvcpu|datapath:dp|controller:ctrl|main_decoder:md|controls[9]  ; riscv_cpu:rvcpu|datapath:dp|controller:ctrl|main_decoder:md|Selector7 ; yes                    ;
+; riscv_cpu:rvcpu|datapath:dp|controller:ctrl|main_decoder:md|controls[8]  ; riscv_cpu:rvcpu|datapath:dp|controller:ctrl|main_decoder:md|Selector7 ; yes                    ;
+; riscv_cpu:rvcpu|datapath:dp|controller:ctrl|main_decoder:md|controls[4]  ; riscv_cpu:rvcpu|datapath:dp|controller:ctrl|main_decoder:md|Selector7 ; yes                    ;
+; riscv_cpu:rvcpu|datapath:dp|controller:ctrl|main_decoder:md|controls[1]  ; riscv_cpu:rvcpu|datapath:dp|controller:ctrl|main_decoder:md|Selector7 ; yes                    ;
+; riscv_cpu:rvcpu|datapath:dp|controller:ctrl|main_decoder:md|controls[2]  ; riscv_cpu:rvcpu|datapath:dp|controller:ctrl|main_decoder:md|Selector7 ; yes                    ;
+; riscv_cpu:rvcpu|datapath:dp|controller:ctrl|main_decoder:md|controls[3]  ; riscv_cpu:rvcpu|datapath:dp|controller:ctrl|main_decoder:md|Selector7 ; yes                    ;
+; riscv_cpu:rvcpu|datapath:dp|controller:ctrl|main_decoder:md|controls[0]  ; riscv_cpu:rvcpu|datapath:dp|controller:ctrl|main_decoder:md|Selector7 ; yes                    ;
+; riscv_cpu:rvcpu|datapath:dp|controller:ctrl|main_decoder:md|controls[12] ; riscv_cpu:rvcpu|datapath:dp|controller:ctrl|main_decoder:md|Selector7 ; yes                    ;
+; riscv_cpu:rvcpu|datapath:dp|controller:ctrl|main_decoder:md|controls[5]  ; riscv_cpu:rvcpu|datapath:dp|controller:ctrl|main_decoder:md|Selector7 ; yes                    ;
 ; Number of user-specified and inferred latches = 10                       ;                                                                       ;                        ;
 +--------------------------------------------------------------------------+-----------------------------------------------------------------------+------------------------+
 Note: All latches listed above may not be present at the end of synthesis due to various synthesis optimizations.
@@ -371,7 +371,7 @@ Note: All latches listed above may not be present at the end of synthesis due to
 +----------------------------------------------+-------+
 ; Statistic                                    ; Value ;
 +----------------------------------------------+-------+
-; Total registers                              ; 2133  ;
+; Total registers                              ; 2135  ;
 ; Number of registers using Synchronous Clear  ; 30    ;
 ; Number of registers using Synchronous Load   ; 0     ;
 ; Number of registers using Asynchronous Clear ; 31    ;
@@ -439,16 +439,6 @@ Note: In order to hide this table in the UI and the text report file, please set
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
 
-+------------------------------------------------------------------------------------------------------+
-; Parameter Settings for User Entity Instance: riscv_cpu:rvcpu|datapath:dp|execute_datapath:ed|alu:alu ;
-+----------------+-------+-----------------------------------------------------------------------------+
-; Parameter Name ; Value ; Type                                                                        ;
-+----------------+-------+-----------------------------------------------------------------------------+
-; WIDTH          ; 32    ; Signed Integer                                                              ;
-+----------------+-------+-----------------------------------------------------------------------------+
-Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
-
-
 +------------------------------------------------------------------------------------------------------------+
 ; Parameter Settings for User Entity Instance: riscv_cpu:rvcpu|datapath:dp|execute_datapath:ed|mux2:srcbmuxE ;
 +----------------+-------+-----------------------------------------------------------------------------------+
@@ -456,6 +446,16 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+-------+-----------------------------------------------------------------------------------+
 ; WIDTH          ; 32    ; Signed Integer                                                                    ;
 +----------------+-------+-----------------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-----------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: riscv_cpu:rvcpu|datapath:dp|execute_datapath:ed|alu:alu_inst ;
++----------------+-------+----------------------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                                             ;
++----------------+-------+----------------------------------------------------------------------------------+
+; WIDTH          ; 32    ; Signed Integer                                                                   ;
++----------------+-------+----------------------------------------------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
 
@@ -704,64 +704,51 @@ Note: In order to hide this table in the UI and the text report file, please set
 +------------+--------+----------+------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 
-+---------------------------------------------------------------------------------------------------------------------------------------------------+
-; Port Connectivity Checks: "riscv_cpu:rvcpu|datapath:dp|execute_datapath:ed|mux2:srcbmuxE"                                                         ;
-+------+--------+----------+------------------------------------------------------------------------------------------------------------------------+
-; Port ; Type   ; Severity ; Details                                                                                                                ;
-+------+--------+----------+------------------------------------------------------------------------------------------------------------------------+
-; y    ; Output ; Warning  ; Output or bidir port (32 bits) is wider than the port expression (1 bits) it drives; bit(s) "y[31..1]" have no fanouts ;
-+------+--------+----------+------------------------------------------------------------------------------------------------------------------------+
-
-
-+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Port Connectivity Checks: "riscv_cpu:rvcpu|datapath:dp|execute_datapath:ed|alu:alu"                                                                                   ;
-+------+-------+----------+---------------------------------------------------------------------------------------------------------------------------------------------+
-; Port ; Type  ; Severity ; Details                                                                                                                                     ;
-+------+-------+----------+---------------------------------------------------------------------------------------------------------------------------------------------+
-; b    ; Input ; Warning  ; Input port expression (1 bits) is smaller than the input port (32 bits) it drives.  Extra input bit(s) "b[31..1]" will be connected to GND. ;
-+------+-------+----------+---------------------------------------------------------------------------------------------------------------------------------------------+
++----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "riscv_cpu:rvcpu|datapath:dp|execute_datapath:ed"                                                                                                            ;
++-------------+--------+----------+------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port        ; Type   ; Severity ; Details                                                                                                                                              ;
++-------------+--------+----------+------------------------------------------------------------------------------------------------------------------------------------------------------+
+; RD1E        ; Input  ; Warning  ; Input port expression (1 bits) is smaller than the input port (32 bits) it drives.  Extra input bit(s) "RD1E[31..1]" will be connected to GND.       ;
+; RD2E        ; Input  ; Warning  ; Input port expression (1 bits) is smaller than the input port (32 bits) it drives.  Extra input bit(s) "RD2E[31..1]" will be connected to GND.       ;
+; ImmExtE     ; Input  ; Warning  ; Input port expression (1 bits) is smaller than the input port (32 bits) it drives.  Extra input bit(s) "ImmExtE[31..1]" will be connected to GND.    ;
+; PCE         ; Input  ; Warning  ; Input port expression (1 bits) is smaller than the input port (32 bits) it drives.  Extra input bit(s) "PCE[31..1]" will be connected to GND.        ;
+; ALUControlE ; Input  ; Warning  ; Input port expression (1 bits) is smaller than the input port (4 bits) it drives.  Extra input bit(s) "ALUControlE[3..1]" will be connected to GND.  ;
+; ForwardAE   ; Input  ; Warning  ; Input port expression (1 bits) is smaller than the input port (2 bits) it drives.  Extra input bit(s) "ForwardAE[1..1]" will be connected to GND.    ;
+; ForwardBE   ; Input  ; Warning  ; Input port expression (1 bits) is smaller than the input port (2 bits) it drives.  Extra input bit(s) "ForwardBE[1..1]" will be connected to GND.    ;
+; ALUResultM  ; Input  ; Warning  ; Input port expression (1 bits) is smaller than the input port (32 bits) it drives.  Extra input bit(s) "ALUResultM[31..1]" will be connected to GND. ;
+; ALUResult   ; Output ; Warning  ; Output or bidir port (32 bits) is wider than the port expression (1 bits) it drives; bit(s) "ALUResult[31..1]" have no fanouts                       ;
+; WriteDataE  ; Output ; Warning  ; Output or bidir port (32 bits) is wider than the port expression (1 bits) it drives; bit(s) "WriteDataE[31..1]" have no fanouts                      ;
+; PCTargetE   ; Output ; Warning  ; Output or bidir port (32 bits) is wider than the port expression (1 bits) it drives; bit(s) "PCTargetE[31..1]" have no fanouts                       ;
++-------------+--------+----------+------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 
 +---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Port Connectivity Checks: "riscv_cpu:rvcpu|datapath:dp|execute_datapath:ed"                                                                                                           ;
+; Port Connectivity Checks: "riscv_cpu:rvcpu|datapath:dp|reg_dec_exe:rde"                                                                                                               ;
 +-------------+--------+----------+-----------------------------------------------------------------------------------------------------------------------------------------------------+
 ; Port        ; Type   ; Severity ; Details                                                                                                                                             ;
 +-------------+--------+----------+-----------------------------------------------------------------------------------------------------------------------------------------------------+
-; RD1E        ; Input  ; Warning  ; Input port expression (1 bits) is smaller than the input port (32 bits) it drives.  Extra input bit(s) "RD1E[31..1]" will be connected to GND.      ;
-; RD2E        ; Input  ; Warning  ; Input port expression (1 bits) is smaller than the input port (32 bits) it drives.  Extra input bit(s) "RD2E[31..1]" will be connected to GND.      ;
-; ImmExtE     ; Input  ; Warning  ; Input port expression (1 bits) is smaller than the input port (32 bits) it drives.  Extra input bit(s) "ImmExtE[31..1]" will be connected to GND.   ;
-; PCE         ; Input  ; Warning  ; Input port expression (1 bits) is smaller than the input port (32 bits) it drives.  Extra input bit(s) "PCE[31..1]" will be connected to GND.       ;
-; ALUControlE ; Input  ; Warning  ; Input port expression (1 bits) is smaller than the input port (4 bits) it drives.  Extra input bit(s) "ALUControlE[3..1]" will be connected to GND. ;
-; ALUResult   ; Output ; Warning  ; Output or bidir port (32 bits) is wider than the port expression (1 bits) it drives; bit(s) "ALUResult[31..1]" have no fanouts                      ;
-; WriteDataE  ; Output ; Warning  ; Output or bidir port (32 bits) is wider than the port expression (1 bits) it drives; bit(s) "WriteDataE[31..1]" have no fanouts                     ;
-; PCTargetE   ; Output ; Warning  ; Output or bidir port (32 bits) is wider than the port expression (1 bits) it drives; bit(s) "PCTargetE[31..1]" have no fanouts                      ;
+; RD1D        ; Input  ; Warning  ; Input port expression (1 bits) is smaller than the input port (32 bits) it drives.  Extra input bit(s) "RD1D[31..1]" will be connected to GND.      ;
+; RD1E        ; Output ; Warning  ; Output or bidir port (32 bits) is wider than the port expression (1 bits) it drives; bit(s) "RD1E[31..1]" have no fanouts                           ;
+; RD2D        ; Input  ; Warning  ; Input port expression (1 bits) is smaller than the input port (32 bits) it drives.  Extra input bit(s) "RD2D[31..1]" will be connected to GND.      ;
+; RD2E        ; Output ; Warning  ; Output or bidir port (32 bits) is wider than the port expression (1 bits) it drives; bit(s) "RD2E[31..1]" have no fanouts                           ;
+; PCD         ; Input  ; Warning  ; Input port expression (1 bits) is smaller than the input port (32 bits) it drives.  Extra input bit(s) "PCD[31..1]" will be connected to GND.       ;
+; PCE         ; Output ; Warning  ; Output or bidir port (32 bits) is wider than the port expression (1 bits) it drives; bit(s) "PCE[31..1]" have no fanouts                            ;
+; RdD         ; Input  ; Warning  ; Input port expression (1 bits) is smaller than the input port (5 bits) it drives.  Extra input bit(s) "RdD[4..1]" will be connected to GND.         ;
+; RdE         ; Output ; Warning  ; Output or bidir port (5 bits) is wider than the port expression (1 bits) it drives; bit(s) "RdE[4..1]" have no fanouts                              ;
+; ImmExtD     ; Input  ; Warning  ; Input port expression (1 bits) is smaller than the input port (32 bits) it drives.  Extra input bit(s) "ImmExtD[31..1]" will be connected to GND.   ;
+; ImmExtE     ; Output ; Warning  ; Output or bidir port (32 bits) is wider than the port expression (1 bits) it drives; bit(s) "ImmExtE[31..1]" have no fanouts                        ;
+; PCPlus4D    ; Input  ; Warning  ; Input port expression (1 bits) is smaller than the input port (32 bits) it drives.  Extra input bit(s) "PCPlus4D[31..1]" will be connected to GND.  ;
+; PCPlus4E    ; Output ; Warning  ; Output or bidir port (32 bits) is wider than the port expression (1 bits) it drives; bit(s) "PCPlus4E[31..1]" have no fanouts                       ;
+; ResultSrcD  ; Input  ; Warning  ; Input port expression (1 bits) is smaller than the input port (2 bits) it drives.  Extra input bit(s) "ResultSrcD[1..1]" will be connected to GND.  ;
+; ResultSrcE  ; Output ; Warning  ; Output or bidir port (2 bits) is wider than the port expression (1 bits) it drives; bit(s) "ResultSrcE[1..1]" have no fanouts                       ;
+; ALUControlD ; Input  ; Warning  ; Input port expression (1 bits) is smaller than the input port (4 bits) it drives.  Extra input bit(s) "ALUControlD[3..1]" will be connected to GND. ;
+; ALUControlE ; Output ; Warning  ; Output or bidir port (4 bits) is wider than the port expression (1 bits) it drives; bit(s) "ALUControlE[3..1]" have no fanouts                      ;
+; Rs1D        ; Input  ; Warning  ; Input port expression (1 bits) is smaller than the input port (5 bits) it drives.  Extra input bit(s) "Rs1D[4..1]" will be connected to GND.        ;
+; Rs1E        ; Output ; Warning  ; Output or bidir port (5 bits) is wider than the port expression (1 bits) it drives; bit(s) "Rs1E[4..1]" have no fanouts                             ;
+; Rs2D        ; Input  ; Warning  ; Input port expression (1 bits) is smaller than the input port (5 bits) it drives.  Extra input bit(s) "Rs2D[4..1]" will be connected to GND.        ;
+; Rs2E        ; Output ; Warning  ; Output or bidir port (5 bits) is wider than the port expression (1 bits) it drives; bit(s) "Rs2E[4..1]" have no fanouts                             ;
 +-------------+--------+----------+-----------------------------------------------------------------------------------------------------------------------------------------------------+
-
-
-+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Port Connectivity Checks: "riscv_cpu:rvcpu|datapath:dp|reg_dec_exe:rde"                                                                                                                  ;
-+----------------+--------+----------+-----------------------------------------------------------------------------------------------------------------------------------------------------+
-; Port           ; Type   ; Severity ; Details                                                                                                                                             ;
-+----------------+--------+----------+-----------------------------------------------------------------------------------------------------------------------------------------------------+
-; RD1D           ; Input  ; Warning  ; Input port expression (1 bits) is smaller than the input port (32 bits) it drives.  Extra input bit(s) "RD1D[31..1]" will be connected to GND.      ;
-; RD1E           ; Output ; Warning  ; Output or bidir port (32 bits) is wider than the port expression (1 bits) it drives; bit(s) "RD1E[31..1]" have no fanouts                           ;
-; RD2D           ; Input  ; Warning  ; Input port expression (1 bits) is smaller than the input port (32 bits) it drives.  Extra input bit(s) "RD2D[31..1]" will be connected to GND.      ;
-; RD2E           ; Output ; Warning  ; Output or bidir port (32 bits) is wider than the port expression (1 bits) it drives; bit(s) "RD2E[31..1]" have no fanouts                           ;
-; PCD            ; Input  ; Warning  ; Input port expression (1 bits) is smaller than the input port (32 bits) it drives.  Extra input bit(s) "PCD[31..1]" will be connected to GND.       ;
-; PCE            ; Output ; Warning  ; Output or bidir port (32 bits) is wider than the port expression (1 bits) it drives; bit(s) "PCE[31..1]" have no fanouts                            ;
-; RdD            ; Input  ; Warning  ; Input port expression (1 bits) is smaller than the input port (5 bits) it drives.  Extra input bit(s) "RdD[4..1]" will be connected to GND.         ;
-; RdE            ; Output ; Warning  ; Output or bidir port (5 bits) is wider than the port expression (1 bits) it drives; bit(s) "RdE[4..1]" have no fanouts                              ;
-; ImmExtD        ; Input  ; Warning  ; Input port expression (1 bits) is smaller than the input port (32 bits) it drives.  Extra input bit(s) "ImmExtD[31..1]" will be connected to GND.   ;
-; ImmExtE        ; Output ; Warning  ; Output or bidir port (32 bits) is wider than the port expression (1 bits) it drives; bit(s) "ImmExtE[31..1]" have no fanouts                        ;
-; PCPlus4D       ; Input  ; Warning  ; Input port expression (1 bits) is smaller than the input port (32 bits) it drives.  Extra input bit(s) "PCPlus4D[31..1]" will be connected to GND.  ;
-; PCPlus4E       ; Output ; Warning  ; Output or bidir port (32 bits) is wider than the port expression (1 bits) it drives; bit(s) "PCPlus4E[31..1]" have no fanouts                       ;
-; ResultSrcD     ; Input  ; Warning  ; Input port expression (1 bits) is smaller than the input port (2 bits) it drives.  Extra input bit(s) "ResultSrcD[1..1]" will be connected to GND.  ;
-; ResultSrcE     ; Output ; Warning  ; Output or bidir port (2 bits) is wider than the port expression (1 bits) it drives; bit(s) "ResultSrcE[1..1]" have no fanouts                       ;
-; ALUControlD    ; Input  ; Warning  ; Input port expression (1 bits) is smaller than the input port (4 bits) it drives.  Extra input bit(s) "ALUControlD[3..1]" will be connected to GND. ;
-; ALUControlE    ; Output ; Warning  ; Output or bidir port (4 bits) is wider than the port expression (1 bits) it drives; bit(s) "ALUControlE[3..1]" have no fanouts                      ;
-; instrE[31..15] ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed.                                                                 ;
-; instrE[11..7]  ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed.                                                                 ;
-+----------------+--------+----------+-----------------------------------------------------------------------------------------------------------------------------------------------------+
 
 
 +-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
@@ -775,6 +762,8 @@ Note: In order to hide this table in the UI and the text report file, please set
 ; RD1D    ; Output ; Warning  ; Output or bidir port (32 bits) is wider than the port expression (1 bits) it drives; bit(s) "RD1D[31..1]" have no fanouts                       ;
 ; RD2D    ; Output ; Warning  ; Output or bidir port (32 bits) is wider than the port expression (1 bits) it drives; bit(s) "RD2D[31..1]" have no fanouts                       ;
 ; ImmExtD ; Output ; Warning  ; Output or bidir port (32 bits) is wider than the port expression (1 bits) it drives; bit(s) "ImmExtD[31..1]" have no fanouts                    ;
+; Rs1D    ; Output ; Warning  ; Output or bidir port (5 bits) is wider than the port expression (1 bits) it drives; bit(s) "Rs1D[4..1]" have no fanouts                         ;
+; Rs2D    ; Output ; Warning  ; Output or bidir port (5 bits) is wider than the port expression (1 bits) it drives; bit(s) "Rs2D[4..1]" have no fanouts                         ;
 +---------+--------+----------+-------------------------------------------------------------------------------------------------------------------------------------------------+
 
 
@@ -821,30 +810,44 @@ Note: In order to hide this table in the UI and the text report file, please set
 +-----------+--------+----------+-----------------------------------------------------------------------------------------------------------------------------------------------------+
 
 
++------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "riscv_cpu:rvcpu|datapath:dp|hazard_unit:hu"                                                                                                       ;
++-----------+--------+----------+----------------------------------------------------------------------------------------------------------------------------------------------+
+; Port      ; Type   ; Severity ; Details                                                                                                                                      ;
++-----------+--------+----------+----------------------------------------------------------------------------------------------------------------------------------------------+
+; Rs1E      ; Input  ; Warning  ; Input port expression (1 bits) is smaller than the input port (5 bits) it drives.  Extra input bit(s) "Rs1E[4..1]" will be connected to GND. ;
+; Rs2E      ; Input  ; Warning  ; Input port expression (1 bits) is smaller than the input port (5 bits) it drives.  Extra input bit(s) "Rs2E[4..1]" will be connected to GND. ;
+; RdM       ; Input  ; Warning  ; Input port expression (1 bits) is smaller than the input port (5 bits) it drives.  Extra input bit(s) "RdM[4..1]" will be connected to GND.  ;
+; RdW       ; Input  ; Warning  ; Input port expression (1 bits) is smaller than the input port (5 bits) it drives.  Extra input bit(s) "RdW[4..1]" will be connected to GND.  ;
+; ForwardAE ; Output ; Warning  ; Output or bidir port (2 bits) is wider than the port expression (1 bits) it drives; bit(s) "ForwardAE[1..1]" have no fanouts                 ;
+; ForwardBE ; Output ; Warning  ; Output or bidir port (2 bits) is wider than the port expression (1 bits) it drives; bit(s) "ForwardBE[1..1]" have no fanouts                 ;
++-----------+--------+----------+----------------------------------------------------------------------------------------------------------------------------------------------+
+
+
 +-----------------------------------------------------+
 ; Post-Synthesis Netlist Statistics for Top Partition ;
 +-----------------------+-----------------------------+
 ; Type                  ; Count                       ;
 +-----------------------+-----------------------------+
 ; boundary_port         ; 228                         ;
-; cycloneiii_ff         ; 2133                        ;
+; cycloneiii_ff         ; 2135                        ;
 ;     CLR               ; 1                           ;
 ;     CLR SCLR          ; 30                          ;
 ;     ENA               ; 2048                        ;
-;     plain             ; 54                          ;
-; cycloneiii_lcell_comb ; 1735                        ;
+;     plain             ; 56                          ;
+; cycloneiii_lcell_comb ; 1770                        ;
 ;     arith             ; 29                          ;
 ;         2 data inputs ; 29                          ;
-;     normal            ; 1706                        ;
+;     normal            ; 1741                        ;
 ;         0 data inputs ; 1                           ;
 ;         1 data inputs ; 1                           ;
-;         2 data inputs ; 39                          ;
-;         3 data inputs ; 65                          ;
-;         4 data inputs ; 1600                        ;
+;         2 data inputs ; 42                          ;
+;         3 data inputs ; 69                          ;
+;         4 data inputs ; 1628                        ;
 ; cycloneiii_ram_block  ; 2                           ;
 ;                       ;                             ;
-; Max LUT depth         ; 7.00                        ;
-; Average LUT depth     ; 4.82                        ;
+; Max LUT depth         ; 8.00                        ;
+; Average LUT depth     ; 4.90                        ;
 +-----------------------+-----------------------------+
 
 
@@ -853,7 +856,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+--------------+
 ; Partition Name ; Elapsed Time ;
 +----------------+--------------+
-; Top            ; 00:00:02     ;
+; Top            ; 00:00:03     ;
 +----------------+--------------+
 
 
@@ -863,7 +866,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 20.1.0 Build 711 06/05/2020 SJ Lite Edition
-    Info: Processing started: Fri Jun 12 12:49:31 2026
+    Info: Processing started: Fri Jun 12 18:47:03 2026
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off t1c_riscv_cpu -c t1c_riscv_cpu
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 14 of the 14 processors detected
@@ -913,61 +916,69 @@ Info (12021): Found 1 design units, including 1 entities, in source file code/co
     Info (12023): Found entity 1: decode_datapath File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/datapath_decode.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file code/components/datapath_execute.v
     Info (12023): Found entity 1: execute_datapath File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/datapath_execute.v Line: 1
-Warning (10236): Verilog HDL Implicit Net warning at datapath.v(18): created implicit net for "PCTargetE" File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/datapath.v Line: 18
-Warning (10236): Verilog HDL Implicit Net warning at datapath.v(18): created implicit net for "PCPlus4F" File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/datapath.v Line: 18
-Warning (10236): Verilog HDL Implicit Net warning at datapath.v(19): created implicit net for "PCD" File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/datapath.v Line: 19
-Warning (10236): Verilog HDL Implicit Net warning at datapath.v(19): created implicit net for "PCPlus4D" File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/datapath.v Line: 19
-Warning (10236): Verilog HDL Implicit Net warning at datapath.v(23): created implicit net for "ResultSrcD" File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/datapath.v Line: 23
-Warning (10236): Verilog HDL Implicit Net warning at datapath.v(23): created implicit net for "MemWriteD" File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/datapath.v Line: 23
-Warning (10236): Verilog HDL Implicit Net warning at datapath.v(23): created implicit net for "ALUSrcD" File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/datapath.v Line: 23
-Warning (10236): Verilog HDL Implicit Net warning at datapath.v(23): created implicit net for "RegWriteD" File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/datapath.v Line: 23
-Warning (10236): Verilog HDL Implicit Net warning at datapath.v(23): created implicit net for "JumpD" File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/datapath.v Line: 23
-Warning (10236): Verilog HDL Implicit Net warning at datapath.v(23): created implicit net for "ImmSrcD" File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/datapath.v Line: 23
-Warning (10236): Verilog HDL Implicit Net warning at datapath.v(23): created implicit net for "ALUControlD" File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/datapath.v Line: 23
-Warning (10236): Verilog HDL Implicit Net warning at datapath.v(23): created implicit net for "BranchD" File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/datapath.v Line: 23
-Warning (10236): Verilog HDL Implicit Net warning at datapath.v(25): created implicit net for "RdW" File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/datapath.v Line: 25
-Warning (10236): Verilog HDL Implicit Net warning at datapath.v(25): created implicit net for "RegWriteW" File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/datapath.v Line: 25
-Warning (10236): Verilog HDL Implicit Net warning at datapath.v(25): created implicit net for "RdD" File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/datapath.v Line: 25
-Warning (10236): Verilog HDL Implicit Net warning at datapath.v(25): created implicit net for "RD1D" File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/datapath.v Line: 25
-Warning (10236): Verilog HDL Implicit Net warning at datapath.v(25): created implicit net for "RD2D" File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/datapath.v Line: 25
-Warning (10236): Verilog HDL Implicit Net warning at datapath.v(25): created implicit net for "ImmExtD" File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/datapath.v Line: 25
-Warning (10236): Verilog HDL Implicit Net warning at datapath.v(26): created implicit net for "RD1E" File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/datapath.v Line: 26
-Warning (10236): Verilog HDL Implicit Net warning at datapath.v(26): created implicit net for "RD2E" File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/datapath.v Line: 26
-Warning (10236): Verilog HDL Implicit Net warning at datapath.v(26): created implicit net for "PCE" File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/datapath.v Line: 26
-Warning (10236): Verilog HDL Implicit Net warning at datapath.v(26): created implicit net for "RdE" File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/datapath.v Line: 26
-Warning (10236): Verilog HDL Implicit Net warning at datapath.v(26): created implicit net for "ImmExtE" File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/datapath.v Line: 26
-Warning (10236): Verilog HDL Implicit Net warning at datapath.v(26): created implicit net for "PCPlus4E" File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/datapath.v Line: 26
-Warning (10236): Verilog HDL Implicit Net warning at datapath.v(26): created implicit net for "RegWriteE" File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/datapath.v Line: 26
-Warning (10236): Verilog HDL Implicit Net warning at datapath.v(26): created implicit net for "ResultSrcE" File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/datapath.v Line: 26
-Warning (10236): Verilog HDL Implicit Net warning at datapath.v(26): created implicit net for "MemWriteE" File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/datapath.v Line: 26
-Warning (10236): Verilog HDL Implicit Net warning at datapath.v(26): created implicit net for "ALUSrcE" File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/datapath.v Line: 26
-Warning (10236): Verilog HDL Implicit Net warning at datapath.v(26): created implicit net for "JumpE" File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/datapath.v Line: 26
-Warning (10236): Verilog HDL Implicit Net warning at datapath.v(26): created implicit net for "ALUControlE" File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/datapath.v Line: 26
-Warning (10236): Verilog HDL Implicit Net warning at datapath.v(26): created implicit net for "BranchE" File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/datapath.v Line: 26
-Warning (10236): Verilog HDL Implicit Net warning at datapath.v(29): created implicit net for "ZeroE" File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/datapath.v Line: 29
-Warning (10236): Verilog HDL Implicit Net warning at datapath.v(29): created implicit net for "ALUResultE" File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/datapath.v Line: 29
-Warning (10236): Verilog HDL Implicit Net warning at datapath.v(29): created implicit net for "WriteDataE" File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/datapath.v Line: 29
-Warning (10236): Verilog HDL Implicit Net warning at datapath.v(30): created implicit net for "ALUResultM" File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/datapath.v Line: 30
-Warning (10236): Verilog HDL Implicit Net warning at datapath.v(30): created implicit net for "WriteDataM" File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/datapath.v Line: 30
-Warning (10236): Verilog HDL Implicit Net warning at datapath.v(30): created implicit net for "RdM" File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/datapath.v Line: 30
-Warning (10236): Verilog HDL Implicit Net warning at datapath.v(30): created implicit net for "PCPlus4M" File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/datapath.v Line: 30
-Warning (10236): Verilog HDL Implicit Net warning at datapath.v(30): created implicit net for "RegWriteM" File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/datapath.v Line: 30
-Warning (10236): Verilog HDL Implicit Net warning at datapath.v(30): created implicit net for "ResultSrcM" File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/datapath.v Line: 30
-Warning (10236): Verilog HDL Implicit Net warning at datapath.v(72): created implicit net for "ReadDataW" File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/datapath.v Line: 72
-Warning (10236): Verilog HDL Implicit Net warning at datapath.v(72): created implicit net for "ALUResultW" File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/datapath.v Line: 72
-Warning (10236): Verilog HDL Implicit Net warning at datapath.v(72): created implicit net for "PCPlus4W" File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/datapath.v Line: 72
-Warning (10236): Verilog HDL Implicit Net warning at datapath.v(72): created implicit net for "ResultSrcW" File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/datapath.v Line: 72
-Warning (10236): Verilog HDL Implicit Net warning at datapath_execute.v(16): created implicit net for "SrcBE" File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/datapath_execute.v Line: 16
+Info (12021): Found 1 design units, including 1 entities, in source file code/components/hazard_unit.v
+    Info (12023): Found entity 1: hazard_unit File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/hazard_unit.v Line: 1
+Warning (10236): Verilog HDL Implicit Net warning at datapath.v(18): created implicit net for "Rs1E" File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/datapath.v Line: 18
+Warning (10236): Verilog HDL Implicit Net warning at datapath.v(18): created implicit net for "Rs2E" File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/datapath.v Line: 18
+Warning (10236): Verilog HDL Implicit Net warning at datapath.v(18): created implicit net for "RdM" File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/datapath.v Line: 18
+Warning (10236): Verilog HDL Implicit Net warning at datapath.v(18): created implicit net for "RdW" File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/datapath.v Line: 18
+Warning (10236): Verilog HDL Implicit Net warning at datapath.v(18): created implicit net for "RegWriteM" File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/datapath.v Line: 18
+Warning (10236): Verilog HDL Implicit Net warning at datapath.v(18): created implicit net for "RegWriteW" File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/datapath.v Line: 18
+Warning (10236): Verilog HDL Implicit Net warning at datapath.v(18): created implicit net for "ForwardAE" File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/datapath.v Line: 18
+Warning (10236): Verilog HDL Implicit Net warning at datapath.v(18): created implicit net for "ForwardBE" File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/datapath.v Line: 18
+Warning (10236): Verilog HDL Implicit Net warning at datapath.v(22): created implicit net for "PCTargetE" File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/datapath.v Line: 22
+Warning (10236): Verilog HDL Implicit Net warning at datapath.v(22): created implicit net for "PCPlus4F" File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/datapath.v Line: 22
+Warning (10236): Verilog HDL Implicit Net warning at datapath.v(23): created implicit net for "PCD" File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/datapath.v Line: 23
+Warning (10236): Verilog HDL Implicit Net warning at datapath.v(23): created implicit net for "PCPlus4D" File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/datapath.v Line: 23
+Warning (10236): Verilog HDL Implicit Net warning at datapath.v(27): created implicit net for "ResultSrcD" File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/datapath.v Line: 27
+Warning (10236): Verilog HDL Implicit Net warning at datapath.v(27): created implicit net for "MemWriteD" File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/datapath.v Line: 27
+Warning (10236): Verilog HDL Implicit Net warning at datapath.v(27): created implicit net for "ALUSrcD" File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/datapath.v Line: 27
+Warning (10236): Verilog HDL Implicit Net warning at datapath.v(27): created implicit net for "RegWriteD" File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/datapath.v Line: 27
+Warning (10236): Verilog HDL Implicit Net warning at datapath.v(27): created implicit net for "JumpD" File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/datapath.v Line: 27
+Warning (10236): Verilog HDL Implicit Net warning at datapath.v(27): created implicit net for "ImmSrcD" File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/datapath.v Line: 27
+Warning (10236): Verilog HDL Implicit Net warning at datapath.v(27): created implicit net for "ALUControlD" File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/datapath.v Line: 27
+Warning (10236): Verilog HDL Implicit Net warning at datapath.v(27): created implicit net for "BranchD" File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/datapath.v Line: 27
+Warning (10236): Verilog HDL Implicit Net warning at datapath.v(29): created implicit net for "RdD" File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/datapath.v Line: 29
+Warning (10236): Verilog HDL Implicit Net warning at datapath.v(29): created implicit net for "RD1D" File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/datapath.v Line: 29
+Warning (10236): Verilog HDL Implicit Net warning at datapath.v(29): created implicit net for "RD2D" File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/datapath.v Line: 29
+Warning (10236): Verilog HDL Implicit Net warning at datapath.v(29): created implicit net for "ImmExtD" File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/datapath.v Line: 29
+Warning (10236): Verilog HDL Implicit Net warning at datapath.v(29): created implicit net for "Rs1D" File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/datapath.v Line: 29
+Warning (10236): Verilog HDL Implicit Net warning at datapath.v(29): created implicit net for "Rs2D" File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/datapath.v Line: 29
+Warning (10236): Verilog HDL Implicit Net warning at datapath.v(30): created implicit net for "RD1E" File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/datapath.v Line: 30
+Warning (10236): Verilog HDL Implicit Net warning at datapath.v(30): created implicit net for "RD2E" File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/datapath.v Line: 30
+Warning (10236): Verilog HDL Implicit Net warning at datapath.v(30): created implicit net for "PCE" File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/datapath.v Line: 30
+Warning (10236): Verilog HDL Implicit Net warning at datapath.v(30): created implicit net for "RdE" File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/datapath.v Line: 30
+Warning (10236): Verilog HDL Implicit Net warning at datapath.v(30): created implicit net for "ImmExtE" File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/datapath.v Line: 30
+Warning (10236): Verilog HDL Implicit Net warning at datapath.v(30): created implicit net for "PCPlus4E" File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/datapath.v Line: 30
+Warning (10236): Verilog HDL Implicit Net warning at datapath.v(30): created implicit net for "RegWriteE" File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/datapath.v Line: 30
+Warning (10236): Verilog HDL Implicit Net warning at datapath.v(30): created implicit net for "ResultSrcE" File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/datapath.v Line: 30
+Warning (10236): Verilog HDL Implicit Net warning at datapath.v(30): created implicit net for "MemWriteE" File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/datapath.v Line: 30
+Warning (10236): Verilog HDL Implicit Net warning at datapath.v(30): created implicit net for "ALUSrcE" File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/datapath.v Line: 30
+Warning (10236): Verilog HDL Implicit Net warning at datapath.v(30): created implicit net for "JumpE" File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/datapath.v Line: 30
+Warning (10236): Verilog HDL Implicit Net warning at datapath.v(30): created implicit net for "ALUControlE" File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/datapath.v Line: 30
+Warning (10236): Verilog HDL Implicit Net warning at datapath.v(30): created implicit net for "BranchE" File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/datapath.v Line: 30
+Warning (10236): Verilog HDL Implicit Net warning at datapath.v(33): created implicit net for "ALUResultM" File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/datapath.v Line: 33
+Warning (10236): Verilog HDL Implicit Net warning at datapath.v(33): created implicit net for "ZeroE" File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/datapath.v Line: 33
+Warning (10236): Verilog HDL Implicit Net warning at datapath.v(33): created implicit net for "ALUResultE" File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/datapath.v Line: 33
+Warning (10236): Verilog HDL Implicit Net warning at datapath.v(33): created implicit net for "WriteDataE" File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/datapath.v Line: 33
+Warning (10236): Verilog HDL Implicit Net warning at datapath.v(34): created implicit net for "WriteDataM" File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/datapath.v Line: 34
+Warning (10236): Verilog HDL Implicit Net warning at datapath.v(34): created implicit net for "PCPlus4M" File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/datapath.v Line: 34
+Warning (10236): Verilog HDL Implicit Net warning at datapath.v(34): created implicit net for "ResultSrcM" File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/datapath.v Line: 34
+Warning (10236): Verilog HDL Implicit Net warning at datapath.v(79): created implicit net for "ReadDataW" File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/datapath.v Line: 79
+Warning (10236): Verilog HDL Implicit Net warning at datapath.v(79): created implicit net for "ALUResultW" File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/datapath.v Line: 79
+Warning (10236): Verilog HDL Implicit Net warning at datapath.v(79): created implicit net for "PCPlus4W" File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/datapath.v Line: 79
+Warning (10236): Verilog HDL Implicit Net warning at datapath.v(79): created implicit net for "ResultSrcW" File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/datapath.v Line: 79
 Info (12127): Elaborating entity "t1c_riscv_cpu" for the top level hierarchy
 Warning (10230): Verilog HDL assignment warning at t1c_riscv_cpu.v(25): truncated value with size 32 to match size of target (1) File: /home/adityaamehra/Desktop/rv32i-pipleined/code/t1c_riscv_cpu.v Line: 25
 Info (12128): Elaborating entity "riscv_cpu" for hierarchy "riscv_cpu:rvcpu" File: /home/adityaamehra/Desktop/rv32i-pipleined/code/t1c_riscv_cpu.v Line: 21
 Info (12128): Elaborating entity "datapath" for hierarchy "riscv_cpu:rvcpu|datapath:dp" File: /home/adityaamehra/Desktop/rv32i-pipleined/code/riscv_cpu.v Line: 14
-Info (12128): Elaborating entity "fetch_datapath" for hierarchy "riscv_cpu:rvcpu|datapath:dp|fetch_datapath:fd" File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/datapath.v Line: 18
+Info (12128): Elaborating entity "hazard_unit" for hierarchy "riscv_cpu:rvcpu|datapath:dp|hazard_unit:hu" File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/datapath.v Line: 18
+Info (12128): Elaborating entity "fetch_datapath" for hierarchy "riscv_cpu:rvcpu|datapath:dp|fetch_datapath:fd" File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/datapath.v Line: 22
 Info (12128): Elaborating entity "mux2" for hierarchy "riscv_cpu:rvcpu|datapath:dp|fetch_datapath:fd|mux2:pcmuxF" File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/datapath_fetch.v Line: 13
 Info (12128): Elaborating entity "reset_ff" for hierarchy "riscv_cpu:rvcpu|datapath:dp|fetch_datapath:fd|reset_ff:pcregF" File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/datapath_fetch.v Line: 15
 Info (12128): Elaborating entity "adder" for hierarchy "riscv_cpu:rvcpu|datapath:dp|fetch_datapath:fd|adder:pcadd4F" File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/datapath_fetch.v Line: 17
-Info (12128): Elaborating entity "reg_fet_dec" for hierarchy "riscv_cpu:rvcpu|datapath:dp|reg_fet_dec:rfd" File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/datapath.v Line: 19
-Info (12128): Elaborating entity "controller" for hierarchy "riscv_cpu:rvcpu|datapath:dp|controller:ctrl" File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/datapath.v Line: 23
+Info (12128): Elaborating entity "reg_fet_dec" for hierarchy "riscv_cpu:rvcpu|datapath:dp|reg_fet_dec:rfd" File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/datapath.v Line: 23
+Info (12128): Elaborating entity "controller" for hierarchy "riscv_cpu:rvcpu|datapath:dp|controller:ctrl" File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/datapath.v Line: 27
 Info (12128): Elaborating entity "main_decoder" for hierarchy "riscv_cpu:rvcpu|datapath:dp|controller:ctrl|main_decoder:md" File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/controller.v Line: 20
 Warning (10270): Verilog HDL Case Statement warning at main_decoder.v(24): incomplete case statement has no default case item File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/main_decoder.v Line: 24
 Warning (10240): Verilog HDL Always Construct warning at main_decoder.v(18): inferring latch(es) for variable "controls", which holds its previous value in one or more paths through the always construct File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/main_decoder.v Line: 18
@@ -985,15 +996,15 @@ Info (10041): Inferred latch for "controls[10]" at main_decoder.v(18) File: /hom
 Info (10041): Inferred latch for "controls[11]" at main_decoder.v(18) File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/main_decoder.v Line: 18
 Info (10041): Inferred latch for "controls[12]" at main_decoder.v(18) File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/main_decoder.v Line: 18
 Info (12128): Elaborating entity "alu_decoder" for hierarchy "riscv_cpu:rvcpu|datapath:dp|controller:ctrl|alu_decoder:ad" File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/controller.v Line: 22
-Info (12128): Elaborating entity "decode_datapath" for hierarchy "riscv_cpu:rvcpu|datapath:dp|decode_datapath:dd" File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/datapath.v Line: 25
-Info (12128): Elaborating entity "reg_file" for hierarchy "riscv_cpu:rvcpu|datapath:dp|decode_datapath:dd|reg_file:rf" File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/datapath_decode.v Line: 17
-Info (12128): Elaborating entity "imm_extend" for hierarchy "riscv_cpu:rvcpu|datapath:dp|decode_datapath:dd|imm_extend:ext" File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/datapath_decode.v Line: 20
-Info (12128): Elaborating entity "reg_dec_exe" for hierarchy "riscv_cpu:rvcpu|datapath:dp|reg_dec_exe:rde" File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/datapath.v Line: 26
-Info (12128): Elaborating entity "execute_datapath" for hierarchy "riscv_cpu:rvcpu|datapath:dp|execute_datapath:ed" File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/datapath.v Line: 29
-Info (12128): Elaborating entity "alu" for hierarchy "riscv_cpu:rvcpu|datapath:dp|execute_datapath:ed|alu:alu" File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/datapath_execute.v Line: 16
-Info (12128): Elaborating entity "reg_exe_mem" for hierarchy "riscv_cpu:rvcpu|datapath:dp|reg_exe_mem:rem" File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/datapath.v Line: 30
-Info (12128): Elaborating entity "reg_mem_wb" for hierarchy "riscv_cpu:rvcpu|datapath:dp|reg_mem_wb:rmw" File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/datapath.v Line: 72
-Info (12128): Elaborating entity "mux4" for hierarchy "riscv_cpu:rvcpu|datapath:dp|mux4:ResultMux" File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/datapath.v Line: 75
+Info (12128): Elaborating entity "decode_datapath" for hierarchy "riscv_cpu:rvcpu|datapath:dp|decode_datapath:dd" File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/datapath.v Line: 29
+Info (12128): Elaborating entity "reg_file" for hierarchy "riscv_cpu:rvcpu|datapath:dp|decode_datapath:dd|reg_file:rf" File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/datapath_decode.v Line: 19
+Info (12128): Elaborating entity "imm_extend" for hierarchy "riscv_cpu:rvcpu|datapath:dp|decode_datapath:dd|imm_extend:ext" File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/datapath_decode.v Line: 22
+Info (12128): Elaborating entity "reg_dec_exe" for hierarchy "riscv_cpu:rvcpu|datapath:dp|reg_dec_exe:rde" File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/datapath.v Line: 30
+Info (12128): Elaborating entity "execute_datapath" for hierarchy "riscv_cpu:rvcpu|datapath:dp|execute_datapath:ed" File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/datapath.v Line: 33
+Info (12128): Elaborating entity "alu" for hierarchy "riscv_cpu:rvcpu|datapath:dp|execute_datapath:ed|alu:alu_inst" File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/datapath_execute.v Line: 54
+Info (12128): Elaborating entity "reg_exe_mem" for hierarchy "riscv_cpu:rvcpu|datapath:dp|reg_exe_mem:rem" File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/datapath.v Line: 34
+Info (12128): Elaborating entity "reg_mem_wb" for hierarchy "riscv_cpu:rvcpu|datapath:dp|reg_mem_wb:rmw" File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/datapath.v Line: 79
+Info (12128): Elaborating entity "mux4" for hierarchy "riscv_cpu:rvcpu|datapath:dp|mux4:ResultMux" File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/datapath.v Line: 82
 Info (12128): Elaborating entity "instr_mem" for hierarchy "instr_mem:instrmem" File: /home/adityaamehra/Desktop/rv32i-pipleined/code/t1c_riscv_cpu.v Line: 22
 Warning (10850): Verilog HDL warning at instr_mem.v(15): number of words (79) in memory file does not match the number of elements in the address range [0:511] File: /home/adityaamehra/Desktop/rv32i-pipleined/code/instr_mem.v Line: 15
 Warning (10030): Net "instr_ram.data_a" at instr_mem.v(11) has no driver or initial value, using a default initial value '0' File: /home/adityaamehra/Desktop/rv32i-pipleined/code/instr_mem.v Line: 11
@@ -1121,14 +1132,12 @@ Warning (14284): Synthesized away the following node(s):
         Warning (14320): Synthesized away node "riscv_cpu:rvcpu|datapath:dp|decode_datapath:dd|reg_file:rf|altsyncram:reg_file_arr_rtl_0|altsyncram_k5i1:auto_generated|ram_block1a29" File: /home/adityaamehra/Desktop/rv32i-pipleined/db/altsyncram_k5i1.tdf Line: 967
         Warning (14320): Synthesized away node "riscv_cpu:rvcpu|datapath:dp|decode_datapath:dd|reg_file:rf|altsyncram:reg_file_arr_rtl_0|altsyncram_k5i1:auto_generated|ram_block1a30" File: /home/adityaamehra/Desktop/rv32i-pipleined/db/altsyncram_k5i1.tdf Line: 999
         Warning (14320): Synthesized away node "riscv_cpu:rvcpu|datapath:dp|decode_datapath:dd|reg_file:rf|altsyncram:reg_file_arr_rtl_0|altsyncram_k5i1:auto_generated|ram_block1a31" File: /home/adityaamehra/Desktop/rv32i-pipleined/db/altsyncram_k5i1.tdf Line: 1031
-Warning (12241): 11 hierarchies have connectivity warnings - see the Connectivity Checks report folder
+Warning (12241): 10 hierarchies have connectivity warnings - see the Connectivity Checks report folder
 Warning (13012): Latch riscv_cpu:rvcpu|datapath:dp|controller:ctrl|main_decoder:md|controls[7] has unsafe behavior File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/main_decoder.v Line: 18
     Warning (13013): Ports D and ENA on the latch are fed by the same signal riscv_cpu:rvcpu|datapath:dp|reg_fet_dec:rfd|instrD[0] File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/reg_fd.v Line: 15
 Warning (13012): Latch riscv_cpu:rvcpu|datapath:dp|controller:ctrl|main_decoder:md|controls[9] has unsafe behavior File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/main_decoder.v Line: 18
     Warning (13013): Ports D and ENA on the latch are fed by the same signal riscv_cpu:rvcpu|datapath:dp|reg_fet_dec:rfd|instrD[0] File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/reg_fd.v Line: 15
 Warning (13012): Latch riscv_cpu:rvcpu|datapath:dp|controller:ctrl|main_decoder:md|controls[8] has unsafe behavior File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/main_decoder.v Line: 18
-    Warning (13013): Ports D and ENA on the latch are fed by the same signal riscv_cpu:rvcpu|datapath:dp|reg_fet_dec:rfd|instrD[0] File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/reg_fd.v Line: 15
-Warning (13012): Latch riscv_cpu:rvcpu|datapath:dp|controller:ctrl|main_decoder:md|controls[0] has unsafe behavior File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/main_decoder.v Line: 18
     Warning (13013): Ports D and ENA on the latch are fed by the same signal riscv_cpu:rvcpu|datapath:dp|reg_fet_dec:rfd|instrD[0] File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/reg_fd.v Line: 15
 Warning (13012): Latch riscv_cpu:rvcpu|datapath:dp|controller:ctrl|main_decoder:md|controls[4] has unsafe behavior File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/main_decoder.v Line: 18
     Warning (13013): Ports D and ENA on the latch are fed by the same signal riscv_cpu:rvcpu|datapath:dp|reg_fet_dec:rfd|instrD[0] File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/reg_fd.v Line: 15
@@ -1138,9 +1147,11 @@ Warning (13012): Latch riscv_cpu:rvcpu|datapath:dp|controller:ctrl|main_decoder:
     Warning (13013): Ports D and ENA on the latch are fed by the same signal riscv_cpu:rvcpu|datapath:dp|reg_fet_dec:rfd|instrD[0] File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/reg_fd.v Line: 15
 Warning (13012): Latch riscv_cpu:rvcpu|datapath:dp|controller:ctrl|main_decoder:md|controls[3] has unsafe behavior File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/main_decoder.v Line: 18
     Warning (13013): Ports D and ENA on the latch are fed by the same signal riscv_cpu:rvcpu|datapath:dp|reg_fet_dec:rfd|instrD[0] File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/reg_fd.v Line: 15
-Warning (13012): Latch riscv_cpu:rvcpu|datapath:dp|controller:ctrl|main_decoder:md|controls[5] has unsafe behavior File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/main_decoder.v Line: 18
+Warning (13012): Latch riscv_cpu:rvcpu|datapath:dp|controller:ctrl|main_decoder:md|controls[0] has unsafe behavior File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/main_decoder.v Line: 18
     Warning (13013): Ports D and ENA on the latch are fed by the same signal riscv_cpu:rvcpu|datapath:dp|reg_fet_dec:rfd|instrD[0] File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/reg_fd.v Line: 15
 Warning (13012): Latch riscv_cpu:rvcpu|datapath:dp|controller:ctrl|main_decoder:md|controls[12] has unsafe behavior File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/main_decoder.v Line: 18
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal riscv_cpu:rvcpu|datapath:dp|reg_fet_dec:rfd|instrD[0] File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/reg_fd.v Line: 15
+Warning (13012): Latch riscv_cpu:rvcpu|datapath:dp|controller:ctrl|main_decoder:md|controls[5] has unsafe behavior File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/main_decoder.v Line: 18
     Warning (13013): Ports D and ENA on the latch are fed by the same signal riscv_cpu:rvcpu|datapath:dp|reg_fet_dec:rfd|instrD[0] File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/reg_fd.v Line: 15
 Warning (13024): Output pins are stuck at VCC or GND
     Warning (13410): Pin "PC[1]" is stuck at GND File: /home/adityaamehra/Desktop/rv32i-pipleined/code/t1c_riscv_cpu.v Line: 11
@@ -1180,14 +1191,14 @@ Info (17049): 4 registers lost all their fanouts during netlist optimizations.
 Info (144001): Generated suppressed messages file /home/adityaamehra/Desktop/rv32i-pipleined/output_files/t1c_riscv_cpu.map.smsg
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
     Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
-Info (21057): Implemented 4033 device resources after synthesis - the final resource count might be different
+Info (21057): Implemented 4068 device resources after synthesis - the final resource count might be different
     Info (21058): Implemented 67 input pins
     Info (21059): Implemented 161 output pins
-    Info (21061): Implemented 3803 logic cells
+    Info (21061): Implemented 3838 logic cells
     Info (21064): Implemented 2 RAM segments
-Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 174 warnings
-    Info: Peak virtual memory: 522 megabytes
-    Info: Processing ended: Fri Jun 12 12:49:39 2026
+Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 179 warnings
+    Info: Peak virtual memory: 524 megabytes
+    Info: Processing ended: Fri Jun 12 18:47:11 2026
     Info: Elapsed time: 00:00:08
     Info: Total CPU time (on all processors): 00:00:18
 

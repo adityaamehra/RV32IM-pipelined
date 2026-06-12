@@ -5,8 +5,8 @@ module hazard_unit(
     input [4:0] RdW,
     input RegWriteM,
     input RegWriteW,
-    output reg [1:0] ForwardAE,
-    output reg [1:0] ForwardBE
+    output [1:0] ForwardAE,
+    output [1:0] ForwardBE
 );
 
     always @(*) begin
