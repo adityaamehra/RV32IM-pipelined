@@ -13,21 +13,23 @@ module datapath (
 
 wire [31:0] instrD,instrE;
 reg PCSrcE;
+wire FlushE,FlushD;
 
 // HAZARD UNIT
-hazard_unit hu(Rs1E,Rs2E,RdM,RdW,RegWriteM,RegWriteW,ForwardAE,ForwardBE);
-
+hazard_unit hu(Rs1E,Rs2E,Rs1D,Rs2D,RdE,RdM,RdW,RegWriteM,RegWriteW,ForwardAE,ForwardBE,ResultSrcE[0],lwStall,StallF,StallD,FlushE);
+assign FlushE=FlushE|PCSrcE;
+assign FlushD=PCSrcE;
 
 // Fetch stage datapath including the intermediate register
-fetch_datapath fd(clk,reset,PCSrcE,PCTargetE,PCF,PCPlus4F);
-reg_fet_dec rfd(clk,PCSrcE,InstrF,instrD,PCF,PCD,PCPlus4F,PCPlus4D);
+fetch_datapath fd(clk,reset,~StallF,PCSrcE,PCTargetE,PCF,PCPlus4F);
+reg_fet_dec rfd(clk,~StallD,FlushD,InstrF,instrD,PCF,PCD,PCPlus4F,PCPlus4D);
 
 // Decode stage of the pipeline
 
 controller ctrl(instrD[6:0],instrD[14:12],instrD[30],ResultSrcD,MemWriteD,ALUSrcD,RegWriteD,JumpD,ImmSrcD,ALUControlD,BranchD);
 
 decode_datapath dd(clk,reset,instrD,ResultW,RdW,RegWriteW,ImmSrcD,RdD,RD1D,RD2D,ImmExtD,Rs1D,Rs2D);
-reg_dec_exe rde(clk,PCSrcE,RD1D,RD1E,RD2D,RD2E,PCD,PCE,RdD,RdE,ImmExtD,ImmExtE,PCPlus4D,PCPlus4E,RegWriteD,RegWriteE,ResultSrcD,ResultSrcE,MemWriteD,MemWriteE,ALUSrcD,ALUSrcE,JumpD,JumpE,ALUControlD,ALUControlE,BranchD,BranchE,instrD,instrE,Rs1D,Rs1E,Rs2D,Rs2E);
+reg_dec_exe rde(clk,FlushE,RD1D,RD1E,RD2D,RD2E,PCD,PCE,RdD,RdE,ImmExtD,ImmExtE,PCPlus4D,PCPlus4E,RegWriteD,RegWriteE,ResultSrcD,ResultSrcE,MemWriteD,MemWriteE,ALUSrcD,ALUSrcE,JumpD,JumpE,ALUControlD,ALUControlE,BranchD,BranchE,instrD,instrE,Rs1D,Rs1E,Rs2D,Rs2E);
 
 // Execute stage of the pipeline
 execute_datapath ed(clk,reset,instrE,RD1E,RD2E,ImmExtE,PCE,ALUSrcE,ALUControlE,ResultW,ForwardAE,ForwardBE,ALUResultM,ZeroE,ALUResultE,WriteDataE,PCTargetE);

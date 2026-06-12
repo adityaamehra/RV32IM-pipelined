@@ -73,22 +73,22 @@ always @(posedge clk) begin
         Rs2E<=0;
     end
     else begin
-        RD1E<=RD1D;
-        RD2E<=RD2D;
-        PCE<=PCD;
-        RdE<=RdD;
-        ImmExtE<=ImmExtD;
-        PCPlus4E<=PCPlus4D;
-        RegWriteE<=RegWriteD;
-        ResultSrcE<=ResultSrcD;
-        MemWriteE<=MemWriteD;
-        ALUSrcE<=ALUSrcD;
-        JumpE<=JumpD;
-        ALUControlE<=ALUControlD;
-        BranchE<=BranchD;
-        instrE<=instrD;
-        Rs1E<=Rs1D;
-        Rs2E<=Rs2D;
+            RD1E<=RD1D;
+            RD2E<=RD2D;
+            PCE<=PCD;
+            RdE<=RdD;
+            ImmExtE<=ImmExtD;
+            PCPlus4E<=PCPlus4D;
+            RegWriteE<=RegWriteD;
+            ResultSrcE<=ResultSrcD;
+            MemWriteE<=MemWriteD;
+            ALUSrcE<=ALUSrcD;
+            JumpE<=JumpD;
+            ALUControlE<=ALUControlD;
+            BranchE<=BranchD;
+            instrE<=instrD;
+            Rs1E<=Rs1D;
+            Rs2E<=Rs2D;
     end
 end
 endmodule

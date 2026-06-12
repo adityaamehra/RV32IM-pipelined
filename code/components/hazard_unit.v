@@ -1,12 +1,20 @@
 module hazard_unit(
     input [4:0] Rs1E,
     input [4:0] Rs2E,
+    input [4:0] Rs1D,
+    input [4:0] Rs2D,
+    input [4:0] RdE,
     input [4:0] RdM,
     input [4:0] RdW,
     input RegWriteM,
     input RegWriteW,
     output reg [1:0] ForwardAE,
-    output reg [1:0] ForwardBE
+    output reg [1:0] ForwardBE,
+    input ResultSrcE0,
+    output lwStall,
+    output StallF,
+    output StallD,
+    output FlushE
 );
 
     always @(*) begin
@@ -26,4 +34,9 @@ module hazard_unit(
         else
             ForwardBE = 2'b00;
     end
+
+    assign lwStall=ResultSrcE0&((Rs1D==RdE)|(Rs2D==RdE));
+    assign StallF=lwStall;
+    assign StallD=lwStall;
+    assign FlushE=lwStall;
 endmodule
