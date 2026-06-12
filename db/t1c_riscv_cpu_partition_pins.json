@@ -392,6 +392,10 @@
 					"strict" : false
 				},
 				{
+					"name" : "PC[0]",
+					"strict" : false
+				},
+				{
 					"name" : "PC[2]",
 					"strict" : false
 				},

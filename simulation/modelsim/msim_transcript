@@ -9,187 +9,390 @@
 # Copying /home/adityaamehra/intelFPGA_lite/20.1/modelsim_ase/linuxaloem/../modelsim.ini to modelsim.ini
 # Modifying modelsim.ini
 # 
-# vlog -vlog01compat -work work +incdir+/home/adityaamehra/Desktop/riscv32I-single-cycle/code {/home/adityaamehra/Desktop/riscv32I-single-cycle/code/t1c_riscv_cpu.v}
+# vlog -vlog01compat -work work +incdir+/home/adityaamehra/Desktop/rv32i-pipleined/code {/home/adityaamehra/Desktop/rv32i-pipleined/code/t1c_riscv_cpu.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 16:36:16 on May 20,2026
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+/home/adityaamehra/Desktop/riscv32I-single-cycle/code" /home/adityaamehra/Desktop/riscv32I-single-cycle/code/t1c_riscv_cpu.v 
+# Start time: 12:49:43 on Jun 12,2026
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+/home/adityaamehra/Desktop/rv32i-pipleined/code" /home/adityaamehra/Desktop/rv32i-pipleined/code/t1c_riscv_cpu.v 
 # -- Compiling module t1c_riscv_cpu
 # 
 # Top level modules:
 # 	t1c_riscv_cpu
-# End time: 16:36:16 on May 20,2026, Elapsed time: 0:00:00
+# End time: 12:49:43 on Jun 12,2026, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+/home/adityaamehra/Desktop/riscv32I-single-cycle/code {/home/adityaamehra/Desktop/riscv32I-single-cycle/code/riscv_cpu.v}
+# vlog -vlog01compat -work work +incdir+/home/adityaamehra/Desktop/rv32i-pipleined/code {/home/adityaamehra/Desktop/rv32i-pipleined/code/riscv_cpu.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 16:36:16 on May 20,2026
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+/home/adityaamehra/Desktop/riscv32I-single-cycle/code" /home/adityaamehra/Desktop/riscv32I-single-cycle/code/riscv_cpu.v 
+# Start time: 12:49:43 on Jun 12,2026
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+/home/adityaamehra/Desktop/rv32i-pipleined/code" /home/adityaamehra/Desktop/rv32i-pipleined/code/riscv_cpu.v 
 # -- Compiling module riscv_cpu
 # 
 # Top level modules:
 # 	riscv_cpu
-# End time: 16:36:16 on May 20,2026, Elapsed time: 0:00:00
+# End time: 12:49:43 on Jun 12,2026, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+/home/adityaamehra/Desktop/riscv32I-single-cycle/code {/home/adityaamehra/Desktop/riscv32I-single-cycle/code/data_mem.v}
+# vlog -vlog01compat -work work +incdir+/home/adityaamehra/Desktop/rv32i-pipleined/code {/home/adityaamehra/Desktop/rv32i-pipleined/code/data_mem.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 16:36:16 on May 20,2026
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+/home/adityaamehra/Desktop/riscv32I-single-cycle/code" /home/adityaamehra/Desktop/riscv32I-single-cycle/code/data_mem.v 
+# Start time: 12:49:43 on Jun 12,2026
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+/home/adityaamehra/Desktop/rv32i-pipleined/code" /home/adityaamehra/Desktop/rv32i-pipleined/code/data_mem.v 
 # -- Compiling module data_mem
 # 
 # Top level modules:
 # 	data_mem
-# End time: 16:36:16 on May 20,2026, Elapsed time: 0:00:00
+# End time: 12:49:43 on Jun 12,2026, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+/home/adityaamehra/Desktop/riscv32I-single-cycle/code/components {/home/adityaamehra/Desktop/riscv32I-single-cycle/code/components/reset_ff.v}
+# vlog -vlog01compat -work work +incdir+/home/adityaamehra/Desktop/rv32i-pipleined/code/components {/home/adityaamehra/Desktop/rv32i-pipleined/code/components/reset_ff.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 16:36:16 on May 20,2026
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+/home/adityaamehra/Desktop/riscv32I-single-cycle/code/components" /home/adityaamehra/Desktop/riscv32I-single-cycle/code/components/reset_ff.v 
+# Start time: 12:49:43 on Jun 12,2026
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+/home/adityaamehra/Desktop/rv32i-pipleined/code/components" /home/adityaamehra/Desktop/rv32i-pipleined/code/components/reset_ff.v 
 # -- Compiling module reset_ff
 # 
 # Top level modules:
 # 	reset_ff
-# End time: 16:36:16 on May 20,2026, Elapsed time: 0:00:00
+# End time: 12:49:43 on Jun 12,2026, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+/home/adityaamehra/Desktop/riscv32I-single-cycle/code/components {/home/adityaamehra/Desktop/riscv32I-single-cycle/code/components/reg_file.v}
+# vlog -vlog01compat -work work +incdir+/home/adityaamehra/Desktop/rv32i-pipleined/code/components {/home/adityaamehra/Desktop/rv32i-pipleined/code/components/reg_file.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 16:36:16 on May 20,2026
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+/home/adityaamehra/Desktop/riscv32I-single-cycle/code/components" /home/adityaamehra/Desktop/riscv32I-single-cycle/code/components/reg_file.v 
+# Start time: 12:49:43 on Jun 12,2026
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+/home/adityaamehra/Desktop/rv32i-pipleined/code/components" /home/adityaamehra/Desktop/rv32i-pipleined/code/components/reg_file.v 
 # -- Compiling module reg_file
 # 
 # Top level modules:
 # 	reg_file
-# End time: 16:36:16 on May 20,2026, Elapsed time: 0:00:00
+# End time: 12:49:43 on Jun 12,2026, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+/home/adityaamehra/Desktop/riscv32I-single-cycle/code/components {/home/adityaamehra/Desktop/riscv32I-single-cycle/code/components/mux4.v}
+# vlog -vlog01compat -work work +incdir+/home/adityaamehra/Desktop/rv32i-pipleined/code/components {/home/adityaamehra/Desktop/rv32i-pipleined/code/components/mux4.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 16:36:16 on May 20,2026
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+/home/adityaamehra/Desktop/riscv32I-single-cycle/code/components" /home/adityaamehra/Desktop/riscv32I-single-cycle/code/components/mux4.v 
+# Start time: 12:49:43 on Jun 12,2026
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+/home/adityaamehra/Desktop/rv32i-pipleined/code/components" /home/adityaamehra/Desktop/rv32i-pipleined/code/components/mux4.v 
 # -- Compiling module mux4
 # 
 # Top level modules:
 # 	mux4
-# End time: 16:36:16 on May 20,2026, Elapsed time: 0:00:00
+# End time: 12:49:43 on Jun 12,2026, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+/home/adityaamehra/Desktop/riscv32I-single-cycle/code/components {/home/adityaamehra/Desktop/riscv32I-single-cycle/code/components/mux2.v}
+# vlog -vlog01compat -work work +incdir+/home/adityaamehra/Desktop/rv32i-pipleined/code/components {/home/adityaamehra/Desktop/rv32i-pipleined/code/components/mux2.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 16:36:16 on May 20,2026
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+/home/adityaamehra/Desktop/riscv32I-single-cycle/code/components" /home/adityaamehra/Desktop/riscv32I-single-cycle/code/components/mux2.v 
+# Start time: 12:49:43 on Jun 12,2026
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+/home/adityaamehra/Desktop/rv32i-pipleined/code/components" /home/adityaamehra/Desktop/rv32i-pipleined/code/components/mux2.v 
 # -- Compiling module mux2
 # 
 # Top level modules:
 # 	mux2
-# End time: 16:36:16 on May 20,2026, Elapsed time: 0:00:00
+# End time: 12:49:43 on Jun 12,2026, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+/home/adityaamehra/Desktop/riscv32I-single-cycle/code/components {/home/adityaamehra/Desktop/riscv32I-single-cycle/code/components/main_decoder.v}
+# vlog -vlog01compat -work work +incdir+/home/adityaamehra/Desktop/rv32i-pipleined/code/components {/home/adityaamehra/Desktop/rv32i-pipleined/code/components/main_decoder.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 16:36:16 on May 20,2026
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+/home/adityaamehra/Desktop/riscv32I-single-cycle/code/components" /home/adityaamehra/Desktop/riscv32I-single-cycle/code/components/main_decoder.v 
+# Start time: 12:49:43 on Jun 12,2026
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+/home/adityaamehra/Desktop/rv32i-pipleined/code/components" /home/adityaamehra/Desktop/rv32i-pipleined/code/components/main_decoder.v 
 # -- Compiling module main_decoder
 # 
 # Top level modules:
 # 	main_decoder
-# End time: 16:36:16 on May 20,2026, Elapsed time: 0:00:00
+# End time: 12:49:43 on Jun 12,2026, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+/home/adityaamehra/Desktop/riscv32I-single-cycle/code/components {/home/adityaamehra/Desktop/riscv32I-single-cycle/code/components/imm_extend.v}
+# vlog -vlog01compat -work work +incdir+/home/adityaamehra/Desktop/rv32i-pipleined/code/components {/home/adityaamehra/Desktop/rv32i-pipleined/code/components/imm_extend.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 16:36:16 on May 20,2026
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+/home/adityaamehra/Desktop/riscv32I-single-cycle/code/components" /home/adityaamehra/Desktop/riscv32I-single-cycle/code/components/imm_extend.v 
+# Start time: 12:49:43 on Jun 12,2026
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+/home/adityaamehra/Desktop/rv32i-pipleined/code/components" /home/adityaamehra/Desktop/rv32i-pipleined/code/components/imm_extend.v 
 # -- Compiling module imm_extend
 # 
 # Top level modules:
 # 	imm_extend
-# End time: 16:36:16 on May 20,2026, Elapsed time: 0:00:00
+# End time: 12:49:43 on Jun 12,2026, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+/home/adityaamehra/Desktop/riscv32I-single-cycle/code/components {/home/adityaamehra/Desktop/riscv32I-single-cycle/code/components/datapath.v}
+# vlog -vlog01compat -work work +incdir+/home/adityaamehra/Desktop/rv32i-pipleined/code/components {/home/adityaamehra/Desktop/rv32i-pipleined/code/components/datapath.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 16:36:16 on May 20,2026
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+/home/adityaamehra/Desktop/riscv32I-single-cycle/code/components" /home/adityaamehra/Desktop/riscv32I-single-cycle/code/components/datapath.v 
+# Start time: 12:49:43 on Jun 12,2026
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+/home/adityaamehra/Desktop/rv32i-pipleined/code/components" /home/adityaamehra/Desktop/rv32i-pipleined/code/components/datapath.v 
 # -- Compiling module datapath
 # 
 # Top level modules:
 # 	datapath
-# End time: 16:36:16 on May 20,2026, Elapsed time: 0:00:00
+# End time: 12:49:43 on Jun 12,2026, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+/home/adityaamehra/Desktop/riscv32I-single-cycle/code/components {/home/adityaamehra/Desktop/riscv32I-single-cycle/code/components/controller.v}
+# vlog -vlog01compat -work work +incdir+/home/adityaamehra/Desktop/rv32i-pipleined/code/components {/home/adityaamehra/Desktop/rv32i-pipleined/code/components/controller.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 16:36:16 on May 20,2026
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+/home/adityaamehra/Desktop/riscv32I-single-cycle/code/components" /home/adityaamehra/Desktop/riscv32I-single-cycle/code/components/controller.v 
+# Start time: 12:49:43 on Jun 12,2026
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+/home/adityaamehra/Desktop/rv32i-pipleined/code/components" /home/adityaamehra/Desktop/rv32i-pipleined/code/components/controller.v 
 # -- Compiling module controller
 # 
 # Top level modules:
 # 	controller
-# End time: 16:36:16 on May 20,2026, Elapsed time: 0:00:00
+# End time: 12:49:43 on Jun 12,2026, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+/home/adityaamehra/Desktop/riscv32I-single-cycle/code/components {/home/adityaamehra/Desktop/riscv32I-single-cycle/code/components/alu_decoder.v}
+# vlog -vlog01compat -work work +incdir+/home/adityaamehra/Desktop/rv32i-pipleined/code/components {/home/adityaamehra/Desktop/rv32i-pipleined/code/components/alu_decoder.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 16:36:17 on May 20,2026
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+/home/adityaamehra/Desktop/riscv32I-single-cycle/code/components" /home/adityaamehra/Desktop/riscv32I-single-cycle/code/components/alu_decoder.v 
+# Start time: 12:49:43 on Jun 12,2026
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+/home/adityaamehra/Desktop/rv32i-pipleined/code/components" /home/adityaamehra/Desktop/rv32i-pipleined/code/components/alu_decoder.v 
 # -- Compiling module alu_decoder
 # 
 # Top level modules:
 # 	alu_decoder
-# End time: 16:36:17 on May 20,2026, Elapsed time: 0:00:00
+# End time: 12:49:43 on Jun 12,2026, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+/home/adityaamehra/Desktop/riscv32I-single-cycle/code/components {/home/adityaamehra/Desktop/riscv32I-single-cycle/code/components/alu.v}
+# vlog -vlog01compat -work work +incdir+/home/adityaamehra/Desktop/rv32i-pipleined/code/components {/home/adityaamehra/Desktop/rv32i-pipleined/code/components/alu.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 16:36:17 on May 20,2026
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+/home/adityaamehra/Desktop/riscv32I-single-cycle/code/components" /home/adityaamehra/Desktop/riscv32I-single-cycle/code/components/alu.v 
+# Start time: 12:49:43 on Jun 12,2026
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+/home/adityaamehra/Desktop/rv32i-pipleined/code/components" /home/adityaamehra/Desktop/rv32i-pipleined/code/components/alu.v 
 # -- Compiling module alu
 # 
 # Top level modules:
 # 	alu
-# End time: 16:36:17 on May 20,2026, Elapsed time: 0:00:00
+# End time: 12:49:43 on Jun 12,2026, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+/home/adityaamehra/Desktop/riscv32I-single-cycle/code/components {/home/adityaamehra/Desktop/riscv32I-single-cycle/code/components/adder.v}
+# vlog -vlog01compat -work work +incdir+/home/adityaamehra/Desktop/rv32i-pipleined/code/components {/home/adityaamehra/Desktop/rv32i-pipleined/code/components/adder.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 16:36:17 on May 20,2026
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+/home/adityaamehra/Desktop/riscv32I-single-cycle/code/components" /home/adityaamehra/Desktop/riscv32I-single-cycle/code/components/adder.v 
+# Start time: 12:49:43 on Jun 12,2026
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+/home/adityaamehra/Desktop/rv32i-pipleined/code/components" /home/adityaamehra/Desktop/rv32i-pipleined/code/components/adder.v 
 # -- Compiling module adder
 # 
 # Top level modules:
 # 	adder
-# End time: 16:36:17 on May 20,2026, Elapsed time: 0:00:00
+# End time: 12:49:43 on Jun 12,2026, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+/home/adityaamehra/Desktop/riscv32I-single-cycle/code {/home/adityaamehra/Desktop/riscv32I-single-cycle/code/instr_mem.v}
+# vlog -vlog01compat -work work +incdir+/home/adityaamehra/Desktop/rv32i-pipleined/code/components {/home/adityaamehra/Desktop/rv32i-pipleined/code/components/reg_fd.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 16:36:17 on May 20,2026
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+/home/adityaamehra/Desktop/riscv32I-single-cycle/code" /home/adityaamehra/Desktop/riscv32I-single-cycle/code/instr_mem.v 
+# Start time: 12:49:43 on Jun 12,2026
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+/home/adityaamehra/Desktop/rv32i-pipleined/code/components" /home/adityaamehra/Desktop/rv32i-pipleined/code/components/reg_fd.v 
+# -- Compiling module reg_fet_dec
+# 
+# Top level modules:
+# 	reg_fet_dec
+# End time: 12:49:43 on Jun 12,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+/home/adityaamehra/Desktop/rv32i-pipleined/code/components {/home/adityaamehra/Desktop/rv32i-pipleined/code/components/reg_de.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 12:49:43 on Jun 12,2026
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+/home/adityaamehra/Desktop/rv32i-pipleined/code/components" /home/adityaamehra/Desktop/rv32i-pipleined/code/components/reg_de.v 
+# -- Compiling module reg_dec_exe
+# 
+# Top level modules:
+# 	reg_dec_exe
+# End time: 12:49:43 on Jun 12,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+/home/adityaamehra/Desktop/rv32i-pipleined/code/components {/home/adityaamehra/Desktop/rv32i-pipleined/code/components/reg_em.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 12:49:43 on Jun 12,2026
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+/home/adityaamehra/Desktop/rv32i-pipleined/code/components" /home/adityaamehra/Desktop/rv32i-pipleined/code/components/reg_em.v 
+# -- Compiling module reg_exe_mem
+# 
+# Top level modules:
+# 	reg_exe_mem
+# End time: 12:49:43 on Jun 12,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+/home/adityaamehra/Desktop/rv32i-pipleined/code/components {/home/adityaamehra/Desktop/rv32i-pipleined/code/components/reg_mw.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 12:49:43 on Jun 12,2026
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+/home/adityaamehra/Desktop/rv32i-pipleined/code/components" /home/adityaamehra/Desktop/rv32i-pipleined/code/components/reg_mw.v 
+# -- Compiling module reg_mem_wb
+# 
+# Top level modules:
+# 	reg_mem_wb
+# End time: 12:49:43 on Jun 12,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+/home/adityaamehra/Desktop/rv32i-pipleined/code/components {/home/adityaamehra/Desktop/rv32i-pipleined/code/components/datapath_fetch.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 12:49:43 on Jun 12,2026
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+/home/adityaamehra/Desktop/rv32i-pipleined/code/components" /home/adityaamehra/Desktop/rv32i-pipleined/code/components/datapath_fetch.v 
+# -- Compiling module fetch_datapath
+# 
+# Top level modules:
+# 	fetch_datapath
+# End time: 12:49:43 on Jun 12,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+/home/adityaamehra/Desktop/rv32i-pipleined/code/components {/home/adityaamehra/Desktop/rv32i-pipleined/code/components/datapath_decode.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 12:49:43 on Jun 12,2026
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+/home/adityaamehra/Desktop/rv32i-pipleined/code/components" /home/adityaamehra/Desktop/rv32i-pipleined/code/components/datapath_decode.v 
+# -- Compiling module decode_datapath
+# 
+# Top level modules:
+# 	decode_datapath
+# End time: 12:49:43 on Jun 12,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+/home/adityaamehra/Desktop/rv32i-pipleined/code/components {/home/adityaamehra/Desktop/rv32i-pipleined/code/components/datapath_execute.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 12:49:43 on Jun 12,2026
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+/home/adityaamehra/Desktop/rv32i-pipleined/code/components" /home/adityaamehra/Desktop/rv32i-pipleined/code/components/datapath_execute.v 
+# -- Compiling module execute_datapath
+# 
+# Top level modules:
+# 	execute_datapath
+# End time: 12:49:43 on Jun 12,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+/home/adityaamehra/Desktop/rv32i-pipleined/code {/home/adityaamehra/Desktop/rv32i-pipleined/code/instr_mem.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 12:49:43 on Jun 12,2026
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+/home/adityaamehra/Desktop/rv32i-pipleined/code" /home/adityaamehra/Desktop/rv32i-pipleined/code/instr_mem.v 
 # -- Compiling module instr_mem
 # 
 # Top level modules:
 # 	instr_mem
-# End time: 16:36:17 on May 20,2026, Elapsed time: 0:00:00
+# End time: 12:49:43 on Jun 12,2026, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
-# vlog -vlog01compat -work work +incdir+/home/adityaamehra/Desktop/riscv32I-single-cycle/.test {/home/adityaamehra/Desktop/riscv32I-single-cycle/.test/tb_bubblesort.v}
+# vlog -vlog01compat -work work +incdir+/home/adityaamehra/Desktop/rv32i-pipleined/.test {/home/adityaamehra/Desktop/rv32i-pipleined/.test/tb.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 16:36:17 on May 20,2026
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+/home/adityaamehra/Desktop/riscv32I-single-cycle/.test" /home/adityaamehra/Desktop/riscv32I-single-cycle/.test/tb_bubblesort.v 
-# -- Compiling module tb_bubblesort
+# Start time: 12:49:43 on Jun 12,2026
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+/home/adityaamehra/Desktop/rv32i-pipleined/.test" /home/adityaamehra/Desktop/rv32i-pipleined/.test/tb.v 
+# -- Compiling module tb
 # 
 # Top level modules:
-# 	tb_bubblesort
-# End time: 16:36:17 on May 20,2026, Elapsed time: 0:00:00
+# 	tb
+# End time: 12:49:44 on Jun 12,2026, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # 
-# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs="+acc"  tb_bubblesort
-# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs=""+acc"" tb_bubblesort 
-# Start time: 16:36:17 on May 20,2026
-# Loading work.tb_bubblesort
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs="+acc"  tb
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs=""+acc"" tb 
+# Start time: 12:49:44 on Jun 12,2026
+# Loading work.tb
 # Loading work.t1c_riscv_cpu
 # Loading work.riscv_cpu
+# Loading work.datapath
+# Loading work.fetch_datapath
+# Loading work.mux2
+# Loading work.reset_ff
+# Loading work.adder
+# Loading work.reg_fet_dec
 # Loading work.controller
 # Loading work.main_decoder
 # Loading work.alu_decoder
-# Loading work.datapath
-# Loading work.reset_ff
-# Loading work.adder
-# Loading work.mux2
+# Loading work.decode_datapath
 # Loading work.reg_file
 # Loading work.imm_extend
+# Loading work.reg_dec_exe
+# Loading work.execute_datapath
 # Loading work.alu
+# Loading work.reg_exe_mem
+# Loading work.reg_mem_wb
 # Loading work.mux4
 # Loading work.instr_mem
 # Loading work.data_mem
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'PCTargetE'. The port definition is at: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/datapath_fetch.v(6).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/uut/rvcpu/dp/fd File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/datapath.v Line: 18
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'PCPlus4F'. The port definition is at: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/datapath_fetch.v(9).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/uut/rvcpu/dp/fd File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/datapath.v Line: 18
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'PCD'. The port definition is at: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/reg_fd.v(9).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/uut/rvcpu/dp/rfd File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/datapath.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'PCPlus4F'. The port definition is at: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/reg_fd.v(11).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/uut/rvcpu/dp/rfd File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/datapath.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'PCPlus4D'. The port definition is at: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/reg_fd.v(12).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/uut/rvcpu/dp/rfd File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/datapath.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (2) does not match connection size (1) for port 'ResultSrc'. The port definition is at: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/controller.v(9).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/uut/rvcpu/dp/ctrl File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/datapath.v Line: 23
+# ** Warning: (vsim-3015) [PCDPC] - Port size (3) does not match connection size (1) for port 'ImmSrc'. The port definition is at: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/controller.v(13).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/uut/rvcpu/dp/ctrl File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/datapath.v Line: 23
+# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (1) for port 'ALUControl'. The port definition is at: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/controller.v(14).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/uut/rvcpu/dp/ctrl File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/datapath.v Line: 23
+# ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (1) for port 'RdW'. The port definition is at: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/datapath_decode.v(7).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/uut/rvcpu/dp/dd File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/datapath.v Line: 25
+# ** Warning: (vsim-3015) [PCDPC] - Port size (3) does not match connection size (1) for port 'ImmSrcD'. The port definition is at: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/datapath_decode.v(9).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/uut/rvcpu/dp/dd File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/datapath.v Line: 25
+# ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (1) for port 'RdD'. The port definition is at: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/datapath_decode.v(11).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/uut/rvcpu/dp/dd File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/datapath.v Line: 25
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'RD1D'. The port definition is at: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/datapath_decode.v(12).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/uut/rvcpu/dp/dd File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/datapath.v Line: 25
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'RD2D'. The port definition is at: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/datapath_decode.v(13).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/uut/rvcpu/dp/dd File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/datapath.v Line: 25
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'ImmExtD'. The port definition is at: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/datapath_decode.v(14).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/uut/rvcpu/dp/dd File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/datapath.v Line: 25
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'RD1D'. The port definition is at: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/reg_de.v(5).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/uut/rvcpu/dp/rde File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/datapath.v Line: 26
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'RD1E'. The port definition is at: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/reg_de.v(6).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/uut/rvcpu/dp/rde File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/datapath.v Line: 26
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'RD2D'. The port definition is at: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/reg_de.v(8).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/uut/rvcpu/dp/rde File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/datapath.v Line: 26
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'RD2E'. The port definition is at: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/reg_de.v(9).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/uut/rvcpu/dp/rde File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/datapath.v Line: 26
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'PCD'. The port definition is at: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/reg_de.v(11).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/uut/rvcpu/dp/rde File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/datapath.v Line: 26
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'PCE'. The port definition is at: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/reg_de.v(12).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/uut/rvcpu/dp/rde File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/datapath.v Line: 26
+# ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (1) for port 'RdD'. The port definition is at: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/reg_de.v(14).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/uut/rvcpu/dp/rde File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/datapath.v Line: 26
+# ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (1) for port 'RdE'. The port definition is at: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/reg_de.v(15).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/uut/rvcpu/dp/rde File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/datapath.v Line: 26
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'ImmExtD'. The port definition is at: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/reg_de.v(17).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/uut/rvcpu/dp/rde File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/datapath.v Line: 26
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'ImmExtE'. The port definition is at: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/reg_de.v(18).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/uut/rvcpu/dp/rde File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/datapath.v Line: 26
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'PCPlus4D'. The port definition is at: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/reg_de.v(20).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/uut/rvcpu/dp/rde File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/datapath.v Line: 26
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'PCPlus4E'. The port definition is at: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/reg_de.v(21).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/uut/rvcpu/dp/rde File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/datapath.v Line: 26
+# ** Warning: (vsim-3015) [PCDPC] - Port size (2) does not match connection size (1) for port 'ResultSrcD'. The port definition is at: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/reg_de.v(27).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/uut/rvcpu/dp/rde File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/datapath.v Line: 26
+# ** Warning: (vsim-3015) [PCDPC] - Port size (2) does not match connection size (1) for port 'ResultSrcE'. The port definition is at: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/reg_de.v(28).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/uut/rvcpu/dp/rde File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/datapath.v Line: 26
+# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (1) for port 'ALUControlD'. The port definition is at: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/reg_de.v(39).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/uut/rvcpu/dp/rde File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/datapath.v Line: 26
+# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (1) for port 'ALUControlE'. The port definition is at: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/reg_de.v(40).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/uut/rvcpu/dp/rde File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/datapath.v Line: 26
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'RD1E'. The port definition is at: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/datapath_execute.v(5).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/uut/rvcpu/dp/ed File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/datapath.v Line: 29
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'RD2E'. The port definition is at: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/datapath_execute.v(5).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/uut/rvcpu/dp/ed File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/datapath.v Line: 29
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'ImmExtE'. The port definition is at: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/datapath_execute.v(5).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/uut/rvcpu/dp/ed File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/datapath.v Line: 29
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'PCE'. The port definition is at: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/datapath_execute.v(6).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/uut/rvcpu/dp/ed File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/datapath.v Line: 29
+# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (1) for port 'ALUControlE'. The port definition is at: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/datapath_execute.v(8).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/uut/rvcpu/dp/ed File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/datapath.v Line: 29
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'ALUResult'. The port definition is at: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/datapath_execute.v(11).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/uut/rvcpu/dp/ed File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/datapath.v Line: 29
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'WriteDataE'. The port definition is at: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/datapath_execute.v(12).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/uut/rvcpu/dp/ed File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/datapath.v Line: 29
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'PCTargetE'. The port definition is at: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/datapath_execute.v(13).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/uut/rvcpu/dp/ed File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/datapath.v Line: 29
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'b'. The port definition is at: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/alu.v(6).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/uut/rvcpu/dp/ed/alu File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/datapath_execute.v Line: 16
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'y'. The port definition is at: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/mux2.v(8).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/uut/rvcpu/dp/ed/srcbmuxE File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/datapath_execute.v Line: 17
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'ALUResultE'. The port definition is at: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/reg_em.v(4).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/uut/rvcpu/dp/rem File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/datapath.v Line: 30
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'ALUResultM'. The port definition is at: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/reg_em.v(5).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/uut/rvcpu/dp/rem File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/datapath.v Line: 30
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'WriteDataE'. The port definition is at: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/reg_em.v(7).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/uut/rvcpu/dp/rem File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/datapath.v Line: 30
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'WriteDataM'. The port definition is at: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/reg_em.v(8).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/uut/rvcpu/dp/rem File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/datapath.v Line: 30
+# ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (1) for port 'RdE'. The port definition is at: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/reg_em.v(10).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/uut/rvcpu/dp/rem File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/datapath.v Line: 30
+# ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (1) for port 'RdM'. The port definition is at: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/reg_em.v(11).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/uut/rvcpu/dp/rem File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/datapath.v Line: 30
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'PCPlus4E'. The port definition is at: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/reg_em.v(13).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/uut/rvcpu/dp/rem File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/datapath.v Line: 30
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'PCPlus4M'. The port definition is at: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/reg_em.v(14).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/uut/rvcpu/dp/rem File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/datapath.v Line: 30
+# ** Warning: (vsim-3015) [PCDPC] - Port size (2) does not match connection size (1) for port 'ResultSrcE'. The port definition is at: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/reg_em.v(19).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/uut/rvcpu/dp/rem File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/datapath.v Line: 30
+# ** Warning: (vsim-3015) [PCDPC] - Port size (2) does not match connection size (1) for port 'ResultSrcM'. The port definition is at: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/reg_em.v(20).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/uut/rvcpu/dp/rem File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/datapath.v Line: 30
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'ReadDataW'. The port definition is at: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/reg_mw.v(5).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/uut/rvcpu/dp/rmw File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/datapath.v Line: 72
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'ALUResultM'. The port definition is at: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/reg_mw.v(7).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/uut/rvcpu/dp/rmw File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/datapath.v Line: 72
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'ALUResultW'. The port definition is at: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/reg_mw.v(8).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/uut/rvcpu/dp/rmw File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/datapath.v Line: 72
+# ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (1) for port 'RdM'. The port definition is at: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/reg_mw.v(10).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/uut/rvcpu/dp/rmw File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/datapath.v Line: 72
+# ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (1) for port 'RdW'. The port definition is at: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/reg_mw.v(11).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/uut/rvcpu/dp/rmw File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/datapath.v Line: 72
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'PCPlus4M'. The port definition is at: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/reg_mw.v(13).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/uut/rvcpu/dp/rmw File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/datapath.v Line: 72
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'PCPlus4W'. The port definition is at: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/reg_mw.v(14).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/uut/rvcpu/dp/rmw File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/datapath.v Line: 72
+# ** Warning: (vsim-3015) [PCDPC] - Port size (2) does not match connection size (1) for port 'ResultSrcM'. The port definition is at: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/reg_mw.v(19).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/uut/rvcpu/dp/rmw File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/datapath.v Line: 72
+# ** Warning: (vsim-3015) [PCDPC] - Port size (2) does not match connection size (1) for port 'ResultSrcW'. The port definition is at: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/reg_mw.v(20).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/uut/rvcpu/dp/rmw File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/datapath.v Line: 72
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'd0'. The port definition is at: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/mux4.v(6).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/uut/rvcpu/dp/ResultMux File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/datapath.v Line: 75
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'd1'. The port definition is at: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/mux4.v(6).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/uut/rvcpu/dp/ResultMux File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/datapath.v Line: 75
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'd2'. The port definition is at: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/mux4.v(6).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/uut/rvcpu/dp/ResultMux File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/datapath.v Line: 75
+# ** Warning: (vsim-3015) [PCDPC] - Port size (2) does not match connection size (1) for port 'sel'. The port definition is at: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/mux4.v(7).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/uut/rvcpu/dp/ResultMux File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/datapath.v Line: 75
 # 
 # add wave *
 # view structure
@@ -197,67 +400,7 @@
 # view signals
 # .main_pane.objects.interior.cs.body.tree
 # run -all
-# 
-# === Pre-load verification (before sort) ===
-#   data_ram[0] =  64  (expect  64)
-#   data_ram[1] =  25  (expect  25)
-#   data_ram[2] =  12  (expect  12)
-#   data_ram[3] =  88  (expect  88)
-#   data_ram[4] =  37  (expect  37)
-#   data_ram[5] =  50  (expect  50)
-#   data_ram[6] =   3  (expect   3)
-#   data_ram[7] =  99  (expect  99)
-# 
-# === CPU running bubble sort... ===
-#   [cycle 10] MEM WRITE -> addr=0  data=25
-#   [cycle 11] MEM WRITE -> addr=4  data=64
-#   [cycle 20] MEM WRITE -> addr=4  data=12
-#   [cycle 21] MEM WRITE -> addr=8  data=64
-#   [cycle 38] MEM WRITE -> addr=12  data=37
-#   [cycle 39] MEM WRITE -> addr=16  data=88
-#   [cycle 48] MEM WRITE -> addr=16  data=50
-#   [cycle 49] MEM WRITE -> addr=20  data=88
-#   [cycle 58] MEM WRITE -> addr=20  data=3
-#   [cycle 59] MEM WRITE -> addr=24  data=88
-#   [cycle 81] MEM WRITE -> addr=0  data=12
-#   [cycle 82] MEM WRITE -> addr=4  data=25
-#   [cycle 99] MEM WRITE -> addr=8  data=37
-#   [cycle 100] MEM WRITE -> addr=12  data=64
-#   [cycle 109] MEM WRITE -> addr=12  data=50
-#   [cycle 110] MEM WRITE -> addr=16  data=64
-#   [cycle 119] MEM WRITE -> addr=16  data=3
-#   [cycle 120] MEM WRITE -> addr=20  data=64
-#   [cycle 166] MEM WRITE -> addr=12  data=3
-#   [cycle 167] MEM WRITE -> addr=16  data=50
-#   [cycle 205] MEM WRITE -> addr=8  data=3
-#   [cycle 206] MEM WRITE -> addr=12  data=37
-#   [cycle 236] MEM WRITE -> addr=4  data=3
-#   [cycle 237] MEM WRITE -> addr=8  data=25
-#   [cycle 259] MEM WRITE -> addr=0  data=3
-#   [cycle 260] MEM WRITE -> addr=4  data=12
-# 
-# +-------+----------+----------+--------+
-# | Index | Expected |   Got    | Status |
-# +-------+----------+----------+--------+
-# |  [0]  |      3   |      3   |  PASS  |
-# |  [1]  |     12   |     12   |  PASS  |
-# |  [2]  |     25   |     25   |  PASS  |
-# |  [3]  |     37   |     37   |  PASS  |
-# |  [4]  |     50   |     50   |  PASS  |
-# |  [5]  |     64   |     64   |  PASS  |
-# |  [6]  |     88   |     88   |  PASS  |
-# |  [7]  |     99   |     99   |  PASS  |
-# +-------+----------+----------+--------+
-# 
-######################################
-#  BUBBLE SORT : PASS  (8/8)       #
-#  Completed in ~288 cycles          #
-######################################
-# 
-# ** Note: $stop    : /home/adityaamehra/Desktop/riscv32I-single-cycle/.test/tb_bubblesort.v(182)
-#    Time: 3020 ns  Iteration: 1  Instance: /tb_bubblesort
-# Break in Module tb_bubblesort at /home/adityaamehra/Desktop/riscv32I-single-cycle/.test/tb_bubblesort.v line 182
-# 
-# stdin: <EOF>
-# End time: 16:39:46 on May 20,2026, Elapsed time: 0:03:29
-# Errors: 0, Warnings: 0
+# Break key hit
+# Simulation stop requested.
+# End time: 12:49:56 on Jun 12,2026, Elapsed time: 0:00:12
+# Errors: 0, Warnings: 63
