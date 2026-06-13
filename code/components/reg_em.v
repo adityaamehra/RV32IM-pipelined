@@ -1,5 +1,6 @@
 module reg_exe_mem(
 input clk,
+input reset,
 
 input [31:0] ALUResultE,
 output reg [31:0] ALUResultM,
@@ -24,13 +25,23 @@ output reg MemWriteM
 );
 
 always @(posedge clk) begin
-	ALUResultM<=ALUResultE;
-	WriteDataM<=WriteDataE;
-	RdM<=RdE;
-	PCPlus4M<=PCPlus4E;
-	RegWriteM<=RegWriteE;
-	ResultSrcM<=ResultSrcE;
-	MemWriteM<=MemWriteE;
+	if(reset) begin
+		ALUResultM<=0;
+		WriteDataM<=0;
+		RdM<=0;
+		PCPlus4M<=0;
+		RegWriteM<=0;
+		ResultSrcM<=0;
+		MemWriteM<=0;
+	end else begin
+		ALUResultM<=ALUResultE;
+		WriteDataM<=WriteDataE;
+		RdM<=RdE;
+		PCPlus4M<=PCPlus4E;
+		RegWriteM<=RegWriteE;
+		ResultSrcM<=ResultSrcE;
+		MemWriteM<=MemWriteE;
+	end
 end
 
 endmodule 

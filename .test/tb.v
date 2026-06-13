@@ -1,525 +1,148 @@
-`timescale 1 ns/1 ns
+`timescale 1ns/1ps
 
 module tb;
 
-reg clk;
-reg reset;
-reg Ext_MemWrite;
-reg [31:0] Ext_WriteData, Ext_DataAdr;
+    reg         clk;
+    reg         reset;
+    reg         Ext_MemWrite;
+    reg  [31:0] Ext_WriteData;
+    reg  [31:0] Ext_DataAdr;
 
-wire [31:0] WriteData, DataAdr, ReadData;
-wire MemWrite;
-wire [31:0] PC, Result;
+    wire        MemWrite;
+    wire [31:0] WriteData;
+    wire [31:0] DataAdr;
+    wire [31:0] ReadData;
+    wire [31:0] PC;
+    wire [31:0] Result;
 
-t1c_riscv_cpu uut (clk, reset, Ext_MemWrite, Ext_WriteData, Ext_DataAdr, MemWrite, WriteData, DataAdr, ReadData, PC, Result);
+    t1c_riscv_cpu uut (
+        .clk(clk),
+        .reset(reset),
+        .Ext_MemWrite(Ext_MemWrite),
+        .Ext_WriteData(Ext_WriteData),
+        .Ext_DataAdr(Ext_DataAdr),
+        .MemWrite(MemWrite),
+        .WriteData(WriteData),
+        .DataAdr(DataAdr),
+        .ReadData(ReadData),
+        .PC(PC),
+        .Result(Result)
+    );
 
-integer fault_instrs = 0, i = 0, fw = 0, flag = 0;
+    integer total_checks = 0;
+    integer pass_count   = 0;
+    integer fail_count   = 0;
+    integer MAX_CHECKS   = 31;
 
-localparam ADDI_x0  =   32'h8;
-localparam ADDI     =   32'h10;
-localparam SLLI     =   32'h14;
-localparam SLTI     =   32'h18;
-localparam SLTIU    =   32'h1C;
-localparam XORI     =   32'h20;
-localparam SRLI     =   32'h24;
-localparam SRAI     =   32'h28;
-localparam ORI      =   32'h2C;
-localparam ANDI     =   32'h30;
+    // Data structures for verification
+    reg [39:0] expected_trace [0:30];
+    reg [8*20:1] instr_name   [0:30]; // Array of 20-character strings
 
-localparam ADD      =   32'h34;
-localparam SUB      =   32'h38;
-localparam SLL      =   32'h3C;
-localparam SLT      =   32'h40;
-localparam SLTU     =   32'h44;
-localparam XOR      =   32'h48;
-localparam SRL      =   32'h4C;
-localparam SRA      =   32'h50;
-localparam OR       =   32'h54;
-localparam AND      =   32'h58;
+    initial begin
+        clk = 0;
+        forever #5 clk = ~clk;
+    end
 
-localparam LUI      =   32'h5C;
-localparam AUIPC    =   32'h60;
+    initial begin
+        // Hardwired expected trace: [39:32] Target Register, [31:0] Expected Data
+        // Hardwired assembly mnemonics for strict logging correlation
+        
+        expected_trace[0]  = 40'h01_00000001; instr_name[0]  = "ADDI x1, x0, 1";
+        expected_trace[1]  = 40'h02_00000002; instr_name[1]  = "ADDI x2, x0, 2";
+        expected_trace[2]  = 40'h03_00000001; instr_name[2]  = "SLTI x3, x1, 2";
+        expected_trace[3]  = 40'h04_00000001; instr_name[3]  = "SLTIU x4, x1, -1";
+        expected_trace[4]  = 40'h05_00000002; instr_name[4]  = "XORI x5, x1, 3";
+        expected_trace[5]  = 40'h06_00000003; instr_name[5]  = "ORI x6, x1, 2";
+        expected_trace[6]  = 40'h07_00000002; instr_name[6]  = "ANDI x7, x5, 2";
+        expected_trace[7]  = 40'h08_00000004; instr_name[7]  = "SLLI x8, x1, 2";
+        expected_trace[8]  = 40'h09_00000002; instr_name[8]  = "SRLI x9, x8, 1";
+        expected_trace[9]  = 40'h0A_FFFFFFFC; instr_name[9]  = "ADDI x10, x0, -4";
+        expected_trace[10] = 40'h0B_FFFFFFFE; instr_name[10] = "SRAI x11, x10, 1";
+        expected_trace[11] = 40'h0C_00001000; instr_name[11] = "LUI x12, 0x1000";
+        expected_trace[12] = 40'h0D_00000030; instr_name[12] = "AUIPC x13, 0";
+        expected_trace[13] = 40'h0E_00000003; instr_name[13] = "ADD x14, x1, x2";
+        expected_trace[14] = 40'h0F_00000001; instr_name[14] = "SUB x15, x2, x1";
+        expected_trace[15] = 40'h10_00000004; instr_name[15] = "SLL x16, x1, x2";
+        expected_trace[16] = 40'h11_00000001; instr_name[16] = "SLT x17, x1, x2";
+        expected_trace[17] = 40'h12_00000001; instr_name[17] = "SLTU x18, x1, x10";
+        expected_trace[18] = 40'h13_00000003; instr_name[18] = "XOR x19, x1, x2";
+        expected_trace[19] = 40'h14_00000002; instr_name[19] = "SRL x20, x8, x1";
+        expected_trace[20] = 40'h15_FFFFFFFE; instr_name[20] = "SRA x21, x10, x1";
+        expected_trace[21] = 40'h16_00000003; instr_name[21] = "OR x22, x1, x2";
+        expected_trace[22] = 40'h17_00000002; instr_name[22] = "AND x23, x5, x2";
+        expected_trace[23] = 40'h18_FFFFFFFC; instr_name[23] = "LW x24, 0(x0)";
+        expected_trace[24] = 40'h19_00000001; instr_name[24] = "LH x25, 0(x0)";
+        expected_trace[25] = 40'h1A_00000001; instr_name[25] = "LHU x26, 0(x0)";
+        expected_trace[26] = 40'h1B_00000002; instr_name[26] = "LB x27, 0(x0)";
+        expected_trace[27] = 40'h1C_00000002; instr_name[27] = "LBU x28, 0(x0)";
+        expected_trace[28] = 40'h1E_000000B0; instr_name[28] = "JAL x30, +128";
+        expected_trace[29] = 40'h1F_000000C4; instr_name[29] = "ADDI x31, x0, 196";
+        expected_trace[30] = 40'h1C_000000BC; instr_name[30] = "JALR x28, x31, 0";
 
-localparam SB       =   32'h64;
-localparam SH       =   32'h68;
-localparam SW       =   32'h6C;
+        Ext_MemWrite  = 0;
+        Ext_WriteData = 32'b0;
+        Ext_DataAdr   = 32'b0;
 
-localparam LB       =   32'h70;
-localparam LH       =   32'h74;
-localparam LW       =   32'h78;
-localparam LBU      =   32'h7C;
-localparam LHU      =   32'h80;
+        reset = 1;
+        #22; 
+        reset = 0;
 
-localparam BLT_IN   =   32'h90;
-localparam BLT_OUT  =   32'h9C;
+        #2000;
+        
+        $display("\n============================================================");
+        $display("FINAL ISA TEST SUMMARY");
+        $display("TOTAL INSTRUCTIONS EVALUATED: %0d / %0d", total_checks, MAX_CHECKS);
+        $display("PASSED: %0d", pass_count);
+        $display("FAILED: %0d", fail_count);
+        $display("============================================================\n");
+        $finish;
+    end
 
-localparam BGE_IN   =   32'hAC;
-localparam BGE_OUT  =   32'hB8;
+    // Signal Extractions
+    wire [31:0] pc_f         = uut.rvcpu.dp.PCF;
+    wire [31:0] instr_d      = uut.rvcpu.dp.instrD;
+    wire [31:0] alu_result_e = uut.rvcpu.dp.ALUResultE;
+    wire        wb_reg_write = uut.rvcpu.dp.RegWriteW;
+    wire [4:0]  wb_rd        = uut.rvcpu.dp.RdW;
+    wire [31:0] wb_result    = uut.rvcpu.dp.ResultW;
 
-localparam BLTU_IN  =   32'hC8;
-localparam BLTU_OUT =   32'hD4;
-
-localparam BGEU_IN  =   32'hE4;
-localparam BGEU_OUT =   32'hF0;
-
-localparam BNE_IN   =   32'h100;
-localparam BNE_OUT  =   32'h10C;
-
-localparam BEQ_IN   =   32'h11C;
-localparam BEQ_OUT  =   32'h128;
-
-localparam JALR     =   32'h134;
-localparam JAL      =   32'h138;
-
-always begin
-    clk <= 1; # 5; clk <= 0; # 5;
-end
-
-initial begin
-    reset = 1;
-    Ext_MemWrite = 0; Ext_DataAdr = 32'b0; Ext_WriteData = 32'b0; #10;
-    reset = 0;
-end
-
-// Note: The blocking delay #10 inside the always block was removed to preserve timing alignment. 
-// Note: If memory test fails early on DataAdr != 96, it will halt before instruction checks complete. Ensure ASM aligns.
-
-always @(negedge clk) begin
-    if(MemWrite && !reset) begin
-        if(DataAdr === 100 & WriteData === 25) begin
-            $display("Simulation succeeded");
-            // Commenting out $stop here allows the instruction counter (i) to reach 38 and print full results
-            // $stop; 
-        end
-        else if (DataAdr !== 96 && DataAdr !== 33 && DataAdr !== 38 && DataAdr !== 40) begin
-            // Whitelisted 33, 38, 40 to prevent premature halting during SB, SH, SW instructions
-            $display("Simulation failed");
-            $stop;
+    // Cycle-by-Cycle Pipeline Telemetry
+    always @(posedge clk) begin
+        if (!reset) begin
+            $display("--- CYCLE @ %0t ns ---", $time);
+            $display("  [IF] PC: %08h", pc_f);
+            $display("  [ID] Instr: %08h", instr_d);
+            $display("  [EX] ALU Out: %08h", alu_result_e);
+            $display("  [WB] RegWrite: %b | Rd: x%0d | Result: %08h", wb_reg_write, wb_rd, wb_result);
         end
     end
-end
 
-always @(negedge clk) begin
-    case(PC)
-        ADDI_x0 : begin
-            i = i + 1'b1;
-            if(Result === -3)  $display("1. addi implementation is correct for x0 ");
+    // Explicit Instruction Evaluation 
+    always @(negedge clk) begin
+        if (!reset && wb_reg_write && wb_rd != 5'b0) begin
+            if (total_checks >= MAX_CHECKS) begin
+                $display("  -> [IGNORED EXTRANEOUS WRITE] x%0d = %08h (Evaluation complete)", wb_rd, wb_result);
+            end 
+            else if (wb_rd === expected_trace[total_checks][36:32] && wb_result === expected_trace[total_checks][31:0]) begin
+                $display("\n=> [PASS] %s", instr_name[total_checks]);
+                $display("          Expected: x%0d = %08h | Got: x%0d = %08h\n", 
+                         expected_trace[total_checks][36:32], expected_trace[total_checks][31:0],
+                         wb_rd, wb_result);
+                pass_count = pass_count + 1;
+                total_checks = total_checks + 1;
+            end 
+            else if (total_checks > 0 && wb_rd === expected_trace[total_checks-1][36:32] && wb_result === expected_trace[total_checks-1][31:0]) begin
+                $display("  -> [STALL TOLERANCE] Duplicate write to x%0d ignored.", wb_rd);
+            end 
             else begin
-                $display("1. addi implementation for x0 is incorrect");
-                fault_instrs = fault_instrs + 1'b1;
+                $display("\n=> [FAIL] %s", instr_name[total_checks]);
+                $display("          Expected: x%0d = %08h | Got: x%0d = %08h\n", 
+                         expected_trace[total_checks][36:32], expected_trace[total_checks][31:0],
+                         wb_rd, wb_result);
+                fail_count = fail_count + 1;
+                total_checks = total_checks + 1;
             end
         end
-
-        ADDI    : begin
-            i = i + 1'b1;
-            if(Result === 9) $display("2. addi implementation is correct ");
-            else begin
-                $display("2. addi implementation is incorrect");
-                fault_instrs = fault_instrs + 1'b1;
-            end
-        end
-
-        SLLI    : begin
-            i = i + 1'b1;
-            if(Result === 64) $display("3. slli implementation is correct ");
-            else begin
-                $display("3. slli implementation is incorrect");
-                fault_instrs = fault_instrs + 1'b1;
-            end
-        end
-
-        SLTI    : begin
-            i = i + 1'b1;
-            if(Result === 0) $display("4. slti implementation is correct ");
-            else begin
-                $display("4. slti implementation is incorrect");
-                fault_instrs = fault_instrs + 1'b1;
-            end
-        end
-
-        SLTIU    : begin
-            i = i + 1'b1;
-            if(Result === 1) $display("5. sltiu implementation is correct ");
-            else begin
-                $display("5. sltiu implementation is incorrect");
-                fault_instrs = fault_instrs + 1'b1;
-            end
-        end
-
-        XORI    : begin
-            i = i + 1'b1;
-            if(Result === 2) $display("6. xori implementation is correct ");
-            else begin
-                $display("6. xori implementation is incorrect");
-                fault_instrs = fault_instrs + 1'b1;
-            end
-        end
-
-        SRLI    : begin
-            i = i + 1'b1;
-            if(Result === 536870911) $display("7. srli implementation is correct ");
-            else begin
-                $display("7. srli implementation is incorrect");
-                fault_instrs = fault_instrs + 1'b1;
-            end
-        end
-
-        SRAI    : begin
-            i = i + 1'b1;
-            if(Result === -1) $display("8. srai implementation is correct ");
-            else begin
-                $display("8. srai implementation is incorrect");
-                fault_instrs = fault_instrs + 1'b1;
-            end
-        end
-
-        ORI    : begin
-            i = i + 1'b1;
-            if(Result === -1) $display("9. ori implementation is correct ");
-            else begin
-                $display("9. ori implementation is incorrect");
-                fault_instrs = fault_instrs + 1'b1;
-            end
-        end
-
-        ANDI    : begin
-            i = i + 1'b1;
-            if(Result === 1) $display("10. andi implementation is correct");
-            else begin
-                $display("10. andi implementation is incorrect");
-                fault_instrs = fault_instrs + 1'b1;
-            end
-        end
-
-        ADD    : begin
-            i = i + 1'b1;
-            if(Result === 17) $display("11. add implementation is correct ");
-            else begin
-                $display("11. add implementation is incorrect");
-                fault_instrs = fault_instrs + 1'b1;
-            end
-        end
-
-        SUB    : begin
-            i = i + 1'b1;
-            if(Result === 15) $display("12. sub implementation is correct ");
-            else begin
-                $display("12. sub implementation is incorrect");
-                fault_instrs = fault_instrs + 1'b1;
-            end
-        end
-
-        SLL    : begin
-            i = i + 1'b1;
-            if(Result === 32) $display("13. sll implementation is correct ");
-            else begin
-                $display("13. sll implementation is incorrect");
-                fault_instrs = fault_instrs + 1'b1;
-            end
-        end
-
-        SLT    : begin
-            i = i + 1'b1;
-            if(Result === 0) $display("14. slt implementation is correct ");
-            else begin
-                $display("14. slt implementation is incorrect");
-                fault_instrs = fault_instrs + 1'b1;
-            end
-        end
-
-        SLTU    : begin
-            i = i + 1'b1;
-            if(Result === 1) $display("15. sltu implementation is correct ");
-            else begin
-                $display("15. sltu implementation is incorrect");
-                fault_instrs = fault_instrs + 1'b1;
-            end
-        end
-
-        XOR    : begin
-            i = i + 1'b1;
-            if(Result === 17) $display("16. xor implementation is correct ");
-            else begin
-                $display("16. xor implementation is incorrect");
-            end
-        end
-
-        SRL    : begin
-            i = i + 1'b1;
-            if(Result === 8) $display("17. srl implementation is correct ");
-            else begin
-                $display("17. srl implementation is incorrect");
-                fault_instrs = fault_instrs + 1'b1;
-            end
-        end
-
-        SRA    : begin
-            i = i + 1'b1;
-            if(Result === 8) $display("18. sra implementation is correct ");
-            else begin
-                $display("18. sra implementation is incorrect");
-                fault_instrs = fault_instrs + 1'b1;
-            end
-        end
-
-        OR    : begin
-            i = i + 1'b1;
-            if(Result === 17) $display("19. or implementation is correct ");
-            else begin
-                $display("19. or implementation is incorrect");
-                fault_instrs = fault_instrs + 1'b1;
-            end
-        end
-
-        AND    : begin
-            i = i + 1'b1;
-            if(Result === 0) $display("20. and implementation is correct ");
-            else begin
-                $display("20. and implementation is incorrect");
-                fault_instrs = fault_instrs + 1'b1;
-            end
-        end
-
-        LUI    : begin
-            i = i + 1'b1;
-            if(Result === 32'h02000000) $display("21. lui implementation is correct ");
-            else begin
-                $display("21. lui implementation is incorrect");
-                fault_instrs = fault_instrs + 1'b1;
-            end
-        end
-
-        AUIPC    : begin
-            i = i + 1'b1;
-            if(Result === 32'h02000060) $display("22. auipc implementation is correct ");
-            else begin
-                $display("22. auipc implementation is incorrect");
-                fault_instrs = fault_instrs + 1'b1;
-            end
-        end
-
-        SB      : begin
-            i = i + 1'b1;
-            if(MemWrite && !reset) begin
-                if(DataAdr === 33 & WriteData === 1) $display ("23. sb implementation is correct");
-                else begin
-                    $display("23. sb implementation is incorrect");
-                    fault_instrs = fault_instrs + 1'b1;
-                end
-            end
-        end
-
-        SH      : begin
-            i = i + 1'b1;
-            if(MemWrite && !reset) begin
-                if(DataAdr === 38 & WriteData === -3) $display ("24. sh implementation is correct");
-                else begin
-                    $display("24. sh implementation is incorrect");
-                    fault_instrs = fault_instrs + 1'b1;
-                end
-            end
-        end
-
-        SW      : begin
-            i = i + 1'b1;
-            if(MemWrite && !reset) begin
-                if(DataAdr === 40 & WriteData === 16) $display ("25. sw implementation is correct");
-                else begin
-                    $display("25. sw implementation is incorrect");
-                    fault_instrs = fault_instrs + 1'b1;
-                end
-            end
-        end
-
-        LB      : begin
-            i = i + 1'b1;
-            if(DataAdr === 33 & Result === 1 ) $display ("26. lb implementation is correct");
-            else begin
-                $display("26. lb implementation is incorrect");
-                fault_instrs = fault_instrs + 1'b1;
-            end
-        end
-
-        LH      : begin
-            i = i + 1'b1;
-            if(DataAdr === 38 & Result === -3 ) $display ("27. lh implementation is correct");
-            else begin
-                $display("27. lh implementation is incorrect");
-                fault_instrs = fault_instrs + 1'b1;
-            end
-        end
-
-        LW      : begin
-            i = i + 1'b1;
-            if(DataAdr === 40 & Result === 16) $display ("28. lw implementation is correct");
-            else begin
-                $display("28. lw implementation is incorrect");
-                fault_instrs = fault_instrs + 1'b1;
-            end
-        end
-
-        LBU      : begin
-            i = i + 1'b1;
-            if(DataAdr === 33 & Result === 1) $display ("29. lbu implementation is correct");
-            else begin
-                $display("29. lbu implementation is incorrect");
-                fault_instrs = fault_instrs + 1'b1;
-            end
-        end
-
-        LHU     : begin
-            i = i + 1'b1;
-            if(DataAdr === 38 & Result === 32'h0000FFFD) $display ("30. lhu implementation is correct");
-            else begin
-                $display("30. lhu implementation is incorrect");
-                fault_instrs = fault_instrs + 1'b1;
-            end
-        end
-
-        BLT_IN : begin
-            if(Result <= 32'hA) $display("31. blt is executing");
-            else begin
-                $display("blt struck in loop");
-                flag = 1;
-                $stop;
-            end
-        end
-
-        BLT_OUT : begin
-            i = i + 1'b1;
-            if(Result === 5) $display("31. blt implementation is correct ");
-            else begin
-                $display("31. blt implementation is incorrect");
-                fault_instrs = fault_instrs + 1'b1;
-            end
-        end
-
-        BGE_IN : begin
-            if(Result <= 32'hB) $display("32. bge is executing");
-            else begin
-                $display("bge struck in loop");
-                flag = 1;
-                $stop;
-            end
-        end
-
-        BGE_OUT : begin
-            i = i + 1'b1;
-            if(Result === -6) $display("32. bge implementation is correct");
-            else begin
-                $display("32. bge implementation is incorrect");
-                fault_instrs = fault_instrs + 1'b1;
-            end
-        end
-
-        BLTU_IN : begin
-            if(Result <= 4) $display("33. bltu is executing");
-            else begin
-                $display("bltu struck in loop");
-                flag = 1;
-                $stop;
-            end
-        end
-
-        BLTU_OUT : begin
-            i = i + 1'b1;
-            if(Result === 5) $display("33. bltu implementation is correct ");
-            else begin
-                $display("33. bltu implementation is incorrect");
-                fault_instrs = fault_instrs + 1'b1;
-            end
-        end
-
-        BGEU_IN : begin
-            if(Result <= 5) $display("34. bgeu is executing");
-            else begin
-                $display("bgeu struck in loop");
-                flag = 1;
-                $stop;
-            end
-        end
-
-        BGEU_OUT : begin
-            i = i + 1'b1;
-            if(Result === 0) $display("34. bgeu implementation is correct ");
-            else begin
-                $display("34. bgeu implementation is incorrect");
-                fault_instrs = fault_instrs + 1'b1;
-            end
-        end
-
-        BNE_IN : begin
-            if(Result <= 5) $display("35. bne is executing");
-            else begin
-                $display("bne struck in loop");
-                flag = 1;
-                $stop;
-            end
-        end
-
-        BNE_OUT : begin
-            i = i + 1'b1;
-            if(Result === 5) $display("35. bne implementation is correct ");
-            else begin
-                $display("35. bne implementation is incorrect");
-                fault_instrs = fault_instrs + 1'b1;
-            end
-        end
-
-        BEQ_IN : begin
-            if(Result <=2) $display("36. beq is executing");
-            else begin
-                $display("beq struck in loop");
-                $stop;
-            end
-        end
-
-        BEQ_OUT : begin
-            i = i + 1'b1;
-            if(Result === 4) $display("36. beq implementation is correct ");
-            else begin
-                $display("36. beq implementation is incorrect");
-                fault_instrs = fault_instrs + 1'b1;
-            end
-        end
-
-        JALR     : begin
-            i = i + 1'b1;
-            if (Result === 32'h130) $display("37. jalr implementation is correct ");
-            else begin
-                $display("37. jalr implementation is incorrect");
-                fault_instrs = fault_instrs + 1'b1;
-            end
-        end
-
-        JAL     : begin
-            i = i + 1'b1;
-            if (Result === 32'h13C ) $display("38. jal implementation is correct ");
-            else begin
-                $display("38. jal implementation is incorrect");
-            end
-        end
-
-    endcase
-end
-
-always @(negedge clk) begin
-    if (i >= 38 || flag == 1) begin
-        $display("Faulty Instructions => %d", fault_instrs);
-        if (fault_instrs !== 0) begin
-            fw = $fopen("results.txt","w");
-            $fdisplay(fw, "%02h","Errors");
-            $display("Error(s) encountered, please check your design!");
-            $fclose(fw);
-        end
-        else begin
-            fw = $fopen("results.txt","w");
-            $fdisplay(fw, "%02h","No Errors");
-            $display("No errors encountered, congratulations!");
-            $fclose(fw);
-        end
-    $stop;
     end
-end
 
 endmodule

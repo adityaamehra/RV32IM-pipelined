@@ -1,5 +1,6 @@
 module reg_fet_dec (
 input clk,
+input reset,
 input enable,
 input flush,
 
@@ -14,7 +15,7 @@ output reg [31:0] PCPlus4D
 );
 
 always @(posedge clk) begin
-    if(flush) begin
+    if(flush | reset) begin
         instrD<=0;
         PCD<=0;
         PCPlus4D<=0;

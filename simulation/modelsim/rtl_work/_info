@@ -10,7 +10,7 @@ z2
 cModel Technology
 Z0 d/home/adityaamehra/Desktop/rv32i-pipleined/simulation/modelsim
 vadder
-Z1 !s110 1781248783
+Z1 !s110 1781339987
 !i10b 1
 !s100 m``@KGG0BRk6aH@M1UNH:1
 Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
@@ -26,7 +26,7 @@ Z5 OV;L;2020.1;71
 r1
 !s85 0
 31
-Z6 !s108 1781248783.000000
+Z6 !s108 1781339987.000000
 !s107 /home/adityaamehra/Desktop/rv32i-pipleined/code/components/adder.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+/home/adityaamehra/Desktop/rv32i-pipleined/code/components|/home/adityaamehra/Desktop/rv32i-pipleined/code/components/adder.v|
 !i113 1
@@ -106,7 +106,7 @@ R7
 R8
 R9
 vdata_mem
-R1
+Z11 !s110 1781339986
 !i10b 1
 !s100 Uchb1KJ76iZhZTLg8T=gZ2
 R2
@@ -117,31 +117,31 @@ R4
 8/home/adityaamehra/Desktop/rv32i-pipleined/code/data_mem.v
 F/home/adityaamehra/Desktop/rv32i-pipleined/code/data_mem.v
 !i122 2
-Z11 L0 5 19
+L0 5 19
 R5
 r1
 !s85 0
 31
-R6
+Z12 !s108 1781339986.000000
 !s107 /home/adityaamehra/Desktop/rv32i-pipleined/code/data_mem.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+/home/adityaamehra/Desktop/rv32i-pipleined/code|/home/adityaamehra/Desktop/rv32i-pipleined/code/data_mem.v|
 !i113 1
 R7
-Z12 !s92 -vlog01compat -work work +incdir+/home/adityaamehra/Desktop/rv32i-pipleined/code
+Z13 !s92 -vlog01compat -work work +incdir+/home/adityaamehra/Desktop/rv32i-pipleined/code
 R9
 vdatapath
 R1
 !i10b 1
-!s100 Q_agWLVmTMf@[[^I9M?z;2
+!s100 YTNL_Y7R4fI<b6dA`j10;2
 R2
-IRd5UR^@Dh8GS6g_a5=4TI2
+IKWR:SgZc>IU2d2Q>FHc973
 R3
 R0
-w1781248007
+w1781337177
 8/home/adityaamehra/Desktop/rv32i-pipleined/code/components/datapath.v
 F/home/adityaamehra/Desktop/rv32i-pipleined/code/components/datapath.v
 !i122 9
-L0 4 73
+L0 3 197
 R5
 r1
 !s85 0
@@ -156,16 +156,16 @@ R9
 vdecode_datapath
 R1
 !i10b 1
-!s100 3Yj=SCnInM>337lj4Gz4i0
+!s100 blOlPmT_S[2abbiWG5WE91
 R2
-I[V7^S_hNAT:hDWgG`5Vj60
+I03BjKVC9igHFb]fBcz=fd0
 R3
 R0
-w1781241145
+w1781264854
 8/home/adityaamehra/Desktop/rv32i-pipleined/code/components/datapath_decode.v
 F/home/adityaamehra/Desktop/rv32i-pipleined/code/components/datapath_decode.v
 !i122 19
-L0 1 23
+L0 1 27
 R5
 r1
 !s85 0
@@ -180,16 +180,16 @@ R9
 vexecute_datapath
 R1
 !i10b 1
-!s100 6i>BflM^m^fXn7BWHaH^l1
+!s100 1cf6^4=I7o@KXCMNV9SgW3
 R2
-IFTd_f6U[NYC49dc^GZ^>41
+IkTLP^BnMP`SOBWKZm>TE:2
 R3
 R0
-w1781245150
+w1781339948
 8/home/adityaamehra/Desktop/rv32i-pipleined/code/components/datapath_execute.v
 F/home/adityaamehra/Desktop/rv32i-pipleined/code/components/datapath_execute.v
 !i122 20
-L0 1 21
+L0 1 64
 R5
 r1
 !s85 0
@@ -204,16 +204,16 @@ R9
 vfetch_datapath
 R1
 !i10b 1
-!s100 8@O8@ndl5]1WAkJBE7zjV1
+!s100 5`3GlH^eAa0WbSGXLX;zO3
 R2
-I:T][DjoIXH>RzazR7zn570
+IE>[A;DPaIKcJbJ8kGoJYb0
 R3
 R0
-w1781244836
+w1781271877
 8/home/adityaamehra/Desktop/rv32i-pipleined/code/components/datapath_fetch.v
 F/home/adityaamehra/Desktop/rv32i-pipleined/code/components/datapath_fetch.v
 !i122 18
-L0 1 18
+L0 1 19
 R5
 r1
 !s85 0
@@ -221,6 +221,30 @@ r1
 R6
 !s107 /home/adityaamehra/Desktop/rv32i-pipleined/code/components/datapath_fetch.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+/home/adityaamehra/Desktop/rv32i-pipleined/code/components|/home/adityaamehra/Desktop/rv32i-pipleined/code/components/datapath_fetch.v|
+!i113 1
+R7
+R8
+R9
+vhazard_unit
+R1
+!i10b 1
+!s100 i>=[P_9Ri[PcTb8HQZWVT2
+R2
+I=Ci2IBjLlaS:2Yo;@3h^i2
+R3
+R0
+w1781272036
+8/home/adityaamehra/Desktop/rv32i-pipleined/code/components/hazard_unit.v
+F/home/adityaamehra/Desktop/rv32i-pipleined/code/components/hazard_unit.v
+!i122 21
+L0 1 42
+R5
+r1
+!s85 0
+31
+R6
+!s107 /home/adityaamehra/Desktop/rv32i-pipleined/code/components/hazard_unit.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+/home/adityaamehra/Desktop/rv32i-pipleined/code/components|/home/adityaamehra/Desktop/rv32i-pipleined/code/components/hazard_unit.v|
 !i113 1
 R7
 R8
@@ -252,16 +276,16 @@ R9
 vinstr_mem
 R1
 !i10b 1
-!s100 ajdioLzkTA3Mk]>`ZlA0N3
+!s100 =oNH3fmcV8<Inl:L6JECN0
 R2
-IeLG6I]n[2lJdVdSPM7Q>G2
+IDlHZ`o4dgN@kg<IPzZ];>3
 R3
 R0
-w1781248769
+w1781337349
 8/home/adityaamehra/Desktop/rv32i-pipleined/code/instr_mem.v
 F/home/adityaamehra/Desktop/rv32i-pipleined/code/instr_mem.v
-!i122 21
-R11
+!i122 22
+L0 5 21
 R5
 r1
 !s85 0
@@ -271,17 +295,17 @@ R6
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+/home/adityaamehra/Desktop/rv32i-pipleined/code|/home/adityaamehra/Desktop/rv32i-pipleined/code/instr_mem.v|
 !i113 1
 R7
-R12
+R13
 R9
 vmain_decoder
 R1
 !i10b 1
-!s100 a;>P@UdY;b9i<kQk?a7@V2
+!s100 _YNUziC>n<dKNANj_c3mc3
 R2
-I94I5D6QdjYJ=0A:KVoZDB0
+If4=ZV]_4^R_c<7<8><91P2
 R3
 R0
-w1781248100
+w1781253896
 8/home/adityaamehra/Desktop/rv32i-pipleined/code/components/main_decoder.v
 F/home/adityaamehra/Desktop/rv32i-pipleined/code/components/main_decoder.v
 !i122 7
@@ -309,7 +333,7 @@ R4
 8/home/adityaamehra/Desktop/rv32i-pipleined/code/components/mux2.v
 F/home/adityaamehra/Desktop/rv32i-pipleined/code/components/mux2.v
 !i122 6
-Z13 L0 5 9
+Z14 L0 5 9
 R5
 r1
 !s85 0
@@ -322,7 +346,7 @@ R7
 R8
 R9
 vmux4
-R1
+R11
 !i10b 1
 !s100 mLUKaLO@H7[ThG44eJPXH3
 R2
@@ -333,12 +357,12 @@ R4
 8/home/adityaamehra/Desktop/rv32i-pipleined/code/components/mux4.v
 F/home/adityaamehra/Desktop/rv32i-pipleined/code/components/mux4.v
 !i122 5
-R13
+R14
 R5
 r1
 !s85 0
 31
-R6
+R12
 !s107 /home/adityaamehra/Desktop/rv32i-pipleined/code/components/mux4.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+/home/adityaamehra/Desktop/rv32i-pipleined/code/components|/home/adityaamehra/Desktop/rv32i-pipleined/code/components/mux4.v|
 !i113 1
@@ -348,16 +372,16 @@ R9
 vreg_dec_exe
 R1
 !i10b 1
-!s100 oHnJS>gQmE@HOk8CBzR=`3
+!s100 ^g1aDJc3BXf=RfScPX1G@2
 R2
-ICjTTBH]2zNej_aVzFj7Fk3
+IGUMS>WNZUK6H_VIJC[mMU2
 R3
 R0
-w1781247458
+w1781337165
 8/home/adityaamehra/Desktop/rv32i-pipleined/code/components/reg_de.v
 F/home/adityaamehra/Desktop/rv32i-pipleined/code/components/reg_de.v
 !i122 15
-L0 1 84
+L0 1 95
 R5
 r1
 !s85 0
@@ -372,16 +396,16 @@ R9
 vreg_exe_mem
 R1
 !i10b 1
-!s100 :3jZal4VQWW=`jL;hQEo^3
+!s100 nQLaPoOI6A`ACLSDGYW740
 R2
-I8=<hoRj=Q?nMh;3bLm?783
+IUHaUa:;7Mc278QmmUoSfj0
 R3
 R0
-w1781241498
+w1781337138
 8/home/adityaamehra/Desktop/rv32i-pipleined/code/components/reg_em.v
 F/home/adityaamehra/Desktop/rv32i-pipleined/code/components/reg_em.v
 !i122 16
-L0 1 36
+L0 1 47
 R5
 r1
 !s85 0
@@ -396,16 +420,16 @@ R9
 vreg_fet_dec
 R1
 !i10b 1
-!s100 CRHB8No74fEL?7WR_k0OJ0
+!s100 im@KA5Vg;m07KG3hFMGcc1
 R2
-IS=RAb1NIWeD]^JgH7>hYS1
+IKPaDdfbR6M;aY7W9:XVVj2
 R3
 R0
-w1781247469
+w1781337090
 8/home/adityaamehra/Desktop/rv32i-pipleined/code/components/reg_fd.v
 F/home/adityaamehra/Desktop/rv32i-pipleined/code/components/reg_fd.v
 !i122 14
-L0 1 28
+L0 1 32
 R5
 r1
 !s85 0
@@ -418,7 +442,7 @@ R7
 R8
 R9
 vreg_file
-R1
+R11
 !i10b 1
 !s100 gGQTEXI9;1L`0cS`?niHX0
 R2
@@ -434,7 +458,7 @@ R5
 r1
 !s85 0
 31
-R6
+R12
 !s107 /home/adityaamehra/Desktop/rv32i-pipleined/code/components/reg_file.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+/home/adityaamehra/Desktop/rv32i-pipleined/code/components|/home/adityaamehra/Desktop/rv32i-pipleined/code/components/reg_file.v|
 !i113 1
@@ -444,16 +468,16 @@ R9
 vreg_mem_wb
 R1
 !i10b 1
-!s100 oV=LFg94UOLD9R56j^oXL2
+!s100 QJNI5^Z9VNi9GB`155YJo0
 R2
-I^a3FknoPU<ZG0n44HFW2@2
+Ic3:1a26m5[@c0ZX5DPkLX0
 R3
 R0
-w1781241569
+w1781337046
 8/home/adityaamehra/Desktop/rv32i-pipleined/code/components/reg_mw.v
 F/home/adityaamehra/Desktop/rv32i-pipleined/code/components/reg_mw.v
 !i122 17
-L0 1 32
+L0 1 43
 R5
 r1
 !s85 0
@@ -466,23 +490,23 @@ R7
 R8
 R9
 vreset_ff
-R1
+R11
 !i10b 1
-!s100 I<Ok9`6NJ`M4B6N`SA;T41
+!s100 `N2j`k4@I`YXICeA3:;4H0
 R2
-I??M_fB;FIXWzf2am`ez3I3
+Iek4UYhN8=S<lVj96n?CIA2
 R3
 R0
-R4
+w1781271870
 8/home/adityaamehra/Desktop/rv32i-pipleined/code/components/reset_ff.v
 F/home/adityaamehra/Desktop/rv32i-pipleined/code/components/reset_ff.v
 !i122 3
-Z14 L0 5 12
+L0 5 13
 R5
 r1
 !s85 0
 31
-R6
+R12
 !s107 /home/adityaamehra/Desktop/rv32i-pipleined/code/components/reset_ff.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+/home/adityaamehra/Desktop/rv32i-pipleined/code/components|/home/adityaamehra/Desktop/rv32i-pipleined/code/components/reset_ff.v|
 !i113 1
@@ -490,7 +514,7 @@ R7
 R8
 R9
 vriscv_cpu
-R1
+R11
 !i10b 1
 !s100 oW?[>nRb4GAc1IMhEPP^V3
 R2
@@ -501,20 +525,20 @@ w1781246736
 8/home/adityaamehra/Desktop/rv32i-pipleined/code/riscv_cpu.v
 F/home/adityaamehra/Desktop/rv32i-pipleined/code/riscv_cpu.v
 !i122 1
-R14
+L0 5 12
 R5
 r1
 !s85 0
 31
-R6
+R12
 !s107 /home/adityaamehra/Desktop/rv32i-pipleined/code/riscv_cpu.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+/home/adityaamehra/Desktop/rv32i-pipleined/code|/home/adityaamehra/Desktop/rv32i-pipleined/code/riscv_cpu.v|
 !i113 1
 R7
-R12
+R13
 R9
 vt1c_riscv_cpu
-R1
+R11
 !i10b 1
 !s100 @ILW:oBe9h5]YI]N5?W@c1
 R2
@@ -530,26 +554,26 @@ R5
 r1
 !s85 0
 31
-R6
+R12
 !s107 /home/adityaamehra/Desktop/rv32i-pipleined/code/t1c_riscv_cpu.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+/home/adityaamehra/Desktop/rv32i-pipleined/code|/home/adityaamehra/Desktop/rv32i-pipleined/code/t1c_riscv_cpu.v|
 !i113 1
 R7
-R12
+R13
 R9
 vtb
-!s110 1781248784
+R1
 !i10b 1
-!s100 fUT@8jQ5GN6XXFYYz:NbM1
+!s100 1U4^l]Acl_<XJAd;TYcWi1
 R2
-I6NFLfCm7RN:J7McFP0[>;1
+IjONd_IXPEm:zNLUz2XQn`1
 R3
 R0
-R4
+w1781339797
 8/home/adityaamehra/Desktop/rv32i-pipleined/.test/tb.v
 F/home/adityaamehra/Desktop/rv32i-pipleined/.test/tb.v
-!i122 22
-L0 3 523
+!i122 23
+L0 3 146
 R5
 r1
 !s85 0

@@ -1,5 +1,6 @@
 module reg_dec_exe(
 input clk,
+input reset,
 input flush,
 
 input [31:0] RD1D,
@@ -54,7 +55,7 @@ output reg [4:0] Rs2E
 
 
 always @(posedge clk) begin
-    if(flush) begin
+    if(flush | reset) begin
         RD1E<=0;
         RD2E<=0;
         PCE<=0;

@@ -26,6 +26,7 @@ vlog -vlog01compat -work work +incdir+/home/adityaamehra/Desktop/rv32i-pipleined
 vlog -vlog01compat -work work +incdir+/home/adityaamehra/Desktop/rv32i-pipleined/code/components {/home/adityaamehra/Desktop/rv32i-pipleined/code/components/datapath_fetch.v}
 vlog -vlog01compat -work work +incdir+/home/adityaamehra/Desktop/rv32i-pipleined/code/components {/home/adityaamehra/Desktop/rv32i-pipleined/code/components/datapath_decode.v}
 vlog -vlog01compat -work work +incdir+/home/adityaamehra/Desktop/rv32i-pipleined/code/components {/home/adityaamehra/Desktop/rv32i-pipleined/code/components/datapath_execute.v}
+vlog -vlog01compat -work work +incdir+/home/adityaamehra/Desktop/rv32i-pipleined/code/components {/home/adityaamehra/Desktop/rv32i-pipleined/code/components/hazard_unit.v}
 vlog -vlog01compat -work work +incdir+/home/adityaamehra/Desktop/rv32i-pipleined/code {/home/adityaamehra/Desktop/rv32i-pipleined/code/instr_mem.v}
 
 vlog -vlog01compat -work work +incdir+/home/adityaamehra/Desktop/rv32i-pipleined/.test {/home/adityaamehra/Desktop/rv32i-pipleined/.test/tb.v}
