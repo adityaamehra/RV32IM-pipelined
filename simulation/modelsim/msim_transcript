@@ -11,249 +11,249 @@
 # 
 # vlog -vlog01compat -work work +incdir+/home/adityaamehra/Desktop/rv32i-pipleined/code {/home/adityaamehra/Desktop/rv32i-pipleined/code/t1c_riscv_cpu.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 14:09:46 on Jun 13,2026
+# Start time: 13:44:06 on Jun 14,2026
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+/home/adityaamehra/Desktop/rv32i-pipleined/code" /home/adityaamehra/Desktop/rv32i-pipleined/code/t1c_riscv_cpu.v 
 # -- Compiling module t1c_riscv_cpu
 # 
 # Top level modules:
 # 	t1c_riscv_cpu
-# End time: 14:09:46 on Jun 13,2026, Elapsed time: 0:00:00
+# End time: 13:44:06 on Jun 14,2026, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+/home/adityaamehra/Desktop/rv32i-pipleined/code {/home/adityaamehra/Desktop/rv32i-pipleined/code/riscv_cpu.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 14:09:46 on Jun 13,2026
+# Start time: 13:44:06 on Jun 14,2026
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+/home/adityaamehra/Desktop/rv32i-pipleined/code" /home/adityaamehra/Desktop/rv32i-pipleined/code/riscv_cpu.v 
 # -- Compiling module riscv_cpu
 # 
 # Top level modules:
 # 	riscv_cpu
-# End time: 14:09:46 on Jun 13,2026, Elapsed time: 0:00:00
+# End time: 13:44:06 on Jun 14,2026, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+/home/adityaamehra/Desktop/rv32i-pipleined/code {/home/adityaamehra/Desktop/rv32i-pipleined/code/data_mem.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 14:09:46 on Jun 13,2026
+# Start time: 13:44:06 on Jun 14,2026
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+/home/adityaamehra/Desktop/rv32i-pipleined/code" /home/adityaamehra/Desktop/rv32i-pipleined/code/data_mem.v 
 # -- Compiling module data_mem
 # 
 # Top level modules:
 # 	data_mem
-# End time: 14:09:46 on Jun 13,2026, Elapsed time: 0:00:00
+# End time: 13:44:06 on Jun 14,2026, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+/home/adityaamehra/Desktop/rv32i-pipleined/code/components {/home/adityaamehra/Desktop/rv32i-pipleined/code/components/reset_ff.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 14:09:46 on Jun 13,2026
+# Start time: 13:44:06 on Jun 14,2026
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+/home/adityaamehra/Desktop/rv32i-pipleined/code/components" /home/adityaamehra/Desktop/rv32i-pipleined/code/components/reset_ff.v 
 # -- Compiling module reset_ff
 # 
 # Top level modules:
 # 	reset_ff
-# End time: 14:09:46 on Jun 13,2026, Elapsed time: 0:00:00
+# End time: 13:44:06 on Jun 14,2026, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+/home/adityaamehra/Desktop/rv32i-pipleined/code/components {/home/adityaamehra/Desktop/rv32i-pipleined/code/components/reg_file.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 14:09:46 on Jun 13,2026
+# Start time: 13:44:06 on Jun 14,2026
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+/home/adityaamehra/Desktop/rv32i-pipleined/code/components" /home/adityaamehra/Desktop/rv32i-pipleined/code/components/reg_file.v 
 # -- Compiling module reg_file
 # 
 # Top level modules:
 # 	reg_file
-# End time: 14:09:46 on Jun 13,2026, Elapsed time: 0:00:00
+# End time: 13:44:06 on Jun 14,2026, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+/home/adityaamehra/Desktop/rv32i-pipleined/code/components {/home/adityaamehra/Desktop/rv32i-pipleined/code/components/mux4.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 14:09:46 on Jun 13,2026
+# Start time: 13:44:06 on Jun 14,2026
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+/home/adityaamehra/Desktop/rv32i-pipleined/code/components" /home/adityaamehra/Desktop/rv32i-pipleined/code/components/mux4.v 
 # -- Compiling module mux4
 # 
 # Top level modules:
 # 	mux4
-# End time: 14:09:46 on Jun 13,2026, Elapsed time: 0:00:00
+# End time: 13:44:06 on Jun 14,2026, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+/home/adityaamehra/Desktop/rv32i-pipleined/code/components {/home/adityaamehra/Desktop/rv32i-pipleined/code/components/mux2.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 14:09:47 on Jun 13,2026
+# Start time: 13:44:06 on Jun 14,2026
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+/home/adityaamehra/Desktop/rv32i-pipleined/code/components" /home/adityaamehra/Desktop/rv32i-pipleined/code/components/mux2.v 
 # -- Compiling module mux2
 # 
 # Top level modules:
 # 	mux2
-# End time: 14:09:47 on Jun 13,2026, Elapsed time: 0:00:00
+# End time: 13:44:06 on Jun 14,2026, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+/home/adityaamehra/Desktop/rv32i-pipleined/code/components {/home/adityaamehra/Desktop/rv32i-pipleined/code/components/main_decoder.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 14:09:47 on Jun 13,2026
+# Start time: 13:44:06 on Jun 14,2026
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+/home/adityaamehra/Desktop/rv32i-pipleined/code/components" /home/adityaamehra/Desktop/rv32i-pipleined/code/components/main_decoder.v 
 # -- Compiling module main_decoder
 # 
 # Top level modules:
 # 	main_decoder
-# End time: 14:09:47 on Jun 13,2026, Elapsed time: 0:00:00
+# End time: 13:44:06 on Jun 14,2026, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+/home/adityaamehra/Desktop/rv32i-pipleined/code/components {/home/adityaamehra/Desktop/rv32i-pipleined/code/components/imm_extend.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 14:09:47 on Jun 13,2026
+# Start time: 13:44:06 on Jun 14,2026
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+/home/adityaamehra/Desktop/rv32i-pipleined/code/components" /home/adityaamehra/Desktop/rv32i-pipleined/code/components/imm_extend.v 
 # -- Compiling module imm_extend
 # 
 # Top level modules:
 # 	imm_extend
-# End time: 14:09:47 on Jun 13,2026, Elapsed time: 0:00:00
+# End time: 13:44:06 on Jun 14,2026, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+/home/adityaamehra/Desktop/rv32i-pipleined/code/components {/home/adityaamehra/Desktop/rv32i-pipleined/code/components/datapath.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 14:09:47 on Jun 13,2026
+# Start time: 13:44:06 on Jun 14,2026
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+/home/adityaamehra/Desktop/rv32i-pipleined/code/components" /home/adityaamehra/Desktop/rv32i-pipleined/code/components/datapath.v 
 # -- Compiling module datapath
 # 
 # Top level modules:
 # 	datapath
-# End time: 14:09:47 on Jun 13,2026, Elapsed time: 0:00:00
+# End time: 13:44:06 on Jun 14,2026, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+/home/adityaamehra/Desktop/rv32i-pipleined/code/components {/home/adityaamehra/Desktop/rv32i-pipleined/code/components/controller.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 14:09:47 on Jun 13,2026
+# Start time: 13:44:06 on Jun 14,2026
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+/home/adityaamehra/Desktop/rv32i-pipleined/code/components" /home/adityaamehra/Desktop/rv32i-pipleined/code/components/controller.v 
 # -- Compiling module controller
 # 
 # Top level modules:
 # 	controller
-# End time: 14:09:47 on Jun 13,2026, Elapsed time: 0:00:00
+# End time: 13:44:06 on Jun 14,2026, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+/home/adityaamehra/Desktop/rv32i-pipleined/code/components {/home/adityaamehra/Desktop/rv32i-pipleined/code/components/alu_decoder.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 14:09:47 on Jun 13,2026
+# Start time: 13:44:06 on Jun 14,2026
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+/home/adityaamehra/Desktop/rv32i-pipleined/code/components" /home/adityaamehra/Desktop/rv32i-pipleined/code/components/alu_decoder.v 
 # -- Compiling module alu_decoder
 # 
 # Top level modules:
 # 	alu_decoder
-# End time: 14:09:47 on Jun 13,2026, Elapsed time: 0:00:00
+# End time: 13:44:06 on Jun 14,2026, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+/home/adityaamehra/Desktop/rv32i-pipleined/code/components {/home/adityaamehra/Desktop/rv32i-pipleined/code/components/alu.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 14:09:47 on Jun 13,2026
+# Start time: 13:44:06 on Jun 14,2026
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+/home/adityaamehra/Desktop/rv32i-pipleined/code/components" /home/adityaamehra/Desktop/rv32i-pipleined/code/components/alu.v 
 # -- Compiling module alu
 # 
 # Top level modules:
 # 	alu
-# End time: 14:09:47 on Jun 13,2026, Elapsed time: 0:00:00
+# End time: 13:44:06 on Jun 14,2026, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+/home/adityaamehra/Desktop/rv32i-pipleined/code/components {/home/adityaamehra/Desktop/rv32i-pipleined/code/components/adder.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 14:09:47 on Jun 13,2026
+# Start time: 13:44:06 on Jun 14,2026
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+/home/adityaamehra/Desktop/rv32i-pipleined/code/components" /home/adityaamehra/Desktop/rv32i-pipleined/code/components/adder.v 
 # -- Compiling module adder
 # 
 # Top level modules:
 # 	adder
-# End time: 14:09:47 on Jun 13,2026, Elapsed time: 0:00:00
+# End time: 13:44:06 on Jun 14,2026, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+/home/adityaamehra/Desktop/rv32i-pipleined/code/components {/home/adityaamehra/Desktop/rv32i-pipleined/code/components/reg_fd.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 14:09:47 on Jun 13,2026
+# Start time: 13:44:06 on Jun 14,2026
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+/home/adityaamehra/Desktop/rv32i-pipleined/code/components" /home/adityaamehra/Desktop/rv32i-pipleined/code/components/reg_fd.v 
 # -- Compiling module reg_fet_dec
 # 
 # Top level modules:
 # 	reg_fet_dec
-# End time: 14:09:47 on Jun 13,2026, Elapsed time: 0:00:00
+# End time: 13:44:06 on Jun 14,2026, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+/home/adityaamehra/Desktop/rv32i-pipleined/code/components {/home/adityaamehra/Desktop/rv32i-pipleined/code/components/reg_de.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 14:09:47 on Jun 13,2026
+# Start time: 13:44:06 on Jun 14,2026
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+/home/adityaamehra/Desktop/rv32i-pipleined/code/components" /home/adityaamehra/Desktop/rv32i-pipleined/code/components/reg_de.v 
 # -- Compiling module reg_dec_exe
 # 
 # Top level modules:
 # 	reg_dec_exe
-# End time: 14:09:47 on Jun 13,2026, Elapsed time: 0:00:00
+# End time: 13:44:06 on Jun 14,2026, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+/home/adityaamehra/Desktop/rv32i-pipleined/code/components {/home/adityaamehra/Desktop/rv32i-pipleined/code/components/reg_em.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 14:09:47 on Jun 13,2026
+# Start time: 13:44:06 on Jun 14,2026
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+/home/adityaamehra/Desktop/rv32i-pipleined/code/components" /home/adityaamehra/Desktop/rv32i-pipleined/code/components/reg_em.v 
 # -- Compiling module reg_exe_mem
 # 
 # Top level modules:
 # 	reg_exe_mem
-# End time: 14:09:47 on Jun 13,2026, Elapsed time: 0:00:00
+# End time: 13:44:06 on Jun 14,2026, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+/home/adityaamehra/Desktop/rv32i-pipleined/code/components {/home/adityaamehra/Desktop/rv32i-pipleined/code/components/reg_mw.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 14:09:47 on Jun 13,2026
+# Start time: 13:44:06 on Jun 14,2026
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+/home/adityaamehra/Desktop/rv32i-pipleined/code/components" /home/adityaamehra/Desktop/rv32i-pipleined/code/components/reg_mw.v 
 # -- Compiling module reg_mem_wb
 # 
 # Top level modules:
 # 	reg_mem_wb
-# End time: 14:09:47 on Jun 13,2026, Elapsed time: 0:00:00
+# End time: 13:44:06 on Jun 14,2026, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+/home/adityaamehra/Desktop/rv32i-pipleined/code/components {/home/adityaamehra/Desktop/rv32i-pipleined/code/components/datapath_fetch.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 14:09:47 on Jun 13,2026
+# Start time: 13:44:06 on Jun 14,2026
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+/home/adityaamehra/Desktop/rv32i-pipleined/code/components" /home/adityaamehra/Desktop/rv32i-pipleined/code/components/datapath_fetch.v 
 # -- Compiling module fetch_datapath
 # 
 # Top level modules:
 # 	fetch_datapath
-# End time: 14:09:47 on Jun 13,2026, Elapsed time: 0:00:00
+# End time: 13:44:06 on Jun 14,2026, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+/home/adityaamehra/Desktop/rv32i-pipleined/code/components {/home/adityaamehra/Desktop/rv32i-pipleined/code/components/datapath_decode.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 14:09:47 on Jun 13,2026
+# Start time: 13:44:06 on Jun 14,2026
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+/home/adityaamehra/Desktop/rv32i-pipleined/code/components" /home/adityaamehra/Desktop/rv32i-pipleined/code/components/datapath_decode.v 
 # -- Compiling module decode_datapath
 # 
 # Top level modules:
 # 	decode_datapath
-# End time: 14:09:47 on Jun 13,2026, Elapsed time: 0:00:00
+# End time: 13:44:06 on Jun 14,2026, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+/home/adityaamehra/Desktop/rv32i-pipleined/code/components {/home/adityaamehra/Desktop/rv32i-pipleined/code/components/datapath_execute.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 14:09:47 on Jun 13,2026
+# Start time: 13:44:06 on Jun 14,2026
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+/home/adityaamehra/Desktop/rv32i-pipleined/code/components" /home/adityaamehra/Desktop/rv32i-pipleined/code/components/datapath_execute.v 
 # -- Compiling module execute_datapath
 # 
 # Top level modules:
 # 	execute_datapath
-# End time: 14:09:47 on Jun 13,2026, Elapsed time: 0:00:00
+# End time: 13:44:06 on Jun 14,2026, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+/home/adityaamehra/Desktop/rv32i-pipleined/code/components {/home/adityaamehra/Desktop/rv32i-pipleined/code/components/hazard_unit.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 14:09:47 on Jun 13,2026
+# Start time: 13:44:06 on Jun 14,2026
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+/home/adityaamehra/Desktop/rv32i-pipleined/code/components" /home/adityaamehra/Desktop/rv32i-pipleined/code/components/hazard_unit.v 
 # -- Compiling module hazard_unit
 # 
 # Top level modules:
 # 	hazard_unit
-# End time: 14:09:47 on Jun 13,2026, Elapsed time: 0:00:00
+# End time: 13:44:06 on Jun 14,2026, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+/home/adityaamehra/Desktop/rv32i-pipleined/code {/home/adityaamehra/Desktop/rv32i-pipleined/code/instr_mem.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 14:09:47 on Jun 13,2026
+# Start time: 13:44:06 on Jun 14,2026
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+/home/adityaamehra/Desktop/rv32i-pipleined/code" /home/adityaamehra/Desktop/rv32i-pipleined/code/instr_mem.v 
 # -- Compiling module instr_mem
 # 
 # Top level modules:
 # 	instr_mem
-# End time: 14:09:47 on Jun 13,2026, Elapsed time: 0:00:00
+# End time: 13:44:06 on Jun 14,2026, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
 # vlog -vlog01compat -work work +incdir+/home/adityaamehra/Desktop/rv32i-pipleined/.test {/home/adityaamehra/Desktop/rv32i-pipleined/.test/tb.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 14:09:47 on Jun 13,2026
+# Start time: 13:44:06 on Jun 14,2026
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+/home/adityaamehra/Desktop/rv32i-pipleined/.test" /home/adityaamehra/Desktop/rv32i-pipleined/.test/tb.v 
 # -- Compiling module tb
 # 
 # Top level modules:
 # 	tb
-# End time: 14:09:47 on Jun 13,2026, Elapsed time: 0:00:00
+# End time: 13:44:06 on Jun 14,2026, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
 # vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs="+acc"  tb
 # vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs=""+acc"" tb 
-# Start time: 14:09:47 on Jun 13,2026
+# Start time: 13:44:06 on Jun 14,2026
 # Loading work.tb
 # Loading work.t1c_riscv_cpu
 # Loading work.riscv_cpu
@@ -306,7 +306,7 @@
 #   [EX] ALU Out: 00000001
 #   [WB] RegWrite: x | Rd: x0 | Result: xxxxxxxx
 # 
-# => [PASS]       ADDI x1, x0, 1
+# => [PASS]                                ADDI x1, x0, 1
 #           Expected: x1 = 00000001 | Got: x1 = 00000001
 # 
 # --- CYCLE @ 65000 ns ---
@@ -321,7 +321,7 @@
 #   [EX] ALU Out: 00000001
 #   [WB] RegWrite: 1 | Rd: x1 | Result: 00000001
 # 
-# => [PASS]       ADDI x2, x0, 2
+# => [PASS]                                ADDI x2, x0, 2
 #           Expected: x2 = 00000002 | Got: x2 = 00000002
 # 
 # --- CYCLE @ 85000 ns ---
@@ -330,7 +330,7 @@
 #   [EX] ALU Out: 00000001
 #   [WB] RegWrite: 1 | Rd: x2 | Result: 00000002
 # 
-# => [PASS]       SLTI x3, x1, 2
+# => [PASS]                                SLTI x3, x1, 2
 #           Expected: x3 = 00000001 | Got: x3 = 00000001
 # 
 # --- CYCLE @ 95000 ns ---
@@ -339,61 +339,61 @@
 #   [EX] ALU Out: 00000002
 #   [WB] RegWrite: 1 | Rd: x3 | Result: 00000001
 # 
-# => [PASS]     SLTIU x4, x1, -1
+# => [PASS]                   SLTIU x4, x1, -1 (unsigned)
 #           Expected: x4 = 00000001 | Got: x4 = 00000001
 # 
 # --- CYCLE @ 105000 ns ---
 #   [IF] PC: 0000001c
-#   [ID] Instr: 0022f393
+#   [ID] Instr: 00237393
 #   [EX] ALU Out: 00000003
 #   [WB] RegWrite: 1 | Rd: x4 | Result: 00000001
 # 
-# => [PASS]       XORI x5, x1, 3
+# => [PASS]                       XORI x5, x1, 3  (1^3=2)
 #           Expected: x5 = 00000002 | Got: x5 = 00000002
 # 
 # --- CYCLE @ 115000 ns ---
 #   [IF] PC: 00000020
-#   [ID] Instr: 00209413
+#   [ID] Instr: 00309413
 #   [EX] ALU Out: 00000002
 #   [WB] RegWrite: 1 | Rd: x5 | Result: 00000002
 # 
-# => [PASS]        ORI x6, x1, 2
+# => [PASS]                       ORI x6, x1, 2   (1|2=3)
 #           Expected: x6 = 00000003 | Got: x6 = 00000003
 # 
 # --- CYCLE @ 125000 ns ---
 #   [IF] PC: 00000024
 #   [ID] Instr: 00145493
-#   [EX] ALU Out: 00000004
+#   [EX] ALU Out: 00000008
 #   [WB] RegWrite: 1 | Rd: x6 | Result: 00000003
 # 
-# => [PASS]       ANDI x7, x5, 2
+# => [PASS]                       ANDI x7, x6, 2  (3&2=2)
 #           Expected: x7 = 00000002 | Got: x7 = 00000002
 # 
 # --- CYCLE @ 135000 ns ---
 #   [IF] PC: 00000028
 #   [ID] Instr: ffc00513
-#   [EX] ALU Out: 00000002
+#   [EX] ALU Out: 00000004
 #   [WB] RegWrite: 1 | Rd: x7 | Result: 00000002
 # 
-# => [PASS]       SLLI x8, x1, 2
-#           Expected: x8 = 00000004 | Got: x8 = 00000004
+# => [PASS]                      SLLI x8, x1, 3  (1<<3=8)
+#           Expected: x8 = 00000008 | Got: x8 = 00000008
 # 
 # --- CYCLE @ 145000 ns ---
 #   [IF] PC: 0000002c
 #   [ID] Instr: 40155593
 #   [EX] ALU Out: fffffffc
-#   [WB] RegWrite: 1 | Rd: x8 | Result: 00000004
+#   [WB] RegWrite: 1 | Rd: x8 | Result: 00000008
 # 
-# => [PASS]       SRLI x9, x8, 1
-#           Expected: x9 = 00000002 | Got: x9 = 00000002
+# => [PASS]                      SRLI x9, x8, 1  (8>>1=4)
+#           Expected: x9 = 00000004 | Got: x9 = 00000004
 # 
 # --- CYCLE @ 155000 ns ---
 #   [IF] PC: 00000030
 #   [ID] Instr: 00001637
 #   [EX] ALU Out: fffffffe
-#   [WB] RegWrite: 1 | Rd: x9 | Result: 00000002
+#   [WB] RegWrite: 1 | Rd: x9 | Result: 00000004
 # 
-# => [PASS]     ADDI x10, x0, -4
+# => [PASS]                                ADDI x10,x0,-4
 #           Expected: x10 = fffffffc | Got: x10 = fffffffc
 # 
 # --- CYCLE @ 165000 ns ---
@@ -402,7 +402,7 @@
 #   [EX] ALU Out: 00001000
 #   [WB] RegWrite: 1 | Rd: x10 | Result: fffffffc
 # 
-# => [PASS]     SRAI x11, x10, 1
+# => [PASS]                    SRAI x11,x10,1  (-4>>1=-2)
 #           Expected: x11 = fffffffe | Got: x11 = fffffffe
 # 
 # --- CYCLE @ 175000 ns ---
@@ -411,7 +411,7 @@
 #   [EX] ALU Out: 00000030
 #   [WB] RegWrite: 1 | Rd: x11 | Result: fffffffe
 # 
-# => [PASS]      LUI x12, 0x1000
+# => [PASS]                      LUI x12, 1      (0x1000)
 #           Expected: x12 = 00001000 | Got: x12 = 00001000
 # 
 # --- CYCLE @ 185000 ns ---
@@ -420,7 +420,7 @@
 #   [EX] ALU Out: 00000003
 #   [WB] RegWrite: 1 | Rd: x12 | Result: 00001000
 # 
-# => [PASS]         AUIPC x13, 0
+# => [PASS]                     AUIPC x13, 0    (PC=0x30)
 #           Expected: x13 = 00000030 | Got: x13 = 00000030
 # 
 # --- CYCLE @ 195000 ns ---
@@ -429,7 +429,7 @@
 #   [EX] ALU Out: 00000001
 #   [WB] RegWrite: 1 | Rd: x13 | Result: 00000030
 # 
-# => [PASS]      ADD x14, x1, x2
+# => [PASS]                     ADD x14, x1, x2   (1+2=3)
 #           Expected: x14 = 00000003 | Got: x14 = 00000003
 # 
 # --- CYCLE @ 205000 ns ---
@@ -438,7 +438,7 @@
 #   [EX] ALU Out: 00000004
 #   [WB] RegWrite: 1 | Rd: x14 | Result: 00000003
 # 
-# => [PASS]      SUB x15, x2, x1
+# => [PASS]                     SUB x15, x2, x1   (2-1=1)
 #           Expected: x15 = 00000001 | Got: x15 = 00000001
 # 
 # --- CYCLE @ 215000 ns ---
@@ -447,7 +447,7 @@
 #   [EX] ALU Out: 00000001
 #   [WB] RegWrite: 1 | Rd: x15 | Result: 00000001
 # 
-# => [PASS]      SLL x16, x1, x2
+# => [PASS]                    SLL x16, x1, x2   (1<<2=4)
 #           Expected: x16 = 00000004 | Got: x16 = 00000004
 # 
 # --- CYCLE @ 225000 ns ---
@@ -456,7 +456,7 @@
 #   [EX] ALU Out: 00000001
 #   [WB] RegWrite: 1 | Rd: x16 | Result: 00000004
 # 
-# => [PASS]      SLT x17, x1, x2
+# => [PASS]                       SLT x17, x1, x2   (1<2)
 #           Expected: x17 = 00000001 | Got: x17 = 00000001
 # 
 # --- CYCLE @ 235000 ns ---
@@ -465,16 +465,16 @@
 #   [EX] ALU Out: 00000003
 #   [WB] RegWrite: 1 | Rd: x17 | Result: 00000001
 # 
-# => [PASS]    SLTU x18, x1, x10
+# => [PASS]                SLTU x18,x1,x10   (1<unsigned)
 #           Expected: x18 = 00000001 | Got: x18 = 00000001
 # 
 # --- CYCLE @ 245000 ns ---
 #   [IF] PC: 00000054
 #   [ID] Instr: 40155ab3
-#   [EX] ALU Out: 00000002
+#   [EX] ALU Out: 00000004
 #   [WB] RegWrite: 1 | Rd: x18 | Result: 00000001
 # 
-# => [PASS]      XOR x19, x1, x2
+# => [PASS]                     XOR x19, x1, x2   (1^2=3)
 #           Expected: x19 = 00000003 | Got: x19 = 00000003
 # 
 # --- CYCLE @ 255000 ns ---
@@ -483,16 +483,16 @@
 #   [EX] ALU Out: fffffffe
 #   [WB] RegWrite: 1 | Rd: x19 | Result: 00000003
 # 
-# => [PASS]      SRL x20, x8, x1
-#           Expected: x20 = 00000002 | Got: x20 = 00000002
+# => [PASS]                    SRL x20, x8, x1   (8>>1=4)
+#           Expected: x20 = 00000004 | Got: x20 = 00000004
 # 
 # --- CYCLE @ 265000 ns ---
 #   [IF] PC: 0000005c
 #   [ID] Instr: 0022fbb3
 #   [EX] ALU Out: 00000003
-#   [WB] RegWrite: 1 | Rd: x20 | Result: 00000002
+#   [WB] RegWrite: 1 | Rd: x20 | Result: 00000004
 # 
-# => [PASS]     SRA x21, x10, x1
+# => [PASS]                  SRA x21,x10,x1    (-4>>1=-2)
 #           Expected: x21 = fffffffe | Got: x21 = fffffffe
 # 
 # --- CYCLE @ 275000 ns ---
@@ -501,929 +501,2616 @@
 #   [EX] ALU Out: 00000002
 #   [WB] RegWrite: 1 | Rd: x21 | Result: fffffffe
 # 
-# => [PASS]       OR x22, x1, x2
+# => [PASS]                     OR x22, x1, x2    (1|2=3)
 #           Expected: x22 = 00000003 | Got: x22 = 00000003
 # 
 # --- CYCLE @ 285000 ns ---
 #   [IF] PC: 00000064
-#   [ID] Instr: 00002c03
+#   [ID] Instr: 00a01223
 #   [EX] ALU Out: 00000000
 #   [WB] RegWrite: 1 | Rd: x22 | Result: 00000003
 # 
-# => [PASS]      AND x23, x5, x2
+# => [PASS]                     AND x23, x5, x2   (2&2=2)
 #           Expected: x23 = 00000002 | Got: x23 = 00000002
 # 
 # --- CYCLE @ 295000 ns ---
 #   [IF] PC: 00000068
-#   [ID] Instr: 00101023
-#   [EX] ALU Out: 00000000
+#   [ID] Instr: 00a00423
+#   [EX] ALU Out: 00000004
 #   [WB] RegWrite: 1 | Rd: x23 | Result: 00000002
 # --- CYCLE @ 305000 ns ---
 #   [IF] PC: 0000006c
-#   [ID] Instr: 00001c83
-#   [EX] ALU Out: 00000000
+#   [ID] Instr: 00002c03
+#   [EX] ALU Out: 00000008
 #   [WB] RegWrite: 0 | Rd: x0 | Result: 00000000
-# 
-# => [PASS]        LW x24, 0(x0)
-#           Expected: x24 = fffffffc | Got: x24 = fffffffc
-# 
 # --- CYCLE @ 315000 ns ---
 #   [IF] PC: 00000070
-#   [ID] Instr: 00005d03
+#   [ID] Instr: 00401c83
 #   [EX] ALU Out: 00000000
-#   [WB] RegWrite: 1 | Rd: x24 | Result: fffffffc
+#   [WB] RegWrite: 0 | Rd: x4 | Result: 00000004
 # --- CYCLE @ 325000 ns ---
 #   [IF] PC: 00000074
-#   [ID] Instr: 00200023
-#   [EX] ALU Out: 00000000
-#   [WB] RegWrite: 0 | Rd: x0 | Result: 00000000
+#   [ID] Instr: 00405d03
+#   [EX] ALU Out: 00000004
+#   [WB] RegWrite: 0 | Rd: x8 | Result: 00000008
 # 
-# => [PASS]        LH x25, 0(x0)
-#           Expected: x25 = 00000001 | Got: x25 = 00000001
+# => [PASS]         LW  x24, 0(x0)    (Mem[0]=0xFFFFFFFC)
+#           Expected: x24 = fffffffc | Got: x24 = fffffffc
 # 
 # --- CYCLE @ 335000 ns ---
 #   [IF] PC: 00000078
-#   [ID] Instr: 00000d83
-#   [EX] ALU Out: 00000000
-#   [WB] RegWrite: 1 | Rd: x25 | Result: 00000001
+#   [ID] Instr: 00800d83
+#   [EX] ALU Out: 00000004
+#   [WB] RegWrite: 1 | Rd: x24 | Result: fffffffc
 # 
-# => [PASS]       LHU x26, 0(x0)
-#           Expected: x26 = 00000001 | Got: x26 = 00000001
+# => [PASS]           LH  x25, 4(x0)    (sign_ext 0xFFFC)
+#           Expected: x25 = fffffffc | Got: x25 = fffffffc
 # 
 # --- CYCLE @ 345000 ns ---
 #   [IF] PC: 0000007c
-#   [ID] Instr: 00004e03
-#   [EX] ALU Out: 00000000
-#   [WB] RegWrite: 1 | Rd: x26 | Result: 00000001
+#   [ID] Instr: 00804e03
+#   [EX] ALU Out: 00000008
+#   [WB] RegWrite: 1 | Rd: x25 | Result: fffffffc
+# 
+# => [PASS]           LHU x26, 4(x0)    (zero_ext 0xFFFC)
+#           Expected: x26 = 0000fffc | Got: x26 = 0000fffc
+# 
 # --- CYCLE @ 355000 ns ---
 #   [IF] PC: 00000080
-#   [ID] Instr: 00009463
-#   [EX] ALU Out: 00000000
-#   [WB] RegWrite: 0 | Rd: x0 | Result: 00000000
+#   [ID] Instr: 00600093
+#   [EX] ALU Out: 00000008
+#   [WB] RegWrite: 1 | Rd: x26 | Result: 0000fffc
 # 
-# => [PASS]        LB x27, 0(x0)
-#           Expected: x27 = 00000002 | Got: x27 = 00000002
+# => [PASS]             LB  x27, 8(x0)    (sign_ext 0xFC)
+#           Expected: x27 = fffffffc | Got: x27 = fffffffc
 # 
 # --- CYCLE @ 365000 ns ---
 #   [IF] PC: 00000084
-#   [ID] Instr: 06300e93
-#   [EX] ALU Out: 00000001
-#   [WB] RegWrite: 1 | Rd: x27 | Result: 00000002
+#   [ID] Instr: 00700113
+#   [EX] ALU Out: 00000006
+#   [WB] RegWrite: 1 | Rd: x27 | Result: fffffffc
 # 
-# => [PASS]       LBU x28, 0(x0)
-#           Expected: x28 = 00000002 | Got: x28 = 00000002
+# => [PASS]             LBU x28, 8(x0)    (zero_ext 0xFC)
+#           Expected: x28 = 000000fc | Got: x28 = 000000fc
 # 
 # --- CYCLE @ 375000 ns ---
-#   [IF] PC: 00000084
-#   [ID] Instr: 00000000
-#   [EX] ALU Out: 00000000
-#   [WB] RegWrite: 1 | Rd: x28 | Result: 00000002
-# --- CYCLE @ 385000 ns ---
 #   [IF] PC: 00000088
-#   [ID] Instr: 00108463
-#   [EX] ALU Out: xxxxxxxx
-#   [WB] RegWrite: 0 | Rd: x8 | Result: 00000001
+#   [ID] Instr: 022081b3
+#   [EX] ALU Out: 00000007
+#   [WB] RegWrite: 1 | Rd: x28 | Result: 000000fc
+# 
+# => [PASS]               ADDI x1, x0, 6    (M-ext setup)
+#           Expected: x1 = 00000006 | Got: x1 = 00000006
+# 
+# --- CYCLE @ 385000 ns ---
+#   [IF] PC: 0000008c
+#   [ID] Instr: ffd00213
+#   [EX] ALU Out: 0000002a
+#   [WB] RegWrite: 1 | Rd: x1 | Result: 00000006
+# 
+# => [PASS]                                ADDI x2, x0, 7
+#           Expected: x2 = 00000007 | Got: x2 = 00000007
+# 
 # --- CYCLE @ 395000 ns ---
-#   [IF] PC: 0000008c
-#   [ID] Instr: 06300e93
-#   [EX] ALU Out: 00000000
-#   [WB] RegWrite: 0 | Rd: x0 | Result: 00000000
+#   [IF] PC: 00000090
+#   [ID] Instr: 022202b3
+#   [EX] ALU Out: fffffffd
+#   [WB] RegWrite: 1 | Rd: x2 | Result: 00000007
+# 
+# => [PASS]                    MUL x3, x1, x2    (6*7=42)
+#           Expected: x3 = 0000002a | Got: x3 = 0000002a
+# 
 # --- CYCLE @ 405000 ns ---
-#   [IF] PC: 0000008c
-#   [ID] Instr: 00000000
-#   [EX] ALU Out: 00000000
-#   [WB] RegWrite: x | Rd: x0 | Result: xxxxxxxx
-# --- CYCLE @ 415000 ns ---
-#   [IF] PC: 00000090
-#   [ID] Instr: 00104463
-#   [EX] ALU Out: xxxxxxxx
-#   [WB] RegWrite: 0 | Rd: x8 | Result: 00000000
-# --- CYCLE @ 425000 ns ---
-#   [IF] PC: 00000090
-#   [ID] Instr: 00104463
-#   [EX] ALU Out: 00000001
-#   [WB] RegWrite: 0 | Rd: x0 | Result: 00000000
-# --- CYCLE @ 435000 ns ---
 #   [IF] PC: 00000094
-#   [ID] Instr: 00000000
-#   [EX] ALU Out: 00000000
-#   [WB] RegWrite: x | Rd: x0 | Result: xxxxxxxx
-# --- CYCLE @ 445000 ns ---
+#   [ID] Instr: 02221333
+#   [EX] ALU Out: ffffffeb
+#   [WB] RegWrite: 1 | Rd: x3 | Result: 0000002a
+# 
+# => [PASS]                               ADDI x4, x0, -3
+#           Expected: x4 = fffffffd | Got: x4 = fffffffd
+# 
+# --- CYCLE @ 415000 ns ---
 #   [IF] PC: 00000098
-#   [ID] Instr: 0000d463
-#   [EX] ALU Out: xxxxxxxx
-#   [WB] RegWrite: 0 | Rd: x8 | Result: 00000001
-# --- CYCLE @ 455000 ns ---
-#   [IF] PC: 00000098
-#   [ID] Instr: 0000d463
-#   [EX] ALU Out: 00000000
-#   [WB] RegWrite: 0 | Rd: x0 | Result: 00000000
-# --- CYCLE @ 465000 ns ---
+#   [ID] Instr: 0220b3b3
+#   [EX] ALU Out: ffffffff
+#   [WB] RegWrite: 1 | Rd: x4 | Result: fffffffd
+# 
+# => [PASS]                  MUL x5, x4, x2    (-3*7=-21)
+#           Expected: x5 = ffffffeb | Got: x5 = ffffffeb
+# 
+# --- CYCLE @ 425000 ns ---
 #   [IF] PC: 0000009c
-#   [ID] Instr: 00000000
+#   [ID] Instr: 02122433
 #   [EX] ALU Out: 00000000
-#   [WB] RegWrite: x | Rd: x0 | Result: xxxxxxxx
-# --- CYCLE @ 475000 ns ---
+#   [WB] RegWrite: 1 | Rd: x5 | Result: ffffffeb
+# 
+# => [PASS]                MULH x6, x4, x2   (high(-3*7))
+#           Expected: x6 = ffffffff | Got: x6 = ffffffff
+# 
+# --- CYCLE @ 435000 ns ---
 #   [IF] PC: 000000a0
-#   [ID] Instr: 00106463
-#   [EX] ALU Out: xxxxxxxx
-#   [WB] RegWrite: 0 | Rd: x8 | Result: 00000000
-# --- CYCLE @ 485000 ns ---
-#   [IF] PC: 000000a0
-#   [ID] Instr: 00106463
-#   [EX] ALU Out: 00000001
-#   [WB] RegWrite: 0 | Rd: x0 | Result: 00000000
-# --- CYCLE @ 495000 ns ---
+#   [ID] Instr: 0220c4b3
+#   [EX] ALU Out: ffffffff
+#   [WB] RegWrite: 1 | Rd: x6 | Result: ffffffff
+# 
+# => [PASS]             MULHU x7,x1,x2    (high(6u*7u)=0)
+#           Expected: x7 = 00000000 | Got: x7 = 00000000
+# 
+# --- CYCLE @ 445000 ns ---
 #   [IF] PC: 000000a4
-#   [ID] Instr: 00000000
+#   [ID] Instr: 02114533
 #   [EX] ALU Out: 00000000
-#   [WB] RegWrite: x | Rd: x0 | Result: xxxxxxxx
-# --- CYCLE @ 505000 ns ---
+#   [WB] RegWrite: 1 | Rd: x7 | Result: 00000000
+# 
+# => [PASS]          MULHSU x8,x4,x1   (high(s(-3)*u(6)))
+#           Expected: x8 = ffffffff | Got: x8 = ffffffff
+# 
+# --- CYCLE @ 455000 ns ---
 #   [IF] PC: 000000a8
-#   [ID] Instr: 0000f463
-#   [EX] ALU Out: xxxxxxxx
-#   [WB] RegWrite: 0 | Rd: x8 | Result: 00000001
-# --- CYCLE @ 515000 ns ---
-#   [IF] PC: 000000a8
-#   [ID] Instr: 0000f463
-#   [EX] ALU Out: 00000000
-#   [WB] RegWrite: 0 | Rd: x0 | Result: 00000000
-# --- CYCLE @ 525000 ns ---
+#   [ID] Instr: 0220e5b3
+#   [EX] ALU Out: 00000001
+#   [WB] RegWrite: 1 | Rd: x8 | Result: ffffffff
+# 
+# => [PASS]                     DIV x9, x1, x2    (6/7=0)
+#           Expected: x9 = 00000000 | Got: x9 = 00000000
+# 
+# --- CYCLE @ 465000 ns ---
 #   [IF] PC: 000000ac
-#   [ID] Instr: 00000000
-#   [EX] ALU Out: 00000000
-#   [WB] RegWrite: x | Rd: x0 | Result: xxxxxxxx
-# --- CYCLE @ 535000 ns ---
+#   [ID] Instr: 02116633
+#   [EX] ALU Out: 00000006
+#   [WB] RegWrite: 1 | Rd: x9 | Result: 00000000
+# 
+# => [PASS]                     DIV x10,x2,x1     (7/6=1)
+#           Expected: x10 = 00000001 | Got: x10 = 00000001
+# 
+# --- CYCLE @ 475000 ns ---
 #   [IF] PC: 000000b0
-#   [ID] Instr: 00800f6f
-#   [EX] ALU Out: xxxxxxxx
-#   [WB] RegWrite: 0 | Rd: x8 | Result: 00000000
-# --- CYCLE @ 545000 ns ---
-#   [IF] PC: 000000b0
-#   [ID] Instr: 00800f6f
-#   [EX] ALU Out: 00000004
-#   [WB] RegWrite: 0 | Rd: x0 | Result: 00000000
-# --- CYCLE @ 555000 ns ---
+#   [ID] Instr: 0220d6b3
+#   [EX] ALU Out: 00000001
+#   [WB] RegWrite: 1 | Rd: x10 | Result: 00000001
+# 
+# => [PASS]                     REM x11,x1,x2     (6%7=6)
+#           Expected: x11 = 00000006 | Got: x11 = 00000006
+# 
+# --- CYCLE @ 485000 ns ---
 #   [IF] PC: 000000b4
-#   [ID] Instr: 00000000
+#   [ID] Instr: 0220f733
 #   [EX] ALU Out: 00000000
-#   [WB] RegWrite: x | Rd: x0 | Result: xxxxxxxx
+#   [WB] RegWrite: 1 | Rd: x11 | Result: 00000006
 # 
-# => [PASS]        JAL x30, +128
-#           Expected: x30 = 000000b0 | Got: x30 = 000000b0
+# => [PASS]                     REM x12,x2,x1     (7%6=1)
+#           Expected: x12 = 00000001 | Got: x12 = 00000001
 # 
-# --- CYCLE @ 565000 ns ---
+# --- CYCLE @ 495000 ns ---
 #   [IF] PC: 000000b8
-#   [ID] Instr: 0c400f93
-#   [EX] ALU Out: xxxxxxxx
-#   [WB] RegWrite: 1 | Rd: x30 | Result: 000000b0
-# --- CYCLE @ 575000 ns ---
-#   [IF] PC: 000000b8
-#   [ID] Instr: 0c400f93
-#   [EX] ALU Out: 000000c4
-#   [WB] RegWrite: 0 | Rd: x0 | Result: 00000000
-# --- CYCLE @ 585000 ns ---
+#   [ID] Instr: 00500093
+#   [EX] ALU Out: 00000006
+#   [WB] RegWrite: 1 | Rd: x12 | Result: 00000001
+# 
+# => [PASS]            DIVU x13,x1,x2    (6/7 unsigned=0)
+#           Expected: x13 = 00000000 | Got: x13 = 00000000
+# 
+# --- CYCLE @ 505000 ns ---
 #   [IF] PC: 000000bc
-#   [ID] Instr: 000f8e67
-#   [EX] ALU Out: 000000c4
-#   [WB] RegWrite: x | Rd: x0 | Result: xxxxxxxx
+#   [ID] Instr: 00500113
+#   [EX] ALU Out: 00000005
+#   [WB] RegWrite: 1 | Rd: x13 | Result: 00000000
 # 
-# => [PASS]    ADDI x31, x0, 196
-#           Expected: x31 = 000000c4 | Got: x31 = 000000c4
+# => [PASS]            REMU x14,x1,x2    (6%7 unsigned=6)
+#           Expected: x14 = 00000006 | Got: x14 = 00000006
 # 
-# --- CYCLE @ 595000 ns ---
+# --- CYCLE @ 515000 ns ---
 #   [IF] PC: 000000c0
-#   [ID] Instr: 06300e93
-#   [EX] ALU Out: 000000c4
-#   [WB] RegWrite: 1 | Rd: x31 | Result: 000000c4
-#   -> [STALL TOLERANCE] Duplicate write to x31 ignored.
-# --- CYCLE @ 605000 ns ---
+#   [ID] Instr: 00208463
+#   [EX] ALU Out: 00000005
+#   [WB] RegWrite: 1 | Rd: x14 | Result: 00000006
+# 
+# => [PASS]                 ADDI x1, x0, 5    (BEQ setup)
+#           Expected: x1 = 00000005 | Got: x1 = 00000005
+# 
+# --- CYCLE @ 525000 ns ---
+#   [IF] PC: 000000c4
+#   [ID] Instr: 7ff00e93
+#   [EX] ALU Out: 00000000
+#   [WB] RegWrite: 1 | Rd: x1 | Result: 00000005
+# 
+# => [PASS]                                ADDI x2, x0, 5
+#           Expected: x2 = 00000005 | Got: x2 = 00000005
+# 
+# --- CYCLE @ 535000 ns ---
 #   [IF] PC: 000000c4
 #   [ID] Instr: 00000000
 #   [EX] ALU Out: 00000000
-#   [WB] RegWrite: 1 | Rd: x31 | Result: 000000c4
-# 
-# => [PASS]     JALR x28, x31, 0
-#           Expected: x28 = 000000bc | Got: x28 = 000000bc
-# 
-# --- CYCLE @ 615000 ns ---
+#   [WB] RegWrite: 1 | Rd: x2 | Result: 00000005
+# --- CYCLE @ 545000 ns ---
 #   [IF] PC: 000000c8
-#   [ID] Instr: 00000013
+#   [ID] Instr: 00100193
 #   [EX] ALU Out: xxxxxxxx
-#   [WB] RegWrite: 1 | Rd: x28 | Result: 000000bc
-# --- CYCLE @ 625000 ns ---
+#   [WB] RegWrite: 0 | Rd: x8 | Result: 00000000
+# --- CYCLE @ 555000 ns ---
 #   [IF] PC: 000000c8
-#   [ID] Instr: 00000013
+#   [ID] Instr: 00100193
+#   [EX] ALU Out: 00000001
+#   [WB] RegWrite: 0 | Rd: x0 | Result: 00000000
+# --- CYCLE @ 565000 ns ---
+#   [IF] PC: 000000cc
+#   [ID] Instr: 00300093
+#   [EX] ALU Out: 00000001
+#   [WB] RegWrite: x | Rd: x0 | Result: xxxxxxxx
+# 
+# => [PASS]                      BEQ TAKEN: x3=1   (5==5)
+#           Expected: x3 = 00000001 | Got: x3 = 00000001
+# 
+# --- CYCLE @ 575000 ns ---
+#   [IF] PC: 000000d0
+#   [ID] Instr: 00700113
+#   [EX] ALU Out: 00000003
+#   [WB] RegWrite: 1 | Rd: x3 | Result: 00000001
+#   -> [STALL TOLERANCE] Duplicate write to x3 ignored.
+# --- CYCLE @ 585000 ns ---
+#   [IF] PC: 000000d4
+#   [ID] Instr: 00209463
+#   [EX] ALU Out: 00000007
+#   [WB] RegWrite: 1 | Rd: x3 | Result: 00000001
+# 
+# => [PASS]                 ADDI x1, x0, 3    (BNE setup)
+#           Expected: x1 = 00000003 | Got: x1 = 00000003
+# 
+# --- CYCLE @ 595000 ns ---
+#   [IF] PC: 000000d8
+#   [ID] Instr: 7ff00e93
+#   [EX] ALU Out: fffffffc
+#   [WB] RegWrite: 1 | Rd: x1 | Result: 00000003
+# 
+# => [PASS]                                ADDI x2, x0, 7
+#           Expected: x2 = 00000007 | Got: x2 = 00000007
+# 
+# --- CYCLE @ 605000 ns ---
+#   [IF] PC: 000000d8
+#   [ID] Instr: 00000000
 #   [EX] ALU Out: 00000000
+#   [WB] RegWrite: 1 | Rd: x2 | Result: 00000007
+# --- CYCLE @ 615000 ns ---
+#   [IF] PC: 000000dc
+#   [ID] Instr: 00100213
+#   [EX] ALU Out: xxxxxxxx
+#   [WB] RegWrite: 0 | Rd: x8 | Result: fffffffc
+# --- CYCLE @ 625000 ns ---
+#   [IF] PC: 000000dc
+#   [ID] Instr: 00100213
+#   [EX] ALU Out: 00000001
 #   [WB] RegWrite: 0 | Rd: x0 | Result: 00000000
 # --- CYCLE @ 635000 ns ---
-#   [IF] PC: 000000cc
-#   [ID] Instr: 00000013
-#   [EX] ALU Out: 00000000
-#   [WB] RegWrite: x | Rd: x0 | Result: xxxxxxxx
-# --- CYCLE @ 645000 ns ---
-#   [IF] PC: 000000d0
-#   [ID] Instr: 00000013
-#   [EX] ALU Out: 00000000
-#   [WB] RegWrite: 1 | Rd: x0 | Result: 00000000
-# --- CYCLE @ 655000 ns ---
-#   [IF] PC: 000000d4
-#   [ID] Instr: 00000013
-#   [EX] ALU Out: 00000000
-#   [WB] RegWrite: 1 | Rd: x0 | Result: 00000000
-# --- CYCLE @ 665000 ns ---
-#   [IF] PC: 000000d8
-#   [ID] Instr: 00000013
-#   [EX] ALU Out: 00000000
-#   [WB] RegWrite: 1 | Rd: x0 | Result: 00000000
-# --- CYCLE @ 675000 ns ---
-#   [IF] PC: 000000dc
-#   [ID] Instr: 00000013
-#   [EX] ALU Out: 00000000
-#   [WB] RegWrite: 1 | Rd: x0 | Result: 00000000
-# --- CYCLE @ 685000 ns ---
 #   [IF] PC: 000000e0
-#   [ID] Instr: 00000013
-#   [EX] ALU Out: 00000000
-#   [WB] RegWrite: 1 | Rd: x0 | Result: 00000000
-# --- CYCLE @ 695000 ns ---
+#   [ID] Instr: 0020c463
+#   [EX] ALU Out: 00000001
+#   [WB] RegWrite: x | Rd: x0 | Result: xxxxxxxx
+# 
+# => [PASS]                      BNE TAKEN: x4=1   (3!=7)
+#           Expected: x4 = 00000001 | Got: x4 = 00000001
+# 
+# --- CYCLE @ 645000 ns ---
 #   [IF] PC: 000000e4
-#   [ID] Instr: 00000013
+#   [ID] Instr: 7ff00e93
+#   [EX] ALU Out: 00000001
+#   [WB] RegWrite: 1 | Rd: x4 | Result: 00000001
+#   -> [STALL TOLERANCE] Duplicate write to x4 ignored.
+# --- CYCLE @ 655000 ns ---
+#   [IF] PC: 000000e4
+#   [ID] Instr: 00000000
 #   [EX] ALU Out: 00000000
-#   [WB] RegWrite: 1 | Rd: x0 | Result: 00000000
-# --- CYCLE @ 705000 ns ---
+#   [WB] RegWrite: 1 | Rd: x4 | Result: 00000001
+# --- CYCLE @ 665000 ns ---
 #   [IF] PC: 000000e8
-#   [ID] Instr: 00000013
-#   [EX] ALU Out: 00000000
-#   [WB] RegWrite: 1 | Rd: x0 | Result: 00000000
-# --- CYCLE @ 715000 ns ---
+#   [ID] Instr: 00100293
+#   [EX] ALU Out: xxxxxxxx
+#   [WB] RegWrite: 0 | Rd: x8 | Result: 00000001
+# --- CYCLE @ 675000 ns ---
+#   [IF] PC: 000000e8
+#   [ID] Instr: 00100293
+#   [EX] ALU Out: 00000001
+#   [WB] RegWrite: 0 | Rd: x0 | Result: 00000000
+# --- CYCLE @ 685000 ns ---
 #   [IF] PC: 000000ec
-#   [ID] Instr: 00000013
-#   [EX] ALU Out: 00000000
-#   [WB] RegWrite: 1 | Rd: x0 | Result: 00000000
-# --- CYCLE @ 725000 ns ---
+#   [ID] Instr: 00700093
+#   [EX] ALU Out: 00000001
+#   [WB] RegWrite: x | Rd: x0 | Result: xxxxxxxx
+# 
+# => [PASS]                BLT TAKEN: x5=1   (3<7 signed)
+#           Expected: x5 = 00000001 | Got: x5 = 00000001
+# 
+# --- CYCLE @ 695000 ns ---
 #   [IF] PC: 000000f0
-#   [ID] Instr: 00000013
-#   [EX] ALU Out: 00000000
-#   [WB] RegWrite: 1 | Rd: x0 | Result: 00000000
-# --- CYCLE @ 735000 ns ---
+#   [ID] Instr: 0020d463
+#   [EX] ALU Out: 00000007
+#   [WB] RegWrite: 1 | Rd: x5 | Result: 00000001
+#   -> [STALL TOLERANCE] Duplicate write to x5 ignored.
+# --- CYCLE @ 705000 ns ---
 #   [IF] PC: 000000f4
-#   [ID] Instr: 00000013
+#   [ID] Instr: 7ff00e93
 #   [EX] ALU Out: 00000000
-#   [WB] RegWrite: 1 | Rd: x0 | Result: 00000000
-# --- CYCLE @ 745000 ns ---
+#   [WB] RegWrite: 1 | Rd: x5 | Result: 00000001
+# 
+# => [PASS]                 ADDI x1, x0, 7    (BGE setup)
+#           Expected: x1 = 00000007 | Got: x1 = 00000007
+# 
+# --- CYCLE @ 715000 ns ---
+#   [IF] PC: 000000f4
+#   [ID] Instr: 00000000
+#   [EX] ALU Out: 00000000
+#   [WB] RegWrite: 1 | Rd: x1 | Result: 00000007
+# --- CYCLE @ 725000 ns ---
 #   [IF] PC: 000000f8
-#   [ID] Instr: 00000013
-#   [EX] ALU Out: 00000000
-#   [WB] RegWrite: 1 | Rd: x0 | Result: 00000000
-# --- CYCLE @ 755000 ns ---
+#   [ID] Instr: 00100313
+#   [EX] ALU Out: xxxxxxxx
+#   [WB] RegWrite: 0 | Rd: x8 | Result: 00000000
+# --- CYCLE @ 735000 ns ---
+#   [IF] PC: 000000f8
+#   [ID] Instr: 00100313
+#   [EX] ALU Out: 00000001
+#   [WB] RegWrite: 0 | Rd: x0 | Result: 00000000
+# --- CYCLE @ 745000 ns ---
 #   [IF] PC: 000000fc
-#   [ID] Instr: 00000013
-#   [EX] ALU Out: 00000000
-#   [WB] RegWrite: 1 | Rd: x0 | Result: 00000000
-# --- CYCLE @ 765000 ns ---
+#   [ID] Instr: 00100093
+#   [EX] ALU Out: 00000001
+#   [WB] RegWrite: x | Rd: x0 | Result: xxxxxxxx
+# 
+# => [PASS]               BGE TAKEN: x6=1   (7>=7 signed)
+#           Expected: x6 = 00000001 | Got: x6 = 00000001
+# 
+# --- CYCLE @ 755000 ns ---
 #   [IF] PC: 00000100
-#   [ID] Instr: 00000013
-#   [EX] ALU Out: 00000000
-#   [WB] RegWrite: 1 | Rd: x0 | Result: 00000000
-# --- CYCLE @ 775000 ns ---
+#   [ID] Instr: 00200113
+#   [EX] ALU Out: 00000001
+#   [WB] RegWrite: 1 | Rd: x6 | Result: 00000001
+#   -> [STALL TOLERANCE] Duplicate write to x6 ignored.
+# --- CYCLE @ 765000 ns ---
 #   [IF] PC: 00000104
-#   [ID] Instr: 00000013
-#   [EX] ALU Out: 00000000
-#   [WB] RegWrite: 1 | Rd: x0 | Result: 00000000
+#   [ID] Instr: 0020e463
+#   [EX] ALU Out: 00000002
+#   [WB] RegWrite: 1 | Rd: x6 | Result: 00000001
+# 
+# => [PASS]                ADDI x1, x0, 1    (BLTU setup)
+#           Expected: x1 = 00000001 | Got: x1 = 00000001
+# 
+# --- CYCLE @ 775000 ns ---
+#   [IF] PC: 00000108
+#   [ID] Instr: 7ff00e93
+#   [EX] ALU Out: 00000001
+#   [WB] RegWrite: 1 | Rd: x1 | Result: 00000001
+# 
+# => [PASS]                                ADDI x2, x0, 2
+#           Expected: x2 = 00000002 | Got: x2 = 00000002
+# 
 # --- CYCLE @ 785000 ns ---
 #   [IF] PC: 00000108
-#   [ID] Instr: 00000013
+#   [ID] Instr: 00000000
 #   [EX] ALU Out: 00000000
-#   [WB] RegWrite: 1 | Rd: x0 | Result: 00000000
+#   [WB] RegWrite: 1 | Rd: x2 | Result: 00000002
 # --- CYCLE @ 795000 ns ---
 #   [IF] PC: 0000010c
-#   [ID] Instr: 00000013
-#   [EX] ALU Out: 00000000
-#   [WB] RegWrite: 1 | Rd: x0 | Result: 00000000
+#   [ID] Instr: 00100393
+#   [EX] ALU Out: xxxxxxxx
+#   [WB] RegWrite: 0 | Rd: x8 | Result: 00000001
 # --- CYCLE @ 805000 ns ---
-#   [IF] PC: 00000110
-#   [ID] Instr: 00000013
-#   [EX] ALU Out: 00000000
-#   [WB] RegWrite: 1 | Rd: x0 | Result: 00000000
+#   [IF] PC: 0000010c
+#   [ID] Instr: 00100393
+#   [EX] ALU Out: 00000001
+#   [WB] RegWrite: 0 | Rd: x0 | Result: 00000000
 # --- CYCLE @ 815000 ns ---
-#   [IF] PC: 00000114
-#   [ID] Instr: 00000013
-#   [EX] ALU Out: 00000000
-#   [WB] RegWrite: 1 | Rd: x0 | Result: 00000000
+#   [IF] PC: 00000110
+#   [ID] Instr: 00117463
+#   [EX] ALU Out: 00000001
+#   [WB] RegWrite: x | Rd: x0 | Result: xxxxxxxx
+# 
+# => [PASS]              BLTU TAKEN: x7=1  (1<2 unsigned)
+#           Expected: x7 = 00000001 | Got: x7 = 00000001
+# 
 # --- CYCLE @ 825000 ns ---
-#   [IF] PC: 00000118
-#   [ID] Instr: 00000013
+#   [IF] PC: 00000114
+#   [ID] Instr: 7ff00e93
 #   [EX] ALU Out: 00000000
-#   [WB] RegWrite: 1 | Rd: x0 | Result: 00000000
+#   [WB] RegWrite: 1 | Rd: x7 | Result: 00000001
+#   -> [STALL TOLERANCE] Duplicate write to x7 ignored.
 # --- CYCLE @ 835000 ns ---
-#   [IF] PC: 0000011c
-#   [ID] Instr: 00000013
+#   [IF] PC: 00000114
+#   [ID] Instr: 00000000
 #   [EX] ALU Out: 00000000
-#   [WB] RegWrite: 1 | Rd: x0 | Result: 00000000
+#   [WB] RegWrite: 1 | Rd: x7 | Result: 00000001
 # --- CYCLE @ 845000 ns ---
-#   [IF] PC: 00000120
-#   [ID] Instr: 00000013
-#   [EX] ALU Out: 00000000
-#   [WB] RegWrite: 1 | Rd: x0 | Result: 00000000
+#   [IF] PC: 00000118
+#   [ID] Instr: 00100413
+#   [EX] ALU Out: xxxxxxxx
+#   [WB] RegWrite: 0 | Rd: x8 | Result: 00000000
 # --- CYCLE @ 855000 ns ---
-#   [IF] PC: 00000124
-#   [ID] Instr: 00000013
-#   [EX] ALU Out: 00000000
-#   [WB] RegWrite: 1 | Rd: x0 | Result: 00000000
+#   [IF] PC: 00000118
+#   [ID] Instr: 00100413
+#   [EX] ALU Out: 00000001
+#   [WB] RegWrite: 0 | Rd: x0 | Result: 00000000
 # --- CYCLE @ 865000 ns ---
-#   [IF] PC: 00000128
-#   [ID] Instr: 00000013
-#   [EX] ALU Out: 00000000
-#   [WB] RegWrite: 1 | Rd: x0 | Result: 00000000
+#   [IF] PC: 0000011c
+#   [ID] Instr: 00300093
+#   [EX] ALU Out: 00000001
+#   [WB] RegWrite: x | Rd: x0 | Result: xxxxxxxx
+# 
+# => [PASS]             BGEU TAKEN: x8=1  (2>=1 unsigned)
+#           Expected: x8 = 00000001 | Got: x8 = 00000001
+# 
 # --- CYCLE @ 875000 ns ---
+#   [IF] PC: 00000120
+#   [ID] Instr: 00700113
+#   [EX] ALU Out: 00000003
+#   [WB] RegWrite: 1 | Rd: x8 | Result: 00000001
+#   -> [STALL TOLERANCE] Duplicate write to x8 ignored.
+# --- CYCLE @ 885000 ns ---
+#   [IF] PC: 00000124
+#   [ID] Instr: 00208463
+#   [EX] ALU Out: 00000007
+#   [WB] RegWrite: 1 | Rd: x8 | Result: 00000001
+# 
+# => [PASS]              ADDI x1, x0, 3    (BEQ-NT setup)
+#           Expected: x1 = 00000003 | Got: x1 = 00000003
+# 
+# --- CYCLE @ 895000 ns ---
+#   [IF] PC: 00000128
+#   [ID] Instr: 00100493
+#   [EX] ALU Out: fffffffc
+#   [WB] RegWrite: 1 | Rd: x1 | Result: 00000003
+# 
+# => [PASS]                                ADDI x2, x0, 7
+#           Expected: x2 = 00000007 | Got: x2 = 00000007
+# 
+# --- CYCLE @ 905000 ns ---
 #   [IF] PC: 0000012c
 #   [ID] Instr: 00000013
-#   [EX] ALU Out: 00000000
-#   [WB] RegWrite: 1 | Rd: x0 | Result: 00000000
-# --- CYCLE @ 885000 ns ---
-#   [IF] PC: 00000130
-#   [ID] Instr: 00000013
-#   [EX] ALU Out: 00000000
-#   [WB] RegWrite: 1 | Rd: x0 | Result: 00000000
-# --- CYCLE @ 895000 ns ---
-#   [IF] PC: 00000134
-#   [ID] Instr: 00000013
-#   [EX] ALU Out: 00000000
-#   [WB] RegWrite: 1 | Rd: x0 | Result: 00000000
-# --- CYCLE @ 905000 ns ---
-#   [IF] PC: 00000138
-#   [ID] Instr: 00000013
-#   [EX] ALU Out: 00000000
-#   [WB] RegWrite: 1 | Rd: x0 | Result: 00000000
+#   [EX] ALU Out: 00000001
+#   [WB] RegWrite: 1 | Rd: x2 | Result: 00000007
 # --- CYCLE @ 915000 ns ---
-#   [IF] PC: 0000013c
-#   [ID] Instr: 00000013
+#   [IF] PC: 00000130
+#   [ID] Instr: 00500093
 #   [EX] ALU Out: 00000000
-#   [WB] RegWrite: 1 | Rd: x0 | Result: 00000000
+#   [WB] RegWrite: 0 | Rd: x8 | Result: fffffffc
+# 
+# => [PASS]                   BEQ NOT-TAKEN: x9=1  (3!=7)
+#           Expected: x9 = 00000001 | Got: x9 = 00000001
+# 
 # --- CYCLE @ 925000 ns ---
+#   [IF] PC: 00000134
+#   [ID] Instr: 00500113
+#   [EX] ALU Out: 00000005
+#   [WB] RegWrite: 1 | Rd: x9 | Result: 00000001
+# --- CYCLE @ 935000 ns ---
+#   [IF] PC: 00000138
+#   [ID] Instr: 00209463
+#   [EX] ALU Out: 00000005
+#   [WB] RegWrite: 1 | Rd: x0 | Result: 00000000
+# 
+# => [PASS]              ADDI x1, x0, 5    (BNE-NT setup)
+#           Expected: x1 = 00000005 | Got: x1 = 00000005
+# 
+# --- CYCLE @ 945000 ns ---
+#   [IF] PC: 0000013c
+#   [ID] Instr: 00100513
+#   [EX] ALU Out: 00000000
+#   [WB] RegWrite: 1 | Rd: x1 | Result: 00000005
+# 
+# => [PASS]                                ADDI x2, x0, 5
+#           Expected: x2 = 00000005 | Got: x2 = 00000005
+# 
+# --- CYCLE @ 955000 ns ---
 #   [IF] PC: 00000140
 #   [ID] Instr: 00000013
-#   [EX] ALU Out: 00000000
-#   [WB] RegWrite: 1 | Rd: x0 | Result: 00000000
-# --- CYCLE @ 935000 ns ---
-#   [IF] PC: 00000144
-#   [ID] Instr: 00000013
-#   [EX] ALU Out: 00000000
-#   [WB] RegWrite: 1 | Rd: x0 | Result: 00000000
-# --- CYCLE @ 945000 ns ---
-#   [IF] PC: 00000148
-#   [ID] Instr: 00000013
-#   [EX] ALU Out: 00000000
-#   [WB] RegWrite: 1 | Rd: x0 | Result: 00000000
-# --- CYCLE @ 955000 ns ---
-#   [IF] PC: 0000014c
-#   [ID] Instr: 00000013
-#   [EX] ALU Out: 00000000
-#   [WB] RegWrite: 1 | Rd: x0 | Result: 00000000
+#   [EX] ALU Out: 00000001
+#   [WB] RegWrite: 1 | Rd: x2 | Result: 00000005
 # --- CYCLE @ 965000 ns ---
-#   [IF] PC: 00000150
-#   [ID] Instr: 00000013
+#   [IF] PC: 00000144
+#   [ID] Instr: 00700093
 #   [EX] ALU Out: 00000000
-#   [WB] RegWrite: 1 | Rd: x0 | Result: 00000000
+#   [WB] RegWrite: 0 | Rd: x8 | Result: 00000000
+# 
+# => [PASS]                   BNE NOT-TAKEN: x10=1 (5==5)
+#           Expected: x10 = 00000001 | Got: x10 = 00000001
+# 
 # --- CYCLE @ 975000 ns ---
+#   [IF] PC: 00000148
+#   [ID] Instr: 00300113
+#   [EX] ALU Out: 00000007
+#   [WB] RegWrite: 1 | Rd: x10 | Result: 00000001
+# --- CYCLE @ 985000 ns ---
+#   [IF] PC: 0000014c
+#   [ID] Instr: 0020c463
+#   [EX] ALU Out: 00000003
+#   [WB] RegWrite: 1 | Rd: x0 | Result: 00000000
+# 
+# => [PASS]              ADDI x1, x0, 7    (BLT-NT setup)
+#           Expected: x1 = 00000007 | Got: x1 = 00000007
+# 
+# --- CYCLE @ 995000 ns ---
+#   [IF] PC: 00000150
+#   [ID] Instr: 00100593
+#   [EX] ALU Out: 00000000
+#   [WB] RegWrite: 1 | Rd: x1 | Result: 00000007
+# 
+# => [PASS]                                ADDI x2, x0, 3
+#           Expected: x2 = 00000003 | Got: x2 = 00000003
+# 
+# --- CYCLE @ 1005000 ns ---
 #   [IF] PC: 00000154
 #   [ID] Instr: 00000013
-#   [EX] ALU Out: 00000000
-#   [WB] RegWrite: 1 | Rd: x0 | Result: 00000000
-# --- CYCLE @ 985000 ns ---
-#   [IF] PC: 00000158
-#   [ID] Instr: 00000013
-#   [EX] ALU Out: 00000000
-#   [WB] RegWrite: 1 | Rd: x0 | Result: 00000000
-# --- CYCLE @ 995000 ns ---
-#   [IF] PC: 0000015c
-#   [ID] Instr: 00000013
-#   [EX] ALU Out: 00000000
-#   [WB] RegWrite: 1 | Rd: x0 | Result: 00000000
-# --- CYCLE @ 1005000 ns ---
-#   [IF] PC: 00000160
-#   [ID] Instr: 00000013
-#   [EX] ALU Out: 00000000
-#   [WB] RegWrite: 1 | Rd: x0 | Result: 00000000
+#   [EX] ALU Out: 00000001
+#   [WB] RegWrite: 1 | Rd: x2 | Result: 00000003
 # --- CYCLE @ 1015000 ns ---
-#   [IF] PC: 00000164
-#   [ID] Instr: 00000013
+#   [IF] PC: 00000158
+#   [ID] Instr: ffb00093
 #   [EX] ALU Out: 00000000
-#   [WB] RegWrite: 1 | Rd: x0 | Result: 00000000
+#   [WB] RegWrite: 0 | Rd: x8 | Result: 00000000
+# 
+# => [PASS]                BLT NOT-TAKEN: x11=1 (7 not<3)
+#           Expected: x11 = 00000001 | Got: x11 = 00000001
+# 
 # --- CYCLE @ 1025000 ns ---
+#   [IF] PC: 0000015c
+#   [ID] Instr: 00300113
+#   [EX] ALU Out: fffffffb
+#   [WB] RegWrite: 1 | Rd: x11 | Result: 00000001
+# --- CYCLE @ 1035000 ns ---
+#   [IF] PC: 00000160
+#   [ID] Instr: 0020d463
+#   [EX] ALU Out: 00000003
+#   [WB] RegWrite: 1 | Rd: x0 | Result: 00000000
+# 
+# => [PASS]              ADDI x1, x0, -5   (BGE-NT setup)
+#           Expected: x1 = fffffffb | Got: x1 = fffffffb
+# 
+# --- CYCLE @ 1045000 ns ---
+#   [IF] PC: 00000164
+#   [ID] Instr: 00100613
+#   [EX] ALU Out: 00000001
+#   [WB] RegWrite: 1 | Rd: x1 | Result: fffffffb
+# 
+# => [PASS]                                ADDI x2, x0, 3
+#           Expected: x2 = 00000003 | Got: x2 = 00000003
+# 
+# --- CYCLE @ 1055000 ns ---
 #   [IF] PC: 00000168
 #   [ID] Instr: 00000013
-#   [EX] ALU Out: 00000000
-#   [WB] RegWrite: 1 | Rd: x0 | Result: 00000000
-# --- CYCLE @ 1035000 ns ---
-#   [IF] PC: 0000016c
-#   [ID] Instr: 00000013
-#   [EX] ALU Out: 00000000
-#   [WB] RegWrite: 1 | Rd: x0 | Result: 00000000
-# --- CYCLE @ 1045000 ns ---
-#   [IF] PC: 00000170
-#   [ID] Instr: 00000013
-#   [EX] ALU Out: 00000000
-#   [WB] RegWrite: 1 | Rd: x0 | Result: 00000000
-# --- CYCLE @ 1055000 ns ---
-#   [IF] PC: 00000174
-#   [ID] Instr: 00000013
-#   [EX] ALU Out: 00000000
-#   [WB] RegWrite: 1 | Rd: x0 | Result: 00000000
+#   [EX] ALU Out: 00000001
+#   [WB] RegWrite: 1 | Rd: x2 | Result: 00000003
 # --- CYCLE @ 1065000 ns ---
-#   [IF] PC: 00000178
-#   [ID] Instr: 00000013
+#   [IF] PC: 0000016c
+#   [ID] Instr: 00500093
 #   [EX] ALU Out: 00000000
-#   [WB] RegWrite: 1 | Rd: x0 | Result: 00000000
+#   [WB] RegWrite: 0 | Rd: x8 | Result: 00000001
+# 
+# => [PASS]              BGE NOT-TAKEN: x12=1 (-5 not>=3)
+#           Expected: x12 = 00000001 | Got: x12 = 00000001
+# 
 # --- CYCLE @ 1075000 ns ---
+#   [IF] PC: 00000170
+#   [ID] Instr: 00200113
+#   [EX] ALU Out: 00000005
+#   [WB] RegWrite: 1 | Rd: x12 | Result: 00000001
+# --- CYCLE @ 1085000 ns ---
+#   [IF] PC: 00000174
+#   [ID] Instr: 0020e463
+#   [EX] ALU Out: 00000002
+#   [WB] RegWrite: 1 | Rd: x0 | Result: 00000000
+# 
+# => [PASS]             ADDI x1, x0, 5    (BLTU-NT setup)
+#           Expected: x1 = 00000005 | Got: x1 = 00000005
+# 
+# --- CYCLE @ 1095000 ns ---
+#   [IF] PC: 00000178
+#   [ID] Instr: 00100693
+#   [EX] ALU Out: 00000000
+#   [WB] RegWrite: 1 | Rd: x1 | Result: 00000005
+# 
+# => [PASS]                                ADDI x2, x0, 2
+#           Expected: x2 = 00000002 | Got: x2 = 00000002
+# 
+# --- CYCLE @ 1105000 ns ---
 #   [IF] PC: 0000017c
 #   [ID] Instr: 00000013
-#   [EX] ALU Out: 00000000
-#   [WB] RegWrite: 1 | Rd: x0 | Result: 00000000
-# --- CYCLE @ 1085000 ns ---
+#   [EX] ALU Out: 00000001
+#   [WB] RegWrite: 1 | Rd: x2 | Result: 00000002
+# --- CYCLE @ 1115000 ns ---
 #   [IF] PC: 00000180
-#   [ID] Instr: 00000013
+#   [ID] Instr: 00117463
 #   [EX] ALU Out: 00000000
-#   [WB] RegWrite: 1 | Rd: x0 | Result: 00000000
-# --- CYCLE @ 1095000 ns ---
+#   [WB] RegWrite: 0 | Rd: x8 | Result: 00000000
+# 
+# => [PASS]              BLTU NOT-TAKEN: x13=1 (5 not<2u)
+#           Expected: x13 = 00000001 | Got: x13 = 00000001
+# 
+# --- CYCLE @ 1125000 ns ---
 #   [IF] PC: 00000184
-#   [ID] Instr: 00000013
-#   [EX] ALU Out: 00000000
-#   [WB] RegWrite: 1 | Rd: x0 | Result: 00000000
-# --- CYCLE @ 1105000 ns ---
+#   [ID] Instr: 00100713
+#   [EX] ALU Out: 00000001
+#   [WB] RegWrite: 1 | Rd: x13 | Result: 00000001
+# --- CYCLE @ 1135000 ns ---
 #   [IF] PC: 00000188
 #   [ID] Instr: 00000013
-#   [EX] ALU Out: 00000000
-#   [WB] RegWrite: 1 | Rd: x0 | Result: 00000000
-# --- CYCLE @ 1115000 ns ---
-#   [IF] PC: 0000018c
-#   [ID] Instr: 00000013
-#   [EX] ALU Out: 00000000
-#   [WB] RegWrite: 1 | Rd: x0 | Result: 00000000
-# --- CYCLE @ 1125000 ns ---
-#   [IF] PC: 00000190
-#   [ID] Instr: 00000013
-#   [EX] ALU Out: 00000000
-#   [WB] RegWrite: 1 | Rd: x0 | Result: 00000000
-# --- CYCLE @ 1135000 ns ---
-#   [IF] PC: 00000194
-#   [ID] Instr: 00000013
-#   [EX] ALU Out: 00000000
+#   [EX] ALU Out: 00000001
 #   [WB] RegWrite: 1 | Rd: x0 | Result: 00000000
 # --- CYCLE @ 1145000 ns ---
-#   [IF] PC: 00000198
-#   [ID] Instr: 00000013
+#   [IF] PC: 0000018c
+#   [ID] Instr: 008007ef
 #   [EX] ALU Out: 00000000
-#   [WB] RegWrite: 1 | Rd: x0 | Result: 00000000
+#   [WB] RegWrite: 0 | Rd: x8 | Result: 00000001
+# 
+# => [PASS]             BGEU NOT-TAKEN: x14=1 (2 not>=5u)
+#           Expected: x14 = 00000001 | Got: x14 = 00000001
+# 
 # --- CYCLE @ 1155000 ns ---
-#   [IF] PC: 0000019c
-#   [ID] Instr: 00000013
-#   [EX] ALU Out: 00000000
-#   [WB] RegWrite: 1 | Rd: x0 | Result: 00000000
+#   [IF] PC: 00000190
+#   [ID] Instr: 7ff00e93
+#   [EX] ALU Out: 00000001
+#   [WB] RegWrite: 1 | Rd: x14 | Result: 00000001
 # --- CYCLE @ 1165000 ns ---
-#   [IF] PC: 000001a0
-#   [ID] Instr: 00000013
+#   [IF] PC: 00000190
+#   [ID] Instr: 00000000
 #   [EX] ALU Out: 00000000
 #   [WB] RegWrite: 1 | Rd: x0 | Result: 00000000
+# 
+# => [PASS]                     JAL x15 (link=0x0000018C)
+#           Expected: x15 = 0000018c | Got: x15 = 0000018c
+# 
 # --- CYCLE @ 1175000 ns ---
-#   [IF] PC: 000001a4
-#   [ID] Instr: 00000013
-#   [EX] ALU Out: 00000000
-#   [WB] RegWrite: 1 | Rd: x0 | Result: 00000000
+#   [IF] PC: 00000194
+#   [ID] Instr: 00100813
+#   [EX] ALU Out: xxxxxxxx
+#   [WB] RegWrite: 1 | Rd: x15 | Result: 0000018c
 # --- CYCLE @ 1185000 ns ---
+#   [IF] PC: 00000194
+#   [ID] Instr: 00100813
+#   [EX] ALU Out: 00000001
+#   [WB] RegWrite: 0 | Rd: x0 | Result: 00000000
+# --- CYCLE @ 1195000 ns ---
+#   [IF] PC: 00000198
+#   [ID] Instr: 1a000893
+#   [EX] ALU Out: 00000001
+#   [WB] RegWrite: x | Rd: x0 | Result: xxxxxxxx
+# 
+# => [PASS]                              JAL TAKEN: x16=1
+#           Expected: x16 = 00000001 | Got: x16 = 00000001
+# 
+# --- CYCLE @ 1205000 ns ---
+#   [IF] PC: 0000019c
+#   [ID] Instr: 00088967
+#   [EX] ALU Out: 000001a0
+#   [WB] RegWrite: 1 | Rd: x16 | Result: 00000001
+#   -> [STALL TOLERANCE] Duplicate write to x16 ignored.
+# --- CYCLE @ 1215000 ns ---
+#   [IF] PC: 000001a0
+#   [ID] Instr: 7ff00e93
+#   [EX] ALU Out: 000001a0
+#   [WB] RegWrite: 1 | Rd: x16 | Result: 00000001
+# 
+# => [PASS]                 ADDI x17,x0,0x1A0 (JALR base)
+#           Expected: x17 = 000001a0 | Got: x17 = 000001a0
+# 
+# --- CYCLE @ 1225000 ns ---
+#   [IF] PC: 000001a0
+#   [ID] Instr: 00000000
+#   [EX] ALU Out: 00000000
+#   [WB] RegWrite: 1 | Rd: x17 | Result: 000001a0
+# 
+# => [PASS]                    JALR x18 (link=0x0000019C)
+#           Expected: x18 = 0000019c | Got: x18 = 0000019c
+# 
+# --- CYCLE @ 1235000 ns ---
+#   [IF] PC: 000001a4
+#   [ID] Instr: 00100993
+#   [EX] ALU Out: xxxxxxxx
+#   [WB] RegWrite: 1 | Rd: x18 | Result: 0000019c
+# --- CYCLE @ 1245000 ns ---
+#   [IF] PC: 000001a4
+#   [ID] Instr: 00100993
+#   [EX] ALU Out: 00000001
+#   [WB] RegWrite: 0 | Rd: x0 | Result: 00000000
+# --- CYCLE @ 1255000 ns ---
 #   [IF] PC: 000001a8
 #   [ID] Instr: 00000013
-#   [EX] ALU Out: 00000000
-#   [WB] RegWrite: 1 | Rd: x0 | Result: 00000000
-# --- CYCLE @ 1195000 ns ---
-#   [IF] PC: 000001ac
-#   [ID] Instr: 00000013
-#   [EX] ALU Out: 00000000
-#   [WB] RegWrite: 1 | Rd: x0 | Result: 00000000
-# --- CYCLE @ 1205000 ns ---
-#   [IF] PC: 000001b0
-#   [ID] Instr: 00000013
-#   [EX] ALU Out: 00000000
-#   [WB] RegWrite: 1 | Rd: x0 | Result: 00000000
-# --- CYCLE @ 1215000 ns ---
-#   [IF] PC: 000001b4
-#   [ID] Instr: 00000013
-#   [EX] ALU Out: 00000000
-#   [WB] RegWrite: 1 | Rd: x0 | Result: 00000000
-# --- CYCLE @ 1225000 ns ---
-#   [IF] PC: 000001b8
-#   [ID] Instr: 00000013
-#   [EX] ALU Out: 00000000
-#   [WB] RegWrite: 1 | Rd: x0 | Result: 00000000
-# --- CYCLE @ 1235000 ns ---
-#   [IF] PC: 000001bc
-#   [ID] Instr: 00000013
-#   [EX] ALU Out: 00000000
-#   [WB] RegWrite: 1 | Rd: x0 | Result: 00000000
-# --- CYCLE @ 1245000 ns ---
-#   [IF] PC: 000001c0
-#   [ID] Instr: 00000013
-#   [EX] ALU Out: 00000000
-#   [WB] RegWrite: 1 | Rd: x0 | Result: 00000000
-# --- CYCLE @ 1255000 ns ---
-#   [IF] PC: 000001c4
-#   [ID] Instr: 00000013
-#   [EX] ALU Out: 00000000
-#   [WB] RegWrite: 1 | Rd: x0 | Result: 00000000
+#   [EX] ALU Out: 00000001
+#   [WB] RegWrite: x | Rd: x0 | Result: xxxxxxxx
+# 
+# => [PASS]                             JALR TAKEN: x19=1
+#           Expected: x19 = 00000001 | Got: x19 = 00000001
+# 
 # --- CYCLE @ 1265000 ns ---
-#   [IF] PC: 000001c8
-#   [ID] Instr: 00000013
+#   [IF] PC: 000001ac
+#   [ID] Instr: 0040006f
 #   [EX] ALU Out: 00000000
-#   [WB] RegWrite: 1 | Rd: x0 | Result: 00000000
+#   [WB] RegWrite: 1 | Rd: x19 | Result: 00000001
+#   -> [IGNORED EXTRANEOUS WRITE] x19 = 00000001 (Evaluation complete)
 # --- CYCLE @ 1275000 ns ---
-#   [IF] PC: 000001cc
-#   [ID] Instr: 00000013
-#   [EX] ALU Out: 00000000
-#   [WB] RegWrite: 1 | Rd: x0 | Result: 00000000
+#   [IF] PC: 000001b0
+#   [ID] Instr: 0000006f
+#   [EX] ALU Out: 00000001
+#   [WB] RegWrite: 1 | Rd: x19 | Result: 00000001
 # --- CYCLE @ 1285000 ns ---
-#   [IF] PC: 000001d0
-#   [ID] Instr: 00000013
+#   [IF] PC: 000001ac
+#   [ID] Instr: 00000000
 #   [EX] ALU Out: 00000000
 #   [WB] RegWrite: 1 | Rd: x0 | Result: 00000000
 # --- CYCLE @ 1295000 ns ---
-#   [IF] PC: 000001d4
-#   [ID] Instr: 00000013
-#   [EX] ALU Out: 00000000
-#   [WB] RegWrite: 1 | Rd: x0 | Result: 00000000
+#   [IF] PC: 000001b0
+#   [ID] Instr: 0000006f
+#   [EX] ALU Out: xxxxxxxx
+#   [WB] RegWrite: 1 | Rd: x0 | Result: 000001ac
 # --- CYCLE @ 1305000 ns ---
-#   [IF] PC: 000001d8
-#   [ID] Instr: 00000013
+#   [IF] PC: 000001b0
+#   [ID] Instr: 0000006f
 #   [EX] ALU Out: 00000000
-#   [WB] RegWrite: 1 | Rd: x0 | Result: 00000000
+#   [WB] RegWrite: 0 | Rd: x0 | Result: 00000000
 # --- CYCLE @ 1315000 ns ---
-#   [IF] PC: 000001dc
-#   [ID] Instr: 00000013
+#   [IF] PC: 000001ac
+#   [ID] Instr: 00000000
 #   [EX] ALU Out: 00000000
-#   [WB] RegWrite: 1 | Rd: x0 | Result: 00000000
+#   [WB] RegWrite: x | Rd: x0 | Result: xxxxxxxx
 # --- CYCLE @ 1325000 ns ---
-#   [IF] PC: 000001e0
-#   [ID] Instr: 00000013
-#   [EX] ALU Out: 00000000
-#   [WB] RegWrite: 1 | Rd: x0 | Result: 00000000
+#   [IF] PC: 000001b0
+#   [ID] Instr: 0000006f
+#   [EX] ALU Out: xxxxxxxx
+#   [WB] RegWrite: 1 | Rd: x0 | Result: 000001b0
 # --- CYCLE @ 1335000 ns ---
-#   [IF] PC: 000001e4
-#   [ID] Instr: 00000013
+#   [IF] PC: 000001b0
+#   [ID] Instr: 0000006f
 #   [EX] ALU Out: 00000000
-#   [WB] RegWrite: 1 | Rd: x0 | Result: 00000000
+#   [WB] RegWrite: 0 | Rd: x0 | Result: 00000000
 # --- CYCLE @ 1345000 ns ---
-#   [IF] PC: 000001e8
-#   [ID] Instr: 00000013
+#   [IF] PC: 000001ac
+#   [ID] Instr: 00000000
 #   [EX] ALU Out: 00000000
-#   [WB] RegWrite: 1 | Rd: x0 | Result: 00000000
+#   [WB] RegWrite: x | Rd: x0 | Result: xxxxxxxx
 # --- CYCLE @ 1355000 ns ---
-#   [IF] PC: 000001ec
-#   [ID] Instr: 00000013
-#   [EX] ALU Out: 00000000
-#   [WB] RegWrite: 1 | Rd: x0 | Result: 00000000
+#   [IF] PC: 000001b0
+#   [ID] Instr: 0000006f
+#   [EX] ALU Out: xxxxxxxx
+#   [WB] RegWrite: 1 | Rd: x0 | Result: 000001b0
 # --- CYCLE @ 1365000 ns ---
-#   [IF] PC: 000001f0
-#   [ID] Instr: 00000013
+#   [IF] PC: 000001b0
+#   [ID] Instr: 0000006f
 #   [EX] ALU Out: 00000000
-#   [WB] RegWrite: 1 | Rd: x0 | Result: 00000000
+#   [WB] RegWrite: 0 | Rd: x0 | Result: 00000000
 # --- CYCLE @ 1375000 ns ---
-#   [IF] PC: 000001f4
-#   [ID] Instr: 00000013
+#   [IF] PC: 000001ac
+#   [ID] Instr: 00000000
 #   [EX] ALU Out: 00000000
-#   [WB] RegWrite: 1 | Rd: x0 | Result: 00000000
+#   [WB] RegWrite: x | Rd: x0 | Result: xxxxxxxx
 # --- CYCLE @ 1385000 ns ---
-#   [IF] PC: 000001f8
-#   [ID] Instr: 00000013
-#   [EX] ALU Out: 00000000
-#   [WB] RegWrite: 1 | Rd: x0 | Result: 00000000
+#   [IF] PC: 000001b0
+#   [ID] Instr: 0000006f
+#   [EX] ALU Out: xxxxxxxx
+#   [WB] RegWrite: 1 | Rd: x0 | Result: 000001b0
 # --- CYCLE @ 1395000 ns ---
-#   [IF] PC: 000001fc
-#   [ID] Instr: 00000013
+#   [IF] PC: 000001b0
+#   [ID] Instr: 0000006f
 #   [EX] ALU Out: 00000000
-#   [WB] RegWrite: 1 | Rd: x0 | Result: 00000000
+#   [WB] RegWrite: 0 | Rd: x0 | Result: 00000000
 # --- CYCLE @ 1405000 ns ---
-#   [IF] PC: 00000200
-#   [ID] Instr: 00000013
+#   [IF] PC: 000001ac
+#   [ID] Instr: 00000000
 #   [EX] ALU Out: 00000000
-#   [WB] RegWrite: 1 | Rd: x0 | Result: 00000000
+#   [WB] RegWrite: x | Rd: x0 | Result: xxxxxxxx
 # --- CYCLE @ 1415000 ns ---
-#   [IF] PC: 00000204
-#   [ID] Instr: 00000013
-#   [EX] ALU Out: 00000000
-#   [WB] RegWrite: 1 | Rd: x0 | Result: 00000000
+#   [IF] PC: 000001b0
+#   [ID] Instr: 0000006f
+#   [EX] ALU Out: xxxxxxxx
+#   [WB] RegWrite: 1 | Rd: x0 | Result: 000001b0
 # --- CYCLE @ 1425000 ns ---
-#   [IF] PC: 00000208
-#   [ID] Instr: 00000013
+#   [IF] PC: 000001b0
+#   [ID] Instr: 0000006f
 #   [EX] ALU Out: 00000000
-#   [WB] RegWrite: 1 | Rd: x0 | Result: 00000000
+#   [WB] RegWrite: 0 | Rd: x0 | Result: 00000000
 # --- CYCLE @ 1435000 ns ---
-#   [IF] PC: 0000020c
-#   [ID] Instr: 00000013
+#   [IF] PC: 000001ac
+#   [ID] Instr: 00000000
 #   [EX] ALU Out: 00000000
-#   [WB] RegWrite: 1 | Rd: x0 | Result: 00000000
+#   [WB] RegWrite: x | Rd: x0 | Result: xxxxxxxx
 # --- CYCLE @ 1445000 ns ---
-#   [IF] PC: 00000210
-#   [ID] Instr: 00000013
-#   [EX] ALU Out: 00000000
-#   [WB] RegWrite: 1 | Rd: x0 | Result: 00000000
+#   [IF] PC: 000001b0
+#   [ID] Instr: 0000006f
+#   [EX] ALU Out: xxxxxxxx
+#   [WB] RegWrite: 1 | Rd: x0 | Result: 000001b0
 # --- CYCLE @ 1455000 ns ---
-#   [IF] PC: 00000214
-#   [ID] Instr: 00000013
+#   [IF] PC: 000001b0
+#   [ID] Instr: 0000006f
 #   [EX] ALU Out: 00000000
-#   [WB] RegWrite: 1 | Rd: x0 | Result: 00000000
+#   [WB] RegWrite: 0 | Rd: x0 | Result: 00000000
 # --- CYCLE @ 1465000 ns ---
-#   [IF] PC: 00000218
-#   [ID] Instr: 00000013
+#   [IF] PC: 000001ac
+#   [ID] Instr: 00000000
 #   [EX] ALU Out: 00000000
-#   [WB] RegWrite: 1 | Rd: x0 | Result: 00000000
+#   [WB] RegWrite: x | Rd: x0 | Result: xxxxxxxx
 # --- CYCLE @ 1475000 ns ---
-#   [IF] PC: 0000021c
-#   [ID] Instr: 00000013
-#   [EX] ALU Out: 00000000
-#   [WB] RegWrite: 1 | Rd: x0 | Result: 00000000
+#   [IF] PC: 000001b0
+#   [ID] Instr: 0000006f
+#   [EX] ALU Out: xxxxxxxx
+#   [WB] RegWrite: 1 | Rd: x0 | Result: 000001b0
 # --- CYCLE @ 1485000 ns ---
-#   [IF] PC: 00000220
-#   [ID] Instr: 00000013
+#   [IF] PC: 000001b0
+#   [ID] Instr: 0000006f
 #   [EX] ALU Out: 00000000
-#   [WB] RegWrite: 1 | Rd: x0 | Result: 00000000
+#   [WB] RegWrite: 0 | Rd: x0 | Result: 00000000
 # --- CYCLE @ 1495000 ns ---
-#   [IF] PC: 00000224
-#   [ID] Instr: 00000013
+#   [IF] PC: 000001ac
+#   [ID] Instr: 00000000
 #   [EX] ALU Out: 00000000
-#   [WB] RegWrite: 1 | Rd: x0 | Result: 00000000
+#   [WB] RegWrite: x | Rd: x0 | Result: xxxxxxxx
 # --- CYCLE @ 1505000 ns ---
-#   [IF] PC: 00000228
-#   [ID] Instr: 00000013
-#   [EX] ALU Out: 00000000
-#   [WB] RegWrite: 1 | Rd: x0 | Result: 00000000
+#   [IF] PC: 000001b0
+#   [ID] Instr: 0000006f
+#   [EX] ALU Out: xxxxxxxx
+#   [WB] RegWrite: 1 | Rd: x0 | Result: 000001b0
 # --- CYCLE @ 1515000 ns ---
-#   [IF] PC: 0000022c
-#   [ID] Instr: 00000013
+#   [IF] PC: 000001b0
+#   [ID] Instr: 0000006f
 #   [EX] ALU Out: 00000000
-#   [WB] RegWrite: 1 | Rd: x0 | Result: 00000000
+#   [WB] RegWrite: 0 | Rd: x0 | Result: 00000000
 # --- CYCLE @ 1525000 ns ---
-#   [IF] PC: 00000230
-#   [ID] Instr: 00000013
+#   [IF] PC: 000001ac
+#   [ID] Instr: 00000000
 #   [EX] ALU Out: 00000000
-#   [WB] RegWrite: 1 | Rd: x0 | Result: 00000000
+#   [WB] RegWrite: x | Rd: x0 | Result: xxxxxxxx
 # --- CYCLE @ 1535000 ns ---
-#   [IF] PC: 00000234
-#   [ID] Instr: 00000013
-#   [EX] ALU Out: 00000000
-#   [WB] RegWrite: 1 | Rd: x0 | Result: 00000000
+#   [IF] PC: 000001b0
+#   [ID] Instr: 0000006f
+#   [EX] ALU Out: xxxxxxxx
+#   [WB] RegWrite: 1 | Rd: x0 | Result: 000001b0
 # --- CYCLE @ 1545000 ns ---
-#   [IF] PC: 00000238
-#   [ID] Instr: 00000013
+#   [IF] PC: 000001b0
+#   [ID] Instr: 0000006f
 #   [EX] ALU Out: 00000000
-#   [WB] RegWrite: 1 | Rd: x0 | Result: 00000000
+#   [WB] RegWrite: 0 | Rd: x0 | Result: 00000000
 # --- CYCLE @ 1555000 ns ---
-#   [IF] PC: 0000023c
-#   [ID] Instr: 00000013
+#   [IF] PC: 000001ac
+#   [ID] Instr: 00000000
 #   [EX] ALU Out: 00000000
-#   [WB] RegWrite: 1 | Rd: x0 | Result: 00000000
+#   [WB] RegWrite: x | Rd: x0 | Result: xxxxxxxx
 # --- CYCLE @ 1565000 ns ---
-#   [IF] PC: 00000240
-#   [ID] Instr: 00000013
-#   [EX] ALU Out: 00000000
-#   [WB] RegWrite: 1 | Rd: x0 | Result: 00000000
+#   [IF] PC: 000001b0
+#   [ID] Instr: 0000006f
+#   [EX] ALU Out: xxxxxxxx
+#   [WB] RegWrite: 1 | Rd: x0 | Result: 000001b0
 # --- CYCLE @ 1575000 ns ---
-#   [IF] PC: 00000244
-#   [ID] Instr: 00000013
+#   [IF] PC: 000001b0
+#   [ID] Instr: 0000006f
 #   [EX] ALU Out: 00000000
-#   [WB] RegWrite: 1 | Rd: x0 | Result: 00000000
+#   [WB] RegWrite: 0 | Rd: x0 | Result: 00000000
 # --- CYCLE @ 1585000 ns ---
-#   [IF] PC: 00000248
-#   [ID] Instr: 00000013
+#   [IF] PC: 000001ac
+#   [ID] Instr: 00000000
 #   [EX] ALU Out: 00000000
-#   [WB] RegWrite: 1 | Rd: x0 | Result: 00000000
+#   [WB] RegWrite: x | Rd: x0 | Result: xxxxxxxx
 # --- CYCLE @ 1595000 ns ---
-#   [IF] PC: 0000024c
-#   [ID] Instr: 00000013
-#   [EX] ALU Out: 00000000
-#   [WB] RegWrite: 1 | Rd: x0 | Result: 00000000
+#   [IF] PC: 000001b0
+#   [ID] Instr: 0000006f
+#   [EX] ALU Out: xxxxxxxx
+#   [WB] RegWrite: 1 | Rd: x0 | Result: 000001b0
 # --- CYCLE @ 1605000 ns ---
-#   [IF] PC: 00000250
-#   [ID] Instr: 00000013
+#   [IF] PC: 000001b0
+#   [ID] Instr: 0000006f
 #   [EX] ALU Out: 00000000
-#   [WB] RegWrite: 1 | Rd: x0 | Result: 00000000
+#   [WB] RegWrite: 0 | Rd: x0 | Result: 00000000
 # --- CYCLE @ 1615000 ns ---
-#   [IF] PC: 00000254
-#   [ID] Instr: 00000013
+#   [IF] PC: 000001ac
+#   [ID] Instr: 00000000
 #   [EX] ALU Out: 00000000
-#   [WB] RegWrite: 1 | Rd: x0 | Result: 00000000
+#   [WB] RegWrite: x | Rd: x0 | Result: xxxxxxxx
 # --- CYCLE @ 1625000 ns ---
-#   [IF] PC: 00000258
-#   [ID] Instr: 00000013
-#   [EX] ALU Out: 00000000
-#   [WB] RegWrite: 1 | Rd: x0 | Result: 00000000
+#   [IF] PC: 000001b0
+#   [ID] Instr: 0000006f
+#   [EX] ALU Out: xxxxxxxx
+#   [WB] RegWrite: 1 | Rd: x0 | Result: 000001b0
 # --- CYCLE @ 1635000 ns ---
-#   [IF] PC: 0000025c
-#   [ID] Instr: 00000013
+#   [IF] PC: 000001b0
+#   [ID] Instr: 0000006f
 #   [EX] ALU Out: 00000000
-#   [WB] RegWrite: 1 | Rd: x0 | Result: 00000000
+#   [WB] RegWrite: 0 | Rd: x0 | Result: 00000000
 # --- CYCLE @ 1645000 ns ---
-#   [IF] PC: 00000260
-#   [ID] Instr: 00000013
+#   [IF] PC: 000001ac
+#   [ID] Instr: 00000000
 #   [EX] ALU Out: 00000000
-#   [WB] RegWrite: 1 | Rd: x0 | Result: 00000000
+#   [WB] RegWrite: x | Rd: x0 | Result: xxxxxxxx
 # --- CYCLE @ 1655000 ns ---
-#   [IF] PC: 00000264
-#   [ID] Instr: 00000013
-#   [EX] ALU Out: 00000000
-#   [WB] RegWrite: 1 | Rd: x0 | Result: 00000000
+#   [IF] PC: 000001b0
+#   [ID] Instr: 0000006f
+#   [EX] ALU Out: xxxxxxxx
+#   [WB] RegWrite: 1 | Rd: x0 | Result: 000001b0
 # --- CYCLE @ 1665000 ns ---
-#   [IF] PC: 00000268
-#   [ID] Instr: 00000013
+#   [IF] PC: 000001b0
+#   [ID] Instr: 0000006f
 #   [EX] ALU Out: 00000000
-#   [WB] RegWrite: 1 | Rd: x0 | Result: 00000000
+#   [WB] RegWrite: 0 | Rd: x0 | Result: 00000000
 # --- CYCLE @ 1675000 ns ---
-#   [IF] PC: 0000026c
-#   [ID] Instr: 00000013
+#   [IF] PC: 000001ac
+#   [ID] Instr: 00000000
 #   [EX] ALU Out: 00000000
-#   [WB] RegWrite: 1 | Rd: x0 | Result: 00000000
+#   [WB] RegWrite: x | Rd: x0 | Result: xxxxxxxx
 # --- CYCLE @ 1685000 ns ---
-#   [IF] PC: 00000270
-#   [ID] Instr: 00000013
-#   [EX] ALU Out: 00000000
-#   [WB] RegWrite: 1 | Rd: x0 | Result: 00000000
+#   [IF] PC: 000001b0
+#   [ID] Instr: 0000006f
+#   [EX] ALU Out: xxxxxxxx
+#   [WB] RegWrite: 1 | Rd: x0 | Result: 000001b0
 # --- CYCLE @ 1695000 ns ---
-#   [IF] PC: 00000274
-#   [ID] Instr: 00000013
+#   [IF] PC: 000001b0
+#   [ID] Instr: 0000006f
 #   [EX] ALU Out: 00000000
-#   [WB] RegWrite: 1 | Rd: x0 | Result: 00000000
+#   [WB] RegWrite: 0 | Rd: x0 | Result: 00000000
 # --- CYCLE @ 1705000 ns ---
-#   [IF] PC: 00000278
-#   [ID] Instr: 00000013
+#   [IF] PC: 000001ac
+#   [ID] Instr: 00000000
 #   [EX] ALU Out: 00000000
-#   [WB] RegWrite: 1 | Rd: x0 | Result: 00000000
+#   [WB] RegWrite: x | Rd: x0 | Result: xxxxxxxx
 # --- CYCLE @ 1715000 ns ---
-#   [IF] PC: 0000027c
-#   [ID] Instr: 00000013
-#   [EX] ALU Out: 00000000
-#   [WB] RegWrite: 1 | Rd: x0 | Result: 00000000
+#   [IF] PC: 000001b0
+#   [ID] Instr: 0000006f
+#   [EX] ALU Out: xxxxxxxx
+#   [WB] RegWrite: 1 | Rd: x0 | Result: 000001b0
 # --- CYCLE @ 1725000 ns ---
-#   [IF] PC: 00000280
-#   [ID] Instr: 00000013
+#   [IF] PC: 000001b0
+#   [ID] Instr: 0000006f
 #   [EX] ALU Out: 00000000
-#   [WB] RegWrite: 1 | Rd: x0 | Result: 00000000
+#   [WB] RegWrite: 0 | Rd: x0 | Result: 00000000
 # --- CYCLE @ 1735000 ns ---
-#   [IF] PC: 00000284
-#   [ID] Instr: 00000013
+#   [IF] PC: 000001ac
+#   [ID] Instr: 00000000
 #   [EX] ALU Out: 00000000
-#   [WB] RegWrite: 1 | Rd: x0 | Result: 00000000
+#   [WB] RegWrite: x | Rd: x0 | Result: xxxxxxxx
 # --- CYCLE @ 1745000 ns ---
-#   [IF] PC: 00000288
-#   [ID] Instr: 00000013
-#   [EX] ALU Out: 00000000
-#   [WB] RegWrite: 1 | Rd: x0 | Result: 00000000
+#   [IF] PC: 000001b0
+#   [ID] Instr: 0000006f
+#   [EX] ALU Out: xxxxxxxx
+#   [WB] RegWrite: 1 | Rd: x0 | Result: 000001b0
 # --- CYCLE @ 1755000 ns ---
-#   [IF] PC: 0000028c
-#   [ID] Instr: 00000013
+#   [IF] PC: 000001b0
+#   [ID] Instr: 0000006f
 #   [EX] ALU Out: 00000000
-#   [WB] RegWrite: 1 | Rd: x0 | Result: 00000000
+#   [WB] RegWrite: 0 | Rd: x0 | Result: 00000000
 # --- CYCLE @ 1765000 ns ---
-#   [IF] PC: 00000290
-#   [ID] Instr: 00000013
+#   [IF] PC: 000001ac
+#   [ID] Instr: 00000000
 #   [EX] ALU Out: 00000000
-#   [WB] RegWrite: 1 | Rd: x0 | Result: 00000000
+#   [WB] RegWrite: x | Rd: x0 | Result: xxxxxxxx
 # --- CYCLE @ 1775000 ns ---
-#   [IF] PC: 00000294
-#   [ID] Instr: 00000013
-#   [EX] ALU Out: 00000000
-#   [WB] RegWrite: 1 | Rd: x0 | Result: 00000000
+#   [IF] PC: 000001b0
+#   [ID] Instr: 0000006f
+#   [EX] ALU Out: xxxxxxxx
+#   [WB] RegWrite: 1 | Rd: x0 | Result: 000001b0
 # --- CYCLE @ 1785000 ns ---
-#   [IF] PC: 00000298
-#   [ID] Instr: 00000013
+#   [IF] PC: 000001b0
+#   [ID] Instr: 0000006f
 #   [EX] ALU Out: 00000000
-#   [WB] RegWrite: 1 | Rd: x0 | Result: 00000000
+#   [WB] RegWrite: 0 | Rd: x0 | Result: 00000000
 # --- CYCLE @ 1795000 ns ---
-#   [IF] PC: 0000029c
-#   [ID] Instr: 00000013
+#   [IF] PC: 000001ac
+#   [ID] Instr: 00000000
 #   [EX] ALU Out: 00000000
-#   [WB] RegWrite: 1 | Rd: x0 | Result: 00000000
+#   [WB] RegWrite: x | Rd: x0 | Result: xxxxxxxx
 # --- CYCLE @ 1805000 ns ---
-#   [IF] PC: 000002a0
-#   [ID] Instr: 00000013
-#   [EX] ALU Out: 00000000
-#   [WB] RegWrite: 1 | Rd: x0 | Result: 00000000
+#   [IF] PC: 000001b0
+#   [ID] Instr: 0000006f
+#   [EX] ALU Out: xxxxxxxx
+#   [WB] RegWrite: 1 | Rd: x0 | Result: 000001b0
 # --- CYCLE @ 1815000 ns ---
-#   [IF] PC: 000002a4
-#   [ID] Instr: 00000013
+#   [IF] PC: 000001b0
+#   [ID] Instr: 0000006f
 #   [EX] ALU Out: 00000000
-#   [WB] RegWrite: 1 | Rd: x0 | Result: 00000000
+#   [WB] RegWrite: 0 | Rd: x0 | Result: 00000000
 # --- CYCLE @ 1825000 ns ---
-#   [IF] PC: 000002a8
-#   [ID] Instr: 00000013
+#   [IF] PC: 000001ac
+#   [ID] Instr: 00000000
 #   [EX] ALU Out: 00000000
-#   [WB] RegWrite: 1 | Rd: x0 | Result: 00000000
+#   [WB] RegWrite: x | Rd: x0 | Result: xxxxxxxx
 # --- CYCLE @ 1835000 ns ---
-#   [IF] PC: 000002ac
-#   [ID] Instr: 00000013
-#   [EX] ALU Out: 00000000
-#   [WB] RegWrite: 1 | Rd: x0 | Result: 00000000
+#   [IF] PC: 000001b0
+#   [ID] Instr: 0000006f
+#   [EX] ALU Out: xxxxxxxx
+#   [WB] RegWrite: 1 | Rd: x0 | Result: 000001b0
 # --- CYCLE @ 1845000 ns ---
-#   [IF] PC: 000002b0
-#   [ID] Instr: 00000013
+#   [IF] PC: 000001b0
+#   [ID] Instr: 0000006f
 #   [EX] ALU Out: 00000000
-#   [WB] RegWrite: 1 | Rd: x0 | Result: 00000000
+#   [WB] RegWrite: 0 | Rd: x0 | Result: 00000000
 # --- CYCLE @ 1855000 ns ---
-#   [IF] PC: 000002b4
-#   [ID] Instr: 00000013
+#   [IF] PC: 000001ac
+#   [ID] Instr: 00000000
 #   [EX] ALU Out: 00000000
-#   [WB] RegWrite: 1 | Rd: x0 | Result: 00000000
+#   [WB] RegWrite: x | Rd: x0 | Result: xxxxxxxx
 # --- CYCLE @ 1865000 ns ---
-#   [IF] PC: 000002b8
-#   [ID] Instr: 00000013
-#   [EX] ALU Out: 00000000
-#   [WB] RegWrite: 1 | Rd: x0 | Result: 00000000
+#   [IF] PC: 000001b0
+#   [ID] Instr: 0000006f
+#   [EX] ALU Out: xxxxxxxx
+#   [WB] RegWrite: 1 | Rd: x0 | Result: 000001b0
 # --- CYCLE @ 1875000 ns ---
-#   [IF] PC: 000002bc
-#   [ID] Instr: 00000013
+#   [IF] PC: 000001b0
+#   [ID] Instr: 0000006f
 #   [EX] ALU Out: 00000000
-#   [WB] RegWrite: 1 | Rd: x0 | Result: 00000000
+#   [WB] RegWrite: 0 | Rd: x0 | Result: 00000000
 # --- CYCLE @ 1885000 ns ---
-#   [IF] PC: 000002c0
-#   [ID] Instr: 00000013
+#   [IF] PC: 000001ac
+#   [ID] Instr: 00000000
 #   [EX] ALU Out: 00000000
-#   [WB] RegWrite: 1 | Rd: x0 | Result: 00000000
+#   [WB] RegWrite: x | Rd: x0 | Result: xxxxxxxx
 # --- CYCLE @ 1895000 ns ---
-#   [IF] PC: 000002c4
-#   [ID] Instr: 00000013
-#   [EX] ALU Out: 00000000
-#   [WB] RegWrite: 1 | Rd: x0 | Result: 00000000
+#   [IF] PC: 000001b0
+#   [ID] Instr: 0000006f
+#   [EX] ALU Out: xxxxxxxx
+#   [WB] RegWrite: 1 | Rd: x0 | Result: 000001b0
 # --- CYCLE @ 1905000 ns ---
-#   [IF] PC: 000002c8
-#   [ID] Instr: 00000013
+#   [IF] PC: 000001b0
+#   [ID] Instr: 0000006f
 #   [EX] ALU Out: 00000000
-#   [WB] RegWrite: 1 | Rd: x0 | Result: 00000000
+#   [WB] RegWrite: 0 | Rd: x0 | Result: 00000000
 # --- CYCLE @ 1915000 ns ---
-#   [IF] PC: 000002cc
-#   [ID] Instr: 00000013
+#   [IF] PC: 000001ac
+#   [ID] Instr: 00000000
 #   [EX] ALU Out: 00000000
-#   [WB] RegWrite: 1 | Rd: x0 | Result: 00000000
+#   [WB] RegWrite: x | Rd: x0 | Result: xxxxxxxx
 # --- CYCLE @ 1925000 ns ---
-#   [IF] PC: 000002d0
-#   [ID] Instr: 00000013
-#   [EX] ALU Out: 00000000
-#   [WB] RegWrite: 1 | Rd: x0 | Result: 00000000
+#   [IF] PC: 000001b0
+#   [ID] Instr: 0000006f
+#   [EX] ALU Out: xxxxxxxx
+#   [WB] RegWrite: 1 | Rd: x0 | Result: 000001b0
 # --- CYCLE @ 1935000 ns ---
-#   [IF] PC: 000002d4
-#   [ID] Instr: 00000013
+#   [IF] PC: 000001b0
+#   [ID] Instr: 0000006f
 #   [EX] ALU Out: 00000000
-#   [WB] RegWrite: 1 | Rd: x0 | Result: 00000000
+#   [WB] RegWrite: 0 | Rd: x0 | Result: 00000000
 # --- CYCLE @ 1945000 ns ---
-#   [IF] PC: 000002d8
-#   [ID] Instr: 00000013
+#   [IF] PC: 000001ac
+#   [ID] Instr: 00000000
 #   [EX] ALU Out: 00000000
-#   [WB] RegWrite: 1 | Rd: x0 | Result: 00000000
+#   [WB] RegWrite: x | Rd: x0 | Result: xxxxxxxx
 # --- CYCLE @ 1955000 ns ---
-#   [IF] PC: 000002dc
-#   [ID] Instr: 00000013
-#   [EX] ALU Out: 00000000
-#   [WB] RegWrite: 1 | Rd: x0 | Result: 00000000
+#   [IF] PC: 000001b0
+#   [ID] Instr: 0000006f
+#   [EX] ALU Out: xxxxxxxx
+#   [WB] RegWrite: 1 | Rd: x0 | Result: 000001b0
 # --- CYCLE @ 1965000 ns ---
-#   [IF] PC: 000002e0
-#   [ID] Instr: 00000013
+#   [IF] PC: 000001b0
+#   [ID] Instr: 0000006f
 #   [EX] ALU Out: 00000000
-#   [WB] RegWrite: 1 | Rd: x0 | Result: 00000000
+#   [WB] RegWrite: 0 | Rd: x0 | Result: 00000000
 # --- CYCLE @ 1975000 ns ---
-#   [IF] PC: 000002e4
-#   [ID] Instr: 00000013
+#   [IF] PC: 000001ac
+#   [ID] Instr: 00000000
 #   [EX] ALU Out: 00000000
-#   [WB] RegWrite: 1 | Rd: x0 | Result: 00000000
+#   [WB] RegWrite: x | Rd: x0 | Result: xxxxxxxx
 # --- CYCLE @ 1985000 ns ---
-#   [IF] PC: 000002e8
-#   [ID] Instr: 00000013
-#   [EX] ALU Out: 00000000
-#   [WB] RegWrite: 1 | Rd: x0 | Result: 00000000
+#   [IF] PC: 000001b0
+#   [ID] Instr: 0000006f
+#   [EX] ALU Out: xxxxxxxx
+#   [WB] RegWrite: 1 | Rd: x0 | Result: 000001b0
 # --- CYCLE @ 1995000 ns ---
-#   [IF] PC: 000002ec
-#   [ID] Instr: 00000013
+#   [IF] PC: 000001b0
+#   [ID] Instr: 0000006f
 #   [EX] ALU Out: 00000000
-#   [WB] RegWrite: 1 | Rd: x0 | Result: 00000000
+#   [WB] RegWrite: 0 | Rd: x0 | Result: 00000000
 # --- CYCLE @ 2005000 ns ---
-#   [IF] PC: 000002f0
-#   [ID] Instr: 00000013
+#   [IF] PC: 000001ac
+#   [ID] Instr: 00000000
 #   [EX] ALU Out: 00000000
-#   [WB] RegWrite: 1 | Rd: x0 | Result: 00000000
+#   [WB] RegWrite: x | Rd: x0 | Result: xxxxxxxx
 # --- CYCLE @ 2015000 ns ---
-#   [IF] PC: 000002f4
-#   [ID] Instr: 00000013
+#   [IF] PC: 000001b0
+#   [ID] Instr: 0000006f
+#   [EX] ALU Out: xxxxxxxx
+#   [WB] RegWrite: 1 | Rd: x0 | Result: 000001b0
+# --- CYCLE @ 2025000 ns ---
+#   [IF] PC: 000001b0
+#   [ID] Instr: 0000006f
 #   [EX] ALU Out: 00000000
-#   [WB] RegWrite: 1 | Rd: x0 | Result: 00000000
+#   [WB] RegWrite: 0 | Rd: x0 | Result: 00000000
+# --- CYCLE @ 2035000 ns ---
+#   [IF] PC: 000001ac
+#   [ID] Instr: 00000000
+#   [EX] ALU Out: 00000000
+#   [WB] RegWrite: x | Rd: x0 | Result: xxxxxxxx
+# --- CYCLE @ 2045000 ns ---
+#   [IF] PC: 000001b0
+#   [ID] Instr: 0000006f
+#   [EX] ALU Out: xxxxxxxx
+#   [WB] RegWrite: 1 | Rd: x0 | Result: 000001b0
+# --- CYCLE @ 2055000 ns ---
+#   [IF] PC: 000001b0
+#   [ID] Instr: 0000006f
+#   [EX] ALU Out: 00000000
+#   [WB] RegWrite: 0 | Rd: x0 | Result: 00000000
+# --- CYCLE @ 2065000 ns ---
+#   [IF] PC: 000001ac
+#   [ID] Instr: 00000000
+#   [EX] ALU Out: 00000000
+#   [WB] RegWrite: x | Rd: x0 | Result: xxxxxxxx
+# --- CYCLE @ 2075000 ns ---
+#   [IF] PC: 000001b0
+#   [ID] Instr: 0000006f
+#   [EX] ALU Out: xxxxxxxx
+#   [WB] RegWrite: 1 | Rd: x0 | Result: 000001b0
+# --- CYCLE @ 2085000 ns ---
+#   [IF] PC: 000001b0
+#   [ID] Instr: 0000006f
+#   [EX] ALU Out: 00000000
+#   [WB] RegWrite: 0 | Rd: x0 | Result: 00000000
+# --- CYCLE @ 2095000 ns ---
+#   [IF] PC: 000001ac
+#   [ID] Instr: 00000000
+#   [EX] ALU Out: 00000000
+#   [WB] RegWrite: x | Rd: x0 | Result: xxxxxxxx
+# --- CYCLE @ 2105000 ns ---
+#   [IF] PC: 000001b0
+#   [ID] Instr: 0000006f
+#   [EX] ALU Out: xxxxxxxx
+#   [WB] RegWrite: 1 | Rd: x0 | Result: 000001b0
+# --- CYCLE @ 2115000 ns ---
+#   [IF] PC: 000001b0
+#   [ID] Instr: 0000006f
+#   [EX] ALU Out: 00000000
+#   [WB] RegWrite: 0 | Rd: x0 | Result: 00000000
+# --- CYCLE @ 2125000 ns ---
+#   [IF] PC: 000001ac
+#   [ID] Instr: 00000000
+#   [EX] ALU Out: 00000000
+#   [WB] RegWrite: x | Rd: x0 | Result: xxxxxxxx
+# --- CYCLE @ 2135000 ns ---
+#   [IF] PC: 000001b0
+#   [ID] Instr: 0000006f
+#   [EX] ALU Out: xxxxxxxx
+#   [WB] RegWrite: 1 | Rd: x0 | Result: 000001b0
+# --- CYCLE @ 2145000 ns ---
+#   [IF] PC: 000001b0
+#   [ID] Instr: 0000006f
+#   [EX] ALU Out: 00000000
+#   [WB] RegWrite: 0 | Rd: x0 | Result: 00000000
+# --- CYCLE @ 2155000 ns ---
+#   [IF] PC: 000001ac
+#   [ID] Instr: 00000000
+#   [EX] ALU Out: 00000000
+#   [WB] RegWrite: x | Rd: x0 | Result: xxxxxxxx
+# --- CYCLE @ 2165000 ns ---
+#   [IF] PC: 000001b0
+#   [ID] Instr: 0000006f
+#   [EX] ALU Out: xxxxxxxx
+#   [WB] RegWrite: 1 | Rd: x0 | Result: 000001b0
+# --- CYCLE @ 2175000 ns ---
+#   [IF] PC: 000001b0
+#   [ID] Instr: 0000006f
+#   [EX] ALU Out: 00000000
+#   [WB] RegWrite: 0 | Rd: x0 | Result: 00000000
+# --- CYCLE @ 2185000 ns ---
+#   [IF] PC: 000001ac
+#   [ID] Instr: 00000000
+#   [EX] ALU Out: 00000000
+#   [WB] RegWrite: x | Rd: x0 | Result: xxxxxxxx
+# --- CYCLE @ 2195000 ns ---
+#   [IF] PC: 000001b0
+#   [ID] Instr: 0000006f
+#   [EX] ALU Out: xxxxxxxx
+#   [WB] RegWrite: 1 | Rd: x0 | Result: 000001b0
+# --- CYCLE @ 2205000 ns ---
+#   [IF] PC: 000001b0
+#   [ID] Instr: 0000006f
+#   [EX] ALU Out: 00000000
+#   [WB] RegWrite: 0 | Rd: x0 | Result: 00000000
+# --- CYCLE @ 2215000 ns ---
+#   [IF] PC: 000001ac
+#   [ID] Instr: 00000000
+#   [EX] ALU Out: 00000000
+#   [WB] RegWrite: x | Rd: x0 | Result: xxxxxxxx
+# --- CYCLE @ 2225000 ns ---
+#   [IF] PC: 000001b0
+#   [ID] Instr: 0000006f
+#   [EX] ALU Out: xxxxxxxx
+#   [WB] RegWrite: 1 | Rd: x0 | Result: 000001b0
+# --- CYCLE @ 2235000 ns ---
+#   [IF] PC: 000001b0
+#   [ID] Instr: 0000006f
+#   [EX] ALU Out: 00000000
+#   [WB] RegWrite: 0 | Rd: x0 | Result: 00000000
+# --- CYCLE @ 2245000 ns ---
+#   [IF] PC: 000001ac
+#   [ID] Instr: 00000000
+#   [EX] ALU Out: 00000000
+#   [WB] RegWrite: x | Rd: x0 | Result: xxxxxxxx
+# --- CYCLE @ 2255000 ns ---
+#   [IF] PC: 000001b0
+#   [ID] Instr: 0000006f
+#   [EX] ALU Out: xxxxxxxx
+#   [WB] RegWrite: 1 | Rd: x0 | Result: 000001b0
+# --- CYCLE @ 2265000 ns ---
+#   [IF] PC: 000001b0
+#   [ID] Instr: 0000006f
+#   [EX] ALU Out: 00000000
+#   [WB] RegWrite: 0 | Rd: x0 | Result: 00000000
+# --- CYCLE @ 2275000 ns ---
+#   [IF] PC: 000001ac
+#   [ID] Instr: 00000000
+#   [EX] ALU Out: 00000000
+#   [WB] RegWrite: x | Rd: x0 | Result: xxxxxxxx
+# --- CYCLE @ 2285000 ns ---
+#   [IF] PC: 000001b0
+#   [ID] Instr: 0000006f
+#   [EX] ALU Out: xxxxxxxx
+#   [WB] RegWrite: 1 | Rd: x0 | Result: 000001b0
+# --- CYCLE @ 2295000 ns ---
+#   [IF] PC: 000001b0
+#   [ID] Instr: 0000006f
+#   [EX] ALU Out: 00000000
+#   [WB] RegWrite: 0 | Rd: x0 | Result: 00000000
+# --- CYCLE @ 2305000 ns ---
+#   [IF] PC: 000001ac
+#   [ID] Instr: 00000000
+#   [EX] ALU Out: 00000000
+#   [WB] RegWrite: x | Rd: x0 | Result: xxxxxxxx
+# --- CYCLE @ 2315000 ns ---
+#   [IF] PC: 000001b0
+#   [ID] Instr: 0000006f
+#   [EX] ALU Out: xxxxxxxx
+#   [WB] RegWrite: 1 | Rd: x0 | Result: 000001b0
+# --- CYCLE @ 2325000 ns ---
+#   [IF] PC: 000001b0
+#   [ID] Instr: 0000006f
+#   [EX] ALU Out: 00000000
+#   [WB] RegWrite: 0 | Rd: x0 | Result: 00000000
+# --- CYCLE @ 2335000 ns ---
+#   [IF] PC: 000001ac
+#   [ID] Instr: 00000000
+#   [EX] ALU Out: 00000000
+#   [WB] RegWrite: x | Rd: x0 | Result: xxxxxxxx
+# --- CYCLE @ 2345000 ns ---
+#   [IF] PC: 000001b0
+#   [ID] Instr: 0000006f
+#   [EX] ALU Out: xxxxxxxx
+#   [WB] RegWrite: 1 | Rd: x0 | Result: 000001b0
+# --- CYCLE @ 2355000 ns ---
+#   [IF] PC: 000001b0
+#   [ID] Instr: 0000006f
+#   [EX] ALU Out: 00000000
+#   [WB] RegWrite: 0 | Rd: x0 | Result: 00000000
+# --- CYCLE @ 2365000 ns ---
+#   [IF] PC: 000001ac
+#   [ID] Instr: 00000000
+#   [EX] ALU Out: 00000000
+#   [WB] RegWrite: x | Rd: x0 | Result: xxxxxxxx
+# --- CYCLE @ 2375000 ns ---
+#   [IF] PC: 000001b0
+#   [ID] Instr: 0000006f
+#   [EX] ALU Out: xxxxxxxx
+#   [WB] RegWrite: 1 | Rd: x0 | Result: 000001b0
+# --- CYCLE @ 2385000 ns ---
+#   [IF] PC: 000001b0
+#   [ID] Instr: 0000006f
+#   [EX] ALU Out: 00000000
+#   [WB] RegWrite: 0 | Rd: x0 | Result: 00000000
+# --- CYCLE @ 2395000 ns ---
+#   [IF] PC: 000001ac
+#   [ID] Instr: 00000000
+#   [EX] ALU Out: 00000000
+#   [WB] RegWrite: x | Rd: x0 | Result: xxxxxxxx
+# --- CYCLE @ 2405000 ns ---
+#   [IF] PC: 000001b0
+#   [ID] Instr: 0000006f
+#   [EX] ALU Out: xxxxxxxx
+#   [WB] RegWrite: 1 | Rd: x0 | Result: 000001b0
+# --- CYCLE @ 2415000 ns ---
+#   [IF] PC: 000001b0
+#   [ID] Instr: 0000006f
+#   [EX] ALU Out: 00000000
+#   [WB] RegWrite: 0 | Rd: x0 | Result: 00000000
+# --- CYCLE @ 2425000 ns ---
+#   [IF] PC: 000001ac
+#   [ID] Instr: 00000000
+#   [EX] ALU Out: 00000000
+#   [WB] RegWrite: x | Rd: x0 | Result: xxxxxxxx
+# --- CYCLE @ 2435000 ns ---
+#   [IF] PC: 000001b0
+#   [ID] Instr: 0000006f
+#   [EX] ALU Out: xxxxxxxx
+#   [WB] RegWrite: 1 | Rd: x0 | Result: 000001b0
+# --- CYCLE @ 2445000 ns ---
+#   [IF] PC: 000001b0
+#   [ID] Instr: 0000006f
+#   [EX] ALU Out: 00000000
+#   [WB] RegWrite: 0 | Rd: x0 | Result: 00000000
+# --- CYCLE @ 2455000 ns ---
+#   [IF] PC: 000001ac
+#   [ID] Instr: 00000000
+#   [EX] ALU Out: 00000000
+#   [WB] RegWrite: x | Rd: x0 | Result: xxxxxxxx
+# --- CYCLE @ 2465000 ns ---
+#   [IF] PC: 000001b0
+#   [ID] Instr: 0000006f
+#   [EX] ALU Out: xxxxxxxx
+#   [WB] RegWrite: 1 | Rd: x0 | Result: 000001b0
+# --- CYCLE @ 2475000 ns ---
+#   [IF] PC: 000001b0
+#   [ID] Instr: 0000006f
+#   [EX] ALU Out: 00000000
+#   [WB] RegWrite: 0 | Rd: x0 | Result: 00000000
+# --- CYCLE @ 2485000 ns ---
+#   [IF] PC: 000001ac
+#   [ID] Instr: 00000000
+#   [EX] ALU Out: 00000000
+#   [WB] RegWrite: x | Rd: x0 | Result: xxxxxxxx
+# --- CYCLE @ 2495000 ns ---
+#   [IF] PC: 000001b0
+#   [ID] Instr: 0000006f
+#   [EX] ALU Out: xxxxxxxx
+#   [WB] RegWrite: 1 | Rd: x0 | Result: 000001b0
+# --- CYCLE @ 2505000 ns ---
+#   [IF] PC: 000001b0
+#   [ID] Instr: 0000006f
+#   [EX] ALU Out: 00000000
+#   [WB] RegWrite: 0 | Rd: x0 | Result: 00000000
+# --- CYCLE @ 2515000 ns ---
+#   [IF] PC: 000001ac
+#   [ID] Instr: 00000000
+#   [EX] ALU Out: 00000000
+#   [WB] RegWrite: x | Rd: x0 | Result: xxxxxxxx
+# --- CYCLE @ 2525000 ns ---
+#   [IF] PC: 000001b0
+#   [ID] Instr: 0000006f
+#   [EX] ALU Out: xxxxxxxx
+#   [WB] RegWrite: 1 | Rd: x0 | Result: 000001b0
+# --- CYCLE @ 2535000 ns ---
+#   [IF] PC: 000001b0
+#   [ID] Instr: 0000006f
+#   [EX] ALU Out: 00000000
+#   [WB] RegWrite: 0 | Rd: x0 | Result: 00000000
+# --- CYCLE @ 2545000 ns ---
+#   [IF] PC: 000001ac
+#   [ID] Instr: 00000000
+#   [EX] ALU Out: 00000000
+#   [WB] RegWrite: x | Rd: x0 | Result: xxxxxxxx
+# --- CYCLE @ 2555000 ns ---
+#   [IF] PC: 000001b0
+#   [ID] Instr: 0000006f
+#   [EX] ALU Out: xxxxxxxx
+#   [WB] RegWrite: 1 | Rd: x0 | Result: 000001b0
+# --- CYCLE @ 2565000 ns ---
+#   [IF] PC: 000001b0
+#   [ID] Instr: 0000006f
+#   [EX] ALU Out: 00000000
+#   [WB] RegWrite: 0 | Rd: x0 | Result: 00000000
+# --- CYCLE @ 2575000 ns ---
+#   [IF] PC: 000001ac
+#   [ID] Instr: 00000000
+#   [EX] ALU Out: 00000000
+#   [WB] RegWrite: x | Rd: x0 | Result: xxxxxxxx
+# --- CYCLE @ 2585000 ns ---
+#   [IF] PC: 000001b0
+#   [ID] Instr: 0000006f
+#   [EX] ALU Out: xxxxxxxx
+#   [WB] RegWrite: 1 | Rd: x0 | Result: 000001b0
+# --- CYCLE @ 2595000 ns ---
+#   [IF] PC: 000001b0
+#   [ID] Instr: 0000006f
+#   [EX] ALU Out: 00000000
+#   [WB] RegWrite: 0 | Rd: x0 | Result: 00000000
+# --- CYCLE @ 2605000 ns ---
+#   [IF] PC: 000001ac
+#   [ID] Instr: 00000000
+#   [EX] ALU Out: 00000000
+#   [WB] RegWrite: x | Rd: x0 | Result: xxxxxxxx
+# --- CYCLE @ 2615000 ns ---
+#   [IF] PC: 000001b0
+#   [ID] Instr: 0000006f
+#   [EX] ALU Out: xxxxxxxx
+#   [WB] RegWrite: 1 | Rd: x0 | Result: 000001b0
+# --- CYCLE @ 2625000 ns ---
+#   [IF] PC: 000001b0
+#   [ID] Instr: 0000006f
+#   [EX] ALU Out: 00000000
+#   [WB] RegWrite: 0 | Rd: x0 | Result: 00000000
+# --- CYCLE @ 2635000 ns ---
+#   [IF] PC: 000001ac
+#   [ID] Instr: 00000000
+#   [EX] ALU Out: 00000000
+#   [WB] RegWrite: x | Rd: x0 | Result: xxxxxxxx
+# --- CYCLE @ 2645000 ns ---
+#   [IF] PC: 000001b0
+#   [ID] Instr: 0000006f
+#   [EX] ALU Out: xxxxxxxx
+#   [WB] RegWrite: 1 | Rd: x0 | Result: 000001b0
+# --- CYCLE @ 2655000 ns ---
+#   [IF] PC: 000001b0
+#   [ID] Instr: 0000006f
+#   [EX] ALU Out: 00000000
+#   [WB] RegWrite: 0 | Rd: x0 | Result: 00000000
+# --- CYCLE @ 2665000 ns ---
+#   [IF] PC: 000001ac
+#   [ID] Instr: 00000000
+#   [EX] ALU Out: 00000000
+#   [WB] RegWrite: x | Rd: x0 | Result: xxxxxxxx
+# --- CYCLE @ 2675000 ns ---
+#   [IF] PC: 000001b0
+#   [ID] Instr: 0000006f
+#   [EX] ALU Out: xxxxxxxx
+#   [WB] RegWrite: 1 | Rd: x0 | Result: 000001b0
+# --- CYCLE @ 2685000 ns ---
+#   [IF] PC: 000001b0
+#   [ID] Instr: 0000006f
+#   [EX] ALU Out: 00000000
+#   [WB] RegWrite: 0 | Rd: x0 | Result: 00000000
+# --- CYCLE @ 2695000 ns ---
+#   [IF] PC: 000001ac
+#   [ID] Instr: 00000000
+#   [EX] ALU Out: 00000000
+#   [WB] RegWrite: x | Rd: x0 | Result: xxxxxxxx
+# --- CYCLE @ 2705000 ns ---
+#   [IF] PC: 000001b0
+#   [ID] Instr: 0000006f
+#   [EX] ALU Out: xxxxxxxx
+#   [WB] RegWrite: 1 | Rd: x0 | Result: 000001b0
+# --- CYCLE @ 2715000 ns ---
+#   [IF] PC: 000001b0
+#   [ID] Instr: 0000006f
+#   [EX] ALU Out: 00000000
+#   [WB] RegWrite: 0 | Rd: x0 | Result: 00000000
+# --- CYCLE @ 2725000 ns ---
+#   [IF] PC: 000001ac
+#   [ID] Instr: 00000000
+#   [EX] ALU Out: 00000000
+#   [WB] RegWrite: x | Rd: x0 | Result: xxxxxxxx
+# --- CYCLE @ 2735000 ns ---
+#   [IF] PC: 000001b0
+#   [ID] Instr: 0000006f
+#   [EX] ALU Out: xxxxxxxx
+#   [WB] RegWrite: 1 | Rd: x0 | Result: 000001b0
+# --- CYCLE @ 2745000 ns ---
+#   [IF] PC: 000001b0
+#   [ID] Instr: 0000006f
+#   [EX] ALU Out: 00000000
+#   [WB] RegWrite: 0 | Rd: x0 | Result: 00000000
+# --- CYCLE @ 2755000 ns ---
+#   [IF] PC: 000001ac
+#   [ID] Instr: 00000000
+#   [EX] ALU Out: 00000000
+#   [WB] RegWrite: x | Rd: x0 | Result: xxxxxxxx
+# --- CYCLE @ 2765000 ns ---
+#   [IF] PC: 000001b0
+#   [ID] Instr: 0000006f
+#   [EX] ALU Out: xxxxxxxx
+#   [WB] RegWrite: 1 | Rd: x0 | Result: 000001b0
+# --- CYCLE @ 2775000 ns ---
+#   [IF] PC: 000001b0
+#   [ID] Instr: 0000006f
+#   [EX] ALU Out: 00000000
+#   [WB] RegWrite: 0 | Rd: x0 | Result: 00000000
+# --- CYCLE @ 2785000 ns ---
+#   [IF] PC: 000001ac
+#   [ID] Instr: 00000000
+#   [EX] ALU Out: 00000000
+#   [WB] RegWrite: x | Rd: x0 | Result: xxxxxxxx
+# --- CYCLE @ 2795000 ns ---
+#   [IF] PC: 000001b0
+#   [ID] Instr: 0000006f
+#   [EX] ALU Out: xxxxxxxx
+#   [WB] RegWrite: 1 | Rd: x0 | Result: 000001b0
+# --- CYCLE @ 2805000 ns ---
+#   [IF] PC: 000001b0
+#   [ID] Instr: 0000006f
+#   [EX] ALU Out: 00000000
+#   [WB] RegWrite: 0 | Rd: x0 | Result: 00000000
+# --- CYCLE @ 2815000 ns ---
+#   [IF] PC: 000001ac
+#   [ID] Instr: 00000000
+#   [EX] ALU Out: 00000000
+#   [WB] RegWrite: x | Rd: x0 | Result: xxxxxxxx
+# --- CYCLE @ 2825000 ns ---
+#   [IF] PC: 000001b0
+#   [ID] Instr: 0000006f
+#   [EX] ALU Out: xxxxxxxx
+#   [WB] RegWrite: 1 | Rd: x0 | Result: 000001b0
+# --- CYCLE @ 2835000 ns ---
+#   [IF] PC: 000001b0
+#   [ID] Instr: 0000006f
+#   [EX] ALU Out: 00000000
+#   [WB] RegWrite: 0 | Rd: x0 | Result: 00000000
+# --- CYCLE @ 2845000 ns ---
+#   [IF] PC: 000001ac
+#   [ID] Instr: 00000000
+#   [EX] ALU Out: 00000000
+#   [WB] RegWrite: x | Rd: x0 | Result: xxxxxxxx
+# --- CYCLE @ 2855000 ns ---
+#   [IF] PC: 000001b0
+#   [ID] Instr: 0000006f
+#   [EX] ALU Out: xxxxxxxx
+#   [WB] RegWrite: 1 | Rd: x0 | Result: 000001b0
+# --- CYCLE @ 2865000 ns ---
+#   [IF] PC: 000001b0
+#   [ID] Instr: 0000006f
+#   [EX] ALU Out: 00000000
+#   [WB] RegWrite: 0 | Rd: x0 | Result: 00000000
+# --- CYCLE @ 2875000 ns ---
+#   [IF] PC: 000001ac
+#   [ID] Instr: 00000000
+#   [EX] ALU Out: 00000000
+#   [WB] RegWrite: x | Rd: x0 | Result: xxxxxxxx
+# --- CYCLE @ 2885000 ns ---
+#   [IF] PC: 000001b0
+#   [ID] Instr: 0000006f
+#   [EX] ALU Out: xxxxxxxx
+#   [WB] RegWrite: 1 | Rd: x0 | Result: 000001b0
+# --- CYCLE @ 2895000 ns ---
+#   [IF] PC: 000001b0
+#   [ID] Instr: 0000006f
+#   [EX] ALU Out: 00000000
+#   [WB] RegWrite: 0 | Rd: x0 | Result: 00000000
+# --- CYCLE @ 2905000 ns ---
+#   [IF] PC: 000001ac
+#   [ID] Instr: 00000000
+#   [EX] ALU Out: 00000000
+#   [WB] RegWrite: x | Rd: x0 | Result: xxxxxxxx
+# --- CYCLE @ 2915000 ns ---
+#   [IF] PC: 000001b0
+#   [ID] Instr: 0000006f
+#   [EX] ALU Out: xxxxxxxx
+#   [WB] RegWrite: 1 | Rd: x0 | Result: 000001b0
+# --- CYCLE @ 2925000 ns ---
+#   [IF] PC: 000001b0
+#   [ID] Instr: 0000006f
+#   [EX] ALU Out: 00000000
+#   [WB] RegWrite: 0 | Rd: x0 | Result: 00000000
+# --- CYCLE @ 2935000 ns ---
+#   [IF] PC: 000001ac
+#   [ID] Instr: 00000000
+#   [EX] ALU Out: 00000000
+#   [WB] RegWrite: x | Rd: x0 | Result: xxxxxxxx
+# --- CYCLE @ 2945000 ns ---
+#   [IF] PC: 000001b0
+#   [ID] Instr: 0000006f
+#   [EX] ALU Out: xxxxxxxx
+#   [WB] RegWrite: 1 | Rd: x0 | Result: 000001b0
+# --- CYCLE @ 2955000 ns ---
+#   [IF] PC: 000001b0
+#   [ID] Instr: 0000006f
+#   [EX] ALU Out: 00000000
+#   [WB] RegWrite: 0 | Rd: x0 | Result: 00000000
+# --- CYCLE @ 2965000 ns ---
+#   [IF] PC: 000001ac
+#   [ID] Instr: 00000000
+#   [EX] ALU Out: 00000000
+#   [WB] RegWrite: x | Rd: x0 | Result: xxxxxxxx
+# --- CYCLE @ 2975000 ns ---
+#   [IF] PC: 000001b0
+#   [ID] Instr: 0000006f
+#   [EX] ALU Out: xxxxxxxx
+#   [WB] RegWrite: 1 | Rd: x0 | Result: 000001b0
+# --- CYCLE @ 2985000 ns ---
+#   [IF] PC: 000001b0
+#   [ID] Instr: 0000006f
+#   [EX] ALU Out: 00000000
+#   [WB] RegWrite: 0 | Rd: x0 | Result: 00000000
+# --- CYCLE @ 2995000 ns ---
+#   [IF] PC: 000001ac
+#   [ID] Instr: 00000000
+#   [EX] ALU Out: 00000000
+#   [WB] RegWrite: x | Rd: x0 | Result: xxxxxxxx
+# --- CYCLE @ 3005000 ns ---
+#   [IF] PC: 000001b0
+#   [ID] Instr: 0000006f
+#   [EX] ALU Out: xxxxxxxx
+#   [WB] RegWrite: 1 | Rd: x0 | Result: 000001b0
+# --- CYCLE @ 3015000 ns ---
+#   [IF] PC: 000001b0
+#   [ID] Instr: 0000006f
+#   [EX] ALU Out: 00000000
+#   [WB] RegWrite: 0 | Rd: x0 | Result: 00000000
+# --- CYCLE @ 3025000 ns ---
+#   [IF] PC: 000001ac
+#   [ID] Instr: 00000000
+#   [EX] ALU Out: 00000000
+#   [WB] RegWrite: x | Rd: x0 | Result: xxxxxxxx
+# --- CYCLE @ 3035000 ns ---
+#   [IF] PC: 000001b0
+#   [ID] Instr: 0000006f
+#   [EX] ALU Out: xxxxxxxx
+#   [WB] RegWrite: 1 | Rd: x0 | Result: 000001b0
+# --- CYCLE @ 3045000 ns ---
+#   [IF] PC: 000001b0
+#   [ID] Instr: 0000006f
+#   [EX] ALU Out: 00000000
+#   [WB] RegWrite: 0 | Rd: x0 | Result: 00000000
+# --- CYCLE @ 3055000 ns ---
+#   [IF] PC: 000001ac
+#   [ID] Instr: 00000000
+#   [EX] ALU Out: 00000000
+#   [WB] RegWrite: x | Rd: x0 | Result: xxxxxxxx
+# --- CYCLE @ 3065000 ns ---
+#   [IF] PC: 000001b0
+#   [ID] Instr: 0000006f
+#   [EX] ALU Out: xxxxxxxx
+#   [WB] RegWrite: 1 | Rd: x0 | Result: 000001b0
+# --- CYCLE @ 3075000 ns ---
+#   [IF] PC: 000001b0
+#   [ID] Instr: 0000006f
+#   [EX] ALU Out: 00000000
+#   [WB] RegWrite: 0 | Rd: x0 | Result: 00000000
+# --- CYCLE @ 3085000 ns ---
+#   [IF] PC: 000001ac
+#   [ID] Instr: 00000000
+#   [EX] ALU Out: 00000000
+#   [WB] RegWrite: x | Rd: x0 | Result: xxxxxxxx
+# --- CYCLE @ 3095000 ns ---
+#   [IF] PC: 000001b0
+#   [ID] Instr: 0000006f
+#   [EX] ALU Out: xxxxxxxx
+#   [WB] RegWrite: 1 | Rd: x0 | Result: 000001b0
+# --- CYCLE @ 3105000 ns ---
+#   [IF] PC: 000001b0
+#   [ID] Instr: 0000006f
+#   [EX] ALU Out: 00000000
+#   [WB] RegWrite: 0 | Rd: x0 | Result: 00000000
+# --- CYCLE @ 3115000 ns ---
+#   [IF] PC: 000001ac
+#   [ID] Instr: 00000000
+#   [EX] ALU Out: 00000000
+#   [WB] RegWrite: x | Rd: x0 | Result: xxxxxxxx
+# --- CYCLE @ 3125000 ns ---
+#   [IF] PC: 000001b0
+#   [ID] Instr: 0000006f
+#   [EX] ALU Out: xxxxxxxx
+#   [WB] RegWrite: 1 | Rd: x0 | Result: 000001b0
+# --- CYCLE @ 3135000 ns ---
+#   [IF] PC: 000001b0
+#   [ID] Instr: 0000006f
+#   [EX] ALU Out: 00000000
+#   [WB] RegWrite: 0 | Rd: x0 | Result: 00000000
+# --- CYCLE @ 3145000 ns ---
+#   [IF] PC: 000001ac
+#   [ID] Instr: 00000000
+#   [EX] ALU Out: 00000000
+#   [WB] RegWrite: x | Rd: x0 | Result: xxxxxxxx
+# --- CYCLE @ 3155000 ns ---
+#   [IF] PC: 000001b0
+#   [ID] Instr: 0000006f
+#   [EX] ALU Out: xxxxxxxx
+#   [WB] RegWrite: 1 | Rd: x0 | Result: 000001b0
+# --- CYCLE @ 3165000 ns ---
+#   [IF] PC: 000001b0
+#   [ID] Instr: 0000006f
+#   [EX] ALU Out: 00000000
+#   [WB] RegWrite: 0 | Rd: x0 | Result: 00000000
+# --- CYCLE @ 3175000 ns ---
+#   [IF] PC: 000001ac
+#   [ID] Instr: 00000000
+#   [EX] ALU Out: 00000000
+#   [WB] RegWrite: x | Rd: x0 | Result: xxxxxxxx
+# --- CYCLE @ 3185000 ns ---
+#   [IF] PC: 000001b0
+#   [ID] Instr: 0000006f
+#   [EX] ALU Out: xxxxxxxx
+#   [WB] RegWrite: 1 | Rd: x0 | Result: 000001b0
+# --- CYCLE @ 3195000 ns ---
+#   [IF] PC: 000001b0
+#   [ID] Instr: 0000006f
+#   [EX] ALU Out: 00000000
+#   [WB] RegWrite: 0 | Rd: x0 | Result: 00000000
+# --- CYCLE @ 3205000 ns ---
+#   [IF] PC: 000001ac
+#   [ID] Instr: 00000000
+#   [EX] ALU Out: 00000000
+#   [WB] RegWrite: x | Rd: x0 | Result: xxxxxxxx
+# --- CYCLE @ 3215000 ns ---
+#   [IF] PC: 000001b0
+#   [ID] Instr: 0000006f
+#   [EX] ALU Out: xxxxxxxx
+#   [WB] RegWrite: 1 | Rd: x0 | Result: 000001b0
+# --- CYCLE @ 3225000 ns ---
+#   [IF] PC: 000001b0
+#   [ID] Instr: 0000006f
+#   [EX] ALU Out: 00000000
+#   [WB] RegWrite: 0 | Rd: x0 | Result: 00000000
+# --- CYCLE @ 3235000 ns ---
+#   [IF] PC: 000001ac
+#   [ID] Instr: 00000000
+#   [EX] ALU Out: 00000000
+#   [WB] RegWrite: x | Rd: x0 | Result: xxxxxxxx
+# --- CYCLE @ 3245000 ns ---
+#   [IF] PC: 000001b0
+#   [ID] Instr: 0000006f
+#   [EX] ALU Out: xxxxxxxx
+#   [WB] RegWrite: 1 | Rd: x0 | Result: 000001b0
+# --- CYCLE @ 3255000 ns ---
+#   [IF] PC: 000001b0
+#   [ID] Instr: 0000006f
+#   [EX] ALU Out: 00000000
+#   [WB] RegWrite: 0 | Rd: x0 | Result: 00000000
+# --- CYCLE @ 3265000 ns ---
+#   [IF] PC: 000001ac
+#   [ID] Instr: 00000000
+#   [EX] ALU Out: 00000000
+#   [WB] RegWrite: x | Rd: x0 | Result: xxxxxxxx
+# --- CYCLE @ 3275000 ns ---
+#   [IF] PC: 000001b0
+#   [ID] Instr: 0000006f
+#   [EX] ALU Out: xxxxxxxx
+#   [WB] RegWrite: 1 | Rd: x0 | Result: 000001b0
+# --- CYCLE @ 3285000 ns ---
+#   [IF] PC: 000001b0
+#   [ID] Instr: 0000006f
+#   [EX] ALU Out: 00000000
+#   [WB] RegWrite: 0 | Rd: x0 | Result: 00000000
+# --- CYCLE @ 3295000 ns ---
+#   [IF] PC: 000001ac
+#   [ID] Instr: 00000000
+#   [EX] ALU Out: 00000000
+#   [WB] RegWrite: x | Rd: x0 | Result: xxxxxxxx
+# --- CYCLE @ 3305000 ns ---
+#   [IF] PC: 000001b0
+#   [ID] Instr: 0000006f
+#   [EX] ALU Out: xxxxxxxx
+#   [WB] RegWrite: 1 | Rd: x0 | Result: 000001b0
+# --- CYCLE @ 3315000 ns ---
+#   [IF] PC: 000001b0
+#   [ID] Instr: 0000006f
+#   [EX] ALU Out: 00000000
+#   [WB] RegWrite: 0 | Rd: x0 | Result: 00000000
+# --- CYCLE @ 3325000 ns ---
+#   [IF] PC: 000001ac
+#   [ID] Instr: 00000000
+#   [EX] ALU Out: 00000000
+#   [WB] RegWrite: x | Rd: x0 | Result: xxxxxxxx
+# --- CYCLE @ 3335000 ns ---
+#   [IF] PC: 000001b0
+#   [ID] Instr: 0000006f
+#   [EX] ALU Out: xxxxxxxx
+#   [WB] RegWrite: 1 | Rd: x0 | Result: 000001b0
+# --- CYCLE @ 3345000 ns ---
+#   [IF] PC: 000001b0
+#   [ID] Instr: 0000006f
+#   [EX] ALU Out: 00000000
+#   [WB] RegWrite: 0 | Rd: x0 | Result: 00000000
+# --- CYCLE @ 3355000 ns ---
+#   [IF] PC: 000001ac
+#   [ID] Instr: 00000000
+#   [EX] ALU Out: 00000000
+#   [WB] RegWrite: x | Rd: x0 | Result: xxxxxxxx
+# --- CYCLE @ 3365000 ns ---
+#   [IF] PC: 000001b0
+#   [ID] Instr: 0000006f
+#   [EX] ALU Out: xxxxxxxx
+#   [WB] RegWrite: 1 | Rd: x0 | Result: 000001b0
+# --- CYCLE @ 3375000 ns ---
+#   [IF] PC: 000001b0
+#   [ID] Instr: 0000006f
+#   [EX] ALU Out: 00000000
+#   [WB] RegWrite: 0 | Rd: x0 | Result: 00000000
+# --- CYCLE @ 3385000 ns ---
+#   [IF] PC: 000001ac
+#   [ID] Instr: 00000000
+#   [EX] ALU Out: 00000000
+#   [WB] RegWrite: x | Rd: x0 | Result: xxxxxxxx
+# --- CYCLE @ 3395000 ns ---
+#   [IF] PC: 000001b0
+#   [ID] Instr: 0000006f
+#   [EX] ALU Out: xxxxxxxx
+#   [WB] RegWrite: 1 | Rd: x0 | Result: 000001b0
+# --- CYCLE @ 3405000 ns ---
+#   [IF] PC: 000001b0
+#   [ID] Instr: 0000006f
+#   [EX] ALU Out: 00000000
+#   [WB] RegWrite: 0 | Rd: x0 | Result: 00000000
+# --- CYCLE @ 3415000 ns ---
+#   [IF] PC: 000001ac
+#   [ID] Instr: 00000000
+#   [EX] ALU Out: 00000000
+#   [WB] RegWrite: x | Rd: x0 | Result: xxxxxxxx
+# --- CYCLE @ 3425000 ns ---
+#   [IF] PC: 000001b0
+#   [ID] Instr: 0000006f
+#   [EX] ALU Out: xxxxxxxx
+#   [WB] RegWrite: 1 | Rd: x0 | Result: 000001b0
+# --- CYCLE @ 3435000 ns ---
+#   [IF] PC: 000001b0
+#   [ID] Instr: 0000006f
+#   [EX] ALU Out: 00000000
+#   [WB] RegWrite: 0 | Rd: x0 | Result: 00000000
+# --- CYCLE @ 3445000 ns ---
+#   [IF] PC: 000001ac
+#   [ID] Instr: 00000000
+#   [EX] ALU Out: 00000000
+#   [WB] RegWrite: x | Rd: x0 | Result: xxxxxxxx
+# --- CYCLE @ 3455000 ns ---
+#   [IF] PC: 000001b0
+#   [ID] Instr: 0000006f
+#   [EX] ALU Out: xxxxxxxx
+#   [WB] RegWrite: 1 | Rd: x0 | Result: 000001b0
+# --- CYCLE @ 3465000 ns ---
+#   [IF] PC: 000001b0
+#   [ID] Instr: 0000006f
+#   [EX] ALU Out: 00000000
+#   [WB] RegWrite: 0 | Rd: x0 | Result: 00000000
+# --- CYCLE @ 3475000 ns ---
+#   [IF] PC: 000001ac
+#   [ID] Instr: 00000000
+#   [EX] ALU Out: 00000000
+#   [WB] RegWrite: x | Rd: x0 | Result: xxxxxxxx
+# --- CYCLE @ 3485000 ns ---
+#   [IF] PC: 000001b0
+#   [ID] Instr: 0000006f
+#   [EX] ALU Out: xxxxxxxx
+#   [WB] RegWrite: 1 | Rd: x0 | Result: 000001b0
+# --- CYCLE @ 3495000 ns ---
+#   [IF] PC: 000001b0
+#   [ID] Instr: 0000006f
+#   [EX] ALU Out: 00000000
+#   [WB] RegWrite: 0 | Rd: x0 | Result: 00000000
+# --- CYCLE @ 3505000 ns ---
+#   [IF] PC: 000001ac
+#   [ID] Instr: 00000000
+#   [EX] ALU Out: 00000000
+#   [WB] RegWrite: x | Rd: x0 | Result: xxxxxxxx
+# --- CYCLE @ 3515000 ns ---
+#   [IF] PC: 000001b0
+#   [ID] Instr: 0000006f
+#   [EX] ALU Out: xxxxxxxx
+#   [WB] RegWrite: 1 | Rd: x0 | Result: 000001b0
+# --- CYCLE @ 3525000 ns ---
+#   [IF] PC: 000001b0
+#   [ID] Instr: 0000006f
+#   [EX] ALU Out: 00000000
+#   [WB] RegWrite: 0 | Rd: x0 | Result: 00000000
+# --- CYCLE @ 3535000 ns ---
+#   [IF] PC: 000001ac
+#   [ID] Instr: 00000000
+#   [EX] ALU Out: 00000000
+#   [WB] RegWrite: x | Rd: x0 | Result: xxxxxxxx
+# --- CYCLE @ 3545000 ns ---
+#   [IF] PC: 000001b0
+#   [ID] Instr: 0000006f
+#   [EX] ALU Out: xxxxxxxx
+#   [WB] RegWrite: 1 | Rd: x0 | Result: 000001b0
+# --- CYCLE @ 3555000 ns ---
+#   [IF] PC: 000001b0
+#   [ID] Instr: 0000006f
+#   [EX] ALU Out: 00000000
+#   [WB] RegWrite: 0 | Rd: x0 | Result: 00000000
+# --- CYCLE @ 3565000 ns ---
+#   [IF] PC: 000001ac
+#   [ID] Instr: 00000000
+#   [EX] ALU Out: 00000000
+#   [WB] RegWrite: x | Rd: x0 | Result: xxxxxxxx
+# --- CYCLE @ 3575000 ns ---
+#   [IF] PC: 000001b0
+#   [ID] Instr: 0000006f
+#   [EX] ALU Out: xxxxxxxx
+#   [WB] RegWrite: 1 | Rd: x0 | Result: 000001b0
+# --- CYCLE @ 3585000 ns ---
+#   [IF] PC: 000001b0
+#   [ID] Instr: 0000006f
+#   [EX] ALU Out: 00000000
+#   [WB] RegWrite: 0 | Rd: x0 | Result: 00000000
+# --- CYCLE @ 3595000 ns ---
+#   [IF] PC: 000001ac
+#   [ID] Instr: 00000000
+#   [EX] ALU Out: 00000000
+#   [WB] RegWrite: x | Rd: x0 | Result: xxxxxxxx
+# --- CYCLE @ 3605000 ns ---
+#   [IF] PC: 000001b0
+#   [ID] Instr: 0000006f
+#   [EX] ALU Out: xxxxxxxx
+#   [WB] RegWrite: 1 | Rd: x0 | Result: 000001b0
+# --- CYCLE @ 3615000 ns ---
+#   [IF] PC: 000001b0
+#   [ID] Instr: 0000006f
+#   [EX] ALU Out: 00000000
+#   [WB] RegWrite: 0 | Rd: x0 | Result: 00000000
+# --- CYCLE @ 3625000 ns ---
+#   [IF] PC: 000001ac
+#   [ID] Instr: 00000000
+#   [EX] ALU Out: 00000000
+#   [WB] RegWrite: x | Rd: x0 | Result: xxxxxxxx
+# --- CYCLE @ 3635000 ns ---
+#   [IF] PC: 000001b0
+#   [ID] Instr: 0000006f
+#   [EX] ALU Out: xxxxxxxx
+#   [WB] RegWrite: 1 | Rd: x0 | Result: 000001b0
+# --- CYCLE @ 3645000 ns ---
+#   [IF] PC: 000001b0
+#   [ID] Instr: 0000006f
+#   [EX] ALU Out: 00000000
+#   [WB] RegWrite: 0 | Rd: x0 | Result: 00000000
+# --- CYCLE @ 3655000 ns ---
+#   [IF] PC: 000001ac
+#   [ID] Instr: 00000000
+#   [EX] ALU Out: 00000000
+#   [WB] RegWrite: x | Rd: x0 | Result: xxxxxxxx
+# --- CYCLE @ 3665000 ns ---
+#   [IF] PC: 000001b0
+#   [ID] Instr: 0000006f
+#   [EX] ALU Out: xxxxxxxx
+#   [WB] RegWrite: 1 | Rd: x0 | Result: 000001b0
+# --- CYCLE @ 3675000 ns ---
+#   [IF] PC: 000001b0
+#   [ID] Instr: 0000006f
+#   [EX] ALU Out: 00000000
+#   [WB] RegWrite: 0 | Rd: x0 | Result: 00000000
+# --- CYCLE @ 3685000 ns ---
+#   [IF] PC: 000001ac
+#   [ID] Instr: 00000000
+#   [EX] ALU Out: 00000000
+#   [WB] RegWrite: x | Rd: x0 | Result: xxxxxxxx
+# --- CYCLE @ 3695000 ns ---
+#   [IF] PC: 000001b0
+#   [ID] Instr: 0000006f
+#   [EX] ALU Out: xxxxxxxx
+#   [WB] RegWrite: 1 | Rd: x0 | Result: 000001b0
+# --- CYCLE @ 3705000 ns ---
+#   [IF] PC: 000001b0
+#   [ID] Instr: 0000006f
+#   [EX] ALU Out: 00000000
+#   [WB] RegWrite: 0 | Rd: x0 | Result: 00000000
+# --- CYCLE @ 3715000 ns ---
+#   [IF] PC: 000001ac
+#   [ID] Instr: 00000000
+#   [EX] ALU Out: 00000000
+#   [WB] RegWrite: x | Rd: x0 | Result: xxxxxxxx
+# --- CYCLE @ 3725000 ns ---
+#   [IF] PC: 000001b0
+#   [ID] Instr: 0000006f
+#   [EX] ALU Out: xxxxxxxx
+#   [WB] RegWrite: 1 | Rd: x0 | Result: 000001b0
+# --- CYCLE @ 3735000 ns ---
+#   [IF] PC: 000001b0
+#   [ID] Instr: 0000006f
+#   [EX] ALU Out: 00000000
+#   [WB] RegWrite: 0 | Rd: x0 | Result: 00000000
+# --- CYCLE @ 3745000 ns ---
+#   [IF] PC: 000001ac
+#   [ID] Instr: 00000000
+#   [EX] ALU Out: 00000000
+#   [WB] RegWrite: x | Rd: x0 | Result: xxxxxxxx
+# --- CYCLE @ 3755000 ns ---
+#   [IF] PC: 000001b0
+#   [ID] Instr: 0000006f
+#   [EX] ALU Out: xxxxxxxx
+#   [WB] RegWrite: 1 | Rd: x0 | Result: 000001b0
+# --- CYCLE @ 3765000 ns ---
+#   [IF] PC: 000001b0
+#   [ID] Instr: 0000006f
+#   [EX] ALU Out: 00000000
+#   [WB] RegWrite: 0 | Rd: x0 | Result: 00000000
+# --- CYCLE @ 3775000 ns ---
+#   [IF] PC: 000001ac
+#   [ID] Instr: 00000000
+#   [EX] ALU Out: 00000000
+#   [WB] RegWrite: x | Rd: x0 | Result: xxxxxxxx
+# --- CYCLE @ 3785000 ns ---
+#   [IF] PC: 000001b0
+#   [ID] Instr: 0000006f
+#   [EX] ALU Out: xxxxxxxx
+#   [WB] RegWrite: 1 | Rd: x0 | Result: 000001b0
+# --- CYCLE @ 3795000 ns ---
+#   [IF] PC: 000001b0
+#   [ID] Instr: 0000006f
+#   [EX] ALU Out: 00000000
+#   [WB] RegWrite: 0 | Rd: x0 | Result: 00000000
+# --- CYCLE @ 3805000 ns ---
+#   [IF] PC: 000001ac
+#   [ID] Instr: 00000000
+#   [EX] ALU Out: 00000000
+#   [WB] RegWrite: x | Rd: x0 | Result: xxxxxxxx
+# --- CYCLE @ 3815000 ns ---
+#   [IF] PC: 000001b0
+#   [ID] Instr: 0000006f
+#   [EX] ALU Out: xxxxxxxx
+#   [WB] RegWrite: 1 | Rd: x0 | Result: 000001b0
+# --- CYCLE @ 3825000 ns ---
+#   [IF] PC: 000001b0
+#   [ID] Instr: 0000006f
+#   [EX] ALU Out: 00000000
+#   [WB] RegWrite: 0 | Rd: x0 | Result: 00000000
+# --- CYCLE @ 3835000 ns ---
+#   [IF] PC: 000001ac
+#   [ID] Instr: 00000000
+#   [EX] ALU Out: 00000000
+#   [WB] RegWrite: x | Rd: x0 | Result: xxxxxxxx
+# --- CYCLE @ 3845000 ns ---
+#   [IF] PC: 000001b0
+#   [ID] Instr: 0000006f
+#   [EX] ALU Out: xxxxxxxx
+#   [WB] RegWrite: 1 | Rd: x0 | Result: 000001b0
+# --- CYCLE @ 3855000 ns ---
+#   [IF] PC: 000001b0
+#   [ID] Instr: 0000006f
+#   [EX] ALU Out: 00000000
+#   [WB] RegWrite: 0 | Rd: x0 | Result: 00000000
+# --- CYCLE @ 3865000 ns ---
+#   [IF] PC: 000001ac
+#   [ID] Instr: 00000000
+#   [EX] ALU Out: 00000000
+#   [WB] RegWrite: x | Rd: x0 | Result: xxxxxxxx
+# --- CYCLE @ 3875000 ns ---
+#   [IF] PC: 000001b0
+#   [ID] Instr: 0000006f
+#   [EX] ALU Out: xxxxxxxx
+#   [WB] RegWrite: 1 | Rd: x0 | Result: 000001b0
+# --- CYCLE @ 3885000 ns ---
+#   [IF] PC: 000001b0
+#   [ID] Instr: 0000006f
+#   [EX] ALU Out: 00000000
+#   [WB] RegWrite: 0 | Rd: x0 | Result: 00000000
+# --- CYCLE @ 3895000 ns ---
+#   [IF] PC: 000001ac
+#   [ID] Instr: 00000000
+#   [EX] ALU Out: 00000000
+#   [WB] RegWrite: x | Rd: x0 | Result: xxxxxxxx
+# --- CYCLE @ 3905000 ns ---
+#   [IF] PC: 000001b0
+#   [ID] Instr: 0000006f
+#   [EX] ALU Out: xxxxxxxx
+#   [WB] RegWrite: 1 | Rd: x0 | Result: 000001b0
+# --- CYCLE @ 3915000 ns ---
+#   [IF] PC: 000001b0
+#   [ID] Instr: 0000006f
+#   [EX] ALU Out: 00000000
+#   [WB] RegWrite: 0 | Rd: x0 | Result: 00000000
+# --- CYCLE @ 3925000 ns ---
+#   [IF] PC: 000001ac
+#   [ID] Instr: 00000000
+#   [EX] ALU Out: 00000000
+#   [WB] RegWrite: x | Rd: x0 | Result: xxxxxxxx
+# --- CYCLE @ 3935000 ns ---
+#   [IF] PC: 000001b0
+#   [ID] Instr: 0000006f
+#   [EX] ALU Out: xxxxxxxx
+#   [WB] RegWrite: 1 | Rd: x0 | Result: 000001b0
+# --- CYCLE @ 3945000 ns ---
+#   [IF] PC: 000001b0
+#   [ID] Instr: 0000006f
+#   [EX] ALU Out: 00000000
+#   [WB] RegWrite: 0 | Rd: x0 | Result: 00000000
+# --- CYCLE @ 3955000 ns ---
+#   [IF] PC: 000001ac
+#   [ID] Instr: 00000000
+#   [EX] ALU Out: 00000000
+#   [WB] RegWrite: x | Rd: x0 | Result: xxxxxxxx
+# --- CYCLE @ 3965000 ns ---
+#   [IF] PC: 000001b0
+#   [ID] Instr: 0000006f
+#   [EX] ALU Out: xxxxxxxx
+#   [WB] RegWrite: 1 | Rd: x0 | Result: 000001b0
+# --- CYCLE @ 3975000 ns ---
+#   [IF] PC: 000001b0
+#   [ID] Instr: 0000006f
+#   [EX] ALU Out: 00000000
+#   [WB] RegWrite: 0 | Rd: x0 | Result: 00000000
+# --- CYCLE @ 3985000 ns ---
+#   [IF] PC: 000001ac
+#   [ID] Instr: 00000000
+#   [EX] ALU Out: 00000000
+#   [WB] RegWrite: x | Rd: x0 | Result: xxxxxxxx
+# --- CYCLE @ 3995000 ns ---
+#   [IF] PC: 000001b0
+#   [ID] Instr: 0000006f
+#   [EX] ALU Out: xxxxxxxx
+#   [WB] RegWrite: 1 | Rd: x0 | Result: 000001b0
+# --- CYCLE @ 4005000 ns ---
+#   [IF] PC: 000001b0
+#   [ID] Instr: 0000006f
+#   [EX] ALU Out: 00000000
+#   [WB] RegWrite: 0 | Rd: x0 | Result: 00000000
+# --- CYCLE @ 4015000 ns ---
+#   [IF] PC: 000001ac
+#   [ID] Instr: 00000000
+#   [EX] ALU Out: 00000000
+#   [WB] RegWrite: x | Rd: x0 | Result: xxxxxxxx
+# --- CYCLE @ 4025000 ns ---
+#   [IF] PC: 000001b0
+#   [ID] Instr: 0000006f
+#   [EX] ALU Out: xxxxxxxx
+#   [WB] RegWrite: 1 | Rd: x0 | Result: 000001b0
+# --- CYCLE @ 4035000 ns ---
+#   [IF] PC: 000001b0
+#   [ID] Instr: 0000006f
+#   [EX] ALU Out: 00000000
+#   [WB] RegWrite: 0 | Rd: x0 | Result: 00000000
+# --- CYCLE @ 4045000 ns ---
+#   [IF] PC: 000001ac
+#   [ID] Instr: 00000000
+#   [EX] ALU Out: 00000000
+#   [WB] RegWrite: x | Rd: x0 | Result: xxxxxxxx
+# --- CYCLE @ 4055000 ns ---
+#   [IF] PC: 000001b0
+#   [ID] Instr: 0000006f
+#   [EX] ALU Out: xxxxxxxx
+#   [WB] RegWrite: 1 | Rd: x0 | Result: 000001b0
+# --- CYCLE @ 4065000 ns ---
+#   [IF] PC: 000001b0
+#   [ID] Instr: 0000006f
+#   [EX] ALU Out: 00000000
+#   [WB] RegWrite: 0 | Rd: x0 | Result: 00000000
+# --- CYCLE @ 4075000 ns ---
+#   [IF] PC: 000001ac
+#   [ID] Instr: 00000000
+#   [EX] ALU Out: 00000000
+#   [WB] RegWrite: x | Rd: x0 | Result: xxxxxxxx
+# --- CYCLE @ 4085000 ns ---
+#   [IF] PC: 000001b0
+#   [ID] Instr: 0000006f
+#   [EX] ALU Out: xxxxxxxx
+#   [WB] RegWrite: 1 | Rd: x0 | Result: 000001b0
+# --- CYCLE @ 4095000 ns ---
+#   [IF] PC: 000001b0
+#   [ID] Instr: 0000006f
+#   [EX] ALU Out: 00000000
+#   [WB] RegWrite: 0 | Rd: x0 | Result: 00000000
+# --- CYCLE @ 4105000 ns ---
+#   [IF] PC: 000001ac
+#   [ID] Instr: 00000000
+#   [EX] ALU Out: 00000000
+#   [WB] RegWrite: x | Rd: x0 | Result: xxxxxxxx
+# --- CYCLE @ 4115000 ns ---
+#   [IF] PC: 000001b0
+#   [ID] Instr: 0000006f
+#   [EX] ALU Out: xxxxxxxx
+#   [WB] RegWrite: 1 | Rd: x0 | Result: 000001b0
+# --- CYCLE @ 4125000 ns ---
+#   [IF] PC: 000001b0
+#   [ID] Instr: 0000006f
+#   [EX] ALU Out: 00000000
+#   [WB] RegWrite: 0 | Rd: x0 | Result: 00000000
+# --- CYCLE @ 4135000 ns ---
+#   [IF] PC: 000001ac
+#   [ID] Instr: 00000000
+#   [EX] ALU Out: 00000000
+#   [WB] RegWrite: x | Rd: x0 | Result: xxxxxxxx
+# --- CYCLE @ 4145000 ns ---
+#   [IF] PC: 000001b0
+#   [ID] Instr: 0000006f
+#   [EX] ALU Out: xxxxxxxx
+#   [WB] RegWrite: 1 | Rd: x0 | Result: 000001b0
+# --- CYCLE @ 4155000 ns ---
+#   [IF] PC: 000001b0
+#   [ID] Instr: 0000006f
+#   [EX] ALU Out: 00000000
+#   [WB] RegWrite: 0 | Rd: x0 | Result: 00000000
+# --- CYCLE @ 4165000 ns ---
+#   [IF] PC: 000001ac
+#   [ID] Instr: 00000000
+#   [EX] ALU Out: 00000000
+#   [WB] RegWrite: x | Rd: x0 | Result: xxxxxxxx
+# --- CYCLE @ 4175000 ns ---
+#   [IF] PC: 000001b0
+#   [ID] Instr: 0000006f
+#   [EX] ALU Out: xxxxxxxx
+#   [WB] RegWrite: 1 | Rd: x0 | Result: 000001b0
+# --- CYCLE @ 4185000 ns ---
+#   [IF] PC: 000001b0
+#   [ID] Instr: 0000006f
+#   [EX] ALU Out: 00000000
+#   [WB] RegWrite: 0 | Rd: x0 | Result: 00000000
+# --- CYCLE @ 4195000 ns ---
+#   [IF] PC: 000001ac
+#   [ID] Instr: 00000000
+#   [EX] ALU Out: 00000000
+#   [WB] RegWrite: x | Rd: x0 | Result: xxxxxxxx
+# --- CYCLE @ 4205000 ns ---
+#   [IF] PC: 000001b0
+#   [ID] Instr: 0000006f
+#   [EX] ALU Out: xxxxxxxx
+#   [WB] RegWrite: 1 | Rd: x0 | Result: 000001b0
+# --- CYCLE @ 4215000 ns ---
+#   [IF] PC: 000001b0
+#   [ID] Instr: 0000006f
+#   [EX] ALU Out: 00000000
+#   [WB] RegWrite: 0 | Rd: x0 | Result: 00000000
+# --- CYCLE @ 4225000 ns ---
+#   [IF] PC: 000001ac
+#   [ID] Instr: 00000000
+#   [EX] ALU Out: 00000000
+#   [WB] RegWrite: x | Rd: x0 | Result: xxxxxxxx
+# --- CYCLE @ 4235000 ns ---
+#   [IF] PC: 000001b0
+#   [ID] Instr: 0000006f
+#   [EX] ALU Out: xxxxxxxx
+#   [WB] RegWrite: 1 | Rd: x0 | Result: 000001b0
+# --- CYCLE @ 4245000 ns ---
+#   [IF] PC: 000001b0
+#   [ID] Instr: 0000006f
+#   [EX] ALU Out: 00000000
+#   [WB] RegWrite: 0 | Rd: x0 | Result: 00000000
+# --- CYCLE @ 4255000 ns ---
+#   [IF] PC: 000001ac
+#   [ID] Instr: 00000000
+#   [EX] ALU Out: 00000000
+#   [WB] RegWrite: x | Rd: x0 | Result: xxxxxxxx
+# --- CYCLE @ 4265000 ns ---
+#   [IF] PC: 000001b0
+#   [ID] Instr: 0000006f
+#   [EX] ALU Out: xxxxxxxx
+#   [WB] RegWrite: 1 | Rd: x0 | Result: 000001b0
+# --- CYCLE @ 4275000 ns ---
+#   [IF] PC: 000001b0
+#   [ID] Instr: 0000006f
+#   [EX] ALU Out: 00000000
+#   [WB] RegWrite: 0 | Rd: x0 | Result: 00000000
+# --- CYCLE @ 4285000 ns ---
+#   [IF] PC: 000001ac
+#   [ID] Instr: 00000000
+#   [EX] ALU Out: 00000000
+#   [WB] RegWrite: x | Rd: x0 | Result: xxxxxxxx
+# --- CYCLE @ 4295000 ns ---
+#   [IF] PC: 000001b0
+#   [ID] Instr: 0000006f
+#   [EX] ALU Out: xxxxxxxx
+#   [WB] RegWrite: 1 | Rd: x0 | Result: 000001b0
+# --- CYCLE @ 4305000 ns ---
+#   [IF] PC: 000001b0
+#   [ID] Instr: 0000006f
+#   [EX] ALU Out: 00000000
+#   [WB] RegWrite: 0 | Rd: x0 | Result: 00000000
+# --- CYCLE @ 4315000 ns ---
+#   [IF] PC: 000001ac
+#   [ID] Instr: 00000000
+#   [EX] ALU Out: 00000000
+#   [WB] RegWrite: x | Rd: x0 | Result: xxxxxxxx
+# --- CYCLE @ 4325000 ns ---
+#   [IF] PC: 000001b0
+#   [ID] Instr: 0000006f
+#   [EX] ALU Out: xxxxxxxx
+#   [WB] RegWrite: 1 | Rd: x0 | Result: 000001b0
+# --- CYCLE @ 4335000 ns ---
+#   [IF] PC: 000001b0
+#   [ID] Instr: 0000006f
+#   [EX] ALU Out: 00000000
+#   [WB] RegWrite: 0 | Rd: x0 | Result: 00000000
+# --- CYCLE @ 4345000 ns ---
+#   [IF] PC: 000001ac
+#   [ID] Instr: 00000000
+#   [EX] ALU Out: 00000000
+#   [WB] RegWrite: x | Rd: x0 | Result: xxxxxxxx
+# --- CYCLE @ 4355000 ns ---
+#   [IF] PC: 000001b0
+#   [ID] Instr: 0000006f
+#   [EX] ALU Out: xxxxxxxx
+#   [WB] RegWrite: 1 | Rd: x0 | Result: 000001b0
+# --- CYCLE @ 4365000 ns ---
+#   [IF] PC: 000001b0
+#   [ID] Instr: 0000006f
+#   [EX] ALU Out: 00000000
+#   [WB] RegWrite: 0 | Rd: x0 | Result: 00000000
+# --- CYCLE @ 4375000 ns ---
+#   [IF] PC: 000001ac
+#   [ID] Instr: 00000000
+#   [EX] ALU Out: 00000000
+#   [WB] RegWrite: x | Rd: x0 | Result: xxxxxxxx
+# --- CYCLE @ 4385000 ns ---
+#   [IF] PC: 000001b0
+#   [ID] Instr: 0000006f
+#   [EX] ALU Out: xxxxxxxx
+#   [WB] RegWrite: 1 | Rd: x0 | Result: 000001b0
+# --- CYCLE @ 4395000 ns ---
+#   [IF] PC: 000001b0
+#   [ID] Instr: 0000006f
+#   [EX] ALU Out: 00000000
+#   [WB] RegWrite: 0 | Rd: x0 | Result: 00000000
+# --- CYCLE @ 4405000 ns ---
+#   [IF] PC: 000001ac
+#   [ID] Instr: 00000000
+#   [EX] ALU Out: 00000000
+#   [WB] RegWrite: x | Rd: x0 | Result: xxxxxxxx
+# --- CYCLE @ 4415000 ns ---
+#   [IF] PC: 000001b0
+#   [ID] Instr: 0000006f
+#   [EX] ALU Out: xxxxxxxx
+#   [WB] RegWrite: 1 | Rd: x0 | Result: 000001b0
+# --- CYCLE @ 4425000 ns ---
+#   [IF] PC: 000001b0
+#   [ID] Instr: 0000006f
+#   [EX] ALU Out: 00000000
+#   [WB] RegWrite: 0 | Rd: x0 | Result: 00000000
+# --- CYCLE @ 4435000 ns ---
+#   [IF] PC: 000001ac
+#   [ID] Instr: 00000000
+#   [EX] ALU Out: 00000000
+#   [WB] RegWrite: x | Rd: x0 | Result: xxxxxxxx
+# --- CYCLE @ 4445000 ns ---
+#   [IF] PC: 000001b0
+#   [ID] Instr: 0000006f
+#   [EX] ALU Out: xxxxxxxx
+#   [WB] RegWrite: 1 | Rd: x0 | Result: 000001b0
+# --- CYCLE @ 4455000 ns ---
+#   [IF] PC: 000001b0
+#   [ID] Instr: 0000006f
+#   [EX] ALU Out: 00000000
+#   [WB] RegWrite: 0 | Rd: x0 | Result: 00000000
+# --- CYCLE @ 4465000 ns ---
+#   [IF] PC: 000001ac
+#   [ID] Instr: 00000000
+#   [EX] ALU Out: 00000000
+#   [WB] RegWrite: x | Rd: x0 | Result: xxxxxxxx
+# --- CYCLE @ 4475000 ns ---
+#   [IF] PC: 000001b0
+#   [ID] Instr: 0000006f
+#   [EX] ALU Out: xxxxxxxx
+#   [WB] RegWrite: 1 | Rd: x0 | Result: 000001b0
+# --- CYCLE @ 4485000 ns ---
+#   [IF] PC: 000001b0
+#   [ID] Instr: 0000006f
+#   [EX] ALU Out: 00000000
+#   [WB] RegWrite: 0 | Rd: x0 | Result: 00000000
+# --- CYCLE @ 4495000 ns ---
+#   [IF] PC: 000001ac
+#   [ID] Instr: 00000000
+#   [EX] ALU Out: 00000000
+#   [WB] RegWrite: x | Rd: x0 | Result: xxxxxxxx
+# --- CYCLE @ 4505000 ns ---
+#   [IF] PC: 000001b0
+#   [ID] Instr: 0000006f
+#   [EX] ALU Out: xxxxxxxx
+#   [WB] RegWrite: 1 | Rd: x0 | Result: 000001b0
+# --- CYCLE @ 4515000 ns ---
+#   [IF] PC: 000001b0
+#   [ID] Instr: 0000006f
+#   [EX] ALU Out: 00000000
+#   [WB] RegWrite: 0 | Rd: x0 | Result: 00000000
+# --- CYCLE @ 4525000 ns ---
+#   [IF] PC: 000001ac
+#   [ID] Instr: 00000000
+#   [EX] ALU Out: 00000000
+#   [WB] RegWrite: x | Rd: x0 | Result: xxxxxxxx
+# --- CYCLE @ 4535000 ns ---
+#   [IF] PC: 000001b0
+#   [ID] Instr: 0000006f
+#   [EX] ALU Out: xxxxxxxx
+#   [WB] RegWrite: 1 | Rd: x0 | Result: 000001b0
+# --- CYCLE @ 4545000 ns ---
+#   [IF] PC: 000001b0
+#   [ID] Instr: 0000006f
+#   [EX] ALU Out: 00000000
+#   [WB] RegWrite: 0 | Rd: x0 | Result: 00000000
+# --- CYCLE @ 4555000 ns ---
+#   [IF] PC: 000001ac
+#   [ID] Instr: 00000000
+#   [EX] ALU Out: 00000000
+#   [WB] RegWrite: x | Rd: x0 | Result: xxxxxxxx
+# --- CYCLE @ 4565000 ns ---
+#   [IF] PC: 000001b0
+#   [ID] Instr: 0000006f
+#   [EX] ALU Out: xxxxxxxx
+#   [WB] RegWrite: 1 | Rd: x0 | Result: 000001b0
+# --- CYCLE @ 4575000 ns ---
+#   [IF] PC: 000001b0
+#   [ID] Instr: 0000006f
+#   [EX] ALU Out: 00000000
+#   [WB] RegWrite: 0 | Rd: x0 | Result: 00000000
+# --- CYCLE @ 4585000 ns ---
+#   [IF] PC: 000001ac
+#   [ID] Instr: 00000000
+#   [EX] ALU Out: 00000000
+#   [WB] RegWrite: x | Rd: x0 | Result: xxxxxxxx
+# --- CYCLE @ 4595000 ns ---
+#   [IF] PC: 000001b0
+#   [ID] Instr: 0000006f
+#   [EX] ALU Out: xxxxxxxx
+#   [WB] RegWrite: 1 | Rd: x0 | Result: 000001b0
+# --- CYCLE @ 4605000 ns ---
+#   [IF] PC: 000001b0
+#   [ID] Instr: 0000006f
+#   [EX] ALU Out: 00000000
+#   [WB] RegWrite: 0 | Rd: x0 | Result: 00000000
+# --- CYCLE @ 4615000 ns ---
+#   [IF] PC: 000001ac
+#   [ID] Instr: 00000000
+#   [EX] ALU Out: 00000000
+#   [WB] RegWrite: x | Rd: x0 | Result: xxxxxxxx
+# --- CYCLE @ 4625000 ns ---
+#   [IF] PC: 000001b0
+#   [ID] Instr: 0000006f
+#   [EX] ALU Out: xxxxxxxx
+#   [WB] RegWrite: 1 | Rd: x0 | Result: 000001b0
+# --- CYCLE @ 4635000 ns ---
+#   [IF] PC: 000001b0
+#   [ID] Instr: 0000006f
+#   [EX] ALU Out: 00000000
+#   [WB] RegWrite: 0 | Rd: x0 | Result: 00000000
+# --- CYCLE @ 4645000 ns ---
+#   [IF] PC: 000001ac
+#   [ID] Instr: 00000000
+#   [EX] ALU Out: 00000000
+#   [WB] RegWrite: x | Rd: x0 | Result: xxxxxxxx
+# --- CYCLE @ 4655000 ns ---
+#   [IF] PC: 000001b0
+#   [ID] Instr: 0000006f
+#   [EX] ALU Out: xxxxxxxx
+#   [WB] RegWrite: 1 | Rd: x0 | Result: 000001b0
+# --- CYCLE @ 4665000 ns ---
+#   [IF] PC: 000001b0
+#   [ID] Instr: 0000006f
+#   [EX] ALU Out: 00000000
+#   [WB] RegWrite: 0 | Rd: x0 | Result: 00000000
+# --- CYCLE @ 4675000 ns ---
+#   [IF] PC: 000001ac
+#   [ID] Instr: 00000000
+#   [EX] ALU Out: 00000000
+#   [WB] RegWrite: x | Rd: x0 | Result: xxxxxxxx
+# --- CYCLE @ 4685000 ns ---
+#   [IF] PC: 000001b0
+#   [ID] Instr: 0000006f
+#   [EX] ALU Out: xxxxxxxx
+#   [WB] RegWrite: 1 | Rd: x0 | Result: 000001b0
+# --- CYCLE @ 4695000 ns ---
+#   [IF] PC: 000001b0
+#   [ID] Instr: 0000006f
+#   [EX] ALU Out: 00000000
+#   [WB] RegWrite: 0 | Rd: x0 | Result: 00000000
+# --- CYCLE @ 4705000 ns ---
+#   [IF] PC: 000001ac
+#   [ID] Instr: 00000000
+#   [EX] ALU Out: 00000000
+#   [WB] RegWrite: x | Rd: x0 | Result: xxxxxxxx
+# --- CYCLE @ 4715000 ns ---
+#   [IF] PC: 000001b0
+#   [ID] Instr: 0000006f
+#   [EX] ALU Out: xxxxxxxx
+#   [WB] RegWrite: 1 | Rd: x0 | Result: 000001b0
+# --- CYCLE @ 4725000 ns ---
+#   [IF] PC: 000001b0
+#   [ID] Instr: 0000006f
+#   [EX] ALU Out: 00000000
+#   [WB] RegWrite: 0 | Rd: x0 | Result: 00000000
+# --- CYCLE @ 4735000 ns ---
+#   [IF] PC: 000001ac
+#   [ID] Instr: 00000000
+#   [EX] ALU Out: 00000000
+#   [WB] RegWrite: x | Rd: x0 | Result: xxxxxxxx
+# --- CYCLE @ 4745000 ns ---
+#   [IF] PC: 000001b0
+#   [ID] Instr: 0000006f
+#   [EX] ALU Out: xxxxxxxx
+#   [WB] RegWrite: 1 | Rd: x0 | Result: 000001b0
+# --- CYCLE @ 4755000 ns ---
+#   [IF] PC: 000001b0
+#   [ID] Instr: 0000006f
+#   [EX] ALU Out: 00000000
+#   [WB] RegWrite: 0 | Rd: x0 | Result: 00000000
+# --- CYCLE @ 4765000 ns ---
+#   [IF] PC: 000001ac
+#   [ID] Instr: 00000000
+#   [EX] ALU Out: 00000000
+#   [WB] RegWrite: x | Rd: x0 | Result: xxxxxxxx
+# --- CYCLE @ 4775000 ns ---
+#   [IF] PC: 000001b0
+#   [ID] Instr: 0000006f
+#   [EX] ALU Out: xxxxxxxx
+#   [WB] RegWrite: 1 | Rd: x0 | Result: 000001b0
+# --- CYCLE @ 4785000 ns ---
+#   [IF] PC: 000001b0
+#   [ID] Instr: 0000006f
+#   [EX] ALU Out: 00000000
+#   [WB] RegWrite: 0 | Rd: x0 | Result: 00000000
+# --- CYCLE @ 4795000 ns ---
+#   [IF] PC: 000001ac
+#   [ID] Instr: 00000000
+#   [EX] ALU Out: 00000000
+#   [WB] RegWrite: x | Rd: x0 | Result: xxxxxxxx
+# --- CYCLE @ 4805000 ns ---
+#   [IF] PC: 000001b0
+#   [ID] Instr: 0000006f
+#   [EX] ALU Out: xxxxxxxx
+#   [WB] RegWrite: 1 | Rd: x0 | Result: 000001b0
+# --- CYCLE @ 4815000 ns ---
+#   [IF] PC: 000001b0
+#   [ID] Instr: 0000006f
+#   [EX] ALU Out: 00000000
+#   [WB] RegWrite: 0 | Rd: x0 | Result: 00000000
+# --- CYCLE @ 4825000 ns ---
+#   [IF] PC: 000001ac
+#   [ID] Instr: 00000000
+#   [EX] ALU Out: 00000000
+#   [WB] RegWrite: x | Rd: x0 | Result: xxxxxxxx
+# --- CYCLE @ 4835000 ns ---
+#   [IF] PC: 000001b0
+#   [ID] Instr: 0000006f
+#   [EX] ALU Out: xxxxxxxx
+#   [WB] RegWrite: 1 | Rd: x0 | Result: 000001b0
+# --- CYCLE @ 4845000 ns ---
+#   [IF] PC: 000001b0
+#   [ID] Instr: 0000006f
+#   [EX] ALU Out: 00000000
+#   [WB] RegWrite: 0 | Rd: x0 | Result: 00000000
+# --- CYCLE @ 4855000 ns ---
+#   [IF] PC: 000001ac
+#   [ID] Instr: 00000000
+#   [EX] ALU Out: 00000000
+#   [WB] RegWrite: x | Rd: x0 | Result: xxxxxxxx
+# --- CYCLE @ 4865000 ns ---
+#   [IF] PC: 000001b0
+#   [ID] Instr: 0000006f
+#   [EX] ALU Out: xxxxxxxx
+#   [WB] RegWrite: 1 | Rd: x0 | Result: 000001b0
+# --- CYCLE @ 4875000 ns ---
+#   [IF] PC: 000001b0
+#   [ID] Instr: 0000006f
+#   [EX] ALU Out: 00000000
+#   [WB] RegWrite: 0 | Rd: x0 | Result: 00000000
+# --- CYCLE @ 4885000 ns ---
+#   [IF] PC: 000001ac
+#   [ID] Instr: 00000000
+#   [EX] ALU Out: 00000000
+#   [WB] RegWrite: x | Rd: x0 | Result: xxxxxxxx
+# --- CYCLE @ 4895000 ns ---
+#   [IF] PC: 000001b0
+#   [ID] Instr: 0000006f
+#   [EX] ALU Out: xxxxxxxx
+#   [WB] RegWrite: 1 | Rd: x0 | Result: 000001b0
+# --- CYCLE @ 4905000 ns ---
+#   [IF] PC: 000001b0
+#   [ID] Instr: 0000006f
+#   [EX] ALU Out: 00000000
+#   [WB] RegWrite: 0 | Rd: x0 | Result: 00000000
+# --- CYCLE @ 4915000 ns ---
+#   [IF] PC: 000001ac
+#   [ID] Instr: 00000000
+#   [EX] ALU Out: 00000000
+#   [WB] RegWrite: x | Rd: x0 | Result: xxxxxxxx
+# --- CYCLE @ 4925000 ns ---
+#   [IF] PC: 000001b0
+#   [ID] Instr: 0000006f
+#   [EX] ALU Out: xxxxxxxx
+#   [WB] RegWrite: 1 | Rd: x0 | Result: 000001b0
+# --- CYCLE @ 4935000 ns ---
+#   [IF] PC: 000001b0
+#   [ID] Instr: 0000006f
+#   [EX] ALU Out: 00000000
+#   [WB] RegWrite: 0 | Rd: x0 | Result: 00000000
+# --- CYCLE @ 4945000 ns ---
+#   [IF] PC: 000001ac
+#   [ID] Instr: 00000000
+#   [EX] ALU Out: 00000000
+#   [WB] RegWrite: x | Rd: x0 | Result: xxxxxxxx
+# --- CYCLE @ 4955000 ns ---
+#   [IF] PC: 000001b0
+#   [ID] Instr: 0000006f
+#   [EX] ALU Out: xxxxxxxx
+#   [WB] RegWrite: 1 | Rd: x0 | Result: 000001b0
+# --- CYCLE @ 4965000 ns ---
+#   [IF] PC: 000001b0
+#   [ID] Instr: 0000006f
+#   [EX] ALU Out: 00000000
+#   [WB] RegWrite: 0 | Rd: x0 | Result: 00000000
+# --- CYCLE @ 4975000 ns ---
+#   [IF] PC: 000001ac
+#   [ID] Instr: 00000000
+#   [EX] ALU Out: 00000000
+#   [WB] RegWrite: x | Rd: x0 | Result: xxxxxxxx
+# --- CYCLE @ 4985000 ns ---
+#   [IF] PC: 000001b0
+#   [ID] Instr: 0000006f
+#   [EX] ALU Out: xxxxxxxx
+#   [WB] RegWrite: 1 | Rd: x0 | Result: 000001b0
+# --- CYCLE @ 4995000 ns ---
+#   [IF] PC: 000001b0
+#   [ID] Instr: 0000006f
+#   [EX] ALU Out: 00000000
+#   [WB] RegWrite: 0 | Rd: x0 | Result: 00000000
+# --- CYCLE @ 5005000 ns ---
+#   [IF] PC: 000001ac
+#   [ID] Instr: 00000000
+#   [EX] ALU Out: 00000000
+#   [WB] RegWrite: x | Rd: x0 | Result: xxxxxxxx
+# --- CYCLE @ 5015000 ns ---
+#   [IF] PC: 000001b0
+#   [ID] Instr: 0000006f
+#   [EX] ALU Out: xxxxxxxx
+#   [WB] RegWrite: 1 | Rd: x0 | Result: 000001b0
 # 
 # ============================================================
 # FINAL ISA TEST SUMMARY
-# TOTAL INSTRUCTIONS EVALUATED: 31 / 31
-# PASSED: 31
+# TOTAL INSTRUCTIONS EVALUATED: 76 / 76
+# PASSED: 76
 # FAILED: 0
 # ============================================================
 # 
-# ** Note: $finish    : /home/adityaamehra/Desktop/rv32i-pipleined/.test/tb.v(98)
-#    Time: 2022 ns  Iteration: 0  Instance: /tb
+# ** Note: $finish    : /home/adityaamehra/Desktop/rv32i-pipleined/.test/tb.v(144)
+#    Time: 5022 ns  Iteration: 0  Instance: /tb
 # 1
-# Break in Module tb at /home/adityaamehra/Desktop/rv32i-pipleined/.test/tb.v line 98
+# Break in Module tb at /home/adityaamehra/Desktop/rv32i-pipleined/.test/tb.v line 144
 # 
 # stdin: <EOF>
-# End time: 14:11:00 on Jun 13,2026, Elapsed time: 0:01:13
+# End time: 13:44:18 on Jun 14,2026, Elapsed time: 0:00:12
 # Errors: 0, Warnings: 0

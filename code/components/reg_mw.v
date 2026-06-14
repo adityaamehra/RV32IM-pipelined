@@ -18,7 +18,9 @@ input RegWriteM,
 output reg RegWriteW,
 
 input [1:0] ResultSrcM,
-output reg [1:0] ResultSrcW
+output reg [1:0] ResultSrcW,
+
+input [31:0] InstrM
 );
 
 always @(posedge clk) begin
@@ -32,6 +34,30 @@ always @(posedge clk) begin
 	end
 	else begin
 		ReadDataW<=ReadDataM;
+		case(InstrM[6:0])
+			7'b0000011: begin
+				case(InstrM[14:12])
+					3'b000: begin
+						ReadDataW<={{24{ReadDataM[7]}},ReadDataM[7:0]};
+					end
+					3'b001: begin
+						ReadDataW<={{16{ReadDataM[15]}},ReadDataM[15:0]};
+					end
+					3'b010: begin
+						ReadDataW<=ReadDataM;
+					end
+					3'b100: begin
+						ReadDataW<={{24{1'b0}},ReadDataM[7:0]};
+					end
+					3'b101: begin
+						ReadDataW<={{16{1'b0}},ReadDataM[15:0]};
+					end
+				endcase
+			end
+			default: begin
+				ReadDataW<=0;
+			end
+		endcase
 		ALUResultW<=ALUResultM;
 		RdW<=RdM;
 		PCPlus4W<=PCPlus4M;

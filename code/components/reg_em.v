@@ -21,7 +21,10 @@ input [1:0] ResultSrcE,
 output reg [1:0] ResultSrcM,
 
 input MemWriteE,
-output reg MemWriteM
+output reg MemWriteM,
+
+input [31:0] instrE,
+output reg [31:0] instrM
 );
 
 always @(posedge clk) begin
@@ -33,6 +36,7 @@ always @(posedge clk) begin
 		RegWriteM<=0;
 		ResultSrcM<=0;
 		MemWriteM<=0;
+		instrM<=0;
 	end else begin
 		ALUResultM<=ALUResultE;
 		WriteDataM<=WriteDataE;
@@ -41,6 +45,7 @@ always @(posedge clk) begin
 		RegWriteM<=RegWriteE;
 		ResultSrcM<=ResultSrcE;
 		MemWriteM<=MemWriteE;
+		instrM<=instrE;
 	end
 end
 

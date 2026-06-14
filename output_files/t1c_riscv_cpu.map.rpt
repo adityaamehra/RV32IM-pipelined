@@ -1,5 +1,5 @@
 Analysis & Synthesis report for t1c_riscv_cpu
-Sat Jun 13 14:01:34 2026
+Sun Jun 14 13:43:44 2026
 Quartus Prime Version 20.1.0 Build 711 06/05/2020 SJ Lite Edition
 
 
@@ -14,30 +14,39 @@ Quartus Prime Version 20.1.0 Build 711 06/05/2020 SJ Lite Edition
   6. Analysis & Synthesis Resource Usage Summary
   7. Analysis & Synthesis Resource Utilization by Entity
   8. Analysis & Synthesis RAM Summary
-  9. User-Specified and Inferred Latches
- 10. Registers Removed During Synthesis
- 11. General Register Statistics
- 12. Multiplexer Restructuring Statistics (Restructuring Performed)
- 13. Source assignments for riscv_cpu:rvcpu|datapath:dp|decode_datapath:dd|reg_file:rf|altsyncram:reg_file_arr_rtl_0|altsyncram_k5i1:auto_generated
- 14. Parameter Settings for User Entity Instance: riscv_cpu:rvcpu|datapath:dp|fetch_datapath:fd|mux2:pcmuxF
- 15. Parameter Settings for User Entity Instance: riscv_cpu:rvcpu|datapath:dp|fetch_datapath:fd|reset_ff:pcregF
- 16. Parameter Settings for User Entity Instance: riscv_cpu:rvcpu|datapath:dp|fetch_datapath:fd|adder:pcadd4F
- 17. Parameter Settings for User Entity Instance: riscv_cpu:rvcpu|datapath:dp|decode_datapath:dd|reg_file:rf
- 18. Parameter Settings for User Entity Instance: riscv_cpu:rvcpu|datapath:dp|execute_datapath:ed|mux2:srcbmuxE
- 19. Parameter Settings for User Entity Instance: riscv_cpu:rvcpu|datapath:dp|execute_datapath:ed|alu:alu_inst
- 20. Parameter Settings for User Entity Instance: riscv_cpu:rvcpu|datapath:dp|execute_datapath:ed|adder:pcaddE
- 21. Parameter Settings for User Entity Instance: riscv_cpu:rvcpu|datapath:dp|mux4:ResultMux
- 22. Parameter Settings for User Entity Instance: instr_mem:instrmem
- 23. Parameter Settings for User Entity Instance: data_mem:datamem
- 24. Parameter Settings for Inferred Entity Instance: riscv_cpu:rvcpu|datapath:dp|decode_datapath:dd|reg_file:rf|altsyncram:reg_file_arr_rtl_0
- 25. altsyncram Parameter Settings by Entity Instance
- 26. Port Connectivity Checks: "riscv_cpu:rvcpu|datapath:dp|mux4:ResultMux"
- 27. Port Connectivity Checks: "riscv_cpu:rvcpu|datapath:dp|fetch_datapath:fd|adder:pcadd4F"
- 28. Port Connectivity Checks: "riscv_cpu:rvcpu|datapath:dp|hazard_unit:hu"
- 29. Post-Synthesis Netlist Statistics for Top Partition
- 30. Elapsed Time Per Partition
- 31. Analysis & Synthesis Messages
- 32. Analysis & Synthesis Suppressed Messages
+  9. Analysis & Synthesis DSP Block Usage Summary
+ 10. User-Specified and Inferred Latches
+ 11. Registers Removed During Synthesis
+ 12. General Register Statistics
+ 13. Multiplexer Restructuring Statistics (Restructuring Performed)
+ 14. Source assignments for riscv_cpu:rvcpu|datapath:dp|decode_datapath:dd|reg_file:rf|altsyncram:reg_file_arr_rtl_0|altsyncram_k5i1:auto_generated
+ 15. Parameter Settings for User Entity Instance: riscv_cpu:rvcpu|datapath:dp|fetch_datapath:fd|mux2:pcmuxF
+ 16. Parameter Settings for User Entity Instance: riscv_cpu:rvcpu|datapath:dp|fetch_datapath:fd|reset_ff:pcregF
+ 17. Parameter Settings for User Entity Instance: riscv_cpu:rvcpu|datapath:dp|fetch_datapath:fd|adder:pcadd4F
+ 18. Parameter Settings for User Entity Instance: riscv_cpu:rvcpu|datapath:dp|decode_datapath:dd|reg_file:rf
+ 19. Parameter Settings for User Entity Instance: riscv_cpu:rvcpu|datapath:dp|execute_datapath:ed|mux2:srcbmuxE
+ 20. Parameter Settings for User Entity Instance: riscv_cpu:rvcpu|datapath:dp|execute_datapath:ed|alu:alu_inst
+ 21. Parameter Settings for User Entity Instance: riscv_cpu:rvcpu|datapath:dp|execute_datapath:ed|adder:pcaddE
+ 22. Parameter Settings for User Entity Instance: riscv_cpu:rvcpu|datapath:dp|mux4:ResultMux
+ 23. Parameter Settings for User Entity Instance: instr_mem:instrmem
+ 24. Parameter Settings for User Entity Instance: data_mem:datamem
+ 25. Parameter Settings for Inferred Entity Instance: riscv_cpu:rvcpu|datapath:dp|decode_datapath:dd|reg_file:rf|altsyncram:reg_file_arr_rtl_0
+ 26. Parameter Settings for Inferred Entity Instance: riscv_cpu:rvcpu|datapath:dp|execute_datapath:ed|alu:alu_inst|lpm_mult:Mult0
+ 27. Parameter Settings for Inferred Entity Instance: riscv_cpu:rvcpu|datapath:dp|execute_datapath:ed|alu:alu_inst|lpm_mult:Mult1
+ 28. Parameter Settings for Inferred Entity Instance: riscv_cpu:rvcpu|datapath:dp|execute_datapath:ed|alu:alu_inst|lpm_mult:Mult2
+ 29. Parameter Settings for Inferred Entity Instance: riscv_cpu:rvcpu|datapath:dp|execute_datapath:ed|alu:alu_inst|lpm_divide:Div0
+ 30. Parameter Settings for Inferred Entity Instance: riscv_cpu:rvcpu|datapath:dp|execute_datapath:ed|alu:alu_inst|lpm_divide:Div1
+ 31. Parameter Settings for Inferred Entity Instance: riscv_cpu:rvcpu|datapath:dp|execute_datapath:ed|alu:alu_inst|lpm_divide:Mod0
+ 32. Parameter Settings for Inferred Entity Instance: riscv_cpu:rvcpu|datapath:dp|execute_datapath:ed|alu:alu_inst|lpm_divide:Mod1
+ 33. altsyncram Parameter Settings by Entity Instance
+ 34. lpm_mult Parameter Settings by Entity Instance
+ 35. Port Connectivity Checks: "riscv_cpu:rvcpu|datapath:dp|mux4:ResultMux"
+ 36. Port Connectivity Checks: "riscv_cpu:rvcpu|datapath:dp|fetch_datapath:fd|adder:pcadd4F"
+ 37. Port Connectivity Checks: "riscv_cpu:rvcpu|datapath:dp|hazard_unit:hu"
+ 38. Post-Synthesis Netlist Statistics for Top Partition
+ 39. Elapsed Time Per Partition
+ 40. Analysis & Synthesis Messages
+ 41. Analysis & Synthesis Suppressed Messages
 
 
 
@@ -64,19 +73,19 @@ https://fpgasoftware.intel.com/eula.
 +----------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                     ;
 +------------------------------------+---------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Sat Jun 13 14:01:34 2026       ;
+; Analysis & Synthesis Status        ; Successful - Sun Jun 14 13:43:44 2026       ;
 ; Quartus Prime Version              ; 20.1.0 Build 711 06/05/2020 SJ Lite Edition ;
 ; Revision Name                      ; t1c_riscv_cpu                               ;
 ; Top-level Entity Name              ; t1c_riscv_cpu                               ;
 ; Family                             ; Cyclone IV E                                ;
-; Total logic elements               ; 6,890                                       ;
-;     Total combinational functions  ; 3,880                                       ;
-;     Dedicated logic registers      ; 3,590                                       ;
-; Total registers                    ; 3590                                        ;
+; Total logic elements               ; 12,125                                      ;
+;     Total combinational functions  ; 9,116                                       ;
+;     Dedicated logic registers      ; 3,600                                       ;
+; Total registers                    ; 3600                                        ;
 ; Total pins                         ; 228                                         ;
 ; Total virtual pins                 ; 0                                           ;
 ; Total memory bits                  ; 1,024                                       ;
-; Embedded Multiplier 9-bit elements ; 0                                           ;
+; Embedded Multiplier 9-bit elements ; 24                                          ;
 ; Total PLLs                         ; 0                                           ;
 +------------------------------------+---------------------------------------------+
 
@@ -175,19 +184,19 @@ https://fpgasoftware.intel.com/eula.
 ; Number detected on machine ; 18          ;
 ; Maximum allowed            ; 14          ;
 ;                            ;             ;
-; Average used               ; 1.01        ;
+; Average used               ; 1.03        ;
 ; Maximum used               ; 14          ;
 ;                            ;             ;
 ; Usage by Processor         ; % Time Used ;
 ;     Processor 1            ; 100.0%      ;
-;     Processor 2            ;   0.2%      ;
-;     Processor 3            ;   0.1%      ;
-;     Processor 4            ;   0.1%      ;
-;     Processor 5            ;   0.1%      ;
-;     Processor 6            ;   0.1%      ;
-;     Processor 7            ;   0.1%      ;
-;     Processor 8            ;   0.1%      ;
-;     Processors 9-14        ;   0.1%      ;
+;     Processor 2            ;   0.3%      ;
+;     Processor 3            ;   0.3%      ;
+;     Processor 4            ;   0.3%      ;
+;     Processor 5            ;   0.3%      ;
+;     Processor 6            ;   0.2%      ;
+;     Processor 7            ;   0.2%      ;
+;     Processor 8            ;   0.2%      ;
+;     Processors 9-14        ;   0.2%      ;
 +----------------------------+-------------+
 
 
@@ -231,6 +240,27 @@ https://fpgasoftware.intel.com/eula.
 ; altdpram.inc                                    ; yes             ; Megafunction                                          ; /home/adityaamehra/intelFPGA_lite/20.1/quartus/libraries/megafunctions/altdpram.inc          ;         ;
 ; db/altsyncram_k5i1.tdf                          ; yes             ; Auto-Generated Megafunction                           ; /home/adityaamehra/Desktop/rv32i-pipleined/db/altsyncram_k5i1.tdf                            ;         ;
 ; db/t1c_riscv_cpu.ram0_reg_file_c5668544.hdl.mif ; yes             ; Auto-Generated Auto-Found Memory Initialization File  ; /home/adityaamehra/Desktop/rv32i-pipleined/db/t1c_riscv_cpu.ram0_reg_file_c5668544.hdl.mif   ;         ;
+; lpm_mult.tdf                                    ; yes             ; Megafunction                                          ; /home/adityaamehra/intelFPGA_lite/20.1/quartus/libraries/megafunctions/lpm_mult.tdf          ;         ;
+; lpm_add_sub.inc                                 ; yes             ; Megafunction                                          ; /home/adityaamehra/intelFPGA_lite/20.1/quartus/libraries/megafunctions/lpm_add_sub.inc       ;         ;
+; multcore.inc                                    ; yes             ; Megafunction                                          ; /home/adityaamehra/intelFPGA_lite/20.1/quartus/libraries/megafunctions/multcore.inc          ;         ;
+; bypassff.inc                                    ; yes             ; Megafunction                                          ; /home/adityaamehra/intelFPGA_lite/20.1/quartus/libraries/megafunctions/bypassff.inc          ;         ;
+; altshift.inc                                    ; yes             ; Megafunction                                          ; /home/adityaamehra/intelFPGA_lite/20.1/quartus/libraries/megafunctions/altshift.inc          ;         ;
+; db/mult_46t.tdf                                 ; yes             ; Auto-Generated Megafunction                           ; /home/adityaamehra/Desktop/rv32i-pipleined/db/mult_46t.tdf                                   ;         ;
+; db/mult_66t.tdf                                 ; yes             ; Auto-Generated Megafunction                           ; /home/adityaamehra/Desktop/rv32i-pipleined/db/mult_66t.tdf                                   ;         ;
+; db/mult_7dt.tdf                                 ; yes             ; Auto-Generated Megafunction                           ; /home/adityaamehra/Desktop/rv32i-pipleined/db/mult_7dt.tdf                                   ;         ;
+; lpm_divide.tdf                                  ; yes             ; Megafunction                                          ; /home/adityaamehra/intelFPGA_lite/20.1/quartus/libraries/megafunctions/lpm_divide.tdf        ;         ;
+; abs_divider.inc                                 ; yes             ; Megafunction                                          ; /home/adityaamehra/intelFPGA_lite/20.1/quartus/libraries/megafunctions/abs_divider.inc       ;         ;
+; sign_div_unsign.inc                             ; yes             ; Megafunction                                          ; /home/adityaamehra/intelFPGA_lite/20.1/quartus/libraries/megafunctions/sign_div_unsign.inc   ;         ;
+; db/lpm_divide_92p.tdf                           ; yes             ; Auto-Generated Megafunction                           ; /home/adityaamehra/Desktop/rv32i-pipleined/db/lpm_divide_92p.tdf                             ;         ;
+; db/abs_divider_4dg.tdf                          ; yes             ; Auto-Generated Megafunction                           ; /home/adityaamehra/Desktop/rv32i-pipleined/db/abs_divider_4dg.tdf                            ;         ;
+; db/alt_u_div_6af.tdf                            ; yes             ; Auto-Generated Megafunction                           ; /home/adityaamehra/Desktop/rv32i-pipleined/db/alt_u_div_6af.tdf                              ;         ;
+; db/add_sub_7pc.tdf                              ; yes             ; Auto-Generated Megafunction                           ; /home/adityaamehra/Desktop/rv32i-pipleined/db/add_sub_7pc.tdf                                ;         ;
+; db/add_sub_8pc.tdf                              ; yes             ; Auto-Generated Megafunction                           ; /home/adityaamehra/Desktop/rv32i-pipleined/db/add_sub_8pc.tdf                                ;         ;
+; db/lpm_abs_i0a.tdf                              ; yes             ; Auto-Generated Megafunction                           ; /home/adityaamehra/Desktop/rv32i-pipleined/db/lpm_abs_i0a.tdf                                ;         ;
+; db/lpm_divide_hkm.tdf                           ; yes             ; Auto-Generated Megafunction                           ; /home/adityaamehra/Desktop/rv32i-pipleined/db/lpm_divide_hkm.tdf                             ;         ;
+; db/sign_div_unsign_9nh.tdf                      ; yes             ; Auto-Generated Megafunction                           ; /home/adityaamehra/Desktop/rv32i-pipleined/db/sign_div_unsign_9nh.tdf                        ;         ;
+; db/lpm_divide_cqo.tdf                           ; yes             ; Auto-Generated Megafunction                           ; /home/adityaamehra/Desktop/rv32i-pipleined/db/lpm_divide_cqo.tdf                             ;         ;
+; db/lpm_divide_kcm.tdf                           ; yes             ; Auto-Generated Megafunction                           ; /home/adityaamehra/Desktop/rv32i-pipleined/db/lpm_divide_kcm.tdf                             ;         ;
 +-------------------------------------------------+-----------------+-------------------------------------------------------+----------------------------------------------------------------------------------------------+---------+
 
 
@@ -239,66 +269,96 @@ https://fpgasoftware.intel.com/eula.
 +---------------------------------------------+-----------+
 ; Resource                                    ; Usage     ;
 +---------------------------------------------+-----------+
-; Estimated Total logic elements              ; 6,890     ;
+; Estimated Total logic elements              ; 12,125    ;
 ;                                             ;           ;
-; Total combinational functions               ; 3880      ;
+; Total combinational functions               ; 9116      ;
 ; Logic element usage by number of LUT inputs ;           ;
-;     -- 4 input functions                    ; 3021      ;
-;     -- 3 input functions                    ; 518       ;
-;     -- <=2 input functions                  ; 341       ;
+;     -- 4 input functions                    ; 4861      ;
+;     -- 3 input functions                    ; 3607      ;
+;     -- <=2 input functions                  ; 648       ;
 ;                                             ;           ;
 ; Logic elements by mode                      ;           ;
-;     -- normal mode                          ; 3726      ;
-;     -- arithmetic mode                      ; 154       ;
+;     -- normal mode                          ; 6543      ;
+;     -- arithmetic mode                      ; 2573      ;
 ;                                             ;           ;
-; Total registers                             ; 3590      ;
-;     -- Dedicated logic registers            ; 3590      ;
+; Total registers                             ; 3600      ;
+;     -- Dedicated logic registers            ; 3600      ;
 ;     -- I/O registers                        ; 0         ;
 ;                                             ;           ;
 ; I/O pins                                    ; 228       ;
 ; Total memory bits                           ; 1024      ;
 ;                                             ;           ;
-; Embedded Multiplier 9-bit elements          ; 0         ;
+; Embedded Multiplier 9-bit elements          ; 24        ;
 ;                                             ;           ;
 ; Maximum fan-out node                        ; clk~input ;
-; Maximum fan-out                             ; 3622      ;
-; Total fan-out                               ; 25642     ;
-; Average fan-out                             ; 3.22      ;
+; Maximum fan-out                             ; 3632      ;
+; Total fan-out                               ; 42957     ;
+; Average fan-out                             ; 3.25      ;
 +---------------------------------------------+-----------+
 
 
-+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Resource Utilization by Entity                                                                                                                                                                                                                                                                                                      ;
-+----------------------------------------------------+---------------------+---------------------------+-------------+--------------+---------+-----------+------+--------------+----------------------------------------------------------------------------------------------------------------------------------------+------------------+--------------+
-; Compilation Hierarchy Node                         ; Combinational ALUTs ; Dedicated Logic Registers ; Memory Bits ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; Full Hierarchy Name                                                                                                                    ; Entity Name      ; Library Name ;
-+----------------------------------------------------+---------------------+---------------------------+-------------+--------------+---------+-----------+------+--------------+----------------------------------------------------------------------------------------------------------------------------------------+------------------+--------------+
-; |t1c_riscv_cpu                                     ; 3880 (65)           ; 3590 (0)                  ; 1024        ; 0            ; 0       ; 0         ; 228  ; 0            ; |t1c_riscv_cpu                                                                                                                         ; t1c_riscv_cpu    ; work         ;
-;    |data_mem:datamem|                              ; 1424 (1424)         ; 2048 (2048)               ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |t1c_riscv_cpu|data_mem:datamem                                                                                                        ; data_mem         ; work         ;
-;    |instr_mem:instrmem|                            ; 45 (45)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |t1c_riscv_cpu|instr_mem:instrmem                                                                                                      ; instr_mem        ; work         ;
-;    |riscv_cpu:rvcpu|                               ; 2346 (0)            ; 1542 (0)                  ; 1024        ; 0            ; 0       ; 0         ; 0    ; 0            ; |t1c_riscv_cpu|riscv_cpu:rvcpu                                                                                                         ; riscv_cpu        ; work         ;
-;       |datapath:dp|                                ; 2346 (3)            ; 1542 (0)                  ; 1024        ; 0            ; 0       ; 0         ; 0    ; 0            ; |t1c_riscv_cpu|riscv_cpu:rvcpu|datapath:dp                                                                                             ; datapath         ; work         ;
-;          |controller:ctrl|                         ; 43 (0)              ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |t1c_riscv_cpu|riscv_cpu:rvcpu|datapath:dp|controller:ctrl                                                                             ; controller       ; work         ;
-;             |alu_decoder:ad|                       ; 9 (9)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |t1c_riscv_cpu|riscv_cpu:rvcpu|datapath:dp|controller:ctrl|alu_decoder:ad                                                              ; alu_decoder      ; work         ;
-;             |main_decoder:md|                      ; 34 (34)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |t1c_riscv_cpu|riscv_cpu:rvcpu|datapath:dp|controller:ctrl|main_decoder:md                                                             ; main_decoder     ; work         ;
-;          |decode_datapath:dd|                      ; 693 (0)             ; 1024 (0)                  ; 1024        ; 0            ; 0       ; 0         ; 0    ; 0            ; |t1c_riscv_cpu|riscv_cpu:rvcpu|datapath:dp|decode_datapath:dd                                                                          ; decode_datapath  ; work         ;
-;             |imm_extend:ext|                       ; 3 (3)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |t1c_riscv_cpu|riscv_cpu:rvcpu|datapath:dp|decode_datapath:dd|imm_extend:ext                                                           ; imm_extend       ; work         ;
-;             |reg_file:rf|                          ; 690 (690)           ; 1024 (1024)               ; 1024        ; 0            ; 0       ; 0         ; 0    ; 0            ; |t1c_riscv_cpu|riscv_cpu:rvcpu|datapath:dp|decode_datapath:dd|reg_file:rf                                                              ; reg_file         ; work         ;
-;                |altsyncram:reg_file_arr_rtl_0|     ; 0 (0)               ; 0 (0)                     ; 1024        ; 0            ; 0       ; 0         ; 0    ; 0            ; |t1c_riscv_cpu|riscv_cpu:rvcpu|datapath:dp|decode_datapath:dd|reg_file:rf|altsyncram:reg_file_arr_rtl_0                                ; altsyncram       ; work         ;
-;                   |altsyncram_k5i1:auto_generated| ; 0 (0)               ; 0 (0)                     ; 1024        ; 0            ; 0       ; 0         ; 0    ; 0            ; |t1c_riscv_cpu|riscv_cpu:rvcpu|datapath:dp|decode_datapath:dd|reg_file:rf|altsyncram:reg_file_arr_rtl_0|altsyncram_k5i1:auto_generated ; altsyncram_k5i1  ; work         ;
-;          |execute_datapath:ed|                     ; 896 (205)           ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |t1c_riscv_cpu|riscv_cpu:rvcpu|datapath:dp|execute_datapath:ed                                                                         ; execute_datapath ; work         ;
-;             |adder:pcaddE|                         ; 32 (32)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |t1c_riscv_cpu|riscv_cpu:rvcpu|datapath:dp|execute_datapath:ed|adder:pcaddE                                                            ; adder            ; work         ;
-;             |alu:alu_inst|                         ; 659 (659)           ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |t1c_riscv_cpu|riscv_cpu:rvcpu|datapath:dp|execute_datapath:ed|alu:alu_inst                                                            ; alu              ; work         ;
-;          |fetch_datapath:fd|                       ; 61 (0)              ; 32 (0)                    ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |t1c_riscv_cpu|riscv_cpu:rvcpu|datapath:dp|fetch_datapath:fd                                                                           ; fetch_datapath   ; work         ;
-;             |adder:pcadd4F|                        ; 30 (30)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |t1c_riscv_cpu|riscv_cpu:rvcpu|datapath:dp|fetch_datapath:fd|adder:pcadd4F                                                             ; adder            ; work         ;
-;             |mux2:pcmuxF|                          ; 30 (30)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |t1c_riscv_cpu|riscv_cpu:rvcpu|datapath:dp|fetch_datapath:fd|mux2:pcmuxF                                                               ; mux2             ; work         ;
-;             |reset_ff:pcregF|                      ; 1 (1)               ; 32 (32)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |t1c_riscv_cpu|riscv_cpu:rvcpu|datapath:dp|fetch_datapath:fd|reset_ff:pcregF                                                           ; reset_ff         ; work         ;
-;          |hazard_unit:hu|                          ; 23 (23)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |t1c_riscv_cpu|riscv_cpu:rvcpu|datapath:dp|hazard_unit:hu                                                                              ; hazard_unit      ; work         ;
-;          |mux4:ResultMux|                          ; 64 (64)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |t1c_riscv_cpu|riscv_cpu:rvcpu|datapath:dp|mux4:ResultMux                                                                              ; mux4             ; work         ;
-;          |reg_dec_exe:rde|                         ; 219 (219)           ; 188 (188)                 ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |t1c_riscv_cpu|riscv_cpu:rvcpu|datapath:dp|reg_dec_exe:rde                                                                             ; reg_dec_exe      ; work         ;
-;          |reg_exe_mem:rem|                         ; 105 (105)           ; 105 (105)                 ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |t1c_riscv_cpu|riscv_cpu:rvcpu|datapath:dp|reg_exe_mem:rem                                                                             ; reg_exe_mem      ; work         ;
-;          |reg_fet_dec:rfd|                         ; 135 (135)           ; 89 (89)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |t1c_riscv_cpu|riscv_cpu:rvcpu|datapath:dp|reg_fet_dec:rfd                                                                             ; reg_fet_dec      ; work         ;
-;          |reg_mem_wb:rmw|                          ; 104 (104)           ; 104 (104)                 ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |t1c_riscv_cpu|riscv_cpu:rvcpu|datapath:dp|reg_mem_wb:rmw                                                                              ; reg_mem_wb       ; work         ;
-+----------------------------------------------------+---------------------+---------------------------+-------------+--------------+---------+-----------+------+--------------+----------------------------------------------------------------------------------------------------------------------------------------+------------------+--------------+
++------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Resource Utilization by Entity                                                                                                                                                                                                                                                                                                                                                                    ;
++----------------------------------------------------+---------------------+---------------------------+-------------+--------------+---------+-----------+------+--------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------------------+--------------+
+; Compilation Hierarchy Node                         ; Combinational ALUTs ; Dedicated Logic Registers ; Memory Bits ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; Full Hierarchy Name                                                                                                                                                                               ; Entity Name         ; Library Name ;
++----------------------------------------------------+---------------------+---------------------------+-------------+--------------+---------+-----------+------+--------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------------------+--------------+
+; |t1c_riscv_cpu                                     ; 9116 (65)           ; 3600 (0)                  ; 1024        ; 24           ; 0       ; 12        ; 228  ; 0            ; |t1c_riscv_cpu                                                                                                                                                                                    ; t1c_riscv_cpu       ; work         ;
+;    |data_mem:datamem|                              ; 1424 (1424)         ; 2048 (2048)               ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |t1c_riscv_cpu|data_mem:datamem                                                                                                                                                                   ; data_mem            ; work         ;
+;    |instr_mem:instrmem|                            ; 167 (167)           ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |t1c_riscv_cpu|instr_mem:instrmem                                                                                                                                                                 ; instr_mem           ; work         ;
+;    |riscv_cpu:rvcpu|                               ; 7460 (0)            ; 1552 (0)                  ; 1024        ; 24           ; 0       ; 12        ; 0    ; 0            ; |t1c_riscv_cpu|riscv_cpu:rvcpu                                                                                                                                                                    ; riscv_cpu           ; work         ;
+;       |datapath:dp|                                ; 7460 (5)            ; 1552 (0)                  ; 1024        ; 24           ; 0       ; 12        ; 0    ; 0            ; |t1c_riscv_cpu|riscv_cpu:rvcpu|datapath:dp                                                                                                                                                        ; datapath            ; work         ;
+;          |controller:ctrl|                         ; 48 (0)              ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |t1c_riscv_cpu|riscv_cpu:rvcpu|datapath:dp|controller:ctrl                                                                                                                                        ; controller          ; work         ;
+;             |alu_decoder:ad|                       ; 14 (14)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |t1c_riscv_cpu|riscv_cpu:rvcpu|datapath:dp|controller:ctrl|alu_decoder:ad                                                                                                                         ; alu_decoder         ; work         ;
+;             |main_decoder:md|                      ; 34 (34)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |t1c_riscv_cpu|riscv_cpu:rvcpu|datapath:dp|controller:ctrl|main_decoder:md                                                                                                                        ; main_decoder        ; work         ;
+;          |decode_datapath:dd|                      ; 693 (0)             ; 1024 (0)                  ; 1024        ; 0            ; 0       ; 0         ; 0    ; 0            ; |t1c_riscv_cpu|riscv_cpu:rvcpu|datapath:dp|decode_datapath:dd                                                                                                                                     ; decode_datapath     ; work         ;
+;             |imm_extend:ext|                       ; 3 (3)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |t1c_riscv_cpu|riscv_cpu:rvcpu|datapath:dp|decode_datapath:dd|imm_extend:ext                                                                                                                      ; imm_extend          ; work         ;
+;             |reg_file:rf|                          ; 690 (690)           ; 1024 (1024)               ; 1024        ; 0            ; 0       ; 0         ; 0    ; 0            ; |t1c_riscv_cpu|riscv_cpu:rvcpu|datapath:dp|decode_datapath:dd|reg_file:rf                                                                                                                         ; reg_file            ; work         ;
+;                |altsyncram:reg_file_arr_rtl_0|     ; 0 (0)               ; 0 (0)                     ; 1024        ; 0            ; 0       ; 0         ; 0    ; 0            ; |t1c_riscv_cpu|riscv_cpu:rvcpu|datapath:dp|decode_datapath:dd|reg_file:rf|altsyncram:reg_file_arr_rtl_0                                                                                           ; altsyncram          ; work         ;
+;                   |altsyncram_k5i1:auto_generated| ; 0 (0)               ; 0 (0)                     ; 1024        ; 0            ; 0       ; 0         ; 0    ; 0            ; |t1c_riscv_cpu|riscv_cpu:rvcpu|datapath:dp|decode_datapath:dd|reg_file:rf|altsyncram:reg_file_arr_rtl_0|altsyncram_k5i1:auto_generated                                                            ; altsyncram_k5i1     ; work         ;
+;          |execute_datapath:ed|                     ; 6025 (197)          ; 0 (0)                     ; 0           ; 24           ; 0       ; 12        ; 0    ; 0            ; |t1c_riscv_cpu|riscv_cpu:rvcpu|datapath:dp|execute_datapath:ed                                                                                                                                    ; execute_datapath    ; work         ;
+;             |adder:pcaddE|                         ; 32 (32)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |t1c_riscv_cpu|riscv_cpu:rvcpu|datapath:dp|execute_datapath:ed|adder:pcaddE                                                                                                                       ; adder               ; work         ;
+;             |alu:alu_inst|                         ; 5762 (897)          ; 0 (0)                     ; 0           ; 24           ; 0       ; 12        ; 0    ; 0            ; |t1c_riscv_cpu|riscv_cpu:rvcpu|datapath:dp|execute_datapath:ed|alu:alu_inst                                                                                                                       ; alu                 ; work         ;
+;                |lpm_divide:Div0|                   ; 1137 (0)            ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |t1c_riscv_cpu|riscv_cpu:rvcpu|datapath:dp|execute_datapath:ed|alu:alu_inst|lpm_divide:Div0                                                                                                       ; lpm_divide          ; work         ;
+;                   |lpm_divide_92p:auto_generated|  ; 1137 (0)            ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |t1c_riscv_cpu|riscv_cpu:rvcpu|datapath:dp|execute_datapath:ed|alu:alu_inst|lpm_divide:Div0|lpm_divide_92p:auto_generated                                                                         ; lpm_divide_92p      ; work         ;
+;                      |abs_divider_4dg:divider|     ; 1137 (51)           ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |t1c_riscv_cpu|riscv_cpu:rvcpu|datapath:dp|execute_datapath:ed|alu:alu_inst|lpm_divide:Div0|lpm_divide_92p:auto_generated|abs_divider_4dg:divider                                                 ; abs_divider_4dg     ; work         ;
+;                         |alt_u_div_6af:divider|    ; 1064 (1061)         ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |t1c_riscv_cpu|riscv_cpu:rvcpu|datapath:dp|execute_datapath:ed|alu:alu_inst|lpm_divide:Div0|lpm_divide_92p:auto_generated|abs_divider_4dg:divider|alt_u_div_6af:divider                           ; alt_u_div_6af       ; work         ;
+;                            |add_sub_7pc:add_sub_0| ; 1 (1)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |t1c_riscv_cpu|riscv_cpu:rvcpu|datapath:dp|execute_datapath:ed|alu:alu_inst|lpm_divide:Div0|lpm_divide_92p:auto_generated|abs_divider_4dg:divider|alt_u_div_6af:divider|add_sub_7pc:add_sub_0     ; add_sub_7pc         ; work         ;
+;                            |add_sub_8pc:add_sub_1| ; 2 (2)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |t1c_riscv_cpu|riscv_cpu:rvcpu|datapath:dp|execute_datapath:ed|alu:alu_inst|lpm_divide:Div0|lpm_divide_92p:auto_generated|abs_divider_4dg:divider|alt_u_div_6af:divider|add_sub_8pc:add_sub_1     ; add_sub_8pc         ; work         ;
+;                         |lpm_abs_i0a:my_abs_den|   ; 20 (20)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |t1c_riscv_cpu|riscv_cpu:rvcpu|datapath:dp|execute_datapath:ed|alu:alu_inst|lpm_divide:Div0|lpm_divide_92p:auto_generated|abs_divider_4dg:divider|lpm_abs_i0a:my_abs_den                          ; lpm_abs_i0a         ; work         ;
+;                         |lpm_abs_i0a:my_abs_num|   ; 2 (2)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |t1c_riscv_cpu|riscv_cpu:rvcpu|datapath:dp|execute_datapath:ed|alu:alu_inst|lpm_divide:Div0|lpm_divide_92p:auto_generated|abs_divider_4dg:divider|lpm_abs_i0a:my_abs_num                          ; lpm_abs_i0a         ; work         ;
+;                |lpm_divide:Div1|                   ; 1085 (0)            ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |t1c_riscv_cpu|riscv_cpu:rvcpu|datapath:dp|execute_datapath:ed|alu:alu_inst|lpm_divide:Div1                                                                                                       ; lpm_divide          ; work         ;
+;                   |lpm_divide_hkm:auto_generated|  ; 1085 (0)            ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |t1c_riscv_cpu|riscv_cpu:rvcpu|datapath:dp|execute_datapath:ed|alu:alu_inst|lpm_divide:Div1|lpm_divide_hkm:auto_generated                                                                         ; lpm_divide_hkm      ; work         ;
+;                      |sign_div_unsign_9nh:divider| ; 1085 (0)            ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |t1c_riscv_cpu|riscv_cpu:rvcpu|datapath:dp|execute_datapath:ed|alu:alu_inst|lpm_divide:Div1|lpm_divide_hkm:auto_generated|sign_div_unsign_9nh:divider                                             ; sign_div_unsign_9nh ; work         ;
+;                         |alt_u_div_6af:divider|    ; 1085 (1084)         ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |t1c_riscv_cpu|riscv_cpu:rvcpu|datapath:dp|execute_datapath:ed|alu:alu_inst|lpm_divide:Div1|lpm_divide_hkm:auto_generated|sign_div_unsign_9nh:divider|alt_u_div_6af:divider                       ; alt_u_div_6af       ; work         ;
+;                            |add_sub_8pc:add_sub_1| ; 1 (1)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |t1c_riscv_cpu|riscv_cpu:rvcpu|datapath:dp|execute_datapath:ed|alu:alu_inst|lpm_divide:Div1|lpm_divide_hkm:auto_generated|sign_div_unsign_9nh:divider|alt_u_div_6af:divider|add_sub_8pc:add_sub_1 ; add_sub_8pc         ; work         ;
+;                |lpm_divide:Mod0|                   ; 1280 (0)            ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |t1c_riscv_cpu|riscv_cpu:rvcpu|datapath:dp|execute_datapath:ed|alu:alu_inst|lpm_divide:Mod0                                                                                                       ; lpm_divide          ; work         ;
+;                   |lpm_divide_cqo:auto_generated|  ; 1280 (0)            ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |t1c_riscv_cpu|riscv_cpu:rvcpu|datapath:dp|execute_datapath:ed|alu:alu_inst|lpm_divide:Mod0|lpm_divide_cqo:auto_generated                                                                         ; lpm_divide_cqo      ; work         ;
+;                      |abs_divider_4dg:divider|     ; 1280 (59)           ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |t1c_riscv_cpu|riscv_cpu:rvcpu|datapath:dp|execute_datapath:ed|alu:alu_inst|lpm_divide:Mod0|lpm_divide_cqo:auto_generated|abs_divider_4dg:divider                                                 ; abs_divider_4dg     ; work         ;
+;                         |alt_u_div_6af:divider|    ; 1134 (1134)         ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |t1c_riscv_cpu|riscv_cpu:rvcpu|datapath:dp|execute_datapath:ed|alu:alu_inst|lpm_divide:Mod0|lpm_divide_cqo:auto_generated|abs_divider_4dg:divider|alt_u_div_6af:divider                           ; alt_u_div_6af       ; work         ;
+;                         |lpm_abs_i0a:my_abs_den|   ; 44 (44)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |t1c_riscv_cpu|riscv_cpu:rvcpu|datapath:dp|execute_datapath:ed|alu:alu_inst|lpm_divide:Mod0|lpm_divide_cqo:auto_generated|abs_divider_4dg:divider|lpm_abs_i0a:my_abs_den                          ; lpm_abs_i0a         ; work         ;
+;                         |lpm_abs_i0a:my_abs_num|   ; 43 (43)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |t1c_riscv_cpu|riscv_cpu:rvcpu|datapath:dp|execute_datapath:ed|alu:alu_inst|lpm_divide:Mod0|lpm_divide_cqo:auto_generated|abs_divider_4dg:divider|lpm_abs_i0a:my_abs_num                          ; lpm_abs_i0a         ; work         ;
+;                |lpm_divide:Mod1|                   ; 1100 (0)            ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |t1c_riscv_cpu|riscv_cpu:rvcpu|datapath:dp|execute_datapath:ed|alu:alu_inst|lpm_divide:Mod1                                                                                                       ; lpm_divide          ; work         ;
+;                   |lpm_divide_kcm:auto_generated|  ; 1100 (0)            ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |t1c_riscv_cpu|riscv_cpu:rvcpu|datapath:dp|execute_datapath:ed|alu:alu_inst|lpm_divide:Mod1|lpm_divide_kcm:auto_generated                                                                         ; lpm_divide_kcm      ; work         ;
+;                      |sign_div_unsign_9nh:divider| ; 1100 (0)            ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |t1c_riscv_cpu|riscv_cpu:rvcpu|datapath:dp|execute_datapath:ed|alu:alu_inst|lpm_divide:Mod1|lpm_divide_kcm:auto_generated|sign_div_unsign_9nh:divider                                             ; sign_div_unsign_9nh ; work         ;
+;                         |alt_u_div_6af:divider|    ; 1100 (1100)         ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |t1c_riscv_cpu|riscv_cpu:rvcpu|datapath:dp|execute_datapath:ed|alu:alu_inst|lpm_divide:Mod1|lpm_divide_kcm:auto_generated|sign_div_unsign_9nh:divider|alt_u_div_6af:divider                       ; alt_u_div_6af       ; work         ;
+;                |lpm_mult:Mult0|                    ; 92 (0)              ; 0 (0)                     ; 0           ; 8            ; 0       ; 4         ; 0    ; 0            ; |t1c_riscv_cpu|riscv_cpu:rvcpu|datapath:dp|execute_datapath:ed|alu:alu_inst|lpm_mult:Mult0                                                                                                        ; lpm_mult            ; work         ;
+;                   |mult_46t:auto_generated|        ; 92 (92)             ; 0 (0)                     ; 0           ; 8            ; 0       ; 4         ; 0    ; 0            ; |t1c_riscv_cpu|riscv_cpu:rvcpu|datapath:dp|execute_datapath:ed|alu:alu_inst|lpm_mult:Mult0|mult_46t:auto_generated                                                                                ; mult_46t            ; work         ;
+;                |lpm_mult:Mult1|                    ; 92 (0)              ; 0 (0)                     ; 0           ; 8            ; 0       ; 4         ; 0    ; 0            ; |t1c_riscv_cpu|riscv_cpu:rvcpu|datapath:dp|execute_datapath:ed|alu:alu_inst|lpm_mult:Mult1                                                                                                        ; lpm_mult            ; work         ;
+;                   |mult_66t:auto_generated|        ; 92 (92)             ; 0 (0)                     ; 0           ; 8            ; 0       ; 4         ; 0    ; 0            ; |t1c_riscv_cpu|riscv_cpu:rvcpu|datapath:dp|execute_datapath:ed|alu:alu_inst|lpm_mult:Mult1|mult_66t:auto_generated                                                                                ; mult_66t            ; work         ;
+;                |lpm_mult:Mult2|                    ; 79 (0)              ; 0 (0)                     ; 0           ; 8            ; 0       ; 4         ; 0    ; 0            ; |t1c_riscv_cpu|riscv_cpu:rvcpu|datapath:dp|execute_datapath:ed|alu:alu_inst|lpm_mult:Mult2                                                                                                        ; lpm_mult            ; work         ;
+;                   |mult_7dt:auto_generated|        ; 79 (79)             ; 0 (0)                     ; 0           ; 8            ; 0       ; 4         ; 0    ; 0            ; |t1c_riscv_cpu|riscv_cpu:rvcpu|datapath:dp|execute_datapath:ed|alu:alu_inst|lpm_mult:Mult2|mult_7dt:auto_generated                                                                                ; mult_7dt            ; work         ;
+;             |mux2:srcbmuxE|                        ; 34 (34)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |t1c_riscv_cpu|riscv_cpu:rvcpu|datapath:dp|execute_datapath:ed|mux2:srcbmuxE                                                                                                                      ; mux2                ; work         ;
+;          |fetch_datapath:fd|                       ; 61 (0)              ; 32 (0)                    ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |t1c_riscv_cpu|riscv_cpu:rvcpu|datapath:dp|fetch_datapath:fd                                                                                                                                      ; fetch_datapath      ; work         ;
+;             |adder:pcadd4F|                        ; 30 (30)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |t1c_riscv_cpu|riscv_cpu:rvcpu|datapath:dp|fetch_datapath:fd|adder:pcadd4F                                                                                                                        ; adder               ; work         ;
+;             |mux2:pcmuxF|                          ; 30 (30)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |t1c_riscv_cpu|riscv_cpu:rvcpu|datapath:dp|fetch_datapath:fd|mux2:pcmuxF                                                                                                                          ; mux2                ; work         ;
+;             |reset_ff:pcregF|                      ; 1 (1)               ; 32 (32)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |t1c_riscv_cpu|riscv_cpu:rvcpu|datapath:dp|fetch_datapath:fd|reset_ff:pcregF                                                                                                                      ; reset_ff            ; work         ;
+;          |hazard_unit:hu|                          ; 27 (27)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |t1c_riscv_cpu|riscv_cpu:rvcpu|datapath:dp|hazard_unit:hu                                                                                                                                         ; hazard_unit         ; work         ;
+;          |mux4:ResultMux|                          ; 64 (64)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |t1c_riscv_cpu|riscv_cpu:rvcpu|datapath:dp|mux4:ResultMux                                                                                                                                         ; mux4                ; work         ;
+;          |reg_dec_exe:rde|                         ; 187 (187)           ; 188 (188)                 ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |t1c_riscv_cpu|riscv_cpu:rvcpu|datapath:dp|reg_dec_exe:rde                                                                                                                                        ; reg_dec_exe         ; work         ;
+;          |reg_exe_mem:rem|                         ; 114 (114)           ; 114 (114)                 ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |t1c_riscv_cpu|riscv_cpu:rvcpu|datapath:dp|reg_exe_mem:rem                                                                                                                                        ; reg_exe_mem         ; work         ;
+;          |reg_fet_dec:rfd|                         ; 126 (126)           ; 90 (90)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |t1c_riscv_cpu|riscv_cpu:rvcpu|datapath:dp|reg_fet_dec:rfd                                                                                                                                        ; reg_fet_dec         ; work         ;
+;          |reg_mem_wb:rmw|                          ; 110 (110)           ; 104 (104)                 ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |t1c_riscv_cpu|riscv_cpu:rvcpu|datapath:dp|reg_mem_wb:rmw                                                                                                                                         ; reg_mem_wb          ; work         ;
++----------------------------------------------------+---------------------+---------------------------+-------------+--------------+---------+-----------+------+--------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------------------+--------------+
 Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
 
 
@@ -311,48 +371,99 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +------------------------------------------------------------------------------------------------------------------------------------+------+------------------+--------------+--------------+--------------+--------------+------+-------------------------------------------------+
 
 
++-----------------------------------------------------+
+; Analysis & Synthesis DSP Block Usage Summary        ;
++---------------------------------------+-------------+
+; Statistic                             ; Number Used ;
++---------------------------------------+-------------+
+; Simple Multipliers (9-bit)            ; 0           ;
+; Simple Multipliers (18-bit)           ; 12          ;
+; Embedded Multiplier Blocks            ; --          ;
+; Embedded Multiplier 9-bit elements    ; 24          ;
+; Signed Embedded Multipliers           ; 2           ;
+; Unsigned Embedded Multipliers         ; 6           ;
+; Mixed Sign Embedded Multipliers       ; 4           ;
+; Variable Sign Embedded Multipliers    ; 0           ;
+; Dedicated Input Shift Register Chains ; 0           ;
++---------------------------------------+-------------+
+Note: number of Embedded Multiplier Blocks used is only available after a successful fit.
+
+
 +---------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 ; User-Specified and Inferred Latches                                                                                                                                       ;
 +--------------------------------------------------------------------------+-----------------------------------------------------------------------+------------------------+
 ; Latch Name                                                               ; Latch Enable Signal                                                   ; Free of Timing Hazards ;
 +--------------------------------------------------------------------------+-----------------------------------------------------------------------+------------------------+
+; riscv_cpu:rvcpu|datapath:dp|execute_datapath:ed|alu:alu_inst|alu_out[0]  ; riscv_cpu:rvcpu|datapath:dp|execute_datapath:ed|alu:alu_inst|Mux65    ; yes                    ;
+; riscv_cpu:rvcpu|datapath:dp|execute_datapath:ed|alu:alu_inst|alu_out[1]  ; riscv_cpu:rvcpu|datapath:dp|execute_datapath:ed|alu:alu_inst|Mux65    ; yes                    ;
+; riscv_cpu:rvcpu|datapath:dp|execute_datapath:ed|alu:alu_inst|alu_out[2]  ; riscv_cpu:rvcpu|datapath:dp|execute_datapath:ed|alu:alu_inst|Mux65    ; yes                    ;
+; riscv_cpu:rvcpu|datapath:dp|execute_datapath:ed|alu:alu_inst|alu_out[3]  ; riscv_cpu:rvcpu|datapath:dp|execute_datapath:ed|alu:alu_inst|Mux65    ; yes                    ;
+; riscv_cpu:rvcpu|datapath:dp|execute_datapath:ed|alu:alu_inst|alu_out[4]  ; riscv_cpu:rvcpu|datapath:dp|execute_datapath:ed|alu:alu_inst|Mux65    ; yes                    ;
+; riscv_cpu:rvcpu|datapath:dp|execute_datapath:ed|alu:alu_inst|alu_out[5]  ; riscv_cpu:rvcpu|datapath:dp|execute_datapath:ed|alu:alu_inst|Mux65    ; yes                    ;
+; riscv_cpu:rvcpu|datapath:dp|execute_datapath:ed|alu:alu_inst|alu_out[6]  ; riscv_cpu:rvcpu|datapath:dp|execute_datapath:ed|alu:alu_inst|Mux65    ; yes                    ;
+; riscv_cpu:rvcpu|datapath:dp|execute_datapath:ed|alu:alu_inst|alu_out[7]  ; riscv_cpu:rvcpu|datapath:dp|execute_datapath:ed|alu:alu_inst|Mux65    ; yes                    ;
+; riscv_cpu:rvcpu|datapath:dp|execute_datapath:ed|alu:alu_inst|alu_out[8]  ; riscv_cpu:rvcpu|datapath:dp|execute_datapath:ed|alu:alu_inst|Mux65    ; yes                    ;
+; riscv_cpu:rvcpu|datapath:dp|execute_datapath:ed|alu:alu_inst|alu_out[9]  ; riscv_cpu:rvcpu|datapath:dp|execute_datapath:ed|alu:alu_inst|Mux65    ; yes                    ;
+; riscv_cpu:rvcpu|datapath:dp|execute_datapath:ed|alu:alu_inst|alu_out[10] ; riscv_cpu:rvcpu|datapath:dp|execute_datapath:ed|alu:alu_inst|Mux65    ; yes                    ;
+; riscv_cpu:rvcpu|datapath:dp|execute_datapath:ed|alu:alu_inst|alu_out[11] ; riscv_cpu:rvcpu|datapath:dp|execute_datapath:ed|alu:alu_inst|Mux65    ; yes                    ;
+; riscv_cpu:rvcpu|datapath:dp|execute_datapath:ed|alu:alu_inst|alu_out[12] ; riscv_cpu:rvcpu|datapath:dp|execute_datapath:ed|alu:alu_inst|Mux65    ; yes                    ;
+; riscv_cpu:rvcpu|datapath:dp|execute_datapath:ed|alu:alu_inst|alu_out[13] ; riscv_cpu:rvcpu|datapath:dp|execute_datapath:ed|alu:alu_inst|Mux65    ; yes                    ;
+; riscv_cpu:rvcpu|datapath:dp|execute_datapath:ed|alu:alu_inst|alu_out[14] ; riscv_cpu:rvcpu|datapath:dp|execute_datapath:ed|alu:alu_inst|Mux65    ; yes                    ;
+; riscv_cpu:rvcpu|datapath:dp|execute_datapath:ed|alu:alu_inst|alu_out[15] ; riscv_cpu:rvcpu|datapath:dp|execute_datapath:ed|alu:alu_inst|Mux65    ; yes                    ;
+; riscv_cpu:rvcpu|datapath:dp|execute_datapath:ed|alu:alu_inst|alu_out[16] ; riscv_cpu:rvcpu|datapath:dp|execute_datapath:ed|alu:alu_inst|Mux65    ; yes                    ;
+; riscv_cpu:rvcpu|datapath:dp|execute_datapath:ed|alu:alu_inst|alu_out[17] ; riscv_cpu:rvcpu|datapath:dp|execute_datapath:ed|alu:alu_inst|Mux65    ; yes                    ;
+; riscv_cpu:rvcpu|datapath:dp|execute_datapath:ed|alu:alu_inst|alu_out[18] ; riscv_cpu:rvcpu|datapath:dp|execute_datapath:ed|alu:alu_inst|Mux65    ; yes                    ;
+; riscv_cpu:rvcpu|datapath:dp|execute_datapath:ed|alu:alu_inst|alu_out[19] ; riscv_cpu:rvcpu|datapath:dp|execute_datapath:ed|alu:alu_inst|Mux65    ; yes                    ;
+; riscv_cpu:rvcpu|datapath:dp|execute_datapath:ed|alu:alu_inst|alu_out[20] ; riscv_cpu:rvcpu|datapath:dp|execute_datapath:ed|alu:alu_inst|Mux65    ; yes                    ;
+; riscv_cpu:rvcpu|datapath:dp|execute_datapath:ed|alu:alu_inst|alu_out[21] ; riscv_cpu:rvcpu|datapath:dp|execute_datapath:ed|alu:alu_inst|Mux65    ; yes                    ;
+; riscv_cpu:rvcpu|datapath:dp|execute_datapath:ed|alu:alu_inst|alu_out[22] ; riscv_cpu:rvcpu|datapath:dp|execute_datapath:ed|alu:alu_inst|Mux65    ; yes                    ;
+; riscv_cpu:rvcpu|datapath:dp|execute_datapath:ed|alu:alu_inst|alu_out[23] ; riscv_cpu:rvcpu|datapath:dp|execute_datapath:ed|alu:alu_inst|Mux65    ; yes                    ;
+; riscv_cpu:rvcpu|datapath:dp|execute_datapath:ed|alu:alu_inst|alu_out[24] ; riscv_cpu:rvcpu|datapath:dp|execute_datapath:ed|alu:alu_inst|Mux65    ; yes                    ;
+; riscv_cpu:rvcpu|datapath:dp|execute_datapath:ed|alu:alu_inst|alu_out[25] ; riscv_cpu:rvcpu|datapath:dp|execute_datapath:ed|alu:alu_inst|Mux65    ; yes                    ;
+; riscv_cpu:rvcpu|datapath:dp|execute_datapath:ed|alu:alu_inst|alu_out[26] ; riscv_cpu:rvcpu|datapath:dp|execute_datapath:ed|alu:alu_inst|Mux65    ; yes                    ;
+; riscv_cpu:rvcpu|datapath:dp|execute_datapath:ed|alu:alu_inst|alu_out[27] ; riscv_cpu:rvcpu|datapath:dp|execute_datapath:ed|alu:alu_inst|Mux65    ; yes                    ;
+; riscv_cpu:rvcpu|datapath:dp|execute_datapath:ed|alu:alu_inst|alu_out[28] ; riscv_cpu:rvcpu|datapath:dp|execute_datapath:ed|alu:alu_inst|Mux65    ; yes                    ;
+; riscv_cpu:rvcpu|datapath:dp|execute_datapath:ed|alu:alu_inst|alu_out[29] ; riscv_cpu:rvcpu|datapath:dp|execute_datapath:ed|alu:alu_inst|Mux65    ; yes                    ;
+; riscv_cpu:rvcpu|datapath:dp|execute_datapath:ed|alu:alu_inst|alu_out[30] ; riscv_cpu:rvcpu|datapath:dp|execute_datapath:ed|alu:alu_inst|Mux65    ; yes                    ;
+; riscv_cpu:rvcpu|datapath:dp|execute_datapath:ed|alu:alu_inst|alu_out[31] ; riscv_cpu:rvcpu|datapath:dp|execute_datapath:ed|alu:alu_inst|Mux65    ; yes                    ;
 ; riscv_cpu:rvcpu|datapath:dp|controller:ctrl|main_decoder:md|controls[7]  ; riscv_cpu:rvcpu|datapath:dp|controller:ctrl|main_decoder:md|Selector9 ; yes                    ;
 ; riscv_cpu:rvcpu|datapath:dp|controller:ctrl|main_decoder:md|controls[10] ; riscv_cpu:rvcpu|datapath:dp|controller:ctrl|main_decoder:md|Selector9 ; yes                    ;
 ; riscv_cpu:rvcpu|datapath:dp|controller:ctrl|main_decoder:md|controls[9]  ; riscv_cpu:rvcpu|datapath:dp|controller:ctrl|main_decoder:md|Selector9 ; yes                    ;
-; riscv_cpu:rvcpu|datapath:dp|controller:ctrl|main_decoder:md|controls[8]  ; riscv_cpu:rvcpu|datapath:dp|controller:ctrl|main_decoder:md|Selector9 ; yes                    ;
-; riscv_cpu:rvcpu|datapath:dp|controller:ctrl|main_decoder:md|controls[3]  ; riscv_cpu:rvcpu|datapath:dp|controller:ctrl|main_decoder:md|Selector9 ; yes                    ;
-; riscv_cpu:rvcpu|datapath:dp|controller:ctrl|main_decoder:md|controls[11] ; riscv_cpu:rvcpu|datapath:dp|controller:ctrl|main_decoder:md|Selector9 ; yes                    ;
-; riscv_cpu:rvcpu|datapath:dp|controller:ctrl|main_decoder:md|controls[1]  ; riscv_cpu:rvcpu|datapath:dp|controller:ctrl|main_decoder:md|Selector9 ; yes                    ;
-; riscv_cpu:rvcpu|datapath:dp|controller:ctrl|main_decoder:md|controls[2]  ; riscv_cpu:rvcpu|datapath:dp|controller:ctrl|main_decoder:md|Selector9 ; yes                    ;
 ; riscv_cpu:rvcpu|datapath:dp|controller:ctrl|main_decoder:md|controls[5]  ; riscv_cpu:rvcpu|datapath:dp|controller:ctrl|main_decoder:md|Selector9 ; yes                    ;
 ; riscv_cpu:rvcpu|datapath:dp|controller:ctrl|main_decoder:md|controls[4]  ; riscv_cpu:rvcpu|datapath:dp|controller:ctrl|main_decoder:md|Selector9 ; yes                    ;
 ; riscv_cpu:rvcpu|datapath:dp|controller:ctrl|main_decoder:md|controls[0]  ; riscv_cpu:rvcpu|datapath:dp|controller:ctrl|main_decoder:md|Selector9 ; yes                    ;
+; riscv_cpu:rvcpu|datapath:dp|controller:ctrl|main_decoder:md|controls[11] ; riscv_cpu:rvcpu|datapath:dp|controller:ctrl|main_decoder:md|Selector9 ; yes                    ;
 ; riscv_cpu:rvcpu|datapath:dp|controller:ctrl|main_decoder:md|controls[12] ; riscv_cpu:rvcpu|datapath:dp|controller:ctrl|main_decoder:md|Selector9 ; yes                    ;
+; riscv_cpu:rvcpu|datapath:dp|controller:ctrl|main_decoder:md|controls[8]  ; riscv_cpu:rvcpu|datapath:dp|controller:ctrl|main_decoder:md|Selector9 ; yes                    ;
+; riscv_cpu:rvcpu|datapath:dp|controller:ctrl|main_decoder:md|controls[3]  ; riscv_cpu:rvcpu|datapath:dp|controller:ctrl|main_decoder:md|Selector9 ; yes                    ;
+; riscv_cpu:rvcpu|datapath:dp|controller:ctrl|main_decoder:md|controls[1]  ; riscv_cpu:rvcpu|datapath:dp|controller:ctrl|main_decoder:md|Selector9 ; yes                    ;
+; riscv_cpu:rvcpu|datapath:dp|controller:ctrl|main_decoder:md|controls[2]  ; riscv_cpu:rvcpu|datapath:dp|controller:ctrl|main_decoder:md|Selector9 ; yes                    ;
 ; riscv_cpu:rvcpu|datapath:dp|controller:ctrl|main_decoder:md|controls[6]  ; riscv_cpu:rvcpu|datapath:dp|controller:ctrl|main_decoder:md|Selector9 ; yes                    ;
-; Number of user-specified and inferred latches = 13                       ;                                                                       ;                        ;
+; Number of user-specified and inferred latches = 45                       ;                                                                       ;                        ;
 +--------------------------------------------------------------------------+-----------------------------------------------------------------------+------------------------+
 Note: All latches listed above may not be present at the end of synthesis due to various synthesis optimizations.
 
 
-+------------------------------------------------------------------------------------------------------------------------------------+
-; Registers Removed During Synthesis                                                                                                 ;
-+--------------------------------------------------------------+---------------------------------------------------------------------+
-; Register name                                                ; Reason for Removal                                                  ;
-+--------------------------------------------------------------+---------------------------------------------------------------------+
-; riscv_cpu:rvcpu|datapath:dp|reg_dec_exe:rde|PCPlus4E[1]      ; Merged with riscv_cpu:rvcpu|datapath:dp|reg_dec_exe:rde|PCE[1]      ;
-; riscv_cpu:rvcpu|datapath:dp|reg_dec_exe:rde|PCPlus4E[0]      ; Merged with riscv_cpu:rvcpu|datapath:dp|reg_dec_exe:rde|PCE[0]      ;
-; riscv_cpu:rvcpu|datapath:dp|reg_fet_dec:rfd|PCPlus4D[1]      ; Merged with riscv_cpu:rvcpu|datapath:dp|reg_fet_dec:rfd|PCD[1]      ;
-; riscv_cpu:rvcpu|datapath:dp|reg_fet_dec:rfd|PCPlus4D[0]      ; Merged with riscv_cpu:rvcpu|datapath:dp|reg_fet_dec:rfd|PCD[0]      ;
-; riscv_cpu:rvcpu|datapath:dp|reg_fet_dec:rfd|instrD[28,29,31] ; Merged with riscv_cpu:rvcpu|datapath:dp|reg_fet_dec:rfd|instrD[24]  ;
-; riscv_cpu:rvcpu|datapath:dp|reg_fet_dec:rfd|instrD[27]       ; Merged with riscv_cpu:rvcpu|datapath:dp|reg_fet_dec:rfd|instrD[22]  ;
-; riscv_cpu:rvcpu|datapath:dp|reg_dec_exe:rde|instrE[1]        ; Merged with riscv_cpu:rvcpu|datapath:dp|reg_dec_exe:rde|instrE[0]   ;
-; riscv_cpu:rvcpu|datapath:dp|reg_dec_exe:rde|Rs2E[4]          ; Merged with riscv_cpu:rvcpu|datapath:dp|reg_dec_exe:rde|ImmExtE[31] ;
-; riscv_cpu:rvcpu|datapath:dp|reg_dec_exe:rde|ImmExtE[9]       ; Merged with riscv_cpu:rvcpu|datapath:dp|reg_dec_exe:rde|ImmExtE[8]  ;
-; riscv_cpu:rvcpu|datapath:dp|reg_dec_exe:rde|ImmExtE[27]      ; Merged with riscv_cpu:rvcpu|datapath:dp|reg_dec_exe:rde|ImmExtE[22] ;
-; riscv_cpu:rvcpu|datapath:dp|reg_dec_exe:rde|ImmExtE[28,29]   ; Merged with riscv_cpu:rvcpu|datapath:dp|reg_dec_exe:rde|ImmExtE[24] ;
-; riscv_cpu:rvcpu|datapath:dp|reg_fet_dec:rfd|instrD[1]        ; Merged with riscv_cpu:rvcpu|datapath:dp|reg_fet_dec:rfd|instrD[0]   ;
-; Total Number of Removed Registers = 15                       ;                                                                     ;
-+--------------------------------------------------------------+---------------------------------------------------------------------+
++----------------------------------------------------------------------------------------------------------------------------------+
+; Registers Removed During Synthesis                                                                                               ;
++------------------------------------------------------------+---------------------------------------------------------------------+
+; Register name                                              ; Reason for Removal                                                  ;
++------------------------------------------------------------+---------------------------------------------------------------------+
+; riscv_cpu:rvcpu|datapath:dp|reg_dec_exe:rde|PCPlus4E[1]    ; Merged with riscv_cpu:rvcpu|datapath:dp|reg_dec_exe:rde|PCE[1]      ;
+; riscv_cpu:rvcpu|datapath:dp|reg_dec_exe:rde|PCPlus4E[0]    ; Merged with riscv_cpu:rvcpu|datapath:dp|reg_dec_exe:rde|PCE[0]      ;
+; riscv_cpu:rvcpu|datapath:dp|reg_fet_dec:rfd|PCPlus4D[1]    ; Merged with riscv_cpu:rvcpu|datapath:dp|reg_fet_dec:rfd|PCD[1]      ;
+; riscv_cpu:rvcpu|datapath:dp|reg_fet_dec:rfd|PCPlus4D[0]    ; Merged with riscv_cpu:rvcpu|datapath:dp|reg_fet_dec:rfd|PCD[0]      ;
+; riscv_cpu:rvcpu|datapath:dp|reg_fet_dec:rfd|instrD[26,29]  ; Merged with riscv_cpu:rvcpu|datapath:dp|reg_fet_dec:rfd|instrD[24]  ;
+; riscv_cpu:rvcpu|datapath:dp|reg_dec_exe:rde|instrE[1]      ; Merged with riscv_cpu:rvcpu|datapath:dp|reg_dec_exe:rde|instrE[0]   ;
+; riscv_cpu:rvcpu|datapath:dp|reg_dec_exe:rde|ImmExtE[26,29] ; Merged with riscv_cpu:rvcpu|datapath:dp|reg_dec_exe:rde|ImmExtE[24] ;
+; riscv_cpu:rvcpu|datapath:dp|reg_dec_exe:rde|ImmExtE[28]    ; Merged with riscv_cpu:rvcpu|datapath:dp|reg_dec_exe:rde|ImmExtE[27] ;
+; riscv_cpu:rvcpu|datapath:dp|reg_dec_exe:rde|ImmExtE[9]     ; Merged with riscv_cpu:rvcpu|datapath:dp|reg_dec_exe:rde|ImmExtE[6]  ;
+; riscv_cpu:rvcpu|datapath:dp|reg_dec_exe:rde|ImmExtE[8]     ; Merged with riscv_cpu:rvcpu|datapath:dp|reg_dec_exe:rde|ImmExtE[7]  ;
+; riscv_cpu:rvcpu|datapath:dp|reg_exe_mem:rem|instrM[1]      ; Merged with riscv_cpu:rvcpu|datapath:dp|reg_exe_mem:rem|instrM[0]   ;
+; riscv_cpu:rvcpu|datapath:dp|reg_fet_dec:rfd|instrD[1]      ; Merged with riscv_cpu:rvcpu|datapath:dp|reg_fet_dec:rfd|instrD[0]   ;
+; riscv_cpu:rvcpu|datapath:dp|reg_fet_dec:rfd|instrD[28]     ; Merged with riscv_cpu:rvcpu|datapath:dp|reg_fet_dec:rfd|instrD[27]  ;
+; Total Number of Removed Registers = 15                     ;                                                                     ;
++------------------------------------------------------------+---------------------------------------------------------------------+
 
 
 +------------------------------------------------------+
@@ -360,12 +471,12 @@ Note: All latches listed above may not be present at the end of synthesis due to
 +----------------------------------------------+-------+
 ; Statistic                                    ; Value ;
 +----------------------------------------------+-------+
-; Total registers                              ; 3590  ;
-; Number of registers using Synchronous Clear  ; 54    ;
-; Number of registers using Synchronous Load   ; 32    ;
+; Total registers                              ; 3600  ;
+; Number of registers using Synchronous Clear  ; 22    ;
+; Number of registers using Synchronous Load   ; 0     ;
 ; Number of registers using Asynchronous Clear ; 32    ;
 ; Number of registers using Asynchronous Load  ; 0     ;
-; Number of registers using Clock Enable       ; 3188  ;
+; Number of registers using Clock Enable       ; 3189  ;
 ; Number of registers using Preset             ; 0     ;
 +----------------------------------------------+-------+
 
@@ -375,25 +486,27 @@ Note: All latches listed above may not be present at the end of synthesis due to
 +--------------------+-----------+---------------+----------------------+------------------------+------------+-----------------------------------------------------------------------------------+
 ; Multiplexer Inputs ; Bus Width ; Baseline Area ; Area if Restructured ; Saving if Restructured ; Registered ; Example Multiplexer Output                                                        ;
 +--------------------+-----------+---------------+----------------------+------------------------+------------+-----------------------------------------------------------------------------------+
-; 3:1                ; 6 bits    ; 12 LEs        ; 6 LEs                ; 6 LEs                  ; Yes        ; |t1c_riscv_cpu|riscv_cpu:rvcpu|datapath:dp|reg_dec_exe:rde|ImmExtE[7]             ;
-; 3:1                ; 11 bits   ; 22 LEs        ; 22 LEs               ; 0 LEs                  ; Yes        ; |t1c_riscv_cpu|riscv_cpu:rvcpu|datapath:dp|reg_dec_exe:rde|ImmExtE[26]            ;
-; 3:1                ; 8 bits    ; 16 LEs        ; 16 LEs               ; 0 LEs                  ; Yes        ; |t1c_riscv_cpu|riscv_cpu:rvcpu|datapath:dp|reg_dec_exe:rde|ImmExtE[16]            ;
+; 3:1                ; 8 bits    ; 16 LEs        ; 8 LEs                ; 8 LEs                  ; Yes        ; |t1c_riscv_cpu|riscv_cpu:rvcpu|datapath:dp|reg_mem_wb:rmw|ReadDataW[0]            ;
+; 3:1                ; 6 bits    ; 12 LEs        ; 6 LEs                ; 6 LEs                  ; Yes        ; |t1c_riscv_cpu|riscv_cpu:rvcpu|datapath:dp|reg_dec_exe:rde|ImmExtE[5]             ;
+; 3:1                ; 11 bits   ; 22 LEs        ; 22 LEs               ; 0 LEs                  ; Yes        ; |t1c_riscv_cpu|riscv_cpu:rvcpu|datapath:dp|reg_dec_exe:rde|ImmExtE[24]            ;
+; 3:1                ; 8 bits    ; 16 LEs        ; 16 LEs               ; 0 LEs                  ; Yes        ; |t1c_riscv_cpu|riscv_cpu:rvcpu|datapath:dp|reg_dec_exe:rde|ImmExtE[13]            ;
 ; 3:1                ; 2 bits    ; 4 LEs         ; 2 LEs                ; 2 LEs                  ; Yes        ; |t1c_riscv_cpu|riscv_cpu:rvcpu|datapath:dp|reg_fet_dec:rfd|instrD[1]              ;
-; 3:1                ; 87 bits   ; 174 LEs       ; 87 LEs               ; 87 LEs                 ; Yes        ; |t1c_riscv_cpu|riscv_cpu:rvcpu|datapath:dp|reg_fet_dec:rfd|PCPlus4D[26]           ;
-; 3:1                ; 32 bits   ; 64 LEs        ; 32 LEs               ; 32 LEs                 ; Yes        ; |t1c_riscv_cpu|riscv_cpu:rvcpu|datapath:dp|reg_dec_exe:rde|RD2E[2]                ;
-; 3:1                ; 32 bits   ; 64 LEs        ; 32 LEs               ; 32 LEs                 ; Yes        ; |t1c_riscv_cpu|riscv_cpu:rvcpu|datapath:dp|reg_dec_exe:rde|RD1E[20]               ;
-; 6:1                ; 4 bits    ; 16 LEs        ; 8 LEs                ; 8 LEs                  ; Yes        ; |t1c_riscv_cpu|riscv_cpu:rvcpu|datapath:dp|reg_dec_exe:rde|ImmExtE[1]             ;
-; 4:1                ; 32 bits   ; 64 LEs        ; 64 LEs               ; 0 LEs                  ; Yes        ; |t1c_riscv_cpu|riscv_cpu:rvcpu|datapath:dp|reg_exe_mem:rem|WriteDataM[27]         ;
-; 4:1                ; 32 bits   ; 64 LEs        ; 64 LEs               ; 0 LEs                  ; No         ; |t1c_riscv_cpu|riscv_cpu:rvcpu|datapath:dp|mux4:ResultMux|y[6]                    ;
-; 4:1                ; 32 bits   ; 64 LEs        ; 64 LEs               ; 0 LEs                  ; No         ; |t1c_riscv_cpu|riscv_cpu:rvcpu|datapath:dp|execute_datapath:ed|Mux10              ;
+; 3:1                ; 87 bits   ; 174 LEs       ; 87 LEs               ; 87 LEs                 ; Yes        ; |t1c_riscv_cpu|riscv_cpu:rvcpu|datapath:dp|reg_fet_dec:rfd|PCD[26]                ;
+; 3:1                ; 32 bits   ; 64 LEs        ; 32 LEs               ; 32 LEs                 ; Yes        ; |t1c_riscv_cpu|riscv_cpu:rvcpu|datapath:dp|reg_dec_exe:rde|RD2E[24]               ;
+; 3:1                ; 32 bits   ; 64 LEs        ; 32 LEs               ; 32 LEs                 ; Yes        ; |t1c_riscv_cpu|riscv_cpu:rvcpu|datapath:dp|reg_dec_exe:rde|RD1E[8]                ;
+; 4:1                ; 16 bits   ; 32 LEs        ; 32 LEs               ; 0 LEs                  ; Yes        ; |t1c_riscv_cpu|riscv_cpu:rvcpu|datapath:dp|reg_mem_wb:rmw|ReadDataW[29]           ;
+; 5:1                ; 8 bits    ; 24 LEs        ; 16 LEs               ; 8 LEs                  ; Yes        ; |t1c_riscv_cpu|riscv_cpu:rvcpu|datapath:dp|reg_mem_wb:rmw|ReadDataW[15]           ;
+; 6:1                ; 4 bits    ; 16 LEs        ; 8 LEs                ; 8 LEs                  ; Yes        ; |t1c_riscv_cpu|riscv_cpu:rvcpu|datapath:dp|reg_dec_exe:rde|ImmExtE[3]             ;
+; 4:1                ; 32 bits   ; 64 LEs        ; 64 LEs               ; 0 LEs                  ; No         ; |t1c_riscv_cpu|riscv_cpu:rvcpu|datapath:dp|mux4:ResultMux|y[27]                   ;
 ; 3:1                ; 5 bits    ; 10 LEs        ; 10 LEs               ; 0 LEs                  ; No         ; |t1c_riscv_cpu|riscv_cpu:rvcpu|datapath:dp|reg_fet_dec:rfd|instrD                 ;
-; 4:1                ; 32 bits   ; 64 LEs        ; 64 LEs               ; 0 LEs                  ; No         ; |t1c_riscv_cpu|riscv_cpu:rvcpu|datapath:dp|execute_datapath:ed|Mux59              ;
-; 20:1               ; 7 bits    ; 91 LEs        ; 49 LEs               ; 42 LEs                 ; No         ; |t1c_riscv_cpu|riscv_cpu:rvcpu|datapath:dp|execute_datapath:ed|alu:alu_inst|Mux8  ;
-; 19:1               ; 8 bits    ; 96 LEs        ; 48 LEs               ; 48 LEs                 ; No         ; |t1c_riscv_cpu|riscv_cpu:rvcpu|datapath:dp|execute_datapath:ed|alu:alu_inst|Mux23 ;
-; 21:1               ; 4 bits    ; 56 LEs        ; 32 LEs               ; 24 LEs                 ; No         ; |t1c_riscv_cpu|riscv_cpu:rvcpu|datapath:dp|execute_datapath:ed|alu:alu_inst|Mux4  ;
-; 20:1               ; 4 bits    ; 52 LEs        ; 24 LEs               ; 28 LEs                 ; No         ; |t1c_riscv_cpu|riscv_cpu:rvcpu|datapath:dp|execute_datapath:ed|alu:alu_inst|Mux26 ;
-; 22:1               ; 2 bits    ; 28 LEs        ; 16 LEs               ; 12 LEs                 ; No         ; |t1c_riscv_cpu|riscv_cpu:rvcpu|datapath:dp|execute_datapath:ed|alu:alu_inst|Mux3  ;
-; 21:1               ; 2 bits    ; 28 LEs        ; 14 LEs               ; 14 LEs                 ; No         ; |t1c_riscv_cpu|riscv_cpu:rvcpu|datapath:dp|execute_datapath:ed|alu:alu_inst|Mux29 ;
+; 3:1                ; 32 bits   ; 64 LEs        ; 64 LEs               ; 0 LEs                  ; No         ; |t1c_riscv_cpu|riscv_cpu:rvcpu|datapath:dp|execute_datapath:ed|Selector39         ;
+; 3:1                ; 32 bits   ; 64 LEs        ; 64 LEs               ; 0 LEs                  ; No         ; |t1c_riscv_cpu|riscv_cpu:rvcpu|datapath:dp|execute_datapath:ed|Selector27         ;
+; 25:1               ; 7 bits    ; 112 LEs       ; 91 LEs               ; 21 LEs                 ; No         ; |t1c_riscv_cpu|riscv_cpu:rvcpu|datapath:dp|execute_datapath:ed|alu:alu_inst|Mux44 ;
+; 24:1               ; 8 bits    ; 128 LEs       ; 88 LEs               ; 40 LEs                 ; No         ; |t1c_riscv_cpu|riscv_cpu:rvcpu|datapath:dp|execute_datapath:ed|alu:alu_inst|Mux20 ;
+; 26:1               ; 4 bits    ; 68 LEs        ; 52 LEs               ; 16 LEs                 ; No         ; |t1c_riscv_cpu|riscv_cpu:rvcpu|datapath:dp|execute_datapath:ed|alu:alu_inst|Mux48 ;
+; 25:1               ; 4 bits    ; 64 LEs        ; 48 LEs               ; 16 LEs                 ; No         ; |t1c_riscv_cpu|riscv_cpu:rvcpu|datapath:dp|execute_datapath:ed|alu:alu_inst|Mux14 ;
+; 27:1               ; 2 bits    ; 36 LEs        ; 28 LEs               ; 8 LEs                  ; No         ; |t1c_riscv_cpu|riscv_cpu:rvcpu|datapath:dp|execute_datapath:ed|alu:alu_inst|Mux56 ;
+; 26:1               ; 2 bits    ; 34 LEs        ; 24 LEs               ; 10 LEs                 ; No         ; |t1c_riscv_cpu|riscv_cpu:rvcpu|datapath:dp|execute_datapath:ed|alu:alu_inst|Mux6  ;
 +--------------------+-----------+---------------+----------------------+------------------------+------------+-----------------------------------------------------------------------------------+
 
 
@@ -571,6 +684,203 @@ Note: In order to hide this table in the UI and the text report file, please set
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
 
++------------------------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for Inferred Entity Instance: riscv_cpu:rvcpu|datapath:dp|execute_datapath:ed|alu:alu_inst|lpm_mult:Mult0 ;
++------------------------------------------------+--------------+--------------------------------------------------------------+
+; Parameter Name                                 ; Value        ; Type                                                         ;
++------------------------------------------------+--------------+--------------------------------------------------------------+
+; AUTO_CARRY_CHAINS                              ; ON           ; AUTO_CARRY                                                   ;
+; IGNORE_CARRY_BUFFERS                           ; OFF          ; IGNORE_CARRY                                                 ;
+; AUTO_CASCADE_CHAINS                            ; ON           ; AUTO_CASCADE                                                 ;
+; IGNORE_CASCADE_BUFFERS                         ; OFF          ; IGNORE_CASCADE                                               ;
+; LPM_WIDTHA                                     ; 32           ; Untyped                                                      ;
+; LPM_WIDTHB                                     ; 32           ; Untyped                                                      ;
+; LPM_WIDTHP                                     ; 64           ; Untyped                                                      ;
+; LPM_WIDTHR                                     ; 64           ; Untyped                                                      ;
+; LPM_WIDTHS                                     ; 1            ; Untyped                                                      ;
+; LPM_REPRESENTATION                             ; SIGNED       ; Untyped                                                      ;
+; LPM_PIPELINE                                   ; 0            ; Untyped                                                      ;
+; LATENCY                                        ; 0            ; Untyped                                                      ;
+; INPUT_A_IS_CONSTANT                            ; NO           ; Untyped                                                      ;
+; INPUT_B_IS_CONSTANT                            ; NO           ; Untyped                                                      ;
+; USE_EAB                                        ; OFF          ; Untyped                                                      ;
+; MAXIMIZE_SPEED                                 ; 5            ; Untyped                                                      ;
+; DEVICE_FAMILY                                  ; Cyclone IV E ; Untyped                                                      ;
+; CARRY_CHAIN                                    ; MANUAL       ; Untyped                                                      ;
+; APEX20K_TECHNOLOGY_MAPPER                      ; LUT          ; TECH_MAPPER_APEX20K                                          ;
+; DEDICATED_MULTIPLIER_CIRCUITRY                 ; AUTO         ; Untyped                                                      ;
+; DEDICATED_MULTIPLIER_MIN_INPUT_WIDTH_FOR_AUTO  ; 0            ; Untyped                                                      ;
+; DEDICATED_MULTIPLIER_MIN_OUTPUT_WIDTH_FOR_AUTO ; 0            ; Untyped                                                      ;
+; CBXI_PARAMETER                                 ; mult_46t     ; Untyped                                                      ;
+; INPUT_A_FIXED_VALUE                            ; Bx           ; Untyped                                                      ;
+; INPUT_B_FIXED_VALUE                            ; Bx           ; Untyped                                                      ;
+; USE_AHDL_IMPLEMENTATION                        ; OFF          ; Untyped                                                      ;
++------------------------------------------------+--------------+--------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++------------------------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for Inferred Entity Instance: riscv_cpu:rvcpu|datapath:dp|execute_datapath:ed|alu:alu_inst|lpm_mult:Mult1 ;
++------------------------------------------------+--------------+--------------------------------------------------------------+
+; Parameter Name                                 ; Value        ; Type                                                         ;
++------------------------------------------------+--------------+--------------------------------------------------------------+
+; AUTO_CARRY_CHAINS                              ; ON           ; AUTO_CARRY                                                   ;
+; IGNORE_CARRY_BUFFERS                           ; OFF          ; IGNORE_CARRY                                                 ;
+; AUTO_CASCADE_CHAINS                            ; ON           ; AUTO_CASCADE                                                 ;
+; IGNORE_CASCADE_BUFFERS                         ; OFF          ; IGNORE_CASCADE                                               ;
+; LPM_WIDTHA                                     ; 32           ; Untyped                                                      ;
+; LPM_WIDTHB                                     ; 33           ; Untyped                                                      ;
+; LPM_WIDTHP                                     ; 65           ; Untyped                                                      ;
+; LPM_WIDTHR                                     ; 65           ; Untyped                                                      ;
+; LPM_WIDTHS                                     ; 1            ; Untyped                                                      ;
+; LPM_REPRESENTATION                             ; SIGNED       ; Untyped                                                      ;
+; LPM_PIPELINE                                   ; 0            ; Untyped                                                      ;
+; LATENCY                                        ; 0            ; Untyped                                                      ;
+; INPUT_A_IS_CONSTANT                            ; NO           ; Untyped                                                      ;
+; INPUT_B_IS_CONSTANT                            ; NO           ; Untyped                                                      ;
+; USE_EAB                                        ; OFF          ; Untyped                                                      ;
+; MAXIMIZE_SPEED                                 ; 5            ; Untyped                                                      ;
+; DEVICE_FAMILY                                  ; Cyclone IV E ; Untyped                                                      ;
+; CARRY_CHAIN                                    ; MANUAL       ; Untyped                                                      ;
+; APEX20K_TECHNOLOGY_MAPPER                      ; LUT          ; TECH_MAPPER_APEX20K                                          ;
+; DEDICATED_MULTIPLIER_CIRCUITRY                 ; AUTO         ; Untyped                                                      ;
+; DEDICATED_MULTIPLIER_MIN_INPUT_WIDTH_FOR_AUTO  ; 0            ; Untyped                                                      ;
+; DEDICATED_MULTIPLIER_MIN_OUTPUT_WIDTH_FOR_AUTO ; 0            ; Untyped                                                      ;
+; CBXI_PARAMETER                                 ; mult_66t     ; Untyped                                                      ;
+; INPUT_A_FIXED_VALUE                            ; Bx           ; Untyped                                                      ;
+; INPUT_B_FIXED_VALUE                            ; Bx           ; Untyped                                                      ;
+; USE_AHDL_IMPLEMENTATION                        ; OFF          ; Untyped                                                      ;
++------------------------------------------------+--------------+--------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++------------------------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for Inferred Entity Instance: riscv_cpu:rvcpu|datapath:dp|execute_datapath:ed|alu:alu_inst|lpm_mult:Mult2 ;
++------------------------------------------------+--------------+--------------------------------------------------------------+
+; Parameter Name                                 ; Value        ; Type                                                         ;
++------------------------------------------------+--------------+--------------------------------------------------------------+
+; AUTO_CARRY_CHAINS                              ; ON           ; AUTO_CARRY                                                   ;
+; IGNORE_CARRY_BUFFERS                           ; OFF          ; IGNORE_CARRY                                                 ;
+; AUTO_CASCADE_CHAINS                            ; ON           ; AUTO_CASCADE                                                 ;
+; IGNORE_CASCADE_BUFFERS                         ; OFF          ; IGNORE_CASCADE                                               ;
+; LPM_WIDTHA                                     ; 32           ; Untyped                                                      ;
+; LPM_WIDTHB                                     ; 32           ; Untyped                                                      ;
+; LPM_WIDTHP                                     ; 64           ; Untyped                                                      ;
+; LPM_WIDTHR                                     ; 64           ; Untyped                                                      ;
+; LPM_WIDTHS                                     ; 1            ; Untyped                                                      ;
+; LPM_REPRESENTATION                             ; UNSIGNED     ; Untyped                                                      ;
+; LPM_PIPELINE                                   ; 0            ; Untyped                                                      ;
+; LATENCY                                        ; 0            ; Untyped                                                      ;
+; INPUT_A_IS_CONSTANT                            ; NO           ; Untyped                                                      ;
+; INPUT_B_IS_CONSTANT                            ; NO           ; Untyped                                                      ;
+; USE_EAB                                        ; OFF          ; Untyped                                                      ;
+; MAXIMIZE_SPEED                                 ; 5            ; Untyped                                                      ;
+; DEVICE_FAMILY                                  ; Cyclone IV E ; Untyped                                                      ;
+; CARRY_CHAIN                                    ; MANUAL       ; Untyped                                                      ;
+; APEX20K_TECHNOLOGY_MAPPER                      ; LUT          ; TECH_MAPPER_APEX20K                                          ;
+; DEDICATED_MULTIPLIER_CIRCUITRY                 ; AUTO         ; Untyped                                                      ;
+; DEDICATED_MULTIPLIER_MIN_INPUT_WIDTH_FOR_AUTO  ; 0            ; Untyped                                                      ;
+; DEDICATED_MULTIPLIER_MIN_OUTPUT_WIDTH_FOR_AUTO ; 0            ; Untyped                                                      ;
+; CBXI_PARAMETER                                 ; mult_7dt     ; Untyped                                                      ;
+; INPUT_A_FIXED_VALUE                            ; Bx           ; Untyped                                                      ;
+; INPUT_B_FIXED_VALUE                            ; Bx           ; Untyped                                                      ;
+; USE_AHDL_IMPLEMENTATION                        ; OFF          ; Untyped                                                      ;
++------------------------------------------------+--------------+--------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-------------------------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for Inferred Entity Instance: riscv_cpu:rvcpu|datapath:dp|execute_datapath:ed|alu:alu_inst|lpm_divide:Div0 ;
++------------------------+----------------+-------------------------------------------------------------------------------------+
+; Parameter Name         ; Value          ; Type                                                                                ;
++------------------------+----------------+-------------------------------------------------------------------------------------+
+; LPM_WIDTHN             ; 32             ; Untyped                                                                             ;
+; LPM_WIDTHD             ; 32             ; Untyped                                                                             ;
+; LPM_NREPRESENTATION    ; SIGNED         ; Untyped                                                                             ;
+; LPM_DREPRESENTATION    ; SIGNED         ; Untyped                                                                             ;
+; LPM_PIPELINE           ; 0              ; Untyped                                                                             ;
+; LPM_REMAINDERPOSITIVE  ; FALSE          ; Untyped                                                                             ;
+; MAXIMIZE_SPEED         ; 5              ; Untyped                                                                             ;
+; CBXI_PARAMETER         ; lpm_divide_92p ; Untyped                                                                             ;
+; CARRY_CHAIN            ; MANUAL         ; Untyped                                                                             ;
+; OPTIMIZE_FOR_SPEED     ; 5              ; Untyped                                                                             ;
+; AUTO_CARRY_CHAINS      ; ON             ; AUTO_CARRY                                                                          ;
+; IGNORE_CARRY_BUFFERS   ; OFF            ; IGNORE_CARRY                                                                        ;
+; AUTO_CASCADE_CHAINS    ; ON             ; AUTO_CASCADE                                                                        ;
+; IGNORE_CASCADE_BUFFERS ; OFF            ; IGNORE_CASCADE                                                                      ;
++------------------------+----------------+-------------------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-------------------------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for Inferred Entity Instance: riscv_cpu:rvcpu|datapath:dp|execute_datapath:ed|alu:alu_inst|lpm_divide:Div1 ;
++------------------------+----------------+-------------------------------------------------------------------------------------+
+; Parameter Name         ; Value          ; Type                                                                                ;
++------------------------+----------------+-------------------------------------------------------------------------------------+
+; LPM_WIDTHN             ; 32             ; Untyped                                                                             ;
+; LPM_WIDTHD             ; 32             ; Untyped                                                                             ;
+; LPM_NREPRESENTATION    ; UNSIGNED       ; Untyped                                                                             ;
+; LPM_DREPRESENTATION    ; UNSIGNED       ; Untyped                                                                             ;
+; LPM_PIPELINE           ; 0              ; Untyped                                                                             ;
+; LPM_REMAINDERPOSITIVE  ; TRUE           ; Untyped                                                                             ;
+; MAXIMIZE_SPEED         ; 5              ; Untyped                                                                             ;
+; CBXI_PARAMETER         ; lpm_divide_hkm ; Untyped                                                                             ;
+; CARRY_CHAIN            ; MANUAL         ; Untyped                                                                             ;
+; OPTIMIZE_FOR_SPEED     ; 5              ; Untyped                                                                             ;
+; AUTO_CARRY_CHAINS      ; ON             ; AUTO_CARRY                                                                          ;
+; IGNORE_CARRY_BUFFERS   ; OFF            ; IGNORE_CARRY                                                                        ;
+; AUTO_CASCADE_CHAINS    ; ON             ; AUTO_CASCADE                                                                        ;
+; IGNORE_CASCADE_BUFFERS ; OFF            ; IGNORE_CASCADE                                                                      ;
++------------------------+----------------+-------------------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-------------------------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for Inferred Entity Instance: riscv_cpu:rvcpu|datapath:dp|execute_datapath:ed|alu:alu_inst|lpm_divide:Mod0 ;
++------------------------+----------------+-------------------------------------------------------------------------------------+
+; Parameter Name         ; Value          ; Type                                                                                ;
++------------------------+----------------+-------------------------------------------------------------------------------------+
+; LPM_WIDTHN             ; 32             ; Untyped                                                                             ;
+; LPM_WIDTHD             ; 32             ; Untyped                                                                             ;
+; LPM_NREPRESENTATION    ; SIGNED         ; Untyped                                                                             ;
+; LPM_DREPRESENTATION    ; SIGNED         ; Untyped                                                                             ;
+; LPM_PIPELINE           ; 0              ; Untyped                                                                             ;
+; LPM_REMAINDERPOSITIVE  ; FALSE          ; Untyped                                                                             ;
+; MAXIMIZE_SPEED         ; 5              ; Untyped                                                                             ;
+; CBXI_PARAMETER         ; lpm_divide_cqo ; Untyped                                                                             ;
+; CARRY_CHAIN            ; MANUAL         ; Untyped                                                                             ;
+; OPTIMIZE_FOR_SPEED     ; 5              ; Untyped                                                                             ;
+; AUTO_CARRY_CHAINS      ; ON             ; AUTO_CARRY                                                                          ;
+; IGNORE_CARRY_BUFFERS   ; OFF            ; IGNORE_CARRY                                                                        ;
+; AUTO_CASCADE_CHAINS    ; ON             ; AUTO_CASCADE                                                                        ;
+; IGNORE_CASCADE_BUFFERS ; OFF            ; IGNORE_CASCADE                                                                      ;
++------------------------+----------------+-------------------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-------------------------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for Inferred Entity Instance: riscv_cpu:rvcpu|datapath:dp|execute_datapath:ed|alu:alu_inst|lpm_divide:Mod1 ;
++------------------------+----------------+-------------------------------------------------------------------------------------+
+; Parameter Name         ; Value          ; Type                                                                                ;
++------------------------+----------------+-------------------------------------------------------------------------------------+
+; LPM_WIDTHN             ; 32             ; Untyped                                                                             ;
+; LPM_WIDTHD             ; 32             ; Untyped                                                                             ;
+; LPM_NREPRESENTATION    ; UNSIGNED       ; Untyped                                                                             ;
+; LPM_DREPRESENTATION    ; UNSIGNED       ; Untyped                                                                             ;
+; LPM_PIPELINE           ; 0              ; Untyped                                                                             ;
+; LPM_REMAINDERPOSITIVE  ; TRUE           ; Untyped                                                                             ;
+; MAXIMIZE_SPEED         ; 5              ; Untyped                                                                             ;
+; CBXI_PARAMETER         ; lpm_divide_kcm ; Untyped                                                                             ;
+; CARRY_CHAIN            ; MANUAL         ; Untyped                                                                             ;
+; OPTIMIZE_FOR_SPEED     ; 5              ; Untyped                                                                             ;
+; AUTO_CARRY_CHAINS      ; ON             ; AUTO_CARRY                                                                          ;
+; IGNORE_CARRY_BUFFERS   ; OFF            ; IGNORE_CARRY                                                                        ;
+; AUTO_CASCADE_CHAINS    ; ON             ; AUTO_CASCADE                                                                        ;
+; IGNORE_CASCADE_BUFFERS ; OFF            ; IGNORE_CASCADE                                                                      ;
++------------------------+----------------+-------------------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
 +--------------------------------------------------------------------------------------------------------------------------------------+
 ; altsyncram Parameter Settings by Entity Instance                                                                                     ;
 +-------------------------------------------+------------------------------------------------------------------------------------------+
@@ -589,6 +899,48 @@ Note: In order to hide this table in the UI and the text report file, please set
 ;     -- RAM_BLOCK_TYPE                     ; AUTO                                                                                     ;
 ;     -- READ_DURING_WRITE_MODE_MIXED_PORTS ; DONT_CARE                                                                                ;
 +-------------------------------------------+------------------------------------------------------------------------------------------+
+
+
++---------------------------------------------------------------------------------------------------------------------+
+; lpm_mult Parameter Settings by Entity Instance                                                                      ;
++---------------------------------------+-----------------------------------------------------------------------------+
+; Name                                  ; Value                                                                       ;
++---------------------------------------+-----------------------------------------------------------------------------+
+; Number of entity instances            ; 3                                                                           ;
+; Entity Instance                       ; riscv_cpu:rvcpu|datapath:dp|execute_datapath:ed|alu:alu_inst|lpm_mult:Mult0 ;
+;     -- LPM_WIDTHA                     ; 32                                                                          ;
+;     -- LPM_WIDTHB                     ; 32                                                                          ;
+;     -- LPM_WIDTHP                     ; 64                                                                          ;
+;     -- LPM_REPRESENTATION             ; SIGNED                                                                      ;
+;     -- INPUT_A_IS_CONSTANT            ; NO                                                                          ;
+;     -- INPUT_B_IS_CONSTANT            ; NO                                                                          ;
+;     -- USE_EAB                        ; OFF                                                                         ;
+;     -- DEDICATED_MULTIPLIER_CIRCUITRY ; AUTO                                                                        ;
+;     -- INPUT_A_FIXED_VALUE            ; Bx                                                                          ;
+;     -- INPUT_B_FIXED_VALUE            ; Bx                                                                          ;
+; Entity Instance                       ; riscv_cpu:rvcpu|datapath:dp|execute_datapath:ed|alu:alu_inst|lpm_mult:Mult1 ;
+;     -- LPM_WIDTHA                     ; 32                                                                          ;
+;     -- LPM_WIDTHB                     ; 33                                                                          ;
+;     -- LPM_WIDTHP                     ; 65                                                                          ;
+;     -- LPM_REPRESENTATION             ; SIGNED                                                                      ;
+;     -- INPUT_A_IS_CONSTANT            ; NO                                                                          ;
+;     -- INPUT_B_IS_CONSTANT            ; NO                                                                          ;
+;     -- USE_EAB                        ; OFF                                                                         ;
+;     -- DEDICATED_MULTIPLIER_CIRCUITRY ; AUTO                                                                        ;
+;     -- INPUT_A_FIXED_VALUE            ; Bx                                                                          ;
+;     -- INPUT_B_FIXED_VALUE            ; Bx                                                                          ;
+; Entity Instance                       ; riscv_cpu:rvcpu|datapath:dp|execute_datapath:ed|alu:alu_inst|lpm_mult:Mult2 ;
+;     -- LPM_WIDTHA                     ; 32                                                                          ;
+;     -- LPM_WIDTHB                     ; 32                                                                          ;
+;     -- LPM_WIDTHP                     ; 64                                                                          ;
+;     -- LPM_REPRESENTATION             ; UNSIGNED                                                                    ;
+;     -- INPUT_A_IS_CONSTANT            ; NO                                                                          ;
+;     -- INPUT_B_IS_CONSTANT            ; NO                                                                          ;
+;     -- USE_EAB                        ; OFF                                                                         ;
+;     -- DEDICATED_MULTIPLIER_CIRCUITRY ; AUTO                                                                        ;
+;     -- INPUT_A_FIXED_VALUE            ; Bx                                                                          ;
+;     -- INPUT_B_FIXED_VALUE            ; Bx                                                                          ;
++---------------------------------------+-----------------------------------------------------------------------------+
 
 
 +------------------------------------------------------------------------+
@@ -626,25 +978,27 @@ Note: In order to hide this table in the UI and the text report file, please set
 ; Type                  ; Count                       ;
 +-----------------------+-----------------------------+
 ; boundary_port         ; 228                         ;
-; cycloneiii_ff         ; 3590                        ;
-;     ENA               ; 3156                        ;
+; cycloneiii_ff         ; 3600                        ;
+;     ENA               ; 3157                        ;
 ;     ENA CLR           ; 32                          ;
 ;     SCLR              ; 22                          ;
-;     SCLR SLD          ; 32                          ;
-;     plain             ; 348                         ;
-; cycloneiii_lcell_comb ; 3880                        ;
-;     arith             ; 154                         ;
-;         2 data inputs ; 30                          ;
-;         3 data inputs ; 124                         ;
-;     normal            ; 3726                        ;
-;         1 data inputs ; 1                           ;
-;         2 data inputs ; 310                         ;
-;         3 data inputs ; 394                         ;
-;         4 data inputs ; 3021                        ;
+;     plain             ; 389                         ;
+; cycloneiii_lcell_comb ; 9116                        ;
+;     arith             ; 2573                        ;
+;         2 data inputs ; 93                          ;
+;         3 data inputs ; 2480                        ;
+;     normal            ; 6543                        ;
+;         0 data inputs ; 122                         ;
+;         1 data inputs ; 4                           ;
+;         2 data inputs ; 429                         ;
+;         3 data inputs ; 1127                        ;
+;         4 data inputs ; 4861                        ;
+; cycloneiii_mac_mult   ; 12                          ;
+; cycloneiii_mac_out    ; 12                          ;
 ; cycloneiii_ram_block  ; 32                          ;
 ;                       ;                             ;
-; Max LUT depth         ; 24.00                       ;
-; Average LUT depth     ; 8.59                        ;
+; Max LUT depth         ; 147.20                      ;
+; Average LUT depth     ; 69.35                       ;
 +-----------------------+-----------------------------+
 
 
@@ -653,7 +1007,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+--------------+
 ; Partition Name ; Elapsed Time ;
 +----------------+--------------+
-; Top            ; 00:00:06     ;
+; Top            ; 00:00:09     ;
 +----------------+--------------+
 
 
@@ -663,7 +1017,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 20.1.0 Build 711 06/05/2020 SJ Lite Edition
-    Info: Processing started: Sat Jun 13 14:01:23 2026
+    Info: Processing started: Sun Jun 14 13:43:29 2026
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off t1c_riscv_cpu -c t1c_riscv_cpu
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 14 of the 14 processors detected
@@ -690,11 +1044,11 @@ Info (12021): Found 1 design units, including 1 entities, in source file code/co
 Info (12021): Found 1 design units, including 1 entities, in source file code/components/imm_extend.v
     Info (12023): Found entity 1: imm_extend File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/imm_extend.v Line: 4
 Info (12021): Found 1 design units, including 1 entities, in source file code/components/datapath.v
-    Info (12023): Found entity 1: datapath File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/datapath.v Line: 3
+    Info (12023): Found entity 1: datapath File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/datapath.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file code/components/controller.v
     Info (12023): Found entity 1: controller File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/controller.v Line: 5
 Info (12021): Found 1 design units, including 1 entities, in source file code/components/alu_decoder.v
-    Info (12023): Found entity 1: alu_decoder File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/alu_decoder.v Line: 5
+    Info (12023): Found entity 1: alu_decoder File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/alu_decoder.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file code/components/alu.v
     Info (12023): Found entity 1: alu File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/alu.v Line: 5
 Info (12021): Found 1 design units, including 1 entities, in source file code/components/adder.v
@@ -719,14 +1073,14 @@ Info (12127): Elaborating entity "t1c_riscv_cpu" for the top level hierarchy
 Warning (10230): Verilog HDL assignment warning at t1c_riscv_cpu.v(25): truncated value with size 32 to match size of target (1) File: /home/adityaamehra/Desktop/rv32i-pipleined/code/t1c_riscv_cpu.v Line: 25
 Info (12128): Elaborating entity "riscv_cpu" for hierarchy "riscv_cpu:rvcpu" File: /home/adityaamehra/Desktop/rv32i-pipleined/code/t1c_riscv_cpu.v Line: 21
 Info (12128): Elaborating entity "datapath" for hierarchy "riscv_cpu:rvcpu|datapath:dp" File: /home/adityaamehra/Desktop/rv32i-pipleined/code/riscv_cpu.v Line: 14
-Info (12128): Elaborating entity "hazard_unit" for hierarchy "riscv_cpu:rvcpu|datapath:dp|hazard_unit:hu" File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/datapath.v Line: 74
-Info (12128): Elaborating entity "fetch_datapath" for hierarchy "riscv_cpu:rvcpu|datapath:dp|fetch_datapath:fd" File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/datapath.v Line: 84
+Info (12128): Elaborating entity "hazard_unit" for hierarchy "riscv_cpu:rvcpu|datapath:dp|hazard_unit:hu" File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/datapath.v Line: 41
+Info (12128): Elaborating entity "fetch_datapath" for hierarchy "riscv_cpu:rvcpu|datapath:dp|fetch_datapath:fd" File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/datapath.v Line: 45
 Info (12128): Elaborating entity "mux2" for hierarchy "riscv_cpu:rvcpu|datapath:dp|fetch_datapath:fd|mux2:pcmuxF" File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/datapath_fetch.v Line: 14
 Info (12128): Elaborating entity "reset_ff" for hierarchy "riscv_cpu:rvcpu|datapath:dp|fetch_datapath:fd|reset_ff:pcregF" File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/datapath_fetch.v Line: 16
 Info (12128): Elaborating entity "adder" for hierarchy "riscv_cpu:rvcpu|datapath:dp|fetch_datapath:fd|adder:pcadd4F" File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/datapath_fetch.v Line: 18
-Info (12128): Elaborating entity "reg_fet_dec" for hierarchy "riscv_cpu:rvcpu|datapath:dp|reg_fet_dec:rfd" File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/datapath.v Line: 91
-Info (12128): Elaborating entity "controller" for hierarchy "riscv_cpu:rvcpu|datapath:dp|controller:ctrl" File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/datapath.v Line: 100
-Info (12128): Elaborating entity "main_decoder" for hierarchy "riscv_cpu:rvcpu|datapath:dp|controller:ctrl|main_decoder:md" File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/controller.v Line: 20
+Info (12128): Elaborating entity "reg_fet_dec" for hierarchy "riscv_cpu:rvcpu|datapath:dp|reg_fet_dec:rfd" File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/datapath.v Line: 46
+Info (12128): Elaborating entity "controller" for hierarchy "riscv_cpu:rvcpu|datapath:dp|controller:ctrl" File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/datapath.v Line: 48
+Info (12128): Elaborating entity "main_decoder" for hierarchy "riscv_cpu:rvcpu|datapath:dp|controller:ctrl|main_decoder:md" File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/controller.v Line: 21
 Warning (10270): Verilog HDL Case Statement warning at main_decoder.v(24): incomplete case statement has no default case item File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/main_decoder.v Line: 24
 Warning (10240): Verilog HDL Always Construct warning at main_decoder.v(18): inferring latch(es) for variable "controls", which holds its previous value in one or more paths through the always construct File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/main_decoder.v Line: 18
 Info (10041): Inferred latch for "controls[0]" at main_decoder.v(18) File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/main_decoder.v Line: 18
@@ -742,19 +1096,59 @@ Info (10041): Inferred latch for "controls[9]" at main_decoder.v(18) File: /home
 Info (10041): Inferred latch for "controls[10]" at main_decoder.v(18) File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/main_decoder.v Line: 18
 Info (10041): Inferred latch for "controls[11]" at main_decoder.v(18) File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/main_decoder.v Line: 18
 Info (10041): Inferred latch for "controls[12]" at main_decoder.v(18) File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/main_decoder.v Line: 18
-Info (12128): Elaborating entity "alu_decoder" for hierarchy "riscv_cpu:rvcpu|datapath:dp|controller:ctrl|alu_decoder:ad" File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/controller.v Line: 22
-Info (12128): Elaborating entity "decode_datapath" for hierarchy "riscv_cpu:rvcpu|datapath:dp|decode_datapath:dd" File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/datapath.v Line: 108
+Info (12128): Elaborating entity "alu_decoder" for hierarchy "riscv_cpu:rvcpu|datapath:dp|controller:ctrl|alu_decoder:ad" File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/controller.v Line: 23
+Info (12128): Elaborating entity "decode_datapath" for hierarchy "riscv_cpu:rvcpu|datapath:dp|decode_datapath:dd" File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/datapath.v Line: 49
 Info (12128): Elaborating entity "reg_file" for hierarchy "riscv_cpu:rvcpu|datapath:dp|decode_datapath:dd|reg_file:rf" File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/datapath_decode.v Line: 19
 Info (12128): Elaborating entity "imm_extend" for hierarchy "riscv_cpu:rvcpu|datapath:dp|decode_datapath:dd|imm_extend:ext" File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/datapath_decode.v Line: 22
-Info (12128): Elaborating entity "reg_dec_exe" for hierarchy "riscv_cpu:rvcpu|datapath:dp|reg_dec_exe:rde" File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/datapath.v Line: 127
-Info (12128): Elaborating entity "execute_datapath" for hierarchy "riscv_cpu:rvcpu|datapath:dp|execute_datapath:ed" File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/datapath.v Line: 139
-Info (10264): Verilog HDL Case Statement information at datapath_execute.v(59): all case item expressions in this case statement are onehot File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/datapath_execute.v Line: 59
-Info (12128): Elaborating entity "alu" for hierarchy "riscv_cpu:rvcpu|datapath:dp|execute_datapath:ed|alu:alu_inst" File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/datapath_execute.v Line: 54
-Info (12128): Elaborating entity "reg_exe_mem" for hierarchy "riscv_cpu:rvcpu|datapath:dp|reg_exe_mem:rem" File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/datapath.v Line: 150
-Info (12128): Elaborating entity "reg_mem_wb" for hierarchy "riscv_cpu:rvcpu|datapath:dp|reg_mem_wb:rmw" File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/datapath.v Line: 188
-Info (12128): Elaborating entity "mux4" for hierarchy "riscv_cpu:rvcpu|datapath:dp|mux4:ResultMux" File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/datapath.v Line: 197
+Info (12128): Elaborating entity "reg_dec_exe" for hierarchy "riscv_cpu:rvcpu|datapath:dp|reg_dec_exe:rde" File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/datapath.v Line: 50
+Info (12128): Elaborating entity "execute_datapath" for hierarchy "riscv_cpu:rvcpu|datapath:dp|execute_datapath:ed" File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/datapath.v Line: 52
+Info (10264): Verilog HDL Case Statement information at datapath_execute.v(25): all case item expressions in this case statement are onehot File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/datapath_execute.v Line: 25
+Info (10264): Verilog HDL Case Statement information at datapath_execute.v(33): all case item expressions in this case statement are onehot File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/datapath_execute.v Line: 33
+Info (12128): Elaborating entity "alu" for hierarchy "riscv_cpu:rvcpu|datapath:dp|execute_datapath:ed|alu:alu_inst" File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/datapath_execute.v Line: 59
+Warning (10230): Verilog HDL assignment warning at alu.v(43): truncated value with size 64 to match size of target (32) File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/alu.v Line: 43
+Warning (10230): Verilog HDL assignment warning at alu.v(46): truncated value with size 64 to match size of target (32) File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/alu.v Line: 46
+Warning (10230): Verilog HDL assignment warning at alu.v(49): truncated value with size 64 to match size of target (32) File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/alu.v Line: 49
+Warning (10270): Verilog HDL Case Statement warning at alu.v(38): incomplete case statement has no default case item File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/alu.v Line: 38
+Warning (10270): Verilog HDL Case Statement warning at alu.v(54): incomplete case statement has no default case item File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/alu.v Line: 54
+Warning (10270): Verilog HDL Case Statement warning at alu.v(64): incomplete case statement has no default case item File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/alu.v Line: 64
+Warning (10240): Verilog HDL Always Construct warning at alu.v(14): inferring latch(es) for variable "alu_out", which holds its previous value in one or more paths through the always construct File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/alu.v Line: 14
+Info (10041): Inferred latch for "alu_out[0]" at alu.v(14) File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/alu.v Line: 14
+Info (10041): Inferred latch for "alu_out[1]" at alu.v(14) File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/alu.v Line: 14
+Info (10041): Inferred latch for "alu_out[2]" at alu.v(14) File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/alu.v Line: 14
+Info (10041): Inferred latch for "alu_out[3]" at alu.v(14) File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/alu.v Line: 14
+Info (10041): Inferred latch for "alu_out[4]" at alu.v(14) File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/alu.v Line: 14
+Info (10041): Inferred latch for "alu_out[5]" at alu.v(14) File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/alu.v Line: 14
+Info (10041): Inferred latch for "alu_out[6]" at alu.v(14) File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/alu.v Line: 14
+Info (10041): Inferred latch for "alu_out[7]" at alu.v(14) File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/alu.v Line: 14
+Info (10041): Inferred latch for "alu_out[8]" at alu.v(14) File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/alu.v Line: 14
+Info (10041): Inferred latch for "alu_out[9]" at alu.v(14) File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/alu.v Line: 14
+Info (10041): Inferred latch for "alu_out[10]" at alu.v(14) File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/alu.v Line: 14
+Info (10041): Inferred latch for "alu_out[11]" at alu.v(14) File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/alu.v Line: 14
+Info (10041): Inferred latch for "alu_out[12]" at alu.v(14) File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/alu.v Line: 14
+Info (10041): Inferred latch for "alu_out[13]" at alu.v(14) File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/alu.v Line: 14
+Info (10041): Inferred latch for "alu_out[14]" at alu.v(14) File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/alu.v Line: 14
+Info (10041): Inferred latch for "alu_out[15]" at alu.v(14) File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/alu.v Line: 14
+Info (10041): Inferred latch for "alu_out[16]" at alu.v(14) File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/alu.v Line: 14
+Info (10041): Inferred latch for "alu_out[17]" at alu.v(14) File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/alu.v Line: 14
+Info (10041): Inferred latch for "alu_out[18]" at alu.v(14) File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/alu.v Line: 14
+Info (10041): Inferred latch for "alu_out[19]" at alu.v(14) File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/alu.v Line: 14
+Info (10041): Inferred latch for "alu_out[20]" at alu.v(14) File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/alu.v Line: 14
+Info (10041): Inferred latch for "alu_out[21]" at alu.v(14) File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/alu.v Line: 14
+Info (10041): Inferred latch for "alu_out[22]" at alu.v(14) File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/alu.v Line: 14
+Info (10041): Inferred latch for "alu_out[23]" at alu.v(14) File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/alu.v Line: 14
+Info (10041): Inferred latch for "alu_out[24]" at alu.v(14) File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/alu.v Line: 14
+Info (10041): Inferred latch for "alu_out[25]" at alu.v(14) File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/alu.v Line: 14
+Info (10041): Inferred latch for "alu_out[26]" at alu.v(14) File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/alu.v Line: 14
+Info (10041): Inferred latch for "alu_out[27]" at alu.v(14) File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/alu.v Line: 14
+Info (10041): Inferred latch for "alu_out[28]" at alu.v(14) File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/alu.v Line: 14
+Info (10041): Inferred latch for "alu_out[29]" at alu.v(14) File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/alu.v Line: 14
+Info (10041): Inferred latch for "alu_out[30]" at alu.v(14) File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/alu.v Line: 14
+Info (10041): Inferred latch for "alu_out[31]" at alu.v(14) File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/alu.v Line: 14
+Info (12128): Elaborating entity "reg_exe_mem" for hierarchy "riscv_cpu:rvcpu|datapath:dp|reg_exe_mem:rem" File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/datapath.v Line: 53
+Info (12128): Elaborating entity "reg_mem_wb" for hierarchy "riscv_cpu:rvcpu|datapath:dp|reg_mem_wb:rmw" File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/datapath.v Line: 77
+Info (12128): Elaborating entity "mux4" for hierarchy "riscv_cpu:rvcpu|datapath:dp|mux4:ResultMux" File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/datapath.v Line: 78
 Info (12128): Elaborating entity "instr_mem" for hierarchy "instr_mem:instrmem" File: /home/adityaamehra/Desktop/rv32i-pipleined/code/t1c_riscv_cpu.v Line: 22
-Warning (10850): Verilog HDL warning at instr_mem.v(18): number of words (50) in memory file does not match the number of elements in the address range [0:511] File: /home/adityaamehra/Desktop/rv32i-pipleined/code/instr_mem.v Line: 18
+Warning (10850): Verilog HDL warning at instr_mem.v(18): number of words (108) in memory file does not match the number of elements in the address range [0:511] File: /home/adityaamehra/Desktop/rv32i-pipleined/code/instr_mem.v Line: 18
 Warning (10030): Net "instr_ram.data_a" at instr_mem.v(11) has no driver or initial value, using a default initial value '0' File: /home/adityaamehra/Desktop/rv32i-pipleined/code/instr_mem.v Line: 11
 Warning (10030): Net "instr_ram.waddr_a" at instr_mem.v(11) has no driver or initial value, using a default initial value '0' File: /home/adityaamehra/Desktop/rv32i-pipleined/code/instr_mem.v Line: 11
 Warning (10030): Net "instr_ram.we_a" at instr_mem.v(11) has no driver or initial value, using a default initial value '0' File: /home/adityaamehra/Desktop/rv32i-pipleined/code/instr_mem.v Line: 11
@@ -780,6 +1174,14 @@ Info (19000): Inferred 1 megafunctions from design logic
         Info (286033): Parameter INDATA_ACLR_A set to NONE
         Info (286033): Parameter WRCONTROL_ACLR_A set to NONE
         Info (286033): Parameter INIT_FILE set to db/t1c_riscv_cpu.ram0_reg_file_c5668544.hdl.mif
+Info (278001): Inferred 7 megafunctions from design logic
+    Info (278003): Inferred multiplier megafunction ("lpm_mult") from the following logic: "riscv_cpu:rvcpu|datapath:dp|execute_datapath:ed|alu:alu_inst|Mult0" File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/alu.v Line: 43
+    Info (278003): Inferred multiplier megafunction ("lpm_mult") from the following logic: "riscv_cpu:rvcpu|datapath:dp|execute_datapath:ed|alu:alu_inst|Mult1" File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/alu.v Line: 46
+    Info (278003): Inferred multiplier megafunction ("lpm_mult") from the following logic: "riscv_cpu:rvcpu|datapath:dp|execute_datapath:ed|alu:alu_inst|Mult2" File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/alu.v Line: 49
+    Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "riscv_cpu:rvcpu|datapath:dp|execute_datapath:ed|alu:alu_inst|Div0" File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/alu.v Line: 56
+    Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "riscv_cpu:rvcpu|datapath:dp|execute_datapath:ed|alu:alu_inst|Div1" File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/alu.v Line: 59
+    Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "riscv_cpu:rvcpu|datapath:dp|execute_datapath:ed|alu:alu_inst|Mod0" File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/alu.v Line: 66
+    Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "riscv_cpu:rvcpu|datapath:dp|execute_datapath:ed|alu:alu_inst|Mod1" File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/alu.v Line: 69
 Info (12130): Elaborated megafunction instantiation "riscv_cpu:rvcpu|datapath:dp|decode_datapath:dd|reg_file:rf|altsyncram:reg_file_arr_rtl_0"
 Info (12133): Instantiated megafunction "riscv_cpu:rvcpu|datapath:dp|decode_datapath:dd|reg_file:rf|altsyncram:reg_file_arr_rtl_0" with the following parameter:
     Info (12134): Parameter "OPERATION_MODE" = "DUAL_PORT"
@@ -799,23 +1201,165 @@ Info (12133): Instantiated megafunction "riscv_cpu:rvcpu|datapath:dp|decode_data
     Info (12134): Parameter "INIT_FILE" = "db/t1c_riscv_cpu.ram0_reg_file_c5668544.hdl.mif"
 Info (12021): Found 1 design units, including 1 entities, in source file db/altsyncram_k5i1.tdf
     Info (12023): Found entity 1: altsyncram_k5i1 File: /home/adityaamehra/Desktop/rv32i-pipleined/db/altsyncram_k5i1.tdf Line: 28
+Info (12130): Elaborated megafunction instantiation "riscv_cpu:rvcpu|datapath:dp|execute_datapath:ed|alu:alu_inst|lpm_mult:Mult0" File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/alu.v Line: 43
+Info (12133): Instantiated megafunction "riscv_cpu:rvcpu|datapath:dp|execute_datapath:ed|alu:alu_inst|lpm_mult:Mult0" with the following parameter: File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/alu.v Line: 43
+    Info (12134): Parameter "LPM_WIDTHA" = "32"
+    Info (12134): Parameter "LPM_WIDTHB" = "32"
+    Info (12134): Parameter "LPM_WIDTHP" = "64"
+    Info (12134): Parameter "LPM_WIDTHR" = "64"
+    Info (12134): Parameter "LPM_WIDTHS" = "1"
+    Info (12134): Parameter "LPM_REPRESENTATION" = "SIGNED"
+    Info (12134): Parameter "INPUT_A_IS_CONSTANT" = "NO"
+    Info (12134): Parameter "INPUT_B_IS_CONSTANT" = "NO"
+    Info (12134): Parameter "MAXIMIZE_SPEED" = "5"
+Info (12021): Found 1 design units, including 1 entities, in source file db/mult_46t.tdf
+    Info (12023): Found entity 1: mult_46t File: /home/adityaamehra/Desktop/rv32i-pipleined/db/mult_46t.tdf Line: 31
+Info (12130): Elaborated megafunction instantiation "riscv_cpu:rvcpu|datapath:dp|execute_datapath:ed|alu:alu_inst|lpm_mult:Mult1" File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/alu.v Line: 46
+Info (12133): Instantiated megafunction "riscv_cpu:rvcpu|datapath:dp|execute_datapath:ed|alu:alu_inst|lpm_mult:Mult1" with the following parameter: File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/alu.v Line: 46
+    Info (12134): Parameter "LPM_WIDTHA" = "32"
+    Info (12134): Parameter "LPM_WIDTHB" = "33"
+    Info (12134): Parameter "LPM_WIDTHP" = "65"
+    Info (12134): Parameter "LPM_WIDTHR" = "65"
+    Info (12134): Parameter "LPM_WIDTHS" = "1"
+    Info (12134): Parameter "LPM_REPRESENTATION" = "SIGNED"
+    Info (12134): Parameter "INPUT_A_IS_CONSTANT" = "NO"
+    Info (12134): Parameter "INPUT_B_IS_CONSTANT" = "NO"
+    Info (12134): Parameter "MAXIMIZE_SPEED" = "5"
+Info (12021): Found 1 design units, including 1 entities, in source file db/mult_66t.tdf
+    Info (12023): Found entity 1: mult_66t File: /home/adityaamehra/Desktop/rv32i-pipleined/db/mult_66t.tdf Line: 31
+Info (12130): Elaborated megafunction instantiation "riscv_cpu:rvcpu|datapath:dp|execute_datapath:ed|alu:alu_inst|lpm_mult:Mult2" File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/alu.v Line: 49
+Info (12133): Instantiated megafunction "riscv_cpu:rvcpu|datapath:dp|execute_datapath:ed|alu:alu_inst|lpm_mult:Mult2" with the following parameter: File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/alu.v Line: 49
+    Info (12134): Parameter "LPM_WIDTHA" = "32"
+    Info (12134): Parameter "LPM_WIDTHB" = "32"
+    Info (12134): Parameter "LPM_WIDTHP" = "64"
+    Info (12134): Parameter "LPM_WIDTHR" = "64"
+    Info (12134): Parameter "LPM_WIDTHS" = "1"
+    Info (12134): Parameter "LPM_REPRESENTATION" = "UNSIGNED"
+    Info (12134): Parameter "INPUT_A_IS_CONSTANT" = "NO"
+    Info (12134): Parameter "INPUT_B_IS_CONSTANT" = "NO"
+    Info (12134): Parameter "MAXIMIZE_SPEED" = "5"
+Info (12021): Found 1 design units, including 1 entities, in source file db/mult_7dt.tdf
+    Info (12023): Found entity 1: mult_7dt File: /home/adityaamehra/Desktop/rv32i-pipleined/db/mult_7dt.tdf Line: 31
+Info (12130): Elaborated megafunction instantiation "riscv_cpu:rvcpu|datapath:dp|execute_datapath:ed|alu:alu_inst|lpm_divide:Div0" File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/alu.v Line: 56
+Info (12133): Instantiated megafunction "riscv_cpu:rvcpu|datapath:dp|execute_datapath:ed|alu:alu_inst|lpm_divide:Div0" with the following parameter: File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/alu.v Line: 56
+    Info (12134): Parameter "LPM_WIDTHN" = "32"
+    Info (12134): Parameter "LPM_WIDTHD" = "32"
+    Info (12134): Parameter "LPM_NREPRESENTATION" = "SIGNED"
+    Info (12134): Parameter "LPM_DREPRESENTATION" = "SIGNED"
+    Info (12134): Parameter "LPM_HINT" = "LPM_REMAINDERPOSITIVE=FALSE"
+Info (12021): Found 1 design units, including 1 entities, in source file db/lpm_divide_92p.tdf
+    Info (12023): Found entity 1: lpm_divide_92p File: /home/adityaamehra/Desktop/rv32i-pipleined/db/lpm_divide_92p.tdf Line: 25
+Info (12021): Found 1 design units, including 1 entities, in source file db/abs_divider_4dg.tdf
+    Info (12023): Found entity 1: abs_divider_4dg File: /home/adityaamehra/Desktop/rv32i-pipleined/db/abs_divider_4dg.tdf Line: 27
+Info (12021): Found 1 design units, including 1 entities, in source file db/alt_u_div_6af.tdf
+    Info (12023): Found entity 1: alt_u_div_6af File: /home/adityaamehra/Desktop/rv32i-pipleined/db/alt_u_div_6af.tdf Line: 27
+Info (12021): Found 1 design units, including 1 entities, in source file db/add_sub_7pc.tdf
+    Info (12023): Found entity 1: add_sub_7pc File: /home/adityaamehra/Desktop/rv32i-pipleined/db/add_sub_7pc.tdf Line: 23
+Info (12021): Found 1 design units, including 1 entities, in source file db/add_sub_8pc.tdf
+    Info (12023): Found entity 1: add_sub_8pc File: /home/adityaamehra/Desktop/rv32i-pipleined/db/add_sub_8pc.tdf Line: 23
+Info (12021): Found 1 design units, including 1 entities, in source file db/lpm_abs_i0a.tdf
+    Info (12023): Found entity 1: lpm_abs_i0a File: /home/adityaamehra/Desktop/rv32i-pipleined/db/lpm_abs_i0a.tdf Line: 25
+Info (12130): Elaborated megafunction instantiation "riscv_cpu:rvcpu|datapath:dp|execute_datapath:ed|alu:alu_inst|lpm_divide:Div1" File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/alu.v Line: 59
+Info (12133): Instantiated megafunction "riscv_cpu:rvcpu|datapath:dp|execute_datapath:ed|alu:alu_inst|lpm_divide:Div1" with the following parameter: File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/alu.v Line: 59
+    Info (12134): Parameter "LPM_WIDTHN" = "32"
+    Info (12134): Parameter "LPM_WIDTHD" = "32"
+    Info (12134): Parameter "LPM_NREPRESENTATION" = "UNSIGNED"
+    Info (12134): Parameter "LPM_DREPRESENTATION" = "UNSIGNED"
+Info (12021): Found 1 design units, including 1 entities, in source file db/lpm_divide_hkm.tdf
+    Info (12023): Found entity 1: lpm_divide_hkm File: /home/adityaamehra/Desktop/rv32i-pipleined/db/lpm_divide_hkm.tdf Line: 25
+Info (12021): Found 1 design units, including 1 entities, in source file db/sign_div_unsign_9nh.tdf
+    Info (12023): Found entity 1: sign_div_unsign_9nh File: /home/adityaamehra/Desktop/rv32i-pipleined/db/sign_div_unsign_9nh.tdf Line: 25
+Info (12130): Elaborated megafunction instantiation "riscv_cpu:rvcpu|datapath:dp|execute_datapath:ed|alu:alu_inst|lpm_divide:Mod0" File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/alu.v Line: 66
+Info (12133): Instantiated megafunction "riscv_cpu:rvcpu|datapath:dp|execute_datapath:ed|alu:alu_inst|lpm_divide:Mod0" with the following parameter: File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/alu.v Line: 66
+    Info (12134): Parameter "LPM_WIDTHN" = "32"
+    Info (12134): Parameter "LPM_WIDTHD" = "32"
+    Info (12134): Parameter "LPM_NREPRESENTATION" = "SIGNED"
+    Info (12134): Parameter "LPM_DREPRESENTATION" = "SIGNED"
+    Info (12134): Parameter "LPM_HINT" = "LPM_REMAINDERPOSITIVE=FALSE"
+Info (12021): Found 1 design units, including 1 entities, in source file db/lpm_divide_cqo.tdf
+    Info (12023): Found entity 1: lpm_divide_cqo File: /home/adityaamehra/Desktop/rv32i-pipleined/db/lpm_divide_cqo.tdf Line: 25
+Info (12130): Elaborated megafunction instantiation "riscv_cpu:rvcpu|datapath:dp|execute_datapath:ed|alu:alu_inst|lpm_divide:Mod1" File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/alu.v Line: 69
+Info (12133): Instantiated megafunction "riscv_cpu:rvcpu|datapath:dp|execute_datapath:ed|alu:alu_inst|lpm_divide:Mod1" with the following parameter: File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/alu.v Line: 69
+    Info (12134): Parameter "LPM_WIDTHN" = "32"
+    Info (12134): Parameter "LPM_WIDTHD" = "32"
+    Info (12134): Parameter "LPM_NREPRESENTATION" = "UNSIGNED"
+    Info (12134): Parameter "LPM_DREPRESENTATION" = "UNSIGNED"
+Info (12021): Found 1 design units, including 1 entities, in source file db/lpm_divide_kcm.tdf
+    Info (12023): Found entity 1: lpm_divide_kcm File: /home/adityaamehra/Desktop/rv32i-pipleined/db/lpm_divide_kcm.tdf Line: 25
+Info (13014): Ignored 819 buffer(s)
+    Info (13016): Ignored 124 CARRY_SUM buffer(s)
+    Info (13019): Ignored 695 SOFT buffer(s)
 Info (13025): Duplicate LATCH primitives merged into single LATCH primitive
     Info (13026): Duplicate LATCH primitive "riscv_cpu:rvcpu|datapath:dp|controller:ctrl|main_decoder:md|controls[6]" merged with LATCH primitive "riscv_cpu:rvcpu|datapath:dp|controller:ctrl|main_decoder:md|controls[0]" File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/main_decoder.v Line: 18
+Warning (13012): Latch riscv_cpu:rvcpu|datapath:dp|execute_datapath:ed|alu:alu_inst|alu_out[0] has unsafe behavior File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/alu.v Line: 14
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal riscv_cpu:rvcpu|datapath:dp|reg_dec_exe:rde|ALUControlE[3] File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/reg_de.v Line: 57
+Warning (13012): Latch riscv_cpu:rvcpu|datapath:dp|execute_datapath:ed|alu:alu_inst|alu_out[1] has unsafe behavior File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/alu.v Line: 14
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal riscv_cpu:rvcpu|datapath:dp|reg_dec_exe:rde|ALUControlE[3] File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/reg_de.v Line: 57
+Warning (13012): Latch riscv_cpu:rvcpu|datapath:dp|execute_datapath:ed|alu:alu_inst|alu_out[2] has unsafe behavior File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/alu.v Line: 14
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal riscv_cpu:rvcpu|datapath:dp|reg_dec_exe:rde|ALUControlE[2] File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/reg_de.v Line: 57
+Warning (13012): Latch riscv_cpu:rvcpu|datapath:dp|execute_datapath:ed|alu:alu_inst|alu_out[3] has unsafe behavior File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/alu.v Line: 14
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal riscv_cpu:rvcpu|datapath:dp|reg_dec_exe:rde|ALUControlE[2] File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/reg_de.v Line: 57
+Warning (13012): Latch riscv_cpu:rvcpu|datapath:dp|execute_datapath:ed|alu:alu_inst|alu_out[4] has unsafe behavior File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/alu.v Line: 14
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal riscv_cpu:rvcpu|datapath:dp|reg_dec_exe:rde|ALUControlE[0] File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/reg_de.v Line: 57
+Warning (13012): Latch riscv_cpu:rvcpu|datapath:dp|execute_datapath:ed|alu:alu_inst|alu_out[5] has unsafe behavior File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/alu.v Line: 14
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal riscv_cpu:rvcpu|datapath:dp|reg_dec_exe:rde|ALUControlE[0] File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/reg_de.v Line: 57
+Warning (13012): Latch riscv_cpu:rvcpu|datapath:dp|execute_datapath:ed|alu:alu_inst|alu_out[6] has unsafe behavior File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/alu.v Line: 14
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal riscv_cpu:rvcpu|datapath:dp|reg_dec_exe:rde|ALUControlE[0] File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/reg_de.v Line: 57
+Warning (13012): Latch riscv_cpu:rvcpu|datapath:dp|execute_datapath:ed|alu:alu_inst|alu_out[7] has unsafe behavior File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/alu.v Line: 14
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal riscv_cpu:rvcpu|datapath:dp|reg_dec_exe:rde|ALUControlE[0] File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/reg_de.v Line: 57
+Warning (13012): Latch riscv_cpu:rvcpu|datapath:dp|execute_datapath:ed|alu:alu_inst|alu_out[8] has unsafe behavior File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/alu.v Line: 14
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal riscv_cpu:rvcpu|datapath:dp|reg_dec_exe:rde|ALUControlE[2] File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/reg_de.v Line: 57
+Warning (13012): Latch riscv_cpu:rvcpu|datapath:dp|execute_datapath:ed|alu:alu_inst|alu_out[9] has unsafe behavior File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/alu.v Line: 14
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal riscv_cpu:rvcpu|datapath:dp|reg_dec_exe:rde|ALUControlE[2] File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/reg_de.v Line: 57
+Warning (13012): Latch riscv_cpu:rvcpu|datapath:dp|execute_datapath:ed|alu:alu_inst|alu_out[10] has unsafe behavior File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/alu.v Line: 14
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal riscv_cpu:rvcpu|datapath:dp|reg_dec_exe:rde|ALUControlE[2] File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/reg_de.v Line: 57
+Warning (13012): Latch riscv_cpu:rvcpu|datapath:dp|execute_datapath:ed|alu:alu_inst|alu_out[11] has unsafe behavior File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/alu.v Line: 14
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal riscv_cpu:rvcpu|datapath:dp|reg_dec_exe:rde|ALUControlE[2] File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/reg_de.v Line: 57
+Warning (13012): Latch riscv_cpu:rvcpu|datapath:dp|execute_datapath:ed|alu:alu_inst|alu_out[12] has unsafe behavior File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/alu.v Line: 14
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal riscv_cpu:rvcpu|datapath:dp|reg_dec_exe:rde|ALUControlE[2] File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/reg_de.v Line: 57
+Warning (13012): Latch riscv_cpu:rvcpu|datapath:dp|execute_datapath:ed|alu:alu_inst|alu_out[13] has unsafe behavior File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/alu.v Line: 14
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal riscv_cpu:rvcpu|datapath:dp|reg_dec_exe:rde|ALUControlE[2] File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/reg_de.v Line: 57
+Warning (13012): Latch riscv_cpu:rvcpu|datapath:dp|execute_datapath:ed|alu:alu_inst|alu_out[14] has unsafe behavior File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/alu.v Line: 14
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal riscv_cpu:rvcpu|datapath:dp|reg_dec_exe:rde|ALUControlE[2] File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/reg_de.v Line: 57
+Warning (13012): Latch riscv_cpu:rvcpu|datapath:dp|execute_datapath:ed|alu:alu_inst|alu_out[15] has unsafe behavior File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/alu.v Line: 14
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal riscv_cpu:rvcpu|datapath:dp|reg_dec_exe:rde|ALUControlE[2] File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/reg_de.v Line: 57
+Warning (13012): Latch riscv_cpu:rvcpu|datapath:dp|execute_datapath:ed|alu:alu_inst|alu_out[16] has unsafe behavior File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/alu.v Line: 14
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal riscv_cpu:rvcpu|datapath:dp|reg_dec_exe:rde|ALUControlE[3] File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/reg_de.v Line: 57
+Warning (13012): Latch riscv_cpu:rvcpu|datapath:dp|execute_datapath:ed|alu:alu_inst|alu_out[17] has unsafe behavior File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/alu.v Line: 14
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal riscv_cpu:rvcpu|datapath:dp|reg_dec_exe:rde|ALUControlE[2] File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/reg_de.v Line: 57
+Warning (13012): Latch riscv_cpu:rvcpu|datapath:dp|execute_datapath:ed|alu:alu_inst|alu_out[18] has unsafe behavior File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/alu.v Line: 14
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal riscv_cpu:rvcpu|datapath:dp|reg_dec_exe:rde|ALUControlE[2] File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/reg_de.v Line: 57
+Warning (13012): Latch riscv_cpu:rvcpu|datapath:dp|execute_datapath:ed|alu:alu_inst|alu_out[19] has unsafe behavior File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/alu.v Line: 14
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal riscv_cpu:rvcpu|datapath:dp|reg_dec_exe:rde|ALUControlE[2] File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/reg_de.v Line: 57
+Warning (13012): Latch riscv_cpu:rvcpu|datapath:dp|execute_datapath:ed|alu:alu_inst|alu_out[20] has unsafe behavior File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/alu.v Line: 14
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal riscv_cpu:rvcpu|datapath:dp|reg_dec_exe:rde|ALUControlE[2] File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/reg_de.v Line: 57
+Warning (13012): Latch riscv_cpu:rvcpu|datapath:dp|execute_datapath:ed|alu:alu_inst|alu_out[21] has unsafe behavior File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/alu.v Line: 14
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal riscv_cpu:rvcpu|datapath:dp|reg_dec_exe:rde|ALUControlE[2] File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/reg_de.v Line: 57
+Warning (13012): Latch riscv_cpu:rvcpu|datapath:dp|execute_datapath:ed|alu:alu_inst|alu_out[22] has unsafe behavior File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/alu.v Line: 14
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal riscv_cpu:rvcpu|datapath:dp|reg_dec_exe:rde|ALUControlE[2] File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/reg_de.v Line: 57
+Warning (13012): Latch riscv_cpu:rvcpu|datapath:dp|execute_datapath:ed|alu:alu_inst|alu_out[23] has unsafe behavior File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/alu.v Line: 14
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal riscv_cpu:rvcpu|datapath:dp|reg_dec_exe:rde|ALUControlE[2] File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/reg_de.v Line: 57
+Warning (13012): Latch riscv_cpu:rvcpu|datapath:dp|execute_datapath:ed|alu:alu_inst|alu_out[24] has unsafe behavior File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/alu.v Line: 14
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal riscv_cpu:rvcpu|datapath:dp|reg_dec_exe:rde|ALUControlE[1] File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/reg_de.v Line: 57
+Warning (13012): Latch riscv_cpu:rvcpu|datapath:dp|execute_datapath:ed|alu:alu_inst|alu_out[25] has unsafe behavior File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/alu.v Line: 14
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal riscv_cpu:rvcpu|datapath:dp|reg_dec_exe:rde|ALUControlE[1] File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/reg_de.v Line: 57
+Warning (13012): Latch riscv_cpu:rvcpu|datapath:dp|execute_datapath:ed|alu:alu_inst|alu_out[26] has unsafe behavior File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/alu.v Line: 14
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal riscv_cpu:rvcpu|datapath:dp|reg_dec_exe:rde|ALUControlE[1] File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/reg_de.v Line: 57
+Warning (13012): Latch riscv_cpu:rvcpu|datapath:dp|execute_datapath:ed|alu:alu_inst|alu_out[27] has unsafe behavior File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/alu.v Line: 14
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal riscv_cpu:rvcpu|datapath:dp|reg_dec_exe:rde|ALUControlE[1] File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/reg_de.v Line: 57
+Warning (13012): Latch riscv_cpu:rvcpu|datapath:dp|execute_datapath:ed|alu:alu_inst|alu_out[28] has unsafe behavior File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/alu.v Line: 14
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal riscv_cpu:rvcpu|datapath:dp|reg_dec_exe:rde|ALUControlE[2] File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/reg_de.v Line: 57
+Warning (13012): Latch riscv_cpu:rvcpu|datapath:dp|execute_datapath:ed|alu:alu_inst|alu_out[29] has unsafe behavior File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/alu.v Line: 14
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal riscv_cpu:rvcpu|datapath:dp|reg_dec_exe:rde|ALUControlE[2] File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/reg_de.v Line: 57
+Warning (13012): Latch riscv_cpu:rvcpu|datapath:dp|execute_datapath:ed|alu:alu_inst|alu_out[30] has unsafe behavior File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/alu.v Line: 14
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal riscv_cpu:rvcpu|datapath:dp|reg_dec_exe:rde|ALUControlE[3] File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/reg_de.v Line: 57
+Warning (13012): Latch riscv_cpu:rvcpu|datapath:dp|execute_datapath:ed|alu:alu_inst|alu_out[31] has unsafe behavior File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/alu.v Line: 14
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal riscv_cpu:rvcpu|datapath:dp|reg_dec_exe:rde|ALUControlE[3] File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/reg_de.v Line: 57
 Warning (13012): Latch riscv_cpu:rvcpu|datapath:dp|controller:ctrl|main_decoder:md|controls[7] has unsafe behavior File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/main_decoder.v Line: 18
     Warning (13013): Ports D and ENA on the latch are fed by the same signal riscv_cpu:rvcpu|datapath:dp|reg_fet_dec:rfd|instrD[0] File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/reg_fd.v Line: 17
 Warning (13012): Latch riscv_cpu:rvcpu|datapath:dp|controller:ctrl|main_decoder:md|controls[10] has unsafe behavior File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/main_decoder.v Line: 18
     Warning (13013): Ports D and ENA on the latch are fed by the same signal riscv_cpu:rvcpu|datapath:dp|reg_fet_dec:rfd|instrD[0] File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/reg_fd.v Line: 17
 Warning (13012): Latch riscv_cpu:rvcpu|datapath:dp|controller:ctrl|main_decoder:md|controls[9] has unsafe behavior File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/main_decoder.v Line: 18
-    Warning (13013): Ports D and ENA on the latch are fed by the same signal riscv_cpu:rvcpu|datapath:dp|reg_fet_dec:rfd|instrD[0] File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/reg_fd.v Line: 17
-Warning (13012): Latch riscv_cpu:rvcpu|datapath:dp|controller:ctrl|main_decoder:md|controls[8] has unsafe behavior File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/main_decoder.v Line: 18
-    Warning (13013): Ports D and ENA on the latch are fed by the same signal riscv_cpu:rvcpu|datapath:dp|reg_fet_dec:rfd|instrD[0] File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/reg_fd.v Line: 17
-Warning (13012): Latch riscv_cpu:rvcpu|datapath:dp|controller:ctrl|main_decoder:md|controls[3] has unsafe behavior File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/main_decoder.v Line: 18
-    Warning (13013): Ports D and ENA on the latch are fed by the same signal riscv_cpu:rvcpu|datapath:dp|reg_fet_dec:rfd|instrD[0] File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/reg_fd.v Line: 17
-Warning (13012): Latch riscv_cpu:rvcpu|datapath:dp|controller:ctrl|main_decoder:md|controls[11] has unsafe behavior File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/main_decoder.v Line: 18
-    Warning (13013): Ports D and ENA on the latch are fed by the same signal riscv_cpu:rvcpu|datapath:dp|reg_fet_dec:rfd|instrD[0] File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/reg_fd.v Line: 17
-Warning (13012): Latch riscv_cpu:rvcpu|datapath:dp|controller:ctrl|main_decoder:md|controls[1] has unsafe behavior File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/main_decoder.v Line: 18
-    Warning (13013): Ports D and ENA on the latch are fed by the same signal riscv_cpu:rvcpu|datapath:dp|reg_fet_dec:rfd|instrD[0] File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/reg_fd.v Line: 17
-Warning (13012): Latch riscv_cpu:rvcpu|datapath:dp|controller:ctrl|main_decoder:md|controls[2] has unsafe behavior File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/main_decoder.v Line: 18
     Warning (13013): Ports D and ENA on the latch are fed by the same signal riscv_cpu:rvcpu|datapath:dp|reg_fet_dec:rfd|instrD[0] File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/reg_fd.v Line: 17
 Warning (13012): Latch riscv_cpu:rvcpu|datapath:dp|controller:ctrl|main_decoder:md|controls[5] has unsafe behavior File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/main_decoder.v Line: 18
     Warning (13013): Ports D and ENA on the latch are fed by the same signal riscv_cpu:rvcpu|datapath:dp|reg_fet_dec:rfd|instrD[0] File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/reg_fd.v Line: 17
@@ -823,22 +1367,33 @@ Warning (13012): Latch riscv_cpu:rvcpu|datapath:dp|controller:ctrl|main_decoder:
     Warning (13013): Ports D and ENA on the latch are fed by the same signal riscv_cpu:rvcpu|datapath:dp|reg_fet_dec:rfd|instrD[0] File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/reg_fd.v Line: 17
 Warning (13012): Latch riscv_cpu:rvcpu|datapath:dp|controller:ctrl|main_decoder:md|controls[0] has unsafe behavior File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/main_decoder.v Line: 18
     Warning (13013): Ports D and ENA on the latch are fed by the same signal riscv_cpu:rvcpu|datapath:dp|reg_fet_dec:rfd|instrD[0] File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/reg_fd.v Line: 17
+Warning (13012): Latch riscv_cpu:rvcpu|datapath:dp|controller:ctrl|main_decoder:md|controls[11] has unsafe behavior File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/main_decoder.v Line: 18
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal riscv_cpu:rvcpu|datapath:dp|reg_fet_dec:rfd|instrD[0] File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/reg_fd.v Line: 17
 Warning (13012): Latch riscv_cpu:rvcpu|datapath:dp|controller:ctrl|main_decoder:md|controls[12] has unsafe behavior File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/main_decoder.v Line: 18
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal riscv_cpu:rvcpu|datapath:dp|reg_fet_dec:rfd|instrD[0] File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/reg_fd.v Line: 17
+Warning (13012): Latch riscv_cpu:rvcpu|datapath:dp|controller:ctrl|main_decoder:md|controls[8] has unsafe behavior File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/main_decoder.v Line: 18
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal riscv_cpu:rvcpu|datapath:dp|reg_fet_dec:rfd|instrD[0] File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/reg_fd.v Line: 17
+Warning (13012): Latch riscv_cpu:rvcpu|datapath:dp|controller:ctrl|main_decoder:md|controls[3] has unsafe behavior File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/main_decoder.v Line: 18
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal riscv_cpu:rvcpu|datapath:dp|reg_fet_dec:rfd|instrD[0] File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/reg_fd.v Line: 17
+Warning (13012): Latch riscv_cpu:rvcpu|datapath:dp|controller:ctrl|main_decoder:md|controls[1] has unsafe behavior File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/main_decoder.v Line: 18
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal riscv_cpu:rvcpu|datapath:dp|reg_fet_dec:rfd|instrD[0] File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/reg_fd.v Line: 17
+Warning (13012): Latch riscv_cpu:rvcpu|datapath:dp|controller:ctrl|main_decoder:md|controls[2] has unsafe behavior File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/main_decoder.v Line: 18
     Warning (13013): Ports D and ENA on the latch are fed by the same signal riscv_cpu:rvcpu|datapath:dp|reg_fet_dec:rfd|instrD[0] File: /home/adityaamehra/Desktop/rv32i-pipleined/code/components/reg_fd.v Line: 17
 Info (286030): Timing-Driven Synthesis is running
 Info (144001): Generated suppressed messages file /home/adityaamehra/Desktop/rv32i-pipleined/output_files/t1c_riscv_cpu.map.smsg
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
     Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
-Info (21057): Implemented 7221 device resources after synthesis - the final resource count might be different
+Info (21057): Implemented 12480 device resources after synthesis - the final resource count might be different
     Info (21058): Implemented 67 input pins
     Info (21059): Implemented 161 output pins
-    Info (21061): Implemented 6961 logic cells
+    Info (21061): Implemented 12196 logic cells
     Info (21064): Implemented 32 RAM segments
-Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 33 warnings
-    Info: Peak virtual memory: 523 megabytes
-    Info: Processing ended: Sat Jun 13 14:01:34 2026
-    Info: Elapsed time: 00:00:11
-    Info: Total CPU time (on all processors): 00:00:22
+    Info (21062): Implemented 24 DSP elements
+Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 104 warnings
+    Info: Peak virtual memory: 563 megabytes
+    Info: Processing ended: Sun Jun 14 13:43:44 2026
+    Info: Elapsed time: 00:00:15
+    Info: Total CPU time (on all processors): 00:00:25
 
 
 +------------------------------------------+

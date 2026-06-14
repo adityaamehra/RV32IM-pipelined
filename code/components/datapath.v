@@ -8,7 +8,7 @@ module datapath(
     output MemWriteM
 );
 
-wire[31:0] instrD,instrE;
+wire[31:0] instrD,instrE,instrM;
 wire[1:0] ResultSrcE;
 reg PCSrcE;
 wire FlushE_final,FlushD;
@@ -45,12 +45,12 @@ assign FlushD=PCSrcE;
 fetch_datapath fd(clk,reset,~StallF,PCSrcE,PCTargetE,PCF,PCPlus4F);
 reg_fet_dec rfd(clk,reset,~StallD,FlushD,InstrF,instrD,PCF,PCD,PCPlus4F,PCPlus4D);
 
-controller ctrl(instrD[6:0],instrD[14:12],instrD[30],ResultSrcD,MemWriteD,ALUSrcD,RegWriteD,JumpD,ImmSrcD,ALUControlD,BranchD);
+controller ctrl(instrD[6:0],instrD[14:12],instrD[30],instrD[31:25],ResultSrcD,MemWriteD,ALUSrcD,RegWriteD,JumpD,ImmSrcD,ALUControlD,BranchD);
 decode_datapath dd(clk,reset,instrD,ResultW,RdW,RegWriteW,ImmSrcD,RdD,RD1D,RD2D,ImmExtD,Rs1D,Rs2D);
 reg_dec_exe rde(clk,reset,FlushE_final,RD1D,RD1E,RD2D,RD2E,PCD,PCE,RdD,RdE,ImmExtD,ImmExtE,PCPlus4D,PCPlus4E,RegWriteD,RegWriteE,ResultSrcD,ResultSrcE,MemWriteD,MemWriteE,ALUSrcD,ALUSrcE,JumpD,JumpE,ALUControlD,ALUControlE,BranchD,BranchE,instrD,instrE,Rs1D,Rs1E,Rs2D,Rs2E);
 
 execute_datapath ed(clk,reset,instrE,RD1E,RD2E,ImmExtE,PCE,ALUSrcE,ALUControlE,ResultW,ForwardAE,ForwardBE,ALUResultM,ZeroE,ALUResultE,WriteDataE,PCTargetE);
-reg_exe_mem rem(clk,reset,ALUResultE,ALUResultM,WriteDataE,WriteDataM,RdE,RdM,PCPlus4E,PCPlus4M,RegWriteE,RegWriteM,ResultSrcE,ResultSrcM,MemWriteE,MemWriteM);
+reg_exe_mem rem(clk,reset,ALUResultE,ALUResultM,WriteDataE,WriteDataM,RdE,RdM,PCPlus4E,PCPlus4M,RegWriteE,RegWriteM,ResultSrcE,ResultSrcM,MemWriteE,MemWriteM,instrE,instrM);
 
 always@(*)begin
     case(instrE[6:0])
@@ -74,7 +74,7 @@ end
 assign Mem_WrAddr=ALUResultM;
 assign Mem_WrData=WriteDataM;
 
-reg_mem_wb rmw(clk,reset,ReadData,ReadDataW,ALUResultM,ALUResultW,RdM,RdW,PCPlus4M,PCPlus4W,RegWriteM,RegWriteW,ResultSrcM,ResultSrcW);
+reg_mem_wb rmw(clk,reset,ReadData,ReadDataW,ALUResultM,ALUResultW,RdM,RdW,PCPlus4M,PCPlus4W,RegWriteM,RegWriteW,ResultSrcM,ResultSrcW,instrM);
 mux4#(32)ResultMux(ALUResultW,ReadDataW,PCPlus4W,32'b0,ResultSrcW,ResultW);
 
 endmodule

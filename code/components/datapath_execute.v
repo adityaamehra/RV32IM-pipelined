@@ -56,7 +56,7 @@ end
 mux2 #(32) srcbmuxE(RD2E_fwd, ImmExtE, ALUSrcE, SrcBE);
 
 // 3. Execution Units
-alu alu_inst(SrcAE, SrcBE, ALUControlE, ALUResult, Zero);
+alu alu_inst(SrcAE, SrcBE, ALUControlE,instrE[14:12],ALUResult, Zero);
 
 // JALR must utilize the forwarded Rs1 value for address calculation
 adder pcaddE(((instrE[6:0] == 7'b1100111) ? RD1E_fwd : PCE), ImmExtE, PCTargetE);

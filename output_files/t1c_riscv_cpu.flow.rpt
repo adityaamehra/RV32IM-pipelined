@@ -1,5 +1,5 @@
 Flow report for t1c_riscv_cpu
-Sat Jun 13 14:01:34 2026
+Sun Jun 14 13:43:44 2026
 Quartus Prime Version 20.1.0 Build 711 06/05/2020 SJ Lite Edition
 
 
@@ -41,21 +41,21 @@ https://fpgasoftware.intel.com/eula.
 +----------------------------------------------------------------------------------+
 ; Flow Summary                                                                     ;
 +------------------------------------+---------------------------------------------+
-; Flow Status                        ; Successful - Sat Jun 13 14:01:34 2026       ;
+; Flow Status                        ; Successful - Sun Jun 14 13:43:44 2026       ;
 ; Quartus Prime Version              ; 20.1.0 Build 711 06/05/2020 SJ Lite Edition ;
 ; Revision Name                      ; t1c_riscv_cpu                               ;
 ; Top-level Entity Name              ; t1c_riscv_cpu                               ;
 ; Family                             ; Cyclone IV E                                ;
 ; Device                             ; EP4CE30F23C6                                ;
 ; Timing Models                      ; Final                                       ;
-; Total logic elements               ; 6,890                                       ;
-;     Total combinational functions  ; 3,880                                       ;
-;     Dedicated logic registers      ; 3,590                                       ;
-; Total registers                    ; 3590                                        ;
+; Total logic elements               ; 12,125                                      ;
+;     Total combinational functions  ; 9,116                                       ;
+;     Dedicated logic registers      ; 3,600                                       ;
+; Total registers                    ; 3600                                        ;
 ; Total pins                         ; 228                                         ;
 ; Total virtual pins                 ; 0                                           ;
 ; Total memory bits                  ; 1,024                                       ;
-; Embedded Multiplier 9-bit elements ; 0                                           ;
+; Embedded Multiplier 9-bit elements ; 24                                          ;
 ; Total PLLs                         ; 0                                           ;
 +------------------------------------+---------------------------------------------+
 
@@ -65,7 +65,7 @@ https://fpgasoftware.intel.com/eula.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 06/13/2026 14:01:23 ;
+; Start date & time ; 06/14/2026 13:43:29 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; t1c_riscv_cpu       ;
 +-------------------+---------------------+
@@ -76,7 +76,7 @@ https://fpgasoftware.intel.com/eula.
 +--------------------------------------+----------------------------------------+---------------+-------------+-----------------------------------+
 ; Assignment Name                      ; Value                                  ; Default Value ; Entity Name ; Section Id                        ;
 +--------------------------------------+----------------------------------------+---------------+-------------+-----------------------------------+
-; COMPILER_SIGNATURE_ID                ; 172382056555166.178133948301720        ; --            ; --          ; --                                ;
+; COMPILER_SIGNATURE_ID                ; 172382056555166.178142480935542        ; --            ; --          ; --                                ;
 ; EDA_DESIGN_INSTANCE_NAME             ; NA                                     ; --            ; --          ; tb                                ;
 ; EDA_GENERATE_FUNCTIONAL_NETLIST      ; Off                                    ; --            ; --          ; eda_board_design_timing           ;
 ; EDA_GENERATE_FUNCTIONAL_NETLIST      ; Off                                    ; --            ; --          ; eda_board_design_boundary_scan    ;
@@ -106,8 +106,8 @@ https://fpgasoftware.intel.com/eula.
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name          ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis ; 00:00:11     ; 1.0                     ; 523 MB              ; 00:00:21                           ;
-; Total                ; 00:00:11     ; --                      ; --                  ; 00:00:21                           ;
+; Analysis & Synthesis ; 00:00:14     ; 1.0                     ; 563 MB              ; 00:00:24                           ;
+; Total                ; 00:00:14     ; --                      ; --                  ; 00:00:24                           ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 
